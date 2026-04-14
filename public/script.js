@@ -552,7 +552,7 @@ function tocar(){
 
   const uPt=new SpeechSynthesisUtterance(f.pt);
   uPt.lang="pt-BR";
-  uPt.rate=0.7;
+  uPt.rate=0.9;
 
   uPt.onend=()=>{
     const uEn=new SpeechSynthesisUtterance(f.en);
