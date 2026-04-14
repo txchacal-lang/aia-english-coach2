@@ -94,35 +94,75 @@ app.post("/traduzir", async (req, res) => {
    TRADUÇÃO DE PALAVRA
 ========================= */
 
-app.post("/traduzir-palavra", async (req,res)=>{
+app.post("/traduzir", async (req, res) => {
 
   const { texto } = req.body;
 
-  try{
+  try {
 
-    const resposta = await fetch("https://libretranslate.de/translate", {
+    const textoLower = texto.toLowerCase().trim();
+
+    const palavrasIngles = [
+      "the","and","is","are","to","of","in","that","it",
+      "you","i","we","they","do","does","did","have","has",
+      "will","can","would","should"
+    ];
+
+    let contador = 0;
+
+    palavrasIngles.forEach(p => {
+      if(
+        textoLower.includes(" " + p + " ") ||
+        textoLower.startsWith(p + " ") ||
+        textoLower.endsWith(" " + p)
+      ){
+        contador++;
+      }
+    });
+
+    let source, target, idiomaDetectado;
+
+    if(contador >= 1){
+      source = "en";
+      target = "pt";
+      idiomaDetectado = "en";
+    }else{
+      source = "pt";
+      target = "en";
+      idiomaDetectado = "pt";
+    }
+
+    // 🔥 NOVA API MAIS ESTÁVEL
+    const resposta = await fetch("https://translate.argosopentech.com/translate", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json"
+      },
       body: JSON.stringify({
         q: texto,
-        source: "en",
-        target: "pt",
+        source: source,
+        target: target,
         format: "text"
       })
     });
 
     const data = await resposta.json();
 
+    if(!data.translatedText){
+      throw new Error("Resposta inválida");
+    }
+
     res.json({
+      idioma: idiomaDetectado,
       traducao: data.translatedText
     });
 
-  }catch(e){
+  } catch (erro) {
 
-    console.log("Erro palavra:", e.message);
+    console.error("Erro REAL:", erro);
 
     res.json({
-      traducao: texto
+      traducao: "erro na tradução"
     });
 
   }
