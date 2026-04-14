@@ -163,7 +163,7 @@ function falar(txt, lang){
     u.lang = voz.lang;
   }
 
-  u.rate = 0.95;  // velocidade mais natural
+  u.rate = 0.75;  // velocidade mais natural
   u.pitch = 1;
 
   speechSynthesis.speak(u);
