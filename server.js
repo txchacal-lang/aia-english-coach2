@@ -56,13 +56,20 @@ app.post("/traduzir", async (req, res) => {
 
     }
 
-    const url =
-      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(texto)}&langpair=${source}|${target}`;
+const resposta = await fetch("https://libretranslate.de/translate", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    q: texto,
+    source: source,
+    target: target,
+    format: "text"
+  })
+});
 
-    const resposta = await fetch(url);
-    const data = await resposta.json();
+const data = await resposta.json();
 
-    const traducao = data.responseData.translatedText;
+const traducao = data.translatedText;
 
     res.json({
       idioma: idiomaDetectado,
