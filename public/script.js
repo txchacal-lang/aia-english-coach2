@@ -180,7 +180,10 @@ btnFalar.onclick=()=>{
 };
 
 btnPronuncia.onclick=()=>{
-  if(modoAtual==="aprendiz") falar(aprendiz.fraseAlvo,"en-US");
+  if(modoAtual==="aprendiz"){
+  falar(aprendiz.fraseAlvo,"en-US");
+  aprendiz.etapa = "en"; // 🔥 ESSENCIAL
+}
   if(modoAtual==="tradutor") falar(ultimaTraducao,"en-US");
 };
 
@@ -245,7 +248,9 @@ function fluxoPt(){
 
     const d=await res.json();
     aprendiz.fraseAlvo=d.traducao;
-
+    
+    aprendiz.etapa = "en";
+    
     mostrarPalavrasIngles(d.traducao);
   };
 
