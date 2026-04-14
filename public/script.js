@@ -163,7 +163,7 @@ function falar(txt, lang){
     u.lang = voz.lang;
   }
 
-  u.rate = 0.75;  // velocidade mais natural
+  u.rate = 0.6;  // velocidade mais natural
   u.pitch = 1;
 
   speechSynthesis.speak(u);
@@ -557,7 +557,7 @@ function tocar(){
   uPt.onend=()=>{
     const uEn=new SpeechSynthesisUtterance(f.en);
     uEn.lang="en-US";
-    uEn.rate=0.7;
+    uEn.rate=0.6;
 
     uEn.onend=()=>{
       if(autoplay) proxima();
