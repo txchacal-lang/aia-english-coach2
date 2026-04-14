@@ -2,11 +2,19 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
+
+// 🔥 SERVE A PASTA PUBLIC
 app.use(express.static("public"));
 
-const PORT = 3000;
+// 🔥 GARANTE HOME
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+
+const PORT = process.env.PORT || 3000;
 
 /* =========================
    TRADUÇÃO DE FRASES
@@ -29,7 +37,6 @@ app.post("/traduzir", async (req, res) => {
     let contador = 0;
 
     palavrasIngles.forEach(p => {
-
       if(
         textoLower.includes(" " + p + " ") ||
         textoLower.startsWith(p + " ") ||
@@ -37,39 +44,34 @@ app.post("/traduzir", async (req, res) => {
       ){
         contador++;
       }
-
     });
 
     let source, target, idiomaDetectado;
 
     if(contador >= 1){
-
       source = "en";
       target = "pt";
       idiomaDetectado = "en";
-
     }else{
-
       source = "pt";
       target = "en";
       idiomaDetectado = "pt";
-
     }
 
-const resposta = await fetch("https://libretranslate.de/translate", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({
-    q: texto,
-    source: source,
-    target: target,
-    format: "text"
-  })
-});
+    const resposta = await fetch("https://libretranslate.de/translate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        q: texto,
+        source: source,
+        target: target,
+        format: "text"
+      })
+    });
 
-const data = await resposta.json();
+    const data = await resposta.json();
 
-const traducao = data.translatedText;
+    const traducao = data.translatedText;
 
     res.json({
       idioma: idiomaDetectado,
@@ -98,14 +100,21 @@ app.post("/traduzir-palavra", async (req,res)=>{
 
   try{
 
-    const url =
-      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(texto)}&langpair=en|pt`;
+    const resposta = await fetch("https://libretranslate.de/translate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        q: texto,
+        source: "en",
+        target: "pt",
+        format: "text"
+      })
+    });
 
-    const r = await fetch(url);
-    const d = await r.json();
+    const data = await resposta.json();
 
     res.json({
-      traducao: d.responseData.translatedText
+      traducao: data.translatedText
     });
 
   }catch(e){
@@ -125,5 +134,5 @@ app.post("/traduzir-palavra", async (req,res)=>{
 ========================= */
 
 app.listen(PORT, () => {
-  console.log(`App rodando em http://localhost:${PORT}`);
+  console.log(`🚀 App rodando na porta ${PORT}`);
 });
