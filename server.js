@@ -54,7 +54,7 @@ app.post("/traduzir", async (req, res) => {
       idiomaDetectado = "pt";
     }
 
-const url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
+const url = `https://translation.googleapis.com/language/translate/v2?key=${GOOGLE_API_KEY}`;
 
 const resposta = await fetch(url, {
   method: "POST",
