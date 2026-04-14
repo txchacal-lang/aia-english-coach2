@@ -80,7 +80,7 @@ const traducao = data.data.translations[0].translatedText;
 
   } catch (erro) {
 
-    console.error("Erro na tradução:", erro.message);
+    console.error("ERRO COMPLETO:", erro);
 
     res.json({
       traducao: "erro na tradução"
