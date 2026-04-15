@@ -163,7 +163,7 @@ function falar(txt, lang){
     u.lang = voz.lang;
   }
 
-  u.rate = 0.7;  // velocidade mais natural
+  u.rate = 0.70;  // velocidade mais natural
   u.pitch = 1;
 
   speechSynthesis.speak(u);
@@ -250,19 +250,131 @@ aiaRow.insertAdjacentElement("afterend", aiaActions);
 }
 
 /* ========= BOTÕES ========= */
-btnFalar.onclick=()=>{
-  if(modoAtual==="aprendiz"){
+let recognitionAtual = null;
+let gravando = false;
 
-    if(aprendiz.palavraEmCorrecao){
-      corrigirPalavraIsolada();
-      return;
+// INICIAR GRAVAÇÃO
+function iniciarGravacao(){
+
+  if(gravando) return;
+
+  gravando = true;
+
+  btnFalar.style.background = "#ef4444"; // 🔴 feedback visual
+  btnFalar.textContent = "🎤 Gravando...";
+
+  let lang = modoAtual === "aprendiz" && aprendiz.etapa === "en"
+    ? "en-US"
+    : "pt-BR";
+
+  recognitionAtual = criarRec(lang);
+
+  let textoFinal = "";
+
+  recognitionAtual.onresult = e => {
+    for(let i = e.resultIndex; i < e.results.length; i++){
+      if(e.results[i].isFinal){
+        textoFinal += e.results[i][0].transcript + " ";
+      }
+    }
+  };
+
+  recognitionAtual.onend = async () => {
+
+    gravando = false;
+
+    btnFalar.style.background = ""; 
+    btnFalar.innerHTML = "🎤";
+
+    textoFinal = textoFinal.trim();
+
+    if(!textoFinal) return;
+
+    // ===== APRENDIZ =====
+    if(modoAtual === "aprendiz"){
+
+      if(aprendiz.palavraEmCorrecao){
+        const alvo = aprendiz.palavraEmCorrecao.palavra;
+
+        if(textoFinal.toLowerCase() === alvo){
+          aprendiz.palavraEmCorrecao.span.className="corrigido";
+          aprendiz.palavraEmCorrecao.span.onclick=null;
+          falarAia("Boa! Palavra corrigida.");
+          aprendiz.palavraEmCorrecao=null;
+        }else{
+          falarAia("Quase! Tente novamente.");
+        }
+
+        return;
+      }
+
+      if(aprendiz.etapa === "pt"){
+
+        faladoEl.textContent = textoFinal;
+
+        const res = await fetch("/traduzir",{
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({texto:textoFinal})
+        });
+
+        const d = await res.json();
+
+        aprendiz.fraseAlvo = d.traducao;
+        mostrarPalavrasIngles(d.traducao);
+
+        falarAia("Clique em Pronúncia para ouvir em inglês. Depois aperte Falar e repita.");
+
+      } else {
+
+        aprendiz.falada = textoFinal.toLowerCase().split(" ");
+        corrigir();
+
+      }
+
     }
 
-    aprendiz.etapa==="pt"?fluxoPt():fluxoEn();
-  }
+    // ===== TRADUTOR =====
+    if(modoAtual === "tradutor"){
 
-  if(modoAtual==="tradutor") fluxoTradutor();
+      faladoEl.textContent = textoFinal;
+
+      const res = await fetch("/traduzir",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({ texto: textoFinal })
+      });
+
+      const d = await res.json();
+
+      ultimaTraducao = d.traducao;
+      mostrarPalavrasIngles(d.traducao);
+
+      if(d.idioma === "pt"){
+        falar(d.traducao,"en-US");
+      }else{
+        falar(d.traducao,"pt-BR");
+      }
+    }
+
+  };
+
+  recognitionAtual.start();
 }
+
+// PARAR GRAVAÇÃO
+function pararGravacao(){
+  if(recognitionAtual && gravando){
+    recognitionAtual.stop();
+  }
+}
+
+// EVENTOS (PC + CELULAR)
+btnFalar.addEventListener("mousedown", iniciarGravacao);
+btnFalar.addEventListener("mouseup", pararGravacao);
+
+btnFalar.addEventListener("touchstart", iniciarGravacao);
+btnFalar.addEventListener("touchend", pararGravacao);
 
 btnPronuncia.onclick=()=>{
   if(modoAtual==="aprendiz"){
