@@ -678,7 +678,10 @@ function fluxoTradutor(){
 /* ========= FRASES ========= */
 async function carregarFrases(){
 
-  if(frases.length) return;
+  if(frases.length){
+  tocar();
+  return;
+}
 
   try{
     const r = await fetch("/frases.json");
@@ -708,13 +711,16 @@ async function carregarFrases(){
 function tocar(){
 
   if(!frases.length){
-    falarAia("Sem frases para exibir.");
+    falarAia("Sem frases para tocar.");
     return;
   }
 
   const f = frases[indice];
 
-  if(!f) return;
+  if(!f){
+    falarAia("Erro ao carregar frase.");
+    return;
+  }
 
   faladoEl.textContent = f.pt;
   mostrarPalavrasIngles(f.en);
@@ -722,24 +728,39 @@ function tocar(){
   speechSynthesis.cancel();
 
   const uPt = new SpeechSynthesisUtterance(f.pt);
-  uPt.lang="pt-BR";
-  uPt.rate=0.9;
+  uPt.lang = "pt-BR";
+  uPt.rate = 0.9;
 
-  uPt.onend=()=>{
-    const uEn=new SpeechSynthesisUtterance(f.en);
-    uEn.lang="en-US";
-    uEn.rate=0.7;
+  uPt.onend = ()=>{
+    const uEn = new SpeechSynthesisUtterance(f.en);
+    uEn.lang = "en-US";
+    uEn.rate = 0.7;
 
-    uEn.onend=()=>{
+    uEn.onend = ()=>{
       if(autoplay) proxima();
-    }
+    };
 
     speechSynthesis.speak(uEn);
-  }
+  };
 
   speechSynthesis.speak(uPt);
 }
 
+function proxima(){
+
+  if(!frases.length){
+    falarAia("Sem frases.");
+    return;
+  }
+
+  if(aleatorio){
+    indice = Math.floor(Math.random() * frases.length);
+  }else{
+    indice = (indice + 1) % frases.length;
+  }
+
+  tocar();
+}
 // === NOVO ===
 btnExcluir.onclick=()=>{
 
