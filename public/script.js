@@ -224,7 +224,7 @@ if(aiaActionsNext){
 
   if(m==="tradutor"){
     btnTradutor.classList.add("active");
-    falarAia("Aperte Falar que eu traduzo para você.");
+    falarAia("Aperte Falar e me diga uma frase em português que eu traduzo para você.");
 
     wrapperAssistente.style.display = "flex";
 
