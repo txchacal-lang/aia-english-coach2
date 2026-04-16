@@ -18,6 +18,7 @@ const btnPronuncia= document.getElementById("btnPronuncia");
 const btnAssistente = document.getElementById("btnAssistente");
 const wrapperAssistente = document.getElementById("wrapperAssistente");
 
+
 // === NOVO ===
 const btnSalvar  = document.getElementById("btnSalvar");
 const btnExcluir = document.getElementById("btnExcluir");
@@ -51,6 +52,7 @@ const contadorFrasesEl = document.getElementById("contadorFrases");
 // === FIM NOVO ===
 // === NOVO ===
 const listaMinhasFrasesEl = document.getElementById("listaMinhasFrases");
+const minhasFrasesSection = document.getElementById("minhasFrasesSection");
 // === FIM NOVO ===
 // === NOVO ===
 const toggleMinhasFrases = document.getElementById("toggleMinhasFrases");
@@ -195,7 +197,9 @@ if(aiaActionsNext){
   statusBox.style.display="none";
   progressWrap.style.display="none";
   correctionArea.style.display="none";
+  if(minhasFrasesSection){
   minhasFrasesSection.style.display="none";
+}
 
   wrapperFalar.style.display="flex";
   wrapperPlay.style.display="none";
@@ -237,7 +241,9 @@ if(aiaActionsNext){
     wrapperRandom.style.display="flex";
     falarAia("Modo Frases. Apenas escute.");
     carregarFrases();
-    minhasFrasesSection.style.display="block";
+    if(minhasFrasesSection){
+  minhasFrasesSection.style.display="block";
+}
     document.body.classList.add("modo-frases-layout");
 
 // === move botões para baixo do AIA no modo frases ===
@@ -429,13 +435,13 @@ btnRandom.onclick=()=>{
 }
 
 btnAnterior.onclick=()=>{
-  if(modoAtual!=="frases") return;
+  if(modoAtual!=="frases" || !frases.length) return;
   indice=(indice-1+frases.length)%frases.length;
   tocar();
 }
 
 btnProximaFrase.onclick=()=>{
-  if(modoAtual!=="frases") return;
+  if(modoAtual!=="frases" || !frases.length) return;
   proxima();
 }
 
@@ -551,7 +557,20 @@ function corrigir(){
     const s=document.createElement("span");
     s.textContent=p+" ";
 
-    if(aprendiz.falada[i]===p){
+    const falada = aprendiz.falada[i] || "";
+
+// normaliza (remove pontuação e deixa minúsculo)
+const alvoLimpo = p.toLowerCase().replace(/[.,!?]/g,"");
+const faladaLimpa = falada.toLowerCase().replace(/[.,!?]/g,"");
+
+// aceita pequenas variações
+const correto = 
+  faladaLimpa === alvoLimpo ||                     // igual
+  faladaLimpa.includes(alvoLimpo) ||               // falou maior ("going" vs "go")
+  alvoLimpo.includes(faladaLimpa) ||               // falou menor ("go" vs "going")
+  similaridade(faladaLimpa, alvoLimpo) > 0.7;     // parecido
+
+if(correto){
       s.className="corrigido";
       acertos++;
     }else{
@@ -607,6 +626,20 @@ function resetAprendiz(){
   notaEl.textContent="-";
 }
 
+function similaridade(a, b){
+
+  if(!a || !b) return 0;
+
+  let iguais = 0;
+  const min = Math.min(a.length, b.length);
+
+  for(let i=0;i<min;i++){
+    if(a[i] === b[i]) iguais++;
+  }
+
+  return iguais / Math.max(a.length, b.length);
+}
+
 /* ========= TRADUTOR ========= */
 function fluxoTradutor(){
 
@@ -644,25 +677,51 @@ function fluxoTradutor(){
 
 /* ========= FRASES ========= */
 async function carregarFrases(){
+
   if(frases.length) return;
-  const r=await fetch("/frases.json");
-  frases=await r.json();
 
-  // === NOVO ===
-  const salvas=JSON.parse(localStorage.getItem("frasesSalvas"))||[];
-  frases=[...salvas,...frases];
-  // === FIM NOVO ===
+  try{
+    const r = await fetch("/frases.json");
+    frases = await r.json();
+  }catch(e){
+    console.log("Erro ao carregar frases.json");
 
+    frases = [
+      {pt:"Olá", en:"Hello"},
+      {pt:"Como vai?", en:"How are you?"},
+      {pt:"Bom dia", en:"Good morning"}
+    ];
+  }
+
+  const salvas = JSON.parse(localStorage.getItem("frasesSalvas")) || [];
+  frases = [...salvas, ...frases];
+
+  if(frases.length === 0){
+    falarAia("Nenhuma frase disponível.");
+    return;
+  }
+
+  indice = 0;
   tocar();
 }
 
 function tocar(){
-  const f=frases[indice];
-  faladoEl.textContent=f.pt;
+
+  if(!frases.length){
+    falarAia("Sem frases para exibir.");
+    return;
+  }
+
+  const f = frases[indice];
+
+  if(!f) return;
+
+  faladoEl.textContent = f.pt;
   mostrarPalavrasIngles(f.en);
+
   speechSynthesis.cancel();
 
-  const uPt=new SpeechSynthesisUtterance(f.pt);
+  const uPt = new SpeechSynthesisUtterance(f.pt);
   uPt.lang="pt-BR";
   uPt.rate=0.9;
 
@@ -679,15 +738,6 @@ function tocar(){
   }
 
   speechSynthesis.speak(uPt);
-}
-
-function proxima(){
-  if(aleatorio){
-    indice=Math.floor(Math.random()*frases.length);
-  }else{
-    indice=(indice+1)%frases.length;
-  }
-  tocar();
 }
 
 // === NOVO ===
