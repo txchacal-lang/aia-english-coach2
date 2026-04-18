@@ -165,12 +165,10 @@ function falar(txt, lang){
         || vozes.find(v => v.lang.startsWith("pt"));
   }
 
-else if(lang === "fr-FR"){
-  voz = vozes.find(v => v.lang === "fr-FR")
-      || vozes.find(v => v.lang === "fr")
-      || vozes.find(v => v.name.toLowerCase().includes("french"))
-      || vozes.find(v => v.lang.startsWith("fr"));
-}
+  else if(lang === "fr-FR"){
+    voz = vozes.find(v => v.lang === "fr-FR")
+        || vozes.find(v => v.lang.startsWith("fr"));
+  }
 
   else if(lang === "en-US"){
     voz = vozes.find(v => v.lang === "en-US")
@@ -186,12 +184,19 @@ else if(lang === "fr-FR"){
     u.lang = lang;
   }
 
-  u.rate = 0.75;
+  // 🔥 AJUSTE INTELIGENTE POR IDIOMA
+  if(lang === "fr-FR"){
+    u.rate = 0.6; // mais lento para francês
+  }else if(lang === "en-US"){
+    u.rate = 0.75;
+  }else{
+    u.rate = 0.8; // português
+  }
+
   u.pitch = 1;
 
   speechSynthesis.speak(u);
 }
-
 function falarAia(t){
   aiaMsg.textContent = t;
 }
