@@ -165,10 +165,12 @@ function falar(txt, lang){
         || vozes.find(v => v.lang.startsWith("pt"));
   }
 
-  else if(lang === "fr-FR"){
-    voz = vozes.find(v => v.lang === "fr-FR")
-        || vozes.find(v => v.lang.startsWith("fr"));
-  }
+else if(lang === "fr-FR"){
+  voz = vozes.find(v => v.lang === "fr-FR")
+      || vozes.find(v => v.lang === "fr")
+      || vozes.find(v => v.name.toLowerCase().includes("french"))
+      || vozes.find(v => v.lang.startsWith("fr"));
+}
 
   else if(lang === "en-US"){
     voz = vozes.find(v => v.lang === "en-US")
