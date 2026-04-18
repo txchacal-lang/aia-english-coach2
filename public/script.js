@@ -186,9 +186,9 @@ function falar(txt, lang){
 
   // 🔥 AJUSTE INTELIGENTE POR IDIOMA
   if(lang === "fr-FR"){
-    u.rate = 0.6; // mais lento para francês
+    u.rate = 0.65; // mais lento para francês
   }else if(lang === "en-US"){
-    u.rate = 0.75;
+    u.rate = 0.7;
   }else{
     u.rate = 0.8; // português
   }
