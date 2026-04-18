@@ -2,15 +2,14 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // 🔥 COLE SUA CHAVE AQUI
-const GOOGLE_API_KEY = "AIzaSyBhNOwOznv5bW7FmnNynYSFqY2SbsDQw40";
+const API_KEY = process.env.GOOGLE_API_KEY;
 
 /* =========================
    TRADUÇÃO DE FRASES
@@ -18,7 +17,7 @@ const GOOGLE_API_KEY = "AIzaSyBhNOwOznv5bW7FmnNynYSFqY2SbsDQw40";
 
 app.post("/traduzir", async (req, res) => {
 
-  const { texto } = req.body;
+  const { texto, idioma } = req.body;
 
   try {
 
@@ -33,6 +32,7 @@ app.post("/traduzir", async (req, res) => {
     let contador = 0;
 
     palavrasIngles.forEach(p => {
+
       if(
         textoLower.includes(" " + p + " ") ||
         textoLower.startsWith(p + " ") ||
@@ -40,38 +40,33 @@ app.post("/traduzir", async (req, res) => {
       ){
         contador++;
       }
+
     });
 
     let source, target, idiomaDetectado;
 
-    if(contador >= 1){
-      source = "en";
-      target = "pt";
-      idiomaDetectado = "en";
-    }else{
-      source = "pt";
-      target = "en";
-      idiomaDetectado = "pt";
-    }
+    const idiomaDestino = idioma === "fr" ? "fr" : "en";
 
-const url = `https://translation.googleapis.com/language/translate/v2?key=${GOOGLE_API_KEY}`;
+if(contador >= 1){
 
-const resposta = await fetch(url, {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    q: texto,
-    source: source,
-    target: target,
-    format: "text"
-  })
-});
+  source = idiomaDestino;
+  target = "pt";
+  idiomaDetectado = idiomaDestino;
 
-const data = await resposta.json();
+}else{
 
-const traducao = data.data.translations[0].translatedText;
+  source = "pt";
+  target = idiomaDestino;
+  idiomaDetectado = "pt";
+
+}
+    const url =
+      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(texto)}&langpair=${source}|${target}`;
+
+    const resposta = await fetch(url);
+    const data = await resposta.json();
+
+    const traducao = data.responseData.translatedText;
 
     res.json({
       idioma: idiomaDetectado,
@@ -80,7 +75,7 @@ const traducao = data.data.translations[0].translatedText;
 
   } catch (erro) {
 
-    console.error("ERRO COMPLETO:", erro);
+    console.error("Erro na tradução:", erro.message);
 
     res.json({
       traducao: "erro na tradução"
@@ -100,25 +95,14 @@ app.post("/traduzir-palavra", async (req,res)=>{
 
   try{
 
-    const url = `https://translation.googleapis.com/language/translate/v2?key=${GOOGLE_API_KEY}`;
+    const url =
+      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(texto)}&langpair=en|pt`;
 
-    const resposta = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        q: texto,
-        source: "en",
-        target: "pt",
-        format: "text"
-      })
-    });
-
-    const data = await resposta.json();
+    const r = await fetch(url);
+    const d = await r.json();
 
     res.json({
-      traducao: data.data.translations[0].translatedText
+      traducao: d.responseData.translatedText
     });
 
   }catch(e){
@@ -138,5 +122,5 @@ app.post("/traduzir-palavra", async (req,res)=>{
 ========================= */
 
 app.listen(PORT, () => {
-  console.log(`App rodando na porta ${PORT}`);
+  console.log(`App rodando em http://localhost:${PORT}`);
 });
