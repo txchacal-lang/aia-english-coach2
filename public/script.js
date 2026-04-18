@@ -6,6 +6,9 @@ const aiaActions = document.querySelector(".aia-actions");
 const aiaActionsParent = aiaActions.parentElement;
 const aiaActionsNext = aiaActions.nextSibling;
 
+const btnEN = document.getElementById("btnEN");
+const btnFR = document.getElementById("btnFR");
+
 const btnAprendiz = document.getElementById("btnAprendiz");
 const btnTradutor = document.getElementById("btnTradutor");
 const btnFrases   = document.getElementById("btnFrases");
@@ -39,6 +42,7 @@ const btnProxima = document.getElementById("btnProxima");
 
 const faladoEl = document.getElementById("falado");
 const traducaoEl = document.getElementById("traducao");
+const labelIdioma = document.getElementById("labelIdioma");
 const feedbackEl = document.getElementById("feedback");
 const aiaMsg = document.getElementById("aiaMsg");
 
@@ -64,6 +68,7 @@ const correctionArea = document.querySelector(".correction-area");
 
 /* ========= ESTADO ========= */
 let modoAtual = "aprendiz";
+let idiomaAtual = "fr"; // teste com francês
 
 /* APRENDIZ */
 const aprendiz = {
@@ -102,6 +107,29 @@ function criarRec(lang){
 
 let vozes = [];
 
+// Função atualizar label
+
+function atualizarLabelIdioma(){
+  if(idiomaAtual === "en") labelIdioma.textContent = "Inglês";
+  if(idiomaAtual === "fr") labelIdioma.textContent = "Francês";
+}
+
+// Função atualizar Botões
+
+function atualizarBotoesIdioma(){
+
+  btnEN.classList.remove("active");
+  btnFR.classList.remove("active");
+
+  if(idiomaAtual === "en"){
+    btnEN.classList.add("active");
+  }
+
+  if(idiomaAtual === "fr"){
+    btnFR.classList.add("active");
+  }
+}
+
 // Função para carregar vozes corretamente
 function carregarVozes(){
   vozes = speechSynthesis.getVoices();
@@ -115,12 +143,17 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = carregarVozes;
 }
 
+function getLangCode(){
+  if(idiomaAtual === "en") return "en-US";
+  if(idiomaAtual === "fr") return "fr-FR";
+  return "en-US";
+}
+
 function falar(txt, lang){
   if(!txt) return;
 
   speechSynthesis.cancel();
 
-  // garante que vozes estejam atualizadas
   if(!vozes.length){
     vozes = speechSynthesis.getVoices();
   }
@@ -128,44 +161,30 @@ function falar(txt, lang){
   let voz;
 
   if(lang === "pt-BR"){
-
-    // tenta Google pt-BR
-    voz = vozes.find(v =>
-      v.lang === "pt-BR" &&
-      v.name.toLowerCase().includes("google")
-    )
-
-    // tenta qualquer pt-BR
-    || vozes.find(v => v.lang === "pt-BR")
-
-    // tenta qualquer pt
-    || vozes.find(v => v.lang.startsWith("pt"));
-
-  } else {
-
-    // tenta Google en-US
-    voz = vozes.find(v =>
-      v.lang === "en-US" &&
-      v.name.toLowerCase().includes("google")
-    )
-
-    // tenta qualquer en-US
-    || vozes.find(v => v.lang === "en-US")
-
-    // tenta qualquer en
-    || vozes.find(v => v.lang.startsWith("en"));
-
+    voz = vozes.find(v => v.lang === "pt-BR")
+        || vozes.find(v => v.lang.startsWith("pt"));
   }
 
-  // Se não achar voz, usa padrão do navegador
+  else if(lang === "fr-FR"){
+    voz = vozes.find(v => v.lang === "fr-FR")
+        || vozes.find(v => v.lang.startsWith("fr"));
+  }
+
+  else if(lang === "en-US"){
+    voz = vozes.find(v => v.lang === "en-US")
+        || vozes.find(v => v.lang.startsWith("en"));
+  }
+
   const u = new SpeechSynthesisUtterance(txt);
 
   if(voz){
     u.voice = voz;
     u.lang = voz.lang;
+  }else{
+    u.lang = lang;
   }
 
-  u.rate = 0.70;  // velocidade mais natural
+  u.rate = 0.75;
   u.pitch = 1;
 
   speechSynthesis.speak(u);
@@ -178,6 +197,19 @@ function falarAia(t){
 btnAprendiz.onclick=()=>ativar("aprendiz");
 btnTradutor.onclick=()=>ativar("tradutor");
 btnFrases.onclick=()=>ativar("frases");
+
+// 👇 NOVO
+btnEN.onclick = ()=>{
+  idiomaAtual = "en";
+  atualizarLabelIdioma();
+  atualizarBotoesIdioma();
+};
+
+btnFR.onclick = ()=>{
+  idiomaAtual = "fr";
+  atualizarLabelIdioma();
+  atualizarBotoesIdioma();
+};
 
 function ativar(m){
   modoAtual=m;
@@ -224,7 +256,7 @@ if(aiaActionsNext){
 
   if(m==="tradutor"){
     btnTradutor.classList.add("active");
-    falarAia("Aperte Falar e me diga uma frase em português que eu traduzo para você.");
+    falarAia("Aperte Falar que eu traduzo para você.");
 
     wrapperAssistente.style.display = "flex";
 
@@ -269,9 +301,13 @@ function iniciarGravacao(){
   btnFalar.style.background = "#ef4444"; // 🔴 feedback visual
   btnFalar.textContent = "🎤 Gravando...";
 
-  let lang = modoAtual === "aprendiz" && aprendiz.etapa === "en"
-    ? "en-US"
-    : "pt-BR";
+  let lang;
+
+if(modoAtual === "aprendiz" && aprendiz.etapa !== "pt"){
+  lang = getLangCode(); // usa en ou fr
+}else{
+  lang = "pt-BR";
+}
 
   recognitionAtual = criarRec(lang);
 
@@ -321,7 +357,10 @@ function iniciarGravacao(){
         const res = await fetch("/traduzir",{
           method:"POST",
           headers:{"Content-Type":"application/json"},
-          body:JSON.stringify({texto:textoFinal})
+          body: JSON.stringify({
+          texto: textoFinal,
+          idioma: idiomaAtual
+        })
         });
 
         const d = await res.json();
@@ -329,7 +368,7 @@ function iniciarGravacao(){
         aprendiz.fraseAlvo = d.traducao;
         mostrarPalavrasIngles(d.traducao);
 
-        falarAia("Clique em Pronúncia para ouvir em inglês. Depois aperte Falar e repita.");
+        falarAia("Clique em Pronúncia para ouvir a tradução. Depois aperte Falar e repita.");
 
       } else {
 
@@ -341,14 +380,17 @@ function iniciarGravacao(){
     }
 
     // ===== TRADUTOR =====
-    if(modoAtual === "tradutor"){
+        if(modoAtual === "tradutor"){
 
       faladoEl.textContent = textoFinal;
 
       const res = await fetch("/traduzir",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body:JSON.stringify({ texto: textoFinal })
+        body: JSON.stringify({
+  texto: textoFinal,
+  idioma: idiomaAtual
+})
       });
 
       const d = await res.json();
@@ -357,10 +399,10 @@ function iniciarGravacao(){
       mostrarPalavrasIngles(d.traducao);
 
       if(d.idioma === "pt"){
-        falar(d.traducao,"en-US");
-      }else{
-        falar(d.traducao,"pt-BR");
-      }
+  falar(d.traducao, getLangCode());
+}else{
+  falar(d.traducao,"pt-BR");
+}
     }
 
   };
@@ -384,40 +426,73 @@ btnFalar.addEventListener("touchend", pararGravacao);
 
 btnPronuncia.onclick=()=>{
   if(modoAtual==="aprendiz"){
-    falar(aprendiz.fraseAlvo,"en-US");
-    aprendiz.etapa="en";
+    const lang = getLangCode();
+falar(aprendiz.fraseAlvo, lang);
+aprendiz.etapa = idiomaAtual;
   }
   if(modoAtual==="tradutor"){
-    falar(ultimaTraducao,"en-US");
-  }
+  falar(ultimaTraducao, getLangCode());
+}
   if(modoAtual==="frases"){
-    falar(frases[indice].en,"en-US");
-  }
+  falar(frases[indice][idiomaAtual], getLangCode());
+ }
 }
 
 // === NOVO ===
-btnSalvar.onclick=()=>{
+btnSalvar.onclick = async ()=>{
 
   if(!faladoEl.textContent || !traducaoEl.textContent){
     falarAia("Nada para salvar.");
     return;
   }
 
-  const nova={pt:faladoEl.textContent,en:traducaoEl.textContent};
+  const pt = faladoEl.textContent;
 
-  let salvas=JSON.parse(localStorage.getItem("frasesSalvas"))||[];
+  let en = "";
+  let fr = "";
 
-  if(salvas.some(f=>f.pt===nova.pt&&f.en===nova.en)){
+  try{
+
+    // traduz para inglês
+    let resEN = await fetch("/traduzir",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({ texto: pt, idioma: "en" })
+    });
+
+    let dEN = await resEN.json();
+    en = dEN.traducao;
+
+    // traduz para francês
+    let resFR = await fetch("/traduzir",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({ texto: pt, idioma: "fr" })
+    });
+
+    let dFR = await resFR.json();
+    fr = dFR.traducao;
+
+  }catch(e){
+    falarAia("Erro ao salvar frase.");
+    return;
+  }
+
+  const nova = { pt, en, fr };
+
+  let salvas = JSON.parse(localStorage.getItem("frasesSalvas")) || [];
+
+  if(salvas.some(f => f.pt === pt)){
     falarAia("Essa frase já foi salva.");
     return;
   }
 
   salvas.push(nova);
-  localStorage.setItem("frasesSalvas",JSON.stringify(salvas));
+  localStorage.setItem("frasesSalvas", JSON.stringify(salvas));
+
   falarAia("Frase salva com sucesso!");
-// === NOVO ===
-atualizarContadorFrases();
-// === FIM NOVO ===
+
+  atualizarContadorFrases();
 };
 // === FIM NOVO ===
 
@@ -654,7 +729,10 @@ function fluxoTradutor(){
     const res = await fetch("/traduzir",{
       method:"POST",
       headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({ texto })
+      body: JSON.stringify({
+      texto: textoFinal,
+      idioma: idiomaAtual
+    })
     });
 
     const d = await res.json();
@@ -684,18 +762,11 @@ async function carregarFrases(){
 }
 
   try{
-    const r = await fetch("/frases.json");
-    frases = await r.json();
-  }catch(e){
-    console.log("Erro ao carregar frases.json");
-
-    frases = [
-      {pt:"Olá", en:"Hello"},
-      {pt:"Como vai?", en:"How are you?"},
-      {pt:"Bom dia", en:"Good morning"}
-    ];
-  }
-
+  const r = await fetch("/frases.json");
+  frases = await r.json();
+}catch(e){
+  console.log("Erro ao carregar frases.json");
+}
   const salvas = JSON.parse(localStorage.getItem("frasesSalvas")) || [];
   frases = [...salvas, ...frases];
 
@@ -723,7 +794,9 @@ function tocar(){
   }
 
   faladoEl.textContent = f.pt;
-  mostrarPalavrasIngles(f.en);
+  const traducao = f[idiomaAtual] || f.en;
+
+mostrarPalavras(traducao);
 
   speechSynthesis.cancel();
 
@@ -732,15 +805,17 @@ function tocar(){
   uPt.rate = 0.9;
 
   uPt.onend = ()=>{
-    const uEn = new SpeechSynthesisUtterance(f.en);
-    uEn.lang = "en-US";
-    uEn.rate = 0.7;
+const textoTraduzido = f[idiomaAtual] || f.en;
 
-    uEn.onend = ()=>{
-      if(autoplay) proxima();
-    };
+const uLang = new SpeechSynthesisUtterance(textoTraduzido);
+uLang.lang = getLangCode();
+uLang.rate = 0.7;
 
-    speechSynthesis.speak(uEn);
+uLang.onend = ()=>{
+  if(autoplay) proxima();
+};
+
+speechSynthesis.speak(uLang);
   };
 
   speechSynthesis.speak(uPt);
@@ -912,6 +987,24 @@ function mostrarPalavrasIngles(frase){
 
 }
 
+function mostrarPalavras(frase){
+
+  traducaoEl.innerHTML = "";
+
+  const palavras = frase.split(" ");
+
+  palavras.forEach(p => {
+
+    const span = document.createElement("span");
+    span.textContent = p + " ";
+    span.style.cursor = "default"; // sem clique
+
+    traducaoEl.appendChild(span);
+
+  });
+
+}
+
 function mostrarBalao(span,traducao){
 
   const balao = document.createElement("div");
@@ -941,6 +1034,9 @@ function mostrarBalao(span,traducao){
 ativar("aprendiz");
 // === NOVO ===
 atualizarContadorFrases();
+atualizarLabelIdioma();
+atualizarBotoesIdioma();
 // === FIM NOVO ===
+
 
 });
