@@ -190,7 +190,7 @@ function falar(txt, lang){
   }else if(lang === "en-US"){
     u.rate = 0.7;
   }else{
-    u.rate = 0.8; // português
+    u.rate = 0.95; // português
   }
 
   u.pitch = 1;
