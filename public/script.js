@@ -188,9 +188,9 @@ function falar(txt, lang){
   if(lang === "fr-FR"){
     u.rate = 0.65; // mais lento para francês
   }else if(lang === "en-US"){
-    u.rate = 0.7;
+    u.rate = 0.65;
   }else{
-    u.rate = 0.95; // português
+    u.rate = 1.2; // português
   }
 
   u.pitch = 1;
