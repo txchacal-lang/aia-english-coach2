@@ -85,6 +85,7 @@ let ultimaTraducao="";
 
 /* FRASES */
 let frases=[];
+let frasesFiltradas=[];
 let indice=0;
 let autoplay=false;
 let aleatorio=false;
@@ -184,19 +185,12 @@ function falar(txt, lang){
     u.lang = lang;
   }
 
-  // 🔥 AJUSTE INTELIGENTE POR IDIOMA
-  if(lang === "fr-FR"){
-    u.rate = 0.65; // mais lento para francês
-  }else if(lang === "en-US"){
-    u.rate = 0.65;
-  }else{
-    u.rate = 1.2; // português
-  }
-
+  u.rate = 0.75;
   u.pitch = 1;
 
   speechSynthesis.speak(u);
 }
+
 function falarAia(t){
   aiaMsg.textContent = t;
 }
@@ -782,8 +776,9 @@ async function carregarFrases(){
     return;
   }
 
-  indice = 0;
-  tocar();
+frasesFiltradas = [...frases];
+indice = 0;
+tocar();
 }
 
 function tocar(){
@@ -793,7 +788,7 @@ function tocar(){
     return;
   }
 
-  const f = frases[indice];
+ const f = frasesFiltradas[indice];
 
   if(!f){
     falarAia("Erro ao carregar frase.");
@@ -828,6 +823,28 @@ speechSynthesis.speak(uLang);
   speechSynthesis.speak(uPt);
 }
 
+function aplicarFiltros(){
+
+  const nivel = document.getElementById("filtroNivel").value;
+  const categoria = document.getElementById("filtroCategoria").value;
+
+  frasesFiltradas = frases.filter(f => {
+
+    const okNivel = !nivel || f.nivel === nivel;
+    const okCategoria = !categoria || f.categoria === categoria;
+
+    return okNivel && okCategoria;
+  });
+
+  indice = 0;
+
+  if(frasesFiltradas.length){
+    tocar();
+  }else{
+    falarAia("Nenhuma frase encontrada.");
+  }
+}
+
 function proxima(){
 
   if(!frases.length){
@@ -836,9 +853,9 @@ function proxima(){
   }
 
   if(aleatorio){
-    indice = Math.floor(Math.random() * frases.length);
+    indice = Math.floor(Math.random() * frasesFiltradas.length);
   }else{
-    indice = (indice + 1) % frases.length;
+    indice = (indice + 1) % frasesFiltradas.length;
   }
 
   tocar();
@@ -1043,6 +1060,8 @@ ativar("aprendiz");
 atualizarContadorFrases();
 atualizarLabelIdioma();
 atualizarBotoesIdioma();
+document.getElementById("filtroNivel").onchange = aplicarFiltros;
+document.getElementById("filtroCategoria").onchange = aplicarFiltros;
 // === FIM NOVO ===
 
 
