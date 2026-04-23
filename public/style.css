@@ -466,4 +466,21 @@ body{
     padding:18px;
   }
 
+.filtros-frases{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  margin:10px 0;
+  flex-wrap:wrap;
+}
+
+.filtros-frases select{
+  background:#0f172a;
+  color:white;
+  border:1px solid #22c55e;
+  border-radius:8px;
+  padding:8px;
+  font-size:14px;
+}
+
 }
