@@ -53,7 +53,7 @@
     "categoria": "cotidiano",
     "pt": "Tudo bem",
     "en": "I am fine",
-    "fr": "Comment allez-vous ?"
+    "fr": "Je vais bien ?"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "categoria": "cotidiano",
     "pt": "Mais ou menos",
     "en": "So so",
-    "fr": "Plus ou moins ;"
+    "fr": "Comme ci, comme ça"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "categoria": "cotidiano",
     "pt": "Obrigado",
     "en": "Thank you",
-    "fr": "Je vous remercie"
+    "fr": "Merci"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "categoria": "cotidiano",
     "pt": "Muito obrigado",
     "en": "Thank you very much",
-    "fr": "Je vous remercie"
+    "fr": "Merci beaucoup"
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "categoria": "cotidiano",
     "pt": "Por favor",
     "en": "Please",
-    "fr": "Veuillez"
+    "fr": "S'il vous plaît"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "categoria": "cotidiano",
     "pt": "Com licença",
     "en": "Excuse me",
-    "fr": "Avec licence"
+    "fr": "Excusez-moi"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "categoria": "cotidiano",
     "pt": "Desculpa",
     "en": "Sorry",
-    "fr": "Apologie"
+    "fr": "Désolé"
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "categoria": "cotidiano",
     "pt": "Não tem problema",
     "en": "No problem",
-    "fr": "Ne vous inquiétez pas ! "
+    "fr": "Ce n'est pas grave ! "
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "categoria": "cotidiano",
     "pt": "Qual é o seu nome?",
     "en": "What is your name?",
-    "fr": "Quel est son nom ?"
+    "fr": "Comment vous appelez-vous ?"
   },
   {
     "id": 17,
@@ -293,7 +293,7 @@
     "categoria": "cotidiano",
     "pt": "Pode repetir?",
     "en": "Can you repeat?",
-    "fr": "Répétitive. & #160;"
+    "fr": "Pouvez-vous répéter?"
   },
   {
     "id": 38,
@@ -309,7 +309,7 @@
     "categoria": "cotidiano",
     "pt": "Pode falar mais alto?",
     "en": "Can you speak louder?",
-    "fr": "Pouvez-vous vous exprimer ?"
+    "fr": "Pouvez-vous parler plus fort ?"
   },
   {
     "id": 40,
@@ -389,7 +389,7 @@
     "categoria": "cotidiano",
     "pt": "Pode ser",
     "en": "It is ok",
-    "fr": "C'est possible"
+    "fr": "Ça va"
   },
   {
     "id": 50,
@@ -405,7 +405,7 @@
     "categoria": "trabalho",
     "pt": "Bom trabalho",
     "en": "Good job",
-    "fr": "Bonne journée ! "
+    "fr": "Bon travail ! "
   },
   {
     "id": 52,
@@ -429,7 +429,7 @@
     "categoria": "cotidiano",
     "pt": "Até mais tarde",
     "en": "See you later",
-    "fr": "Plus tard"
+    "fr": "À plus tard"
   },
   {
     "id": 55,
@@ -461,7 +461,7 @@
     "categoria": "cotidiano",
     "pt": "Fique à vontade",
     "en": "Make yourself comfortable",
-    "fr": "N'hésitez pas à"
+    "fr": "Faites comme chez vous"
   },
   {
     "id": 59,
@@ -541,7 +541,7 @@
     "categoria": "cotidiano",
     "pt": "Não é possível",
     "en": "It is not possible",
-    "fr": "No possible ?"
+    "fr": "Ce n'est pas possible ?"
   },
   {
     "id": 69,
@@ -597,7 +597,7 @@
     "categoria": "cotidiano",
     "pt": "Pode ser assim",
     "en": "It can be like that",
-    "fr": "Il ne doit pas en être ainsi."
+    "fr": "Ça peut être comme ça."
   },
   {
     "id": 76,
@@ -645,7 +645,7 @@
     "categoria": "cotidiano",
     "pt": "Não é verdade",
     "en": "It is not true",
-    "fr": "Tout simplement faux."
+    "fr": "Ce n'est pas vrai."
   },
   {
     "id": 82,
@@ -669,7 +669,7 @@
     "categoria": "cotidiano",
     "pt": "Isso é certo",
     "en": "This is right",
-    "fr": "C' est clair."
+    "fr": "C'est correct."
   },
   {
     "id": 85,
@@ -677,7 +677,7 @@
     "categoria": "cotidiano",
     "pt": "Isso é errado",
     "en": "This is wrong",
-    "fr": "C’est à tort ;"
+    "fr": "C'est faux"
   },
   {
     "id": 86,
@@ -685,7 +685,7 @@
     "categoria": "cotidiano",
     "pt": "Eu preciso ir",
     "en": "I need to go",
-    "fr": "je besoin"
+    "fr": "Je dois y aller"
   },
   {
     "id": 87,
@@ -789,7 +789,7 @@
     "categoria": "cotidiano",
     "pt": "Não está correto",
     "en": "It is not correct",
-    "fr": "Non correct"
+    "fr": "Ce n'est pas correct"
   },
   {
     "id": 100,
@@ -845,7 +845,7 @@
     "categoria": "cotidiano",
     "pt": "Eu estou tentando",
     "en": "I am trying",
-    "fr": "J'essaie de"
+    "fr": "J'essaie"
   },
   {
     "id": 107,
@@ -989,7 +989,7 @@
     "categoria": "cotidiano",
     "pt": "Pode deixar",
     "en": "Leave it to me",
-    "fr": "Vous pouvez partir"
+    "fr": "Laisse-moi faire"
   },
   {
     "id": 125,
@@ -1053,7 +1053,7 @@
     "categoria": "cotidiano",
     "pt": "Fique bem",
     "en": "Take care",
-    "fr": "Être bien"
+    "fr": "Prends soin de toi"
   },
   {
     "id": 133,
@@ -1077,7 +1077,7 @@
     "categoria": "cotidiano",
     "pt": "Bom final de semana",
     "en": "Have a nice weekend",
-    "fr": "Bonne"
+    "fr": "Bon week-end"
   },
   {
     "id": 136,
@@ -1365,7 +1365,7 @@
     "categoria": "cotidiano",
     "pt": "Não estou satisfeito",
     "en": "I am not satisfied",
-    "fr": "Je suis satisfait."
+    "fr": "Je ne suis pas satisfait."
   },
   {
     "id": 172,
@@ -1389,7 +1389,7 @@
     "categoria": "cotidiano",
     "pt": "Isso faz sentido",
     "en": "This makes sense",
-    "fr": "ISSO não faz Sentido"
+    "fr": "Ça a du sens"
   },
   {
     "id": 175,
@@ -13638,5 +13638,2125 @@
     "pt": "Tenha um excelente restante de dia.",
     "en": "Have an excellent rest of your day.",
     "fr": "Passez une excellente fin de journée."
-  }
+  },
+{
+  "id": 1706,
+  "nivel": "iniciante",
+  "categoria": "hotel",
+  "pt": "Tenho uma reserva no meu nome.",
+  "en": "I have a reservation under my name.",
+  "fr": "J'ai une réservation à mon nom."
+},
+{
+  "id": 1707,
+  "nivel": "iniciante",
+  "categoria": "hotel",
+  "pt": "O café da manhã está incluído?",
+  "en": "Is breakfast included?",
+  "fr": "Le petit déjeuner est-il inclus ?"
+},
+{
+  "id": 1708,
+  "nivel": "iniciante",
+  "categoria": "restaurante",
+  "pt": "Gostaria de ver o cardápio.",
+  "en": "I would like to see the menu.",
+  "fr": "Je voudrais voir le menu."
+},
+{
+  "id": 1709,
+  "nivel": "iniciante",
+  "categoria": "restaurante",
+  "pt": "A conta, por favor.",
+  "en": "The bill, please.",
+  "fr": "L'addition, s'il vous plaît."
+},
+{
+  "id": 1710,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Que horas são?",
+  "en": "What time is it?",
+  "fr": "Quelle heure est-il ?"
+},
+{
+  "id": 1711,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Preciso confirmar meu horário de embarque.",
+  "en": "I need to confirm my boarding time.",
+  "fr": "Je dois confirmer mon heure d'embarquement."
+},
+{
+  "id": 1712,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Você pode me ajudar com a direção?",
+  "en": "Can you help me with directions?",
+  "fr": "Pouvez-vous m'aider avec les directions ?"
+},
+{
+  "id": 1713,
+  "nivel": "intermediario",
+  "categoria": "hotel",
+  "pt": "O quarto está pronto para check-in?",
+  "en": "Is the room ready for check-in?",
+  "fr": "La chambre est-elle prête pour l'enregistrement ?"
+},
+{
+  "id": 1714,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Esse prato contém algum tipo de alergênico?",
+  "en": "Does this dish contain any allergens?",
+  "fr": "Ce plat contient-il des allergènes ?"
+},
+{
+  "id": 1715,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Vou revisar isso e te dar um retorno.",
+  "en": "I will review this and get back to you.",
+  "fr": "Je vais examiner cela et vous répondre."
+},
+{
+  "id": 1716,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Preciso resolver isso ainda hoje.",
+  "en": "I need to resolve this today.",
+  "fr": "Je dois résoudre cela aujourd'hui."
+},
+{
+  "id": 1717,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Está ficando tarde, melhor irmos.",
+  "en": "It's getting late, we should go.",
+  "fr": "Il se fait tard, nous devrions y aller."
+},
+{
+  "id": 1718,
+  "nivel": "avancado",
+  "categoria": "viagem",
+  "pt": "Gostaria de remarcar meu voo para um horário mais cedo.",
+  "en": "I would like to reschedule my flight to an earlier time.",
+  "fr": "Je voudrais reprogrammer mon vol à une heure plus tôt."
+},
+{
+  "id": 1719,
+  "nivel": "avancado",
+  "categoria": "hotel",
+  "pt": "Tive um problema com o quarto e preciso de assistência.",
+  "en": "I had an issue with the room and need assistance.",
+  "fr": "J'ai eu un problème avec la chambre et j'ai besoin d'aide."
+},
+{
+  "id": 1720,
+  "nivel": "avancado",
+  "categoria": "restaurante",
+  "pt": "Este prato estava excelente, parabéns ao chef.",
+  "en": "This dish was excellent, compliments to the chef.",
+  "fr": "Ce plat était excellent, compliments au chef."
+},
+{
+  "id": 1721,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Precisamos alinhar melhor nossas estratégias.",
+  "en": "We need to better align our strategies.",
+  "fr": "Nous devons mieux aligner nos stratégies."
+},
+{
+  "id": 1722,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Essa decisão pode impactar o resultado final.",
+  "en": "This decision may impact the final outcome.",
+  "fr": "Cette décision peut impacter le résultat final."
+},
+{
+  "id": 1723,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Estou tentando melhorar minha rotina diária.",
+  "en": "I am trying to improve my daily routine.",
+  "fr": "J'essaie d'améliorer ma routine quotidienne."
+},
+{
+  "id": 1724,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Se eu tivesse saído mais cedo, não teria perdido o voo.",
+  "en": "If I had left earlier, I wouldn't have missed the flight.",
+  "fr": "Si j'étais parti plus tôt, je n'aurais pas manqué le vol."
+},
+{
+  "id": 1725,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "Gostaria de discutir possíveis melhorias na minha estadia.",
+  "en": "I would like to discuss possible improvements to my stay.",
+  "fr": "Je voudrais discuter des améliorations possibles de mon séjour."
+},
+{
+  "id": 1726,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Você poderia sugerir algo típico da região?",
+  "en": "Could you suggest something typical of the region?",
+  "fr": "Pourriez-vous suggérer quelque chose de typique de la région ?"
+},
+{
+  "id": 1727,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Precisamos considerar todas as variáveis antes de decidir.",
+  "en": "We need to consider all variables before deciding.",
+  "fr": "Nous devons considérer toutes les variables avant de décider."
+},
+{
+  "id": 1728,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Essa abordagem pode trazer melhores resultados a longo prazo.",
+  "en": "This approach may yield better results in the long term.",
+  "fr": "Cette approche peut donner de meilleurs résultats à long terme."
+},
+{
+  "id": 1729,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou tentando encontrar um equilíbrio melhor na minha vida.",
+  "en": "I am trying to find a better balance in my life.",
+  "fr": "J'essaie de trouver un meilleur équilibre dans ma vie."
+},
+{
+  "id": 1730,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Apesar dos desafios, continuo motivado.",
+  "en": "Despite the challenges, I remain motivated.",
+  "fr": "Malgré les défis, je reste motivé."
+},
+{
+  "id": 1731,
+  "nivel": "iniciante",
+  "categoria": "compras",
+  "pt": "Quanto custa isso?",
+  "en": "How much does this cost?",
+  "fr": "Combien ça coûte ?"
+},
+{
+  "id": 1732,
+  "nivel": "iniciante",
+  "categoria": "compras",
+  "pt": "Você aceita cartão?",
+  "en": "Do you accept card?",
+  "fr": "Acceptez-vous la carte ?"
+},
+{
+  "id": 1733,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Estou apenas olhando, obrigado.",
+  "en": "I'm just looking, thank you.",
+  "fr": "Je regarde seulement, merci."
+},
+{
+  "id": 1734,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Você tem isso em outro tamanho?",
+  "en": "Do you have this in another size?",
+  "fr": "Avez-vous cela dans une autre taille ?"
+},
+{
+  "id": 1735,
+  "nivel": "avancado",
+  "categoria": "compras",
+  "pt": "Gostaria de comparar com outro produto antes de decidir.",
+  "en": "I would like to compare with another product before deciding.",
+  "fr": "Je voudrais comparer avec un autre produit avant de décider."
+},
+{
+  "id": 1736,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Se o preço fosse melhor, eu consideraria comprar agora.",
+  "en": "If the price were better, I would consider buying now.",
+  "fr": "Si le prix était meilleur, je considérerais acheter maintenant."
+},
+{
+  "id": 1737,
+  "nivel": "iniciante",
+  "categoria": "saude",
+  "pt": "Eu não me sinto bem.",
+  "en": "I don't feel well.",
+  "fr": "Je ne me sens pas bien."
+},
+{
+  "id": 1738,
+  "nivel": "intermediario",
+  "categoria": "saude",
+  "pt": "Preciso ver um médico.",
+  "en": "I need to see a doctor.",
+  "fr": "J'ai besoin de voir un médecin."
+},
+{
+  "id": 1739,
+  "nivel": "avancado",
+  "categoria": "saude",
+  "pt": "Estou com sintomas que não desaparecem.",
+  "en": "I have symptoms that are not going away.",
+  "fr": "J'ai des symptômes qui ne disparaissent pas."
+},
+{
+  "id": 1740,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Gostaria de uma avaliação mais detalhada do meu caso.",
+  "en": "I would like a more detailed evaluation of my case.",
+  "fr": "Je voudrais une évaluation plus détaillée de mon cas."
+},
+{
+  "id": 1741,
+  "nivel": "iniciante",
+  "categoria": "emergencia",
+  "pt": "Preciso de ajuda.",
+  "en": "I need help.",
+  "fr": "J'ai besoin d'aide."
+},
+{
+  "id": 1742,
+  "nivel": "intermediario",
+  "categoria": "emergencia",
+  "pt": "Chame a polícia, por favor.",
+  "en": "Call the police, please.",
+  "fr": "Appelez la police, s'il vous plaît."
+},
+{
+  "id": 1743,
+  "nivel": "avancado",
+  "categoria": "emergencia",
+  "pt": "Perdi meus documentos e preciso de assistência.",
+  "en": "I lost my documents and need assistance.",
+  "fr": "J'ai perdu mes documents et j'ai besoin d'aide."
+},
+{
+  "id": 1744,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "Estou em uma situação urgente e preciso de ajuda imediata.",
+  "en": "I am in an urgent situation and need immediate help.",
+  "fr": "Je suis dans une situation urgente et j'ai besoin d'aide immédiate."
+},
+{
+  "id": 1745,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Gostaria de entender melhor o seu ponto de vista.",
+  "en": "I would like to better understand your point of view.",
+  "fr": "Je voudrais mieux comprendre votre point de vue."
+},
+{
+  "id": 1746,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "A comunicação é essencial para resolver isso.",
+  "en": "Communication is essential to resolve this.",
+  "fr": "La communication est essentielle pour résoudre cela."
+},
+{
+  "id": 1747,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero encontrar uma solução que funcione para nós dois.",
+  "en": "I want to find a solution that works for both of us.",
+  "fr": "Je veux trouver une solution qui fonctionne pour nous deux."
+},
+{
+  "id": 1748,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou tentando aproveitar melhor o meu tempo.",
+  "en": "I am trying to make better use of my time.",
+  "fr": "J'essaie de mieux utiliser mon temps."
+},
+{
+  "id": 1749,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Cada dia é uma nova oportunidade.",
+  "en": "Each day is a new opportunity.",
+  "fr": "Chaque jour est une nouvelle opportunité."
+},
+{
+  "id": 1750,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou focado em evoluir constantemente.",
+  "en": "I am focused on constantly improving.",
+  "fr": "Je suis concentré sur une amélioration constante."
+},
+{
+  "id": 1751,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Ultimamente tenho pensado bastante sobre isso.",
+  "en": "Lately, I have been thinking a lot about this.",
+  "fr": "Ces derniers temps, j'y ai beaucoup réfléchi."
+},
+{
+  "id": 1752,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Não sei se estou tomando a melhor decisão.",
+  "en": "I'm not sure if I'm making the best decision.",
+  "fr": "Je ne sais pas si je prends la meilleure décision."
+},
+{
+  "id": 1753,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo depende de como você encara a situação.",
+  "en": "It all depends on how you see the situation.",
+  "fr": "Tout dépend de la façon dont tu vois la situation."
+},
+{
+  "id": 1754,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No final das contas, o importante é tentar.",
+  "en": "In the end, what matters is trying.",
+  "fr": "Au final, l'important est d'essayer."
+},
+{
+  "id": 1755,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Nem sempre as coisas saem como planejado.",
+  "en": "Things don't always go as planned.",
+  "fr": "Les choses ne se passent pas toujours comme prévu."
+},
+{
+  "id": 1756,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Acho que precisamos conversar com mais calma.",
+  "en": "I think we need to talk more calmly.",
+  "fr": "Je pense qu'on doit en parler plus calmement."
+},
+{
+  "id": 1757,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero entender melhor o que você sente.",
+  "en": "I want to better understand how you feel.",
+  "fr": "Je veux mieux comprendre ce que tu ressens."
+},
+{
+  "id": 1758,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Talvez a gente esteja interpretando isso de forma diferente.",
+  "en": "Maybe we are interpreting this differently.",
+  "fr": "Peut-être que nous interprétons cela différemment."
+},
+{
+  "id": 1759,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Não quero que isso afete nossa relação.",
+  "en": "I don't want this to affect our relationship.",
+  "fr": "Je ne veux pas que cela affecte notre relation."
+},
+{
+  "id": 1760,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Acho que estamos no caminho certo.",
+  "en": "I think we are on the right track.",
+  "fr": "Je pense que nous sommes sur la bonne voie."
+},
+{
+  "id": 1761,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Precisamos revisar isso com mais atenção.",
+  "en": "We need to review this more carefully.",
+  "fr": "Nous devons examiner cela plus attentivement."
+},
+{
+  "id": 1762,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode impactar o resultado final.",
+  "en": "This may impact the final result.",
+  "fr": "Cela peut impacter le résultat final."
+},
+{
+  "id": 1763,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Vamos alinhar os próximos passos.",
+  "en": "Let's align the next steps.",
+  "fr": "Alignons les prochaines étapes."
+},
+{
+  "id": 1764,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Preciso de mais informações antes de decidir.",
+  "en": "I need more information before deciding.",
+  "fr": "J'ai besoin de plus d'informations avant de décider."
+},
+{
+  "id": 1765,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso faz sentido dentro do contexto.",
+  "en": "That makes sense in this context.",
+  "fr": "Cela a du sens dans ce contexte."
+},
+{
+  "id": 1766,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Ainda dá tempo de pegar o próximo voo.",
+  "en": "There is still time to catch the next flight.",
+  "fr": "Il est encore temps de prendre le prochain vol."
+},
+{
+  "id": 1767,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Prefiro evitar horários de pico.",
+  "en": "I prefer to avoid peak hours.",
+  "fr": "Je préfère éviter les heures de pointe."
+},
+{
+  "id": 1768,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Isso vai atrasar nossos planos.",
+  "en": "This will delay our plans.",
+  "fr": "Cela va retarder nos plans."
+},
+{
+  "id": 1769,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "Gostaria de um quarto mais silencioso.",
+  "en": "I would like a quieter room.",
+  "fr": "Je voudrais une chambre plus calme."
+},
+{
+  "id": 1770,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "O atendimento foi excelente.",
+  "en": "The service was excellent.",
+  "fr": "Le service était excellent."
+},
+{
+  "id": 1771,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Você poderia recomendar algo leve?",
+  "en": "Could you recommend something light?",
+  "fr": "Pourriez-vous recommander quelque chose de léger ?"
+},
+{
+  "id": 1772,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Prefiro algo sem muito tempero.",
+  "en": "I prefer something not too seasoned.",
+  "fr": "Je préfère quelque chose de peu épicé."
+},
+{
+  "id": 1773,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Estou comparando opções antes de decidir.",
+  "en": "I am comparing options before deciding.",
+  "fr": "Je compare les options avant de décider."
+},
+{
+  "id": 1774,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Isso parece ter um bom custo-benefício.",
+  "en": "This seems to have good value for money.",
+  "fr": "Cela semble avoir un bon rapport qualité-prix."
+},
+{
+  "id": 1775,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Tenho me sentido cansado ultimamente.",
+  "en": "I have been feeling tired lately.",
+  "fr": "Je me sens fatigué ces derniers temps."
+},
+{
+  "id": 1776,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Os sintomas começaram há alguns dias.",
+  "en": "The symptoms started a few days ago.",
+  "fr": "Les symptômes ont commencé il y a quelques jours."
+},
+{
+  "id": 1777,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "Precisamos agir rapidamente.",
+  "en": "We need to act quickly.",
+  "fr": "Nous devons agir rapidement."
+},
+{
+  "id": 1778,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "Isso é mais sério do que parece.",
+  "en": "This is more serious than it seems.",
+  "fr": "C'est plus sérieux que ça en a l'air."
+},
+{
+  "id": 1779,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou tentando manter o foco.",
+  "en": "I am trying to stay focused.",
+  "fr": "J'essaie de rester concentré."
+},
+{
+  "id": 1780,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Preciso de um tempo para pensar.",
+  "en": "I need some time to think.",
+  "fr": "J'ai besoin de temps pour réfléchir."
+},
+{
+  "id": 1781,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Isso não era o que eu esperava.",
+  "en": "This is not what I expected.",
+  "fr": "Ce n'est pas ce à quoi je m'attendais."
+},
+{
+  "id": 1782,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo está indo conforme o planejado.",
+  "en": "Everything is going as planned.",
+  "fr": "Tout se passe comme prévu."
+},
+{
+  "id": 1783,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Isso faz parte do processo.",
+  "en": "This is part of the process.",
+  "fr": "Cela fait partie du processus."
+},
+{
+  "id": 1784,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou tentando ver o lado positivo.",
+  "en": "I am trying to see the positive side.",
+  "fr": "J'essaie de voir le côté positif."
+},
+{
+  "id": 1785,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Isso vai passar com o tempo.",
+  "en": "This will pass with time.",
+  "fr": "Cela passera avec le temps."
+},
+{
+  "id": 1786,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Cada situação ensina algo novo.",
+  "en": "Every situation teaches something new.",
+  "fr": "Chaque situation enseigne quelque chose de nouveau."
+},
+{
+  "id": 1787,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero que a gente resolva isso juntos.",
+  "en": "I want us to solve this together.",
+  "fr": "Je veux que nous résolvions cela ensemble."
+},
+{
+  "id": 1788,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Acho que precisamos de mais diálogo.",
+  "en": "I think we need more dialogue.",
+  "fr": "Je pense que nous avons besoin de plus de dialogue."
+},
+{
+  "id": 1789,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero evitar mal-entendidos.",
+  "en": "I want to avoid misunderstandings.",
+  "fr": "Je veux éviter les malentendus."
+},
+{
+  "id": 1790,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Isso é importante para mim.",
+  "en": "This is important to me.",
+  "fr": "C'est important pour moi."
+},
+{
+  "id": 1791,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Vamos revisar isso juntos depois.",
+  "en": "Let's review this together later.",
+  "fr": "Revisons cela ensemble plus tard."
+},
+{
+  "id": 1792,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode ser melhorado.",
+  "en": "This can be improved.",
+  "fr": "Cela peut être amélioré."
+},
+{
+  "id": 1793,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Estamos avançando bem.",
+  "en": "We are making good progress.",
+  "fr": "Nous avançons bien."
+},
+{
+  "id": 1794,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Ainda temos tempo para explorar mais.",
+  "en": "We still have time to explore more.",
+  "fr": "Nous avons encore le temps d'explorer davantage."
+},
+{
+  "id": 1795,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "A estadia está sendo muito agradável.",
+  "en": "The stay has been very pleasant.",
+  "fr": "Le séjour est très agréable."
+},
+{
+  "id": 1796,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "O ambiente aqui é muito agradável.",
+  "en": "The atmosphere here is very pleasant.",
+  "fr": "L'ambiance ici est très agréable."
+},
+{
+  "id": 1797,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Vou pensar um pouco antes de decidir.",
+  "en": "I will think about it before deciding.",
+  "fr": "Je vais y réfléchir avant de décider."
+},
+{
+  "id": 1798,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Estou me recuperando bem.",
+  "en": "I am recovering well.",
+  "fr": "Je me rétablis bien."
+},
+{
+  "id": 1799,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "A situação já está sob controle.",
+  "en": "The situation is now under control.",
+  "fr": "La situation est maintenant sous contrôle."
+},
+{
+  "id": 1800,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo vai dar certo no final.",
+  "en": "Everything will work out in the end.",
+  "fr": "Tout ira bien à la fin."
+},
+{
+  "id": 1801,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Sinceramente, eu não tinha pensado por esse lado.",
+  "en": "Honestly, I hadn't thought about it that way.",
+  "fr": "Honnêtement, je n'y avais pas pensé comme ça."
+},
+{
+  "id": 1802,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Agora que você falou, faz sentido.",
+  "en": "Now that you mention it, it makes sense.",
+  "fr": "Maintenant que tu le dis, ça a du sens."
+},
+{
+  "id": 1803,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Eu meio que já esperava por isso.",
+  "en": "I kind of expected that.",
+  "fr": "Je m'y attendais un peu."
+},
+{
+  "id": 1804,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Pra ser bem sincero, isso me surpreendeu.",
+  "en": "To be honest, that surprised me.",
+  "fr": "Pour être honnête, ça m'a surpris."
+},
+{
+  "id": 1805,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Não é bem assim que eu vejo as coisas.",
+  "en": "That's not exactly how I see things.",
+  "fr": "Ce n'est pas vraiment comme ça que je vois les choses."
+},
+{
+  "id": 1806,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Eu só queria que você fosse mais claro comigo.",
+  "en": "I just wish you were clearer with me.",
+  "fr": "J'aimerais juste que tu sois plus clair avec moi."
+},
+{
+  "id": 1807,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Acho que estamos complicando algo simples.",
+  "en": "I think we are overcomplicating something simple.",
+  "fr": "Je pense qu'on complique quelque chose de simple."
+},
+{
+  "id": 1808,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Não quero discutir, só entender.",
+  "en": "I don't want to argue, I just want to understand.",
+  "fr": "Je ne veux pas me disputer, je veux juste comprendre."
+},
+{
+  "id": 1809,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Talvez a gente precise de um tempo pra pensar.",
+  "en": "Maybe we need some time to think.",
+  "fr": "Peut-être qu'on a besoin de temps pour réfléchir."
+},
+{
+  "id": 1810,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Eu valorizo muito o que a gente tem.",
+  "en": "I really value what we have.",
+  "fr": "J'accorde beaucoup d'importance à ce que nous avons."
+},
+{
+  "id": 1811,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Se a gente não agir agora, pode ser tarde demais.",
+  "en": "If we don't act now, it might be too late.",
+  "fr": "Si on n'agit pas maintenant, il sera peut-être trop tard."
+},
+{
+  "id": 1812,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Vamos direto ao ponto.",
+  "en": "Let's get straight to the point.",
+  "fr": "Allons droit au but."
+},
+{
+  "id": 1813,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso não está funcionando como esperado.",
+  "en": "This is not working as expected.",
+  "fr": "Cela ne fonctionne pas comme prévu."
+},
+{
+  "id": 1814,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Precisamos encontrar outra abordagem.",
+  "en": "We need to find another approach.",
+  "fr": "Nous devons trouver une autre approche."
+},
+{
+  "id": 1815,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode trazer consequências no futuro.",
+  "en": "This may have consequences in the future.",
+  "fr": "Cela peut avoir des conséquences à l'avenir."
+},
+{
+  "id": 1816,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No fundo, todo mundo passa por isso.",
+  "en": "Deep down, everyone goes through this.",
+  "fr": "Au fond, tout le monde passe par là."
+},
+{
+  "id": 1817,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Não dá pra controlar tudo.",
+  "en": "You can't control everything.",
+  "fr": "On ne peut pas tout contrôler."
+},
+{
+  "id": 1818,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Às vezes é melhor deixar as coisas acontecerem.",
+  "en": "Sometimes it's better to let things happen.",
+  "fr": "Parfois, il vaut mieux laisser les choses se faire."
+},
+{
+  "id": 1819,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A gente aprende com os próprios erros.",
+  "en": "We learn from our own mistakes.",
+  "fr": "On apprend de ses propres erreurs."
+},
+{
+  "id": 1820,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Nada acontece por acaso.",
+  "en": "Nothing happens by chance.",
+  "fr": "Rien n'arrive par hasard."
+},
+{
+  "id": 1821,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Ainda bem que chegamos a tempo.",
+  "en": "Good thing we arrived on time.",
+  "fr": "Heureusement qu'on est arrivés à temps."
+},
+{
+  "id": 1822,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Isso poderia ter dado errado.",
+  "en": "That could have gone wrong.",
+  "fr": "Ça aurait pu mal tourner."
+},
+{
+  "id": 1823,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Vamos aproveitar enquanto dá.",
+  "en": "Let's enjoy it while we can.",
+  "fr": "Profitons-en tant que c'est possible."
+},
+{
+  "id": 1824,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "Esse lugar superou minhas expectativas.",
+  "en": "This place exceeded my expectations.",
+  "fr": "Cet endroit a dépassé mes attentes."
+},
+{
+  "id": 1825,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "Eu definitivamente voltaria aqui.",
+  "en": "I would definitely come back here.",
+  "fr": "Je reviendrais ici sans hésiter."
+},
+{
+  "id": 1826,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Isso está muito melhor do que eu imaginava.",
+  "en": "This is much better than I expected.",
+  "fr": "C'est bien meilleur que ce que j'imaginais."
+},
+{
+  "id": 1827,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Valeu muito a pena.",
+  "en": "It was totally worth it.",
+  "fr": "Ça en valait vraiment la peine."
+},
+{
+  "id": 1828,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Não tenho certeza se preciso disso agora.",
+  "en": "I'm not sure if I need this right now.",
+  "fr": "Je ne suis pas sûr d'en avoir besoin maintenant."
+},
+{
+  "id": 1829,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Talvez eu volte mais tarde.",
+  "en": "Maybe I'll come back later.",
+  "fr": "Je reviendrai peut-être plus tard."
+},
+{
+  "id": 1830,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Acho que estou melhorando aos poucos.",
+  "en": "I think I'm getting better little by little.",
+  "fr": "Je pense que je vais mieux petit à petit."
+},
+{
+  "id": 1831,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Preciso cuidar melhor de mim.",
+  "en": "I need to take better care of myself.",
+  "fr": "Je dois mieux prendre soin de moi."
+},
+{
+  "id": 1832,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "Isso saiu do controle muito rápido.",
+  "en": "This got out of control very quickly.",
+  "fr": "Ça a échappé à tout contrôle très rapidement."
+},
+{
+  "id": 1833,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "Precisamos manter a calma agora.",
+  "en": "We need to stay calm now.",
+  "fr": "Nous devons rester calmes maintenant."
+},
+{
+  "id": 1834,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo bem, acontece.",
+  "en": "It's okay, it happens.",
+  "fr": "Ce n'est pas grave, ça arrive."
+},
+{
+  "id": 1835,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Não vale a pena se estressar com isso.",
+  "en": "It's not worth stressing about this.",
+  "fr": "Ça ne vaut pas la peine de stresser pour ça."
+},
+{
+  "id": 1836,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos ver no que dá.",
+  "en": "Let's see how it goes.",
+  "fr": "Voyons voir ce que ça donne."
+},
+{
+  "id": 1837,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Isso não muda nada pra mim.",
+  "en": "That doesn't change anything for me.",
+  "fr": "Ça ne change rien pour moi."
+},
+{
+  "id": 1838,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No fim das contas, tudo se resolve.",
+  "en": "In the end, everything works out.",
+  "fr": "Au final, tout s'arrange."
+},
+{
+  "id": 1839,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A vida segue.",
+  "en": "Life goes on.",
+  "fr": "La vie continue."
+},
+{
+  "id": 1840,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "É só uma fase.",
+  "en": "It's just a phase.",
+  "fr": "Ce n'est qu'une phase."
+},
+{
+  "id": 1841,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Eu sei que não é fácil.",
+  "en": "I know it's not easy.",
+  "fr": "Je sais que ce n'est pas facile."
+},
+{
+  "id": 1842,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Estamos tentando o nosso melhor.",
+  "en": "We are doing our best.",
+  "fr": "Nous faisons de notre mieux."
+},
+{
+  "id": 1843,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso precisa ser resolvido logo.",
+  "en": "This needs to be solved soon.",
+  "fr": "Cela doit être résolu rapidement."
+},
+{
+  "id": 1844,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Não podemos adiar isso mais.",
+  "en": "We can't delay this any longer.",
+  "fr": "Nous ne pouvons plus retarder cela."
+},
+{
+  "id": 1845,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Foi uma experiência incrível.",
+  "en": "It was an incredible experience.",
+  "fr": "C'était une expérience incroyable."
+},
+{
+  "id": 1846,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "Tudo correu melhor do que o esperado.",
+  "en": "Everything went better than expected.",
+  "fr": "Tout s'est mieux passé que prévu."
+},
+{
+  "id": 1847,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Com certeza eu pediria isso de novo.",
+  "en": "I would definitely order this again.",
+  "fr": "Je commanderais ça à nouveau sans hésiter."
+},
+{
+  "id": 1848,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Isso parece uma boa escolha.",
+  "en": "This seems like a good choice.",
+  "fr": "Cela semble être un bon choix."
+},
+{
+  "id": 1849,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Vou seguir as recomendações.",
+  "en": "I will follow the recommendations.",
+  "fr": "Je vais suivre les recommandations."
+},
+{
+  "id": 1850,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos com calma.",
+  "en": "Let's take it easy.",
+  "fr": "Allons-y doucement."
+},
+{
+  "id": 1851,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Sem pressa.",
+  "en": "No rush.",
+  "fr": "Pas de précipitation."
+},
+{
+  "id": 1852,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo no seu tempo.",
+  "en": "Everything in its own time.",
+  "fr": "Chaque chose en son temps."
+},
+{
+  "id": 1853,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos resolver isso juntos.",
+  "en": "Let's solve this together.",
+  "fr": "Résolvons cela ensemble."
+},
+{
+  "id": 1854,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Confia no processo.",
+  "en": "Trust the process.",
+  "fr": "Fais confiance au processus."
+},
+{
+  "id": 1855,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Você vai conseguir.",
+  "en": "You will make it.",
+  "fr": "Tu vas y arriver."
+},
+{
+  "id": 1856,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Só não desista.",
+  "en": "Just don't give up.",
+  "fr": "N'abandonne pas."
+},
+{
+  "id": 1857,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vai dar certo.",
+  "en": "It will work out.",
+  "fr": "Ça va marcher."
+},
+{
+  "id": 1858,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Eu acredito nisso.",
+  "en": "I believe in it.",
+  "fr": "J'y crois."
+},
+{
+  "id": 1859,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo tem um propósito.",
+  "en": "Everything has a purpose.",
+  "fr": "Tout a un sens."
+},
+{
+  "id": 1860,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos seguir em frente.",
+  "en": "Let's move forward.",
+  "fr": "Avançons."
+},
+{
+  "id": 1861,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou com fome.",
+  "en": "I am hungry.",
+  "fr": "J'ai faim."
+},
+{
+  "id": 1862,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou com sede.",
+  "en": "I am thirsty.",
+  "fr": "J'ai soif."
+},
+{
+  "id": 1863,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou cansado.",
+  "en": "I am tired.",
+  "fr": "Je suis fatigué."
+},
+{
+  "id": 1864,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Vamos sair?",
+  "en": "Shall we go out?",
+  "fr": "On sort ?"
+},
+{
+  "id": 1865,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Espere um momento.",
+  "en": "Wait a moment.",
+  "fr": "Attendez un moment."
+},
+{
+  "id": 1866,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Vou terminar isso ainda hoje.",
+  "en": "I will finish this today.",
+  "fr": "Je vais terminer cela aujourd'hui."
+},
+{
+  "id": 1867,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Preciso organizar melhor minhas tarefas.",
+  "en": "I need to organize my tasks better.",
+  "fr": "Je dois mieux organiser mes tâches."
+},
+{
+  "id": 1868,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Qual é a melhor rota para chegar lá?",
+  "en": "What is the best route to get there?",
+  "fr": "Quelle est la meilleure route pour y arriver ?"
+},
+{
+  "id": 1869,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Quanto tempo leva até o destino?",
+  "en": "How long does it take to get there?",
+  "fr": "Combien de temps faut-il pour y arriver ?"
+},
+{
+  "id": 1870,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Você pode recomendar algo popular?",
+  "en": "Can you recommend something popular?",
+  "fr": "Pouvez-vous recommander quelque chose de populaire ?"
+},
+{
+  "id": 1871,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Prefiro algo mais leve.",
+  "en": "I prefer something lighter.",
+  "fr": "Je préfère quelque chose de plus léger."
+},
+{
+  "id": 1872,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Estou procurando algo específico.",
+  "en": "I am looking for something specific.",
+  "fr": "Je cherche quelque chose de précis."
+},
+{
+  "id": 1873,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Você tem outras opções?",
+  "en": "Do you have other options?",
+  "fr": "Avez-vous d'autres options ?"
+},
+{
+  "id": 1874,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Acho que tudo acontece no momento certo.",
+  "en": "I think everything happens at the right time.",
+  "fr": "Je pense que tout arrive au bon moment."
+},
+{
+  "id": 1875,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Às vezes a gente precisa dar um passo atrás.",
+  "en": "Sometimes we need to take a step back.",
+  "fr": "Parfois, il faut faire un pas en arrière."
+},
+{
+  "id": 1876,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero que a gente resolva isso com calma.",
+  "en": "I want us to resolve this calmly.",
+  "fr": "Je veux que nous réglions cela calmement."
+},
+{
+  "id": 1877,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Não vale a pena discutir por isso.",
+  "en": "It's not worth arguing about this.",
+  "fr": "Ça ne vaut pas la peine de se disputer pour ça."
+},
+{
+  "id": 1878,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Precisamos repensar essa estratégia.",
+  "en": "We need to rethink this strategy.",
+  "fr": "Nous devons repenser cette stratégie."
+},
+{
+  "id": 1879,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode ser uma boa oportunidade.",
+  "en": "This could be a good opportunity.",
+  "fr": "Cela peut être une bonne opportunité."
+},
+{
+  "id": 1880,
+  "nivel": "fluente",
+  "categoria": "viagem",
+  "pt": "Essa viagem está sendo inesquecível.",
+  "en": "This trip is unforgettable.",
+  "fr": "Ce voyage est inoubliable."
+},
+{
+  "id": 1881,
+  "nivel": "fluente",
+  "categoria": "hotel",
+  "pt": "O serviço aqui é realmente excelente.",
+  "en": "The service here is really excellent.",
+  "fr": "Le service ici est vraiment excellent."
+},
+{
+  "id": 1882,
+  "nivel": "fluente",
+  "categoria": "restaurante",
+  "pt": "Esse prato superou minhas expectativas.",
+  "en": "This dish exceeded my expectations.",
+  "fr": "Ce plat a dépassé mes attentes."
+},
+{
+  "id": 1883,
+  "nivel": "fluente",
+  "categoria": "compras",
+  "pt": "Vou pensar melhor antes de comprar.",
+  "en": "I will think it over before buying.",
+  "fr": "Je vais y réfléchir avant d'acheter."
+},
+{
+  "id": 1884,
+  "nivel": "fluente",
+  "categoria": "saude",
+  "pt": "Estou me sentindo melhor hoje.",
+  "en": "I feel better today.",
+  "fr": "Je me sens mieux aujourd'hui."
+},
+{
+  "id": 1885,
+  "nivel": "fluente",
+  "categoria": "emergencia",
+  "pt": "A situação já está sob controle agora.",
+  "en": "The situation is now under control.",
+  "fr": "La situation est maintenant sous contrôle."
+},
+{
+  "id": 1886,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Vamos começar.",
+  "en": "Let's start.",
+  "fr": "Commençons."
+},
+{
+  "id": 1887,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Está tudo bem.",
+  "en": "Everything is fine.",
+  "fr": "Tout va bien."
+},
+{
+  "id": 1888,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Vou resolver isso depois.",
+  "en": "I will deal with this later.",
+  "fr": "Je vais régler cela plus tard."
+},
+{
+  "id": 1889,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Preciso pensar melhor.",
+  "en": "I need to think it through.",
+  "fr": "Je dois y réfléchir davantage."
+},
+{
+  "id": 1890,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No fim, tudo acaba fazendo sentido.",
+  "en": "In the end, everything makes sense.",
+  "fr": "Au final, tout finit par avoir du sens."
+},
+{
+  "id": 1901,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Vamos comer?",
+  "en": "Shall we eat?",
+  "fr": "On mange ?"
+},
+{
+  "id": 1902,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Eu entendi.",
+  "en": "I understood.",
+  "fr": "J'ai compris."
+},
+{
+  "id": 1903,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Eu não entendi.",
+  "en": "I didn't understand.",
+  "fr": "Je n'ai pas compris."
+},
+{
+  "id": 1904,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Pode falar mais devagar?",
+  "en": "Can you speak more slowly?",
+  "fr": "Pouvez-vous parler plus lentement ?"
+},
+{
+  "id": 1905,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou aprendendo.",
+  "en": "I am learning.",
+  "fr": "J'apprends."
+},
+{
+  "id": 1906,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Vou terminar isso amanhã.",
+  "en": "I will finish this tomorrow.",
+  "fr": "Je terminerai cela demain."
+},
+{
+  "id": 1907,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Preciso de mais tempo para isso.",
+  "en": "I need more time for this.",
+  "fr": "J'ai besoin de plus de temps pour cela."
+},
+{
+  "id": 1908,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Onde posso comprar um bilhete?",
+  "en": "Where can I buy a ticket?",
+  "fr": "Où puis-je acheter un billet ?"
+},
+{
+  "id": 1909,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Esse caminho é mais rápido?",
+  "en": "Is this route faster?",
+  "fr": "Ce chemin est-il plus rapide ?"
+},
+{
+  "id": 1910,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Esse prato é muito apimentado?",
+  "en": "Is this dish very spicy?",
+  "fr": "Ce plat est-il très épicé ?"
+},
+{
+  "id": 1911,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Você pode tirar isso do prato?",
+  "en": "Can you remove this from the dish?",
+  "fr": "Pouvez-vous enlever cela du plat ?"
+},
+{
+  "id": 1912,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Isso está em promoção?",
+  "en": "Is this on sale?",
+  "fr": "C'est en promotion ?"
+},
+{
+  "id": 1913,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Posso pagar em dinheiro?",
+  "en": "Can I pay in cash?",
+  "fr": "Puis-je payer en espèces ?"
+},
+{
+  "id": 1914,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Acho que isso pode dar certo.",
+  "en": "I think this might work.",
+  "fr": "Je pense que cela peut fonctionner."
+},
+{
+  "id": 1915,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Isso não depende só de mim.",
+  "en": "This doesn't depend only on me.",
+  "fr": "Cela ne dépend pas seulement de moi."
+},
+{
+  "id": 1916,
+  "nivel": "avancado",
+  "categoria": "relacionamento",
+  "pt": "Quero resolver isso de forma madura.",
+  "en": "I want to resolve this in a mature way.",
+  "fr": "Je veux résoudre cela de manière mature."
+},
+{
+  "id": 1917,
+  "nivel": "avancado",
+  "categoria": "relacionamento",
+  "pt": "Isso está afetando a gente.",
+  "en": "This is affecting us.",
+  "fr": "Cela nous affecte."
+},
+{
+  "id": 1918,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Precisamos melhorar esse processo.",
+  "en": "We need to improve this process.",
+  "fr": "Nous devons améliorer ce processus."
+},
+{
+  "id": 1919,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Isso pode ser otimizado.",
+  "en": "This can be optimized.",
+  "fr": "Cela peut être optimisé."
+},
+{
+  "id": 1920,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No fundo, tudo acaba se encaixando.",
+  "en": "Deep down, everything falls into place.",
+  "fr": "Au fond, tout finit par s'emboîter."
+},
+{
+  "id": 1921,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A gente sempre dá um jeito.",
+  "en": "We always find a way.",
+  "fr": "On trouve toujours un moyen."
+},
+{
+  "id": 1922,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero que a gente evolua juntos.",
+  "en": "I want us to grow together.",
+  "fr": "Je veux que nous évoluions ensemble."
+},
+{
+  "id": 1923,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Isso fortalece a nossa relação.",
+  "en": "This strengthens our relationship.",
+  "fr": "Cela renforce notre relation."
+},
+{
+  "id": 1924,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Estamos indo na direção certa.",
+  "en": "We are heading in the right direction.",
+  "fr": "Nous allons dans la bonne direction."
+},
+{
+  "id": 1925,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode abrir novas oportunidades.",
+  "en": "This can open new opportunities.",
+  "fr": "Cela peut ouvrir de nouvelles opportunités."
+},
+{
+  "id": 1926,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou feliz.",
+  "en": "I am happy.",
+  "fr": "Je suis heureux."
+},
+{
+  "id": 1927,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou triste.",
+  "en": "I am sad.",
+  "fr": "Je suis triste."
+},
+{
+  "id": 1928,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Vou pensar nisso depois.",
+  "en": "I will think about it later.",
+  "fr": "J'y penserai plus tard."
+},
+{
+  "id": 1929,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Preciso de uma pausa.",
+  "en": "I need a break.",
+  "fr": "J'ai besoin d'une pause."
+},
+{
+  "id": 1930,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Isso não saiu como esperado.",
+  "en": "This didn't go as expected.",
+  "fr": "Cela ne s'est pas passé comme prévu."
+},
+{
+  "id": 1951,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Vamos embora?",
+  "en": "Shall we go?",
+  "fr": "On y va ?"
+},
+{
+  "id": 1952,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Estou pronto.",
+  "en": "I am ready.",
+  "fr": "Je suis prêt."
+},
+{
+  "id": 1953,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Não estou pronto.",
+  "en": "I am not ready.",
+  "fr": "Je ne suis pas prêt."
+},
+{
+  "id": 1954,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Espere por mim.",
+  "en": "Wait for me.",
+  "fr": "Attendez-moi."
+},
+{
+  "id": 1955,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Eu volto já.",
+  "en": "I'll be right back.",
+  "fr": "Je reviens tout de suite."
+},
+{
+  "id": 1956,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Vamos discutir isso amanhã.",
+  "en": "Let's discuss this tomorrow.",
+  "fr": "Discutons-en demain."
+},
+{
+  "id": 1957,
+  "nivel": "intermediario",
+  "categoria": "trabalho",
+  "pt": "Isso precisa de revisão.",
+  "en": "This needs to be reviewed.",
+  "fr": "Cela doit être révisé."
+},
+{
+  "id": 1958,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Qual é a melhor forma de chegar lá?",
+  "en": "What is the best way to get there?",
+  "fr": "Quelle est la meilleure façon d'y arriver ?"
+},
+{
+  "id": 1959,
+  "nivel": "intermediario",
+  "categoria": "viagem",
+  "pt": "Isso leva muito tempo?",
+  "en": "Does it take long?",
+  "fr": "Est-ce que cela prend beaucoup de temps ?"
+},
+{
+  "id": 1960,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Você pode trazer mais água?",
+  "en": "Can you bring more water?",
+  "fr": "Pouvez-vous apporter plus d'eau ?"
+},
+{
+  "id": 1961,
+  "nivel": "intermediario",
+  "categoria": "restaurante",
+  "pt": "Está tudo muito bom.",
+  "en": "Everything is very good.",
+  "fr": "Tout est très bon."
+},
+{
+  "id": 1962,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Isso é o melhor preço?",
+  "en": "Is this the best price?",
+  "fr": "Est-ce le meilleur prix ?"
+},
+{
+  "id": 1963,
+  "nivel": "intermediario",
+  "categoria": "compras",
+  "pt": "Você pode dar desconto?",
+  "en": "Can you give a discount?",
+  "fr": "Pouvez-vous faire une réduction ?"
+},
+{
+  "id": 1964,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Acho que isso vai dar certo no final.",
+  "en": "I think this will work out in the end.",
+  "fr": "Je pense que cela va marcher au final."
+},
+{
+  "id": 1965,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Não podemos desistir agora.",
+  "en": "We can't give up now.",
+  "fr": "Nous ne pouvons pas abandonner maintenant."
+},
+{
+  "id": 1966,
+  "nivel": "avancado",
+  "categoria": "relacionamento",
+  "pt": "Precisamos ser mais compreensivos.",
+  "en": "We need to be more understanding.",
+  "fr": "Nous devons être plus compréhensifs."
+},
+{
+  "id": 1967,
+  "nivel": "avancado",
+  "categoria": "relacionamento",
+  "pt": "Isso pode melhorar com o tempo.",
+  "en": "This can improve over time.",
+  "fr": "Cela peut s'améliorer avec le temps."
+},
+{
+  "id": 1968,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Precisamos ajustar esse plano.",
+  "en": "We need to adjust this plan.",
+  "fr": "Nous devons ajuster ce plan."
+},
+{
+  "id": 1969,
+  "nivel": "avancado",
+  "categoria": "trabalho",
+  "pt": "Isso exige mais atenção.",
+  "en": "This requires more attention.",
+  "fr": "Cela demande plus d'attention."
+},
+{
+  "id": 1970,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "No fim das contas, tudo se resolve.",
+  "en": "In the end, everything works out.",
+  "fr": "Au final, tout s'arrange."
+},
+{
+  "id": 1971,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A gente sempre aprende algo novo.",
+  "en": "We always learn something new.",
+  "fr": "On apprend toujours quelque chose de nouveau."
+},
+{
+  "id": 1972,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Quero que a gente cresça juntos.",
+  "en": "I want us to grow together.",
+  "fr": "Je veux que nous grandissions ensemble."
+},
+{
+  "id": 1973,
+  "nivel": "fluente",
+  "categoria": "relacionamento",
+  "pt": "Isso só fortalece a gente.",
+  "en": "This only makes us stronger.",
+  "fr": "Cela ne fait que nous renforcer."
+},
+{
+  "id": 1974,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Estamos evoluindo constantemente.",
+  "en": "We are constantly evolving.",
+  "fr": "Nous évoluons constamment."
+},
+{
+  "id": 1975,
+  "nivel": "fluente",
+  "categoria": "trabalho",
+  "pt": "Isso pode nos levar mais longe.",
+  "en": "This can take us further.",
+  "fr": "Cela peut nous mener plus loin."
+},
+{
+  "id": 1976,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Está frio.",
+  "en": "It is cold.",
+  "fr": "Il fait froid."
+},
+{
+  "id": 1977,
+  "nivel": "iniciante",
+  "categoria": "cotidiano",
+  "pt": "Está calor.",
+  "en": "It is hot.",
+  "fr": "Il fait chaud."
+},
+{
+  "id": 1978,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Vou tentar novamente.",
+  "en": "I will try again.",
+  "fr": "Je vais essayer encore."
+},
+{
+  "id": 1979,
+  "nivel": "intermediario",
+  "categoria": "cotidiano",
+  "pt": "Preciso melhorar isso.",
+  "en": "I need to improve this.",
+  "fr": "Je dois améliorer cela."
+},
+{
+  "id": 1980,
+  "nivel": "avancado",
+  "categoria": "cotidiano",
+  "pt": "Isso não saiu como planejado.",
+  "en": "This did not go as planned.",
+  "fr": "Cela ne s'est pas passé comme prévu."
+},
+{
+  "id": 1981,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo acontece por uma razão.",
+  "en": "Everything happens for a reason.",
+  "fr": "Tout arrive pour une raison."
+},
+{
+  "id": 1982,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos seguir em frente sem olhar para trás.",
+  "en": "Let's move forward without looking back.",
+  "fr": "Avançons sans regarder en arrière."
+},
+{
+  "id": 1983,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A vida continua, independente de tudo.",
+  "en": "Life goes on no matter what.",
+  "fr": "La vie continue quoi qu'il arrive."
+},
+{
+  "id": 1984,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo vai dar certo no final.",
+  "en": "Everything will be alright in the end.",
+  "fr": "Tout ira bien à la fin."
+},
+{
+  "id": 1985,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Confio no que está por vir.",
+  "en": "I trust what is coming.",
+  "fr": "Je fais confiance à ce qui va venir."
+},
+{
+  "id": 1986,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Estou pronto para o próximo passo.",
+  "en": "I am ready for the next step.",
+  "fr": "Je suis prêt pour la prochaine étape."
+},
+{
+  "id": 1987,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Isso faz parte da jornada.",
+  "en": "This is part of the journey.",
+  "fr": "Cela fait partie du parcours."
+},
+{
+  "id": 1988,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Vamos aproveitar o momento.",
+  "en": "Let's enjoy the moment.",
+  "fr": "Profitons du moment."
+},
+{
+  "id": 1989,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Nada é permanente.",
+  "en": "Nothing is permanent.",
+  "fr": "Rien n'est permanent."
+},
+{
+  "id": 1990,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo muda com o tempo.",
+  "en": "Everything changes with time.",
+  "fr": "Tout change avec le temps."
+},
+{
+  "id": 1991,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Cada dia é uma nova chance.",
+  "en": "Every day is a new chance.",
+  "fr": "Chaque jour est une nouvelle chance."
+},
+{
+  "id": 1992,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "A vida é cheia de surpresas.",
+  "en": "Life is full of surprises.",
+  "fr": "La vie est pleine de surprises."
+},
+{
+  "id": 1993,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo acontece no tempo certo.",
+  "en": "Everything happens at the right time.",
+  "fr": "Tout arrive au bon moment."
+},
+{
+  "id": 1994,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Nada é impossível.",
+  "en": "Nothing is impossible.",
+  "fr": "Rien n'est impossible."
+},
+{
+  "id": 1995,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Você é capaz.",
+  "en": "You are capable.",
+  "fr": "Tu es capable."
+},
+{
+  "id": 1996,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Continue tentando.",
+  "en": "Keep trying.",
+  "fr": "Continue d'essayer."
+},
+{
+  "id": 1997,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Nunca desista.",
+  "en": "Never give up.",
+  "fr": "N'abandonne jamais."
+},
+{
+  "id": 1998,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Acredite em você.",
+  "en": "Believe in yourself.",
+  "fr": "Crois en toi."
+},
+{
+  "id": 1999,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Tudo é possível.",
+  "en": "Everything is possible.",
+  "fr": "Tout est possible."
+},
+{
+  "id": 2000,
+  "nivel": "fluente",
+  "categoria": "cotidiano",
+  "pt": "Você chegou até aqui.",
+  "en": "You made it this far.",
+  "fr": "Tu es arrivé jusqu'ici."
+}
 ]
