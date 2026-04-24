@@ -12,6 +12,7 @@ const btnFR = document.getElementById("btnFR");
 const btnAprendiz = document.getElementById("btnAprendiz");
 const btnTradutor = document.getElementById("btnTradutor");
 const btnFrases   = document.getElementById("btnFrases");
+const btnConversar = document.getElementById("btnConversar");
 
 const btnFalar    = document.getElementById("btnFalar");
 const btnPlay     = document.getElementById("btnPlay");
@@ -20,6 +21,7 @@ const btnPronuncia= document.getElementById("btnPronuncia");
 
 const btnAssistente = document.getElementById("btnAssistente");
 const wrapperAssistente = document.getElementById("wrapperAssistente");
+const sectionTitles = document.querySelectorAll(".section-title");
 
 
 // === NOVO ===
@@ -67,8 +69,13 @@ const frasesControls = document.querySelector(".frases-controls");
 const correctionArea = document.querySelector(".correction-area");
 
 /* ========= ESTADO ========= */
+let perguntasDesdeErro = 0;
+let perguntasErradas = [];
+let perguntasUsadas = [];
+let perguntaAtual = null;
 let modoAtual = "aprendiz";
 let idiomaAtual = "fr"; // teste com francês
+
 
 /* APRENDIZ */
 const aprendiz = {
@@ -194,10 +201,12 @@ function falar(txt, lang){
 function falarAia(t){
   aiaMsg.textContent = t;
 }
+
 /* ========= MODOS ========= */
 btnAprendiz.onclick=()=>ativar("aprendiz");
 btnTradutor.onclick=()=>ativar("tradutor");
 btnFrases.onclick=()=>ativar("frases");
+btnConversar.onclick=()=>ativar("conversar");
 
 // 👇 NOVO
 btnEN.onclick = ()=>{
@@ -214,6 +223,9 @@ btnFR.onclick = ()=>{
 
 function ativar(m){
   modoAtual=m;
+// restaura padrão
+sectionTitles[0].textContent = "Português";
+labelIdioma.textContent = idiomaAtual === "en" ? "Inglês" : "Francês";
   // === restaura posição original dos botões ===
 if(aiaActionsNext){
   aiaActionsParent.insertBefore(aiaActions, aiaActionsNext);
@@ -223,7 +235,7 @@ if(aiaActionsNext){
   // === reposiciona botões no layout padrão ===
   document.body.classList.remove("modo-frases-layout");
 
-  [btnAprendiz,btnTradutor,btnFrases].forEach(b=>b.classList.remove("active"));
+  [btnAprendiz,btnTradutor,btnFrases,btnConversar].forEach(b=>b.classList.remove("active"));
 
   btnProxima.style.display="none";
   frasesControls.style.display="none";
@@ -272,22 +284,47 @@ if(aiaActionsNext){
     frasesControls.style.display="flex";
     wrapperPlay.style.display="flex";
     wrapperRandom.style.display="flex";
-    falarAia("Escolha um nível e um assunto.    No botão Play você irá escutar frases em sequência.");
+    falarAia("Modo Frases. Apenas escute.");
     carregarFrases();
+
     if(minhasFrasesSection){
-  minhasFrasesSection.style.display="block";
-}
+      minhasFrasesSection.style.display="block";
+    }
+
     document.body.classList.add("modo-frases-layout");
 
-// === move botões para baixo do AIA no modo frases ===
-aiaRow.insertAdjacentElement("afterend", aiaActions);
+    // === move botões para baixo do AIA no modo frases ===
+    aiaRow.insertAdjacentElement("afterend", aiaActions);
 
-    // === NOVO ===
     wrapperExcluir.style.display="flex";
-    // === FIM NOVO ===
+  }
+
+  if(m==="conversar"){
+    btnConversar.classList.add("active");
+
+    wrapperFalar.style.display = "flex";
+    wrapperPlay.style.display = "none";
+    wrapperRandom.style.display = "none";
+    wrapperSalvar.style.display = "none";
+    wrapperExcluir.style.display = "none";
+    wrapperAssistente.style.display = "none";
+
+    frasesControls.style.display = "none";
+    statusBox.style.display = "none";
+    progressWrap.style.display = "none";
+    correctionArea.style.display = "block";
+
+    falarAia("Modo Conversar. Eu vou fazer uma pergunta e você responde.");
+    faladoEl.textContent = "";
+    traducaoEl.textContent = "";
+    feedbackEl.textContent = "Em breve: conversa por nível e assunto.";
+    iniciarConversa();
+    
+    // troca títulos para modo conversa
+sectionTitles[0].textContent = "Pergunta";
+labelIdioma.textContent = "Resposta";
   }
 }
-
 /* ========= BOTÕES ========= */
 let recognitionAtual = null;
 let gravando = false;
@@ -305,8 +342,12 @@ function iniciarGravacao(){
   let lang;
 
 if(modoAtual === "aprendiz" && aprendiz.etapa !== "pt"){
-  lang = getLangCode(); // usa en ou fr
-}else{
+  lang = getLangCode();
+}
+else if(modoAtual === "conversar"){
+  lang = getLangCode(); // 👈 ESSENCIAL
+}
+else{
   lang = "pt-BR";
 }
 
@@ -333,6 +374,64 @@ if(modoAtual === "aprendiz" && aprendiz.etapa !== "pt"){
 
     if(!textoFinal) return;
 
+// ===== CONVERSAR =====
+if(modoAtual === "conversar"){
+
+  traducaoEl.textContent = textoFinal;
+
+  if(!perguntaAtual){
+    falarAia("Erro na pergunta.");
+    return;
+  }
+
+  const texto = textoFinal.toLowerCase();
+
+  // 🔥 pega respostas do JSON
+  const respostasValidas = perguntaAtual.respostasAceitas[idiomaAtual] 
+    || perguntaAtual.respostasAceitas.en;
+
+  const acertou = respostasValidas.some(r => texto.includes(r));
+
+if(acertou){
+
+  perguntasDesdeErro++;
+
+  perguntasErradas = perguntasErradas.filter(id => id !== perguntaAtual.id);
+
+  feedbackEl.textContent = "✅ Boa! Resposta correta.";
+  falarAia("Muito bem!");
+
+  // 🔥 NOVO: próxima pergunta automática
+  setTimeout(()=>{
+    iniciarConversa();
+  }, 1500);
+
+}else{
+
+  const exemplo = respostasValidas[0];
+
+  feedbackEl.innerHTML = `
+    ❌ Quase!<br><br>
+
+    Sua resposta:<br>
+    <span style="color:#ef4444">${textoFinal}</span><br><br>
+
+    Melhor forma:<br>
+    <strong>${exemplo}...</strong><br><br>
+
+    🔊 Toque em <strong>Pronúncia</strong> para ouvir e repetir
+  `;
+
+  // 🔥 ESSA LINHA ESTAVA FALTANDO
+  if(perguntaAtual && !perguntasErradas.includes(perguntaAtual.id)){
+    perguntasErradas.push(perguntaAtual.id);
+  }
+
+  falarAia("Toque em pronúncia e repita.");
+
+  return;
+}
+}
     // ===== APRENDIZ =====
     if(modoAtual === "aprendiz"){
 
@@ -426,6 +525,13 @@ btnFalar.addEventListener("touchstart", iniciarGravacao);
 btnFalar.addEventListener("touchend", pararGravacao);
 
 btnPronuncia.onclick=()=>{
+if(modoAtual==="conversar" && perguntaAtual){
+
+  const exemplo = perguntaAtual.respostasAceitas[idiomaAtual]?.[0]
+    || perguntaAtual.respostasAceitas.en[0];
+
+  falar(exemplo, getLangCode());
+}
   if(modoAtual==="aprendiz"){
     const lang = getLangCode();
 falar(aprendiz.fraseAlvo, lang);
@@ -776,6 +882,8 @@ async function carregarFrases(){
     return;
   }
 
+frases = frases.filter(f => !f.tipo || f.tipo === "frase");
+
 frasesFiltradas = [...frases];
 indice = 0;
 tocar();
@@ -804,7 +912,7 @@ mostrarPalavras(traducao);
 
   const uPt = new SpeechSynthesisUtterance(f.pt);
   uPt.lang = "pt-BR";
-  uPt.rate = 1.0;
+  uPt.rate = 0.9;
 
   uPt.onend = ()=>{
 const textoTraduzido = f[idiomaAtual] || f.en;
@@ -828,13 +936,14 @@ function aplicarFiltros(){
   const nivel = document.getElementById("filtroNivel").value;
   const categoria = document.getElementById("filtroCategoria").value;
 
-  frasesFiltradas = frases.filter(f => {
+frasesFiltradas = frases.filter(f => {
 
-    const okNivel = !nivel || f.nivel === nivel;
-    const okCategoria = !categoria || f.categoria === categoria;
+  const okTipo = !f.tipo || f.tipo === "frase";
+  const okNivel = !nivel || f.nivel === nivel;
+  const okCategoria = !categoria || f.categoria === categoria;
 
-    return okNivel && okCategoria;
-  });
+  return okTipo && okNivel && okCategoria;
+});
 
   indice = 0;
 
@@ -1053,6 +1162,67 @@ function mostrarBalao(span,traducao){
     balao.remove();
   },2000);
 
+}
+/* ========= CONVERSA ========= */
+async function iniciarConversa(){
+
+  let banco = [];
+
+  try{
+    const r = await fetch("/frases.json");
+    banco = await r.json();
+  }catch(e){
+    falarAia("Erro ao carregar perguntas.");
+    return;
+  }
+
+const nivel = document.getElementById("filtroNivel").value;
+const categoria = document.getElementById("filtroCategoria").value;
+
+let perguntas = banco.filter(f => {
+
+  const okTipo = f.tipo === "conversa";
+  const okNivel = !nivel || f.nivel === nivel;
+  const okCategoria = !categoria || f.categoria === categoria;
+
+  return okTipo && okNivel && okCategoria;
+});
+
+if(perguntas.length === 0){
+  falarAia("Nenhuma pergunta disponível.");
+  return;
+}
+
+// 🔥 remove perguntas já usadas
+let pool = perguntas.filter(p => !perguntasUsadas.includes(p.id));
+
+// 🔁 se acabou todas → reset
+if(pool.length === 0){
+  perguntasUsadas = [];
+  pool = perguntas;
+}
+
+const erradasDisponiveis = perguntas.filter(p => perguntasErradas.includes(p.id));
+
+if(erradasDisponiveis.length > 0 && perguntasDesdeErro >= 2){
+  pool = erradasDisponiveis;
+  perguntasDesdeErro = 0;
+}
+
+// 🎯 sorteia
+perguntaAtual = pool[Math.floor(Math.random() * pool.length)];
+
+// marca como usada
+perguntasUsadas.push(perguntaAtual.id);
+
+  const texto = perguntaAtual.pergunta[idiomaAtual] || perguntaAtual.pergunta.en;
+
+  falarAia("Responda:");
+  faladoEl.textContent = texto;
+  traducaoEl.textContent = "";
+  feedbackEl.textContent = "";
+
+  falar(texto, getLangCode());
 }
 /* ========= INIT ========= */
 ativar("aprendiz");
