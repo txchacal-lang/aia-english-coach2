@@ -11,6 +11,7 @@ const PORT = 3000;
 // 🔥 COLE SUA CHAVE AQUI
 const API_KEY = process.env.GOOGLE_API_KEY;
 
+console.log("API KEY EXISTE?", API_KEY ? "SIM" : "NÃO");
 /* =========================
    TRADUÇÃO DE FRASES
 ========================= */
