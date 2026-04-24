@@ -804,7 +804,7 @@ mostrarPalavras(traducao);
 
   const uPt = new SpeechSynthesisUtterance(f.pt);
   uPt.lang = "pt-BR";
-  uPt.rate = 1.2;
+  uPt.rate = 1.0;
 
   uPt.onend = ()=>{
 const textoTraduzido = f[idiomaAtual] || f.en;
