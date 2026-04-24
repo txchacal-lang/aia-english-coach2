@@ -272,7 +272,7 @@ if(aiaActionsNext){
     frasesControls.style.display="flex";
     wrapperPlay.style.display="flex";
     wrapperRandom.style.display="flex";
-    falarAia("Modo Frases. Apenas escute.");
+    falarAia("Escolha um nível e um assunto. Aperte Próxima ou anterior. No botão Play você irá escutar frases em sequência.");
     carregarFrases();
     if(minhasFrasesSection){
   minhasFrasesSection.style.display="block";
