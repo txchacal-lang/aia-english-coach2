@@ -923,7 +923,7 @@ uPt.onend = ()=>{
     // 🔊 1ª fala (normal)
     const uLang1 = new SpeechSynthesisUtterance(textoTraduzido);
     uLang1.lang = getLangCode();
-    uLang1.rate = 0.7;
+    uLang1.rate = 0.6;
 
     uLang1.onend = ()=>{
 
