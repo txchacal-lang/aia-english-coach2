@@ -284,7 +284,7 @@ if(aiaActionsNext){
     frasesControls.style.display="flex";
     wrapperPlay.style.display="flex";
     wrapperRandom.style.display="flex";
-    falarAia("Modo Frases. Apenas escute.");
+    falarAia("Aperte PLAY e escute as frases.");
     carregarFrases();
 
     if(minhasFrasesSection){
