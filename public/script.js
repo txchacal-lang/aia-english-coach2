@@ -912,22 +912,48 @@ mostrarPalavras(traducao);
 
   const uPt = new SpeechSynthesisUtterance(f.pt);
   uPt.lang = "pt-BR";
-  uPt.rate = 0.9;
+  uPt.rate = 1.2;
 
-  uPt.onend = ()=>{
-const textoTraduzido = f[idiomaAtual] || f.en;
+uPt.onend = ()=>{
 
-const uLang = new SpeechSynthesisUtterance(textoTraduzido);
-uLang.lang = getLangCode();
-uLang.rate = 0.7;
+  setTimeout(()=>{
 
-uLang.onend = ()=>{
-  if(autoplay) proxima();
+    const textoTraduzido = f[idiomaAtual] || f.en;
+
+    // 🔊 1ª fala (normal)
+    const uLang1 = new SpeechSynthesisUtterance(textoTraduzido);
+    uLang1.lang = getLangCode();
+    uLang1.rate = 0.7;
+
+    uLang1.onend = ()=>{
+
+      // 🔊 2ª fala (mais lenta)
+      setTimeout(()=>{
+
+        const uLang2 = new SpeechSynthesisUtterance(textoTraduzido);
+        uLang2.lang = getLangCode();
+        uLang2.rate = 0.45;
+
+        uLang2.onend = ()=>{
+
+          // ⏱️ pausa maior antes da próxima
+          if(autoplay){
+            setTimeout(()=>{
+              proxima();
+            }, 1800);
+          }
+
+        };
+
+        speechSynthesis.speak(uLang2);
+
+      }, 500); // pequena pausa entre repetições
+    };
+
+    speechSynthesis.speak(uLang1);
+
+  }, 600); // pausa após português
 };
-
-speechSynthesis.speak(uLang);
-  };
-
   speechSynthesis.speak(uPt);
 }
 
