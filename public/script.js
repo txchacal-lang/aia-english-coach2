@@ -932,7 +932,7 @@ uPt.onend = ()=>{
 
         const uLang2 = new SpeechSynthesisUtterance(textoTraduzido);
         uLang2.lang = getLangCode();
-        uLang2.rate = 0.45;
+        uLang2.rate = 0.35;
 
         uLang2.onend = ()=>{
 
@@ -952,7 +952,7 @@ uPt.onend = ()=>{
 
     speechSynthesis.speak(uLang1);
 
-  }, 600); // pausa após português
+  }, 550); // pausa após português
 };
   speechSynthesis.speak(uPt);
 }
