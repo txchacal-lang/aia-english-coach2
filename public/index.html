@@ -1,172 +1,246 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<title>AiA Language Coach</title>
-<link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>AiA Language Coach</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="app">
+<!-- TELA IDIOMA -->
+<div id="telaIdioma" class="tela tela-idioma">
+
+  <div class="home-header">
+    <h1>  </h1>
+    <p>   </p>
+  </div>
+
+  <div class="home-image-wrap">
+
+    <img 
+      src="img/aia-mascote.png" 
+      class="mascote-img" 
+      alt="Mascote AiA"
+    >
+
+    <div class="idioma-botoes">
+      <button class="btn-idioma" id="escolherEN">Inglês</button>
+      <button class="btn-idioma" id="escolherFR">Francês</button>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- TELA MODOS -->
+<div id="telaModos" class="tela tela-modos" style="display:none;">
+
+  <button id="btnVoltarModos" class="btn-voltar">⬅</button>
+
+  <h2 class="titulo-modos">O que vamos fazer agora?</h2>
+<div class="modos-grid">
+
+  <button class="modo-btn" id="modoTradutor">
+    <span class="modo-icon"></span>
+    <span>Traduzir</span>
+  </button>
+
+  <button class="modo-btn" id="modoFrases">
+    <span class="modo-icon"></span>
+    <span>Estudar</span>
+  </button>
+
+  <button class="modo-btn" id="modoAprendiz">
+    <span class="modo-icon"></span>
+    <span>Praticar</span>
+  </button>
+
+  <button class="modo-btn" id="modoConversar">
+    <span class="modo-icon"></span>
+    <span>Conversar</span>
+  </button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- TELA APP -->
+<div id="telaApp" class="app" style="display:none;">
+
+  <button id="btnVoltarApp" class="btn-voltar">⬅</button>
+  <div id="tituloModo" class="titulo-modo-app"></div>
 
 <header class="top">
-  <h1 class="app-title">AiA Language Coach</h1>
-  <span class="tagline">Fale, pratique e evolua</span>
+  <h1 class="app-title">   </h1>
 </header>
 
-<!-- 👇 COLOCA AQUI -->
-<div class="language-selector">
-  <button id="btnEN">🇺🇸 EN</button>
-  <button id="btnFR">🇫🇷 FR</button>
-</div>
+  <div class="language-selector" style="display:none;">
+    <button id="btnEN">🇺🇸 EN</button>
+    <button id="btnFR">🇫🇷 FR</button>
+  </div>
 
-<div class="mode-row">
-<button id="btnTradutor" class="btn-mode active">🌍 Traduzir</button>
-<button id="btnFrases" class="btn-mode">📘 Estudar</button>
-<button id="btnAprendiz" class="btn-mode">🎤 Praticar</button>
-<button id="btnConversar" class="btn-mode">💬 Conversar</button>
-</div>
+  <div class="mode-row" style="display:none;">
+    <button id="btnTradutor" class="btn-mode active">🌍 Traduzir</button>
+    <button id="btnFrases" class="btn-mode">📘 Estudar</button>
+    <button id="btnAprendiz" class="btn-mode">🎤 Praticar</button>
+    <button id="btnConversar" class="btn-mode">💬 Conversar</button>
+  </div>
 
-<div class="aia-row">
+<div id="controlesConversa" style="display:none;">
 
-<div class="aia-avatar">
-<div class="aia-robot">
-<div class="aia-visor">
-<div class="eyes"><span></span><span></span></div>
-<div class="mouth"></div>
-</div>
-</div>
-<span class="robot-name">AiA</span>
-</div>
-
-<div class="aia-center">
-<div id="aiaMsg" class="speech-bubble bordered">
-Aperte Falar e diga uma frase em português.
-</div>
-</div>
-
-<div class="aia-actions">
-
-<div class="btn-wrapper" id="wrapperFalar">
-<span class="btn-text top">Falar</span>
-<button id="btnFalar" class="btn-mini talk">🎤</button>
-</div>
-
-<div class="btn-wrapper" id="wrapperPlay">
-<span class="btn-text top">Play</span>
-<button id="btnPlay" class="btn-mini play">▶️</button>
-</div>
-
-<div class="btn-wrapper" id="wrapperRandom">
-<button id="btnRandom" class="btn-mini listen">🔀</button>
-<span class="btn-text bottom">Aleatório</span>
-</div>
-
-<div class="btn-wrapper">
-<button id="btnPronuncia" class="btn-mini listen">🔊</button>
-<span class="btn-text bottom">Pronúncia</span>
-</div>
-
-<!-- 🔽 BOTÃO SALVAR (TRADUTOR) -->
-<div class="btn-wrapper" id="wrapperSalvar">
-<button id="btnSalvar" class="btn-mini play">💾</button>
-<span class="btn-text bottom">Salvar</span>
-</div>
-
-<div class="btn-wrapper" id="wrapperAssistente">
-  <button id="btnAssistente" class="btn-mini talk">🤖</button>
-  <span class="btn-text bottom">Assistente</span>
-</div>
-
-<!-- 🔽 BOTÃO EXCLUIR (FRASES) -->
-<div class="btn-wrapper" id="wrapperExcluir">
-<button id="btnExcluir" class="btn-mini listen">🗑️</button>
-<span class="btn-text bottom">Excluir</span>
-</div>
-
-</div>
-</div>
-
-<div class="section">
-<span class="section-title">Português</span>
-<div class="card bubble bordered blue">
-<div id="falado" class="content"></div>
-</div>
-</div>
-
-<div class="section">
-<span class="section-title" id="labelIdioma">Inglês</span>
-<div class="card bubble bordered green">
-<div id="traducao" class="content"></div>
-</div>
-</div>
-
-<div class="section correction-area">
-<span class="section-title">Correção</span>
-<div class="card bubble bordered purple">
-<div id="feedback" class="content text-correction"></div>
-</div>
-</div>
-
-<div class="status" id="statusBox">
-<div>Nota: <strong id="nota">-</strong></div>
-<div>Média: <strong id="mediaSessao">-</strong></div>
-</div>
-
-<button id="btnProxima" class="btn-next">➡ Próxima frase</button>
-
-<div class="frases-controls">
-<button id="btnAnterior" class="btn-next">⬅ Anterior</button>
-<button id="btnProximaFrase" class="btn-next">➡ Próxima</button>
-</div>
-
-<div class="filtros-frases">
-  <select id="filtroNivel">
-    <option value="">Todos níveis</option>
-    <option value="iniciante">Iniciante</option>
-    <option value="intermediario">Intermediário</option>
-    <option value="avancado">Avançado</option>
-    <option value="fluente">Fluente</option>
+  <select id="seletorConversa" class="seletor-conversa">
+    <option value="responder">Responder</option>
+    <option value="perguntar">Perguntar</option>
+    <option value="conversar" disabled>Conversar com IA</option>
   </select>
 
-<select id="filtroCategoria">
-  <option value="">Todos assuntos</option>
-  <option value="cumprimentos">Cumprimentos</option>
-  <option value="cotidiano">Cotidiano</option>
-  <option value="viagem">Viagem</option>
-  <option value="hotel">Hotel</option>
-  <option value="restaurante">Restaurante</option>
-  <option value="trabalho">Trabalho</option>
-  <option value="compras">Compras</option>
-  <option value="saude">Saúde</option>
-  <option value="relacionamento">Relacionamento</option>
-  <option value="emergencia">Emergência</option>
-</select>
 </div>
 
-<div class="progress-wrap" id="progressWrap">
-<div class="progress-bar" id="progressBar"></div>
+  <div class="aia-row">
+
+    <div class="aia-avatar">
+      <div class="aia-robot">
+        <div class="aia-visor">
+          <div class="eyes"><span></span><span></span></div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+      <span class="robot-name">AiA</span>
+    </div>
+
+    <div class="aia-center">
+      <div id="aiaMsg" class="speech-bubble bordered">
+        Aperte Falar e diga uma frase em português.
+      </div>
+    </div>
+
+    <div class="aia-actions">
+
+      <div class="btn-wrapper" id="wrapperFalar">
+        <span class="btn-text top">Falar</span>
+        <button id="btnFalar" class="btn-mini talk">🎤</button>
+      </div>
+
+      <div class="btn-wrapper" id="wrapperPlay">
+        <span class="btn-text top">Play</span>
+        <button id="btnPlay" class="btn-mini play">▶️</button>
+      </div>
+
+      <div class="btn-wrapper" id="wrapperRandom">
+        <button id="btnRandom" class="btn-mini listen">🔀</button>
+        <span class="btn-text bottom">Aleatório</span>
+      </div>
+
+<div class="btn-wrapper" id="wrapperOuvirPergunta">
+  <button id="btnOuvirPergunta" class="btn-mini listen">❓</button>
+  <span class="btn-text bottom">Pergunta</span>
 </div>
 
-<!-- CONTADOR FRASES SALVAS -->
-<div class="contador-frases" id="contadorFrases">
-📚 Frases salvas: 0
+<div class="btn-wrapper" id="wrapperOuvirResposta">
+  <button id="btnPronuncia" class="btn-mini listen">🔊</button>
+  <span class="btn-text bottom">Resposta</span>
 </div>
 
-<!-- LISTA MINHAS FRASES -->
-<!-- LISTA MINHAS FRASES -->
-<div class="section" id="minhasFrasesSection">
+      <div class="btn-wrapper" id="wrapperSalvar">
+        <button id="btnSalvar" class="btn-mini play">💾</button>
+        <span class="btn-text bottom">Salvar</span>
+      </div>
 
-<span class="section-title" id="toggleMinhasFrases" style="cursor:pointer;">
-📂 Minhas Frases ▸
-</span>
+      <div class="btn-wrapper" id="wrapperAssistente">
+        <button id="btnAssistente" class="btn-mini talk">🤖</button>
+        <span class="btn-text bottom">Assistente</span>
+      </div>
 
-<div class="card bubble bordered blue" id="boxMinhasFrases" style="display:none;">
-<div id="listaMinhasFrases" class="content"></div>
-</div>
+      <div class="btn-wrapper" id="wrapperExcluir">
+        <button id="btnExcluir" class="btn-mini listen">🗑️</button>
+        <span class="btn-text bottom">Excluir</span>
+      </div>
 
-</div>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <span class="section-title" id="tituloPerguntaResposta">Português</span>
+    <div class="card bubble bordered blue">
+      <div id="falado" class="content"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <span class="section-title" id="labelIdioma">Inglês</span>
+    <div class="card bubble bordered green">
+      <div id="traducao" class="content"></div>
+    </div>
+  </div>
+
+  <div class="section correction-area">
+    <span class="section-title" id="tituloCorrecao">Correção</span>
+    <div class="card bubble bordered purple">
+      <div id="feedback" class="content text-correction"></div>
+    </div>
+  </div>
+
+  <div class="status" id="statusBox">
+    <div>Nota: <strong id="nota">-</strong></div>
+    <div>Média: <strong id="mediaSessao">-</strong></div>
+  </div>
+
+  <button id="btnProxima" class="btn-next">➡ Próxima frase</button>
+
+  <div class="frases-controls">
+    <button id="btnAnterior" class="btn-next">⬅ Anterior</button>
+    <button id="btnProximaFrase" class="btn-next">➡ Próxima</button>
+  </div>
+
+  <div class="filtros-frases">
+    <select id="filtroNivel">
+      <option value="">Todos níveis</option>
+      <option value="iniciante">Iniciante</option>
+      <option value="intermediario">Intermediário</option>
+      <option value="avancado">Avançado</option>
+      <option value="fluente">Fluente</option>
+    </select>
+
+    <select id="filtroCategoria">
+      <option value="">Todos assuntos</option>
+      <option value="cumprimentos">Cumprimentos</option>
+      <option value="cotidiano">Cotidiano</option>
+      <option value="viagem">Viagem</option>
+      <option value="hotel">Hotel</option>
+      <option value="restaurante">Restaurante</option>
+      <option value="trabalho">Trabalho</option>
+      <option value="compras">Compras</option>
+      <option value="saude">Saúde</option>
+      <option value="relacionamento">Relacionamento</option>
+      <option value="emergencia">Emergência</option>
+    </select>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <div class="contador-frases" id="contadorFrases">
+    📚 Frases salvas: 0
+  </div>
+
+  <div class="section" id="minhasFrasesSection">
+
+    <span class="section-title" id="toggleMinhasFrases" style="cursor:pointer;">
+      📂 Minhas Frases ▸
+    </span>
+
+    <div class="card bubble bordered blue" id="boxMinhasFrases" style="display:none;">
+      <div id="listaMinhasFrases" class="content"></div>
+    </div>
+
+  </div>
 
 </div>
 
