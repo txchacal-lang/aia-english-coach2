@@ -17729,914 +17729,2506 @@
     "en": "You made it this far.",
     "fr": "Tu es arrivé jusqu'ici."
   },
-{
-  "id": 3001,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What is your name?",
-    "fr": "Comment tu t'appelles ?"
-  },
-  "respostasAceitas": {
-    "en": ["my name is", "i am", "i'm"],
-    "fr": ["je m'appelle", "je suis"]
-  }
-},
-{
-  "id": 3002,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How are you?",
-    "fr": "Comment ça va ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am fine", "i'm fine", "i'm good", "i am good"],
-    "fr": ["ça va", "je vais bien"]
-  }
-},
-{
-  "id": 3003,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Where are you from?",
-    "fr": "D'où viens-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am from", "i'm from"],
-    "fr": ["je viens de", "je suis de"]
-  }
-},
-{
-  "id": 3004,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How old are you?",
-    "fr": "Quel âge as-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am", "i'm"],
-    "fr": ["j'ai"]
-  }
-},
-{
-  "id": 3005,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Where do you live?",
-    "fr": "Où habites-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i live in"],
-    "fr": ["j'habite à"]
-  }
-},
-{
-  "id": 3006,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "Where is the bathroom?",
-    "fr": "Où sont les toilettes ?"
-  },
-  "respostasAceitas": {
-    "en": ["it is", "it's"],
-    "fr": ["c'est"]
-  }
-},
-{
-  "id": 3007,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What time is it?",
-    "fr": "Quelle heure est-il ?"
-  },
-  "respostasAceitas": {
-    "en": ["it is", "it's"],
-    "fr": ["il est"]
-  }
-},
-{
-  "id": 3008,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "restaurante",
-  "pergunta": {
-    "en": "Do you want coffee?",
-    "fr": "Tu veux du café ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "no", "i do", "i don't"],
-    "fr": ["oui", "non"]
-  }
-},
-{
-  "id": 3009,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Do you speak English?",
-    "fr": "Tu parles anglais ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "no", "i do", "i don't"],
-    "fr": ["oui", "non"]
-  }
-},
-{
-  "id": 3010,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What is this?",
-    "fr": "Qu'est-ce que c'est ?"
-  },
-  "respostasAceitas": {
-    "en": ["it is", "it's"],
-    "fr": ["c'est"]
-  }
-},
-{
-  "id": 3011,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What do you like?",
-    "fr": "Qu'est-ce que tu aimes ?"
-  },
-  "respostasAceitas": {
-    "en": ["i like", "i love"],
-    "fr": ["j'aime"]
-  }
-},
-{
-  "id": 3012,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Where are you going?",
-    "fr": "Où vas-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am going", "i'm going"],
-    "fr": ["je vais"]
-  }
-},
-{
-  "id": 3013,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What do you do?",
-    "fr": "Que fais-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i work", "i am", "i'm"],
-    "fr": ["je travaille", "je suis"]
-  }
-},
-{
-  "id": 3014,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "How much is this?",
-    "fr": "Combien ça coûte ?"
-  },
-  "respostasAceitas": {
-    "en": ["it is", "it's"],
-    "fr": ["c'est"]
-  }
-},
-{
-  "id": 3015,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Are you okay?",
-    "fr": "Ça va ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "no", "i am"],
-    "fr": ["oui", "non", "ça va"]
-  }
-},
-{
-  "id": 3016,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What is your job?",
-    "fr": "Quel est ton travail ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am", "i work"],
-    "fr": ["je suis"]
-  }
-},
-{
-  "id": 3017,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "Can you help me?",
-    "fr": "Peux-tu m'aider ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "of course"],
-    "fr": ["oui", "bien sûr"]
-  }
-},
-{
-  "id": 3018,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "restaurante",
-  "pergunta": {
-    "en": "Do you want water?",
-    "fr": "Tu veux de l'eau ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "no"],
-    "fr": ["oui", "non"]
-  }
-},
-{
-  "id": 3019,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What day is today?",
-    "fr": "Quel jour sommes-nous ?"
-  },
-  "respostasAceitas": {
-    "en": ["today is"],
-    "fr": ["aujourd'hui"]
-  }
-},
-{
-  "id": 3020,
-  "tipo": "conversa",
-  "nivel": "iniciante",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Where do you work?",
-    "fr": "Où travailles-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i work"],
-    "fr": ["je travaille"]
-  }
-},
-{
-  "id": 3021,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What did you do yesterday?",
-    "fr": "Qu'as-tu fait hier ?"
-  },
-  "respostasAceitas": {
-    "en": ["i went", "i worked", "i stayed", "i watched"],
-    "fr": ["je suis allé", "j'ai travaillé", "je suis resté"]
-  }
-},
-{
-  "id": 3022,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What are you doing now?",
-    "fr": "Que fais-tu maintenant ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am", "i'm"],
-    "fr": ["je suis en train de"]
-  }
-},
-{
-  "id": 3023,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What do you do for a living?",
-    "fr": "Que fais-tu dans la vie ?"
-  },
-  "respostasAceitas": {
-    "en": ["i work", "i am", "i'm"],
-    "fr": ["je travaille", "je suis"]
-  }
-},
-{
-  "id": 3024,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "Have you ever traveled abroad?",
-    "fr": "As-tu déjà voyagé à l'étranger ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes i have", "no i haven't"],
-    "fr": ["oui", "non"]
-  }
-},
-{
-  "id": 3025,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What are your plans for tomorrow?",
-    "fr": "Quels sont tes projets pour demain ?"
-  },
-  "respostasAceitas": {
-    "en": ["i will", "i am going"],
-    "fr": ["je vais"]
-  }
-},
-{
-  "id": 3026,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What do you usually do on weekends?",
-    "fr": "Que fais-tu habituellement le week-end ?"
-  },
-  "respostasAceitas": {
-    "en": ["i usually", "i normally"],
-    "fr": ["je fais", "je vais"]
-  }
-},
-{
-  "id": 3027,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "restaurante",
-  "pergunta": {
-    "en": "What would you like to eat?",
-    "fr": "Que voudrais-tu manger ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would like", "i want"],
-    "fr": ["je voudrais"]
-  }
-},
-{
-  "id": 3028,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "Where did you stay during your trip?",
-    "fr": "Où as-tu séjourné pendant ton voyage ?"
-  },
-  "respostasAceitas": {
-    "en": ["i stayed"],
-    "fr": ["je suis resté"]
-  }
-},
-{
-  "id": 3029,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What do you like to do in your free time?",
-    "fr": "Que fais-tu pendant ton temps libre ?"
-  },
-  "respostasAceitas": {
-    "en": ["i like", "i enjoy"],
-    "fr": ["j'aime"]
-  }
-},
-{
-  "id": 3030,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "Do you like your job?",
-    "fr": "Aimes-tu ton travail ?"
-  },
-  "respostasAceitas": {
-    "en": ["yes", "no", "i do", "i don't"],
-    "fr": ["oui", "non"]
-  }
-},
-{
-  "id": 3031,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What kind of music do you like?",
-    "fr": "Quel genre de musique aimes-tu ?"
-  },
-  "respostasAceitas": {
-    "en": ["i like", "i love", "i enjoy"],
-    "fr": ["j'aime"]
-  }
-},
-{
-  "id": 3032,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How often do you exercise?",
-    "fr": "À quelle fréquence fais-tu du sport ?"
-  },
-  "respostasAceitas": {
-    "en": ["i usually", "i often", "i sometimes", "i rarely"],
-    "fr": ["je fais", "je vais"]
-  }
-},
-{
-  "id": 3033,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "What is your favorite place to travel?",
-    "fr": "Quel est ton endroit préféré pour voyager ?"
-  },
-  "respostasAceitas": {
-    "en": ["my favorite", "i like", "i love"],
-    "fr": ["mon préféré", "j'aime"]
-  }
-},
-{
-  "id": 3034,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What time do you usually start work?",
-    "fr": "À quelle heure commences-tu habituellement le travail ?"
-  },
-  "respostasAceitas": {
-    "en": ["i start", "i usually start"],
-    "fr": ["je commence"]
-  }
-},
-{
-  "id": 3035,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "Do you prefer coffee or tea?",
-    "fr": "Préfères-tu le café ou le thé ?"
-  },
-  "respostasAceitas": {
-    "en": ["i prefer", "i like"],
-    "fr": ["je préfère"]
-  }
-},
-{
-  "id": 3036,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "restaurante",
-  "pergunta": {
-    "en": "What do you usually order at a restaurant?",
-    "fr": "Que commandes-tu habituellement au restaurant ?"
-  },
-  "respostasAceitas": {
-    "en": ["i usually order", "i order"],
-    "fr": ["je commande"]
-  }
-},
-{
-  "id": 3037,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How do you usually spend your evenings?",
-    "fr": "Comment passes-tu généralement tes soirées ?"
-  },
-  "respostasAceitas": {
-    "en": ["i usually", "i spend"],
-    "fr": ["je passe"]
-  }
-},
-{
-  "id": 3038,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "Do you work alone or in a team?",
-    "fr": "Travailles-tu seul ou en équipe ?"
-  },
-  "respostasAceitas": {
-    "en": ["i work", "i usually work"],
-    "fr": ["je travaille"]
-  }
-},
-{
-  "id": 3039,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "How do you usually travel?",
-    "fr": "Comment voyages-tu habituellement ?"
-  },
-  "respostasAceitas": {
-    "en": ["i travel", "i usually travel"],
-    "fr": ["je voyage"]
-  }
-},
-{
-  "id": 3040,
-  "tipo": "conversa",
-  "nivel": "intermediario",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What motivates you?",
-    "fr": "Qu'est-ce qui te motive ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am motivated", "i like", "i want"],
-    "fr": ["je suis motivé", "j'aime"]
-  }
-},
-{
-  "id": 3041,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What makes you happy?",
-    "fr": "Qu'est-ce qui te rend heureux ?"
-  },
-  "respostasAceitas": {
-    "en": ["i feel happy when", "i am happy when"],
-    "fr": ["je suis heureux quand"]
-  }
-},
-{
-  "id": 3042,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What are your goals for the future?",
-    "fr": "Quels sont tes objectifs pour l'avenir ?"
-  },
-  "respostasAceitas": {
-    "en": ["my goal is", "i want to", "i plan to"],
-    "fr": ["mon objectif est", "je veux"]
-  }
-},
-{
-  "id": 3043,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What challenges do you face at work?",
-    "fr": "Quels défis rencontres-tu au travail ?"
-  },
-  "respostasAceitas": {
-    "en": ["i face", "my challenge is"],
-    "fr": ["je rencontre", "mon défi est"]
-  }
-},
-{
-  "id": 3044,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How do you deal with stress?",
-    "fr": "Comment gères-tu le stress ?"
-  },
-  "respostasAceitas": {
-    "en": ["i deal with", "i usually"],
-    "fr": ["je gère", "je fais"]
-  }
-},
-{
-  "id": 3045,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What inspires you?",
-    "fr": "Qu'est-ce qui t'inspire ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am inspired by", "what inspires me"],
-    "fr": ["je suis inspiré par"]
-  }
-},
-{
-  "id": 3046,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "What do you usually look for when you travel?",
-    "fr": "Que recherches-tu lorsque tu voyages ?"
-  },
-  "respostasAceitas": {
-    "en": ["i look for", "i usually look for"],
-    "fr": ["je cherche"]
-  }
-},
-{
-  "id": 3047,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What is something you have learned recently?",
-    "fr": "Qu'as-tu appris récemment ?"
-  },
-  "respostasAceitas": {
-    "en": ["i learned", "i have learned"],
-    "fr": ["j'ai appris"]
-  }
-},
-{
-  "id": 3048,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What skills would you like to improve?",
-    "fr": "Quelles compétences voudrais-tu améliorer ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would like to improve", "i want to improve"],
-    "fr": ["je voudrais améliorer"]
-  }
-},
-{
-  "id": 3049,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How do you usually make decisions?",
-    "fr": "Comment prends-tu généralement des décisions ?"
-  },
-  "respostasAceitas": {
-    "en": ["i usually", "i decide"],
-    "fr": ["je décide"]
-  }
-},
-{
-  "id": 3050,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What would you do if you had more free time?",
-    "fr": "Que ferais-tu si tu avais plus de temps libre ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would", "i would like"],
-    "fr": ["je ferais"]
-  }
-},
-{
-  "id": 3051,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What kind of person do you want to become?",
-    "fr": "Quel genre de personne veux-tu devenir ?"
-  },
-  "respostasAceitas": {
-    "en": ["i want to be", "i would like to be"],
-    "fr": ["je veux être"]
-  }
-},
-{
-  "id": 3052,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "What has been your best travel experience?",
-    "fr": "Quelle a été ta meilleure expérience de voyage ?"
-  },
-  "respostasAceitas": {
-    "en": ["my best experience was", "it was"],
-    "fr": ["ma meilleure expérience était"]
-  }
-},
-{
-  "id": 3053,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "How do you stay productive?",
-    "fr": "Comment restes-tu productif ?"
-  },
-  "respostasAceitas": {
-    "en": ["i stay", "i try to"],
-    "fr": ["je reste", "j'essaie de"]
-  }
-},
-{
-  "id": 3054,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What does success mean to you?",
-    "fr": "Que signifie le succès pour toi ?"
-  },
-  "respostasAceitas": {
-    "en": ["success means", "for me"],
-    "fr": ["le succès signifie"]
-  }
-},
-{
-  "id": 3055,
-  "tipo": "conversa",
-  "nivel": "avancado",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What would you change about your daily routine?",
-    "fr": "Que changerais-tu dans ta routine quotidienne ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would change", "i would like to change"],
-    "fr": ["je changerais"]
-  }
-},
-{
-  "id": 3056,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How would you describe your personality?",
-    "fr": "Comment décrirais-tu ta personnalité ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would describe", "i am", "i consider myself"],
-    "fr": ["je me décrirais", "je suis"]
-  }
-},
-{
-  "id": 3057,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What has been one of the most important lessons in your life?",
-    "fr": "Quelle a été l'une des leçons les plus importantes de ta vie ?"
-  },
-  "respostasAceitas": {
-    "en": ["i have learned", "one lesson is"],
-    "fr": ["j'ai appris"]
-  }
-},
-{
-  "id": 3058,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "What do you value most in a job?",
-    "fr": "Qu'est-ce que tu apprécies le plus dans un travail ?"
-  },
-  "respostasAceitas": {
-    "en": ["i value", "what matters most"],
-    "fr": ["je valorise", "ce qui compte"]
-  }
-},
-{
-  "id": 3059,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "How do you define happiness?",
-    "fr": "Comment définis-tu le bonheur ?"
-  },
-  "respostasAceitas": {
-    "en": ["happiness is", "i think happiness"],
-    "fr": ["le bonheur est"]
-  }
-},
-{
-  "id": 3060,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What would you do if you could start over?",
-    "fr": "Que ferais-tu si tu pouvais recommencer ?"
-  },
-  "respostasAceitas": {
-    "en": ["i would", "i would probably"],
-    "fr": ["je ferais"]
-  }
-},
-{
-  "id": 3061,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What motivates you to keep going?",
-    "fr": "Qu'est-ce qui te motive à continuer ?"
-  },
-  "respostasAceitas": {
-    "en": ["what motivates me", "i am motivated by"],
-    "fr": ["ce qui me motive"]
-  }
-},
-{
-  "id": 3062,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "trabalho",
-  "pergunta": {
-    "en": "How do you handle difficult situations?",
-    "fr": "Comment gères-tu les situations difficiles ?"
-  },
-  "respostasAceitas": {
-    "en": ["i handle", "i try to"],
-    "fr": ["je gère", "j'essaie de"]
-  }
-},
-{
-  "id": 3063,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What kind of impact do you want to have on others?",
-    "fr": "Quel impact veux-tu avoir sur les autres ?"
-  },
-  "respostasAceitas": {
-    "en": ["i want to", "i would like to"],
-    "fr": ["je veux", "je voudrais"]
-  }
-},
-{
-  "id": 3064,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "viagem",
-  "pergunta": {
-    "en": "What does traveling mean to you?",
-    "fr": "Que signifie voyager pour toi ?"
-  },
-  "respostasAceitas": {
-    "en": ["traveling means", "for me"],
-    "fr": ["voyager signifie"]
-  }
-},
-{
-  "id": 3065,
-  "tipo": "conversa",
-  "nivel": "fluente",
-  "categoria": "cotidiano",
-  "pergunta": {
-    "en": "What are you most proud of in your life?",
-    "fr": "De quoi es-tu le plus fier dans ta vie ?"
-  },
-  "respostasAceitas": {
-    "en": ["i am proud of", "what i am proud of"],
-    "fr": ["je suis fier de"]
-  }
+
+  {
+    "tipo":"conversa",
+    "id":3001,
+    "nivel":"iniciante",
+    "categoria":"apresentacao",
+
+    "pergunta":{
+      "en":"What is your name?",
+      "fr":"Comment tu t'appelles ?"
+    },
+
+    "respostaModelo":{
+      "en":"My name is John.",
+      "fr":"Je m'appelle John."
+    },
+
+    "respostasAceitas":{
+      "en":["my name is","i am","i'm"],
+      "fr":["je m'appelle","mon nom est"]
+    },
+
+    "feedbackCorreto":{"pt":"Excelente resposta 👏"},
+    "feedbackErro":{"pt":"Boa tentativa. Tente usar 'My name is...'."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3002,
+    "nivel":"iniciante",
+    "categoria":"apresentacao",
+
+    "pergunta":{
+      "en":"How old are you?",
+      "fr":"Quel âge as-tu ?"
+    },
+
+    "respostaModelo":{
+      "en":"I am 25 years old.",
+      "fr":"J'ai 25 ans."
+    },
+
+    "respostasAceitas":{
+      "en":["i am","i'm","years old"],
+      "fr":["j'ai","ans"]
+    },
+
+    "feedbackCorreto":{"pt":"Muito bem 👏"},
+    "feedbackErro":{"pt":"Tente responder usando sua idade."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3003,
+    "nivel":"iniciante",
+    "categoria":"apresentacao",
+
+    "pergunta":{
+      "en":"Where are you from?",
+      "fr":"D'où viens-tu ?"
+    },
+
+    "respostaModelo":{
+      "en":"I am from Brazil.",
+      "fr":"Je viens du Brésil."
+    },
+
+    "respostasAceitas":{
+      "en":["i am from","i'm from"],
+      "fr":["je viens","je suis du"]
+    },
+
+    "feedbackCorreto":{"pt":"Ótimo 👏"},
+    "feedbackErro":{"pt":"Use 'I am from...'."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3004,
+    "nivel":"iniciante",
+    "categoria":"cotidiano",
+
+    "pergunta":{
+      "en":"How are you today?",
+      "fr":"Comment vas-tu aujourd'hui ?"
+    },
+
+    "respostaModelo":{
+      "en":"I am fine today.",
+      "fr":"Je vais bien aujourd'hui."
+    },
+
+    "respostasAceitas":{
+      "en":["i am","i'm","fine","good"],
+      "fr":["je vais","bien"]
+    },
+
+    "feedbackCorreto":{"pt":"Boa resposta 👏"},
+    "feedbackErro":{"pt":"Tente responder como você está hoje."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3005,
+    "nivel":"iniciante",
+    "categoria":"cotidiano",
+
+    "pergunta":{
+      "en":"What are you doing?",
+      "fr":"Qu'est-ce que tu fais ?"
+    },
+
+    "respostaModelo":{
+      "en":"I am studying English.",
+      "fr":"J'étudie l'anglais."
+    },
+
+    "respostasAceitas":{
+      "en":["i am","i'm","studying"],
+      "fr":["j'étudie","je suis en train"]
+    },
+
+    "feedbackCorreto":{"pt":"Muito bom 👏"},
+    "feedbackErro":{"pt":"Use 'I am...' para responder."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3006,
+    "nivel":"iniciante",
+    "categoria":"gostos",
+
+    "pergunta":{
+      "en":"Do you like music?",
+      "fr":"Aimes-tu la musique ?"
+    },
+
+    "respostaModelo":{
+      "en":"Yes, I like music.",
+      "fr":"Oui, j'aime la musique."
+    },
+
+    "respostasAceitas":{
+      "en":["yes","i like","no"],
+      "fr":["oui","j'aime","non"]
+    },
+
+    "feedbackCorreto":{"pt":"Excelente 👏"},
+    "feedbackErro":{"pt":"Tente responder usando 'Yes' ou 'No'."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3007,
+    "nivel":"iniciante",
+    "categoria":"gostos",
+
+    "pergunta":{
+      "en":"What is your favorite food?",
+      "fr":"Quel est ton plat préféré ?"
+    },
+
+    "respostaModelo":{
+      "en":"My favorite food is pizza.",
+      "fr":"Mon plat préféré est la pizza."
+    },
+
+    "respostasAceitas":{
+      "en":["my favorite","pizza","food"],
+      "fr":["mon plat préféré","pizza"]
+    },
+
+    "feedbackCorreto":{"pt":"Boa 👏"},
+    "feedbackErro":{"pt":"Fale sobre sua comida favorita."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3008,
+    "nivel":"iniciante",
+    "categoria":"cotidiano",
+
+    "pergunta":{
+      "en":"Are you tired?",
+      "fr":"Es-tu fatigué ?"
+    },
+
+    "respostaModelo":{
+      "en":"Yes, I am tired.",
+      "fr":"Oui, je suis fatigué."
+    },
+
+    "respostasAceitas":{
+      "en":["yes","no","i am","i'm"],
+      "fr":["oui","non","je suis"]
+    },
+
+    "feedbackCorreto":{"pt":"Muito bem 👏"},
+    "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3009,
+    "nivel":"iniciante",
+    "categoria":"rotina",
+
+    "pergunta":{
+      "en":"What time do you wake up?",
+      "fr":"À quelle heure te réveilles-tu ?"
+    },
+
+    "respostaModelo":{
+      "en":"I wake up at 7 a.m.",
+      "fr":"Je me réveille à 7 heures."
+    },
+
+    "respostasAceitas":{
+      "en":["i wake up","at"],
+      "fr":["je me réveille","à"]
+    },
+
+    "feedbackCorreto":{"pt":"Boa resposta 👏"},
+    "feedbackErro":{"pt":"Use 'I wake up at...'."}
+  },
+
+  {
+    "tipo":"conversa",
+    "id":3010,
+    "nivel":"iniciante",
+    "categoria":"rotina",
+
+    "pergunta":{
+      "en":"Do you work or study?",
+      "fr":"Travailles-tu ou étudies-tu ?"
+    },
+
+    "respostaModelo":{
+      "en":"I study English.",
+      "fr":"J'étudie l'anglais."
+    },
+
+    "respostasAceitas":{
+      "en":["i work","i study"],
+      "fr":["je travaille","j'étudie"]
+    },
+
+    "feedbackCorreto":{"pt":"Muito bom 👏"},
+    "feedbackErro":{"pt":"Tente responder usando 'I work' ou 'I study'."}
+  },
+
+{
+  "tipo":"conversa",
+  "id":3011,
+  "nivel":"iniciante",
+  "categoria":"familia",
+
+  "pergunta":{
+    "en":"Do you have brothers or sisters?",
+    "fr":"As-tu des frères ou des sœurs ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have one brother.",
+    "fr":"Oui, j'ai un frère."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","i have"],
+    "fr":["oui","non","j'ai"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'I have...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3012,
+  "nivel":"iniciante",
+  "categoria":"familia",
+
+  "pergunta":{
+    "en":"Do you live with your family?",
+    "fr":"Vis-tu avec ta famille ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I live with my family.",
+    "fr":"Oui, je vis avec ma famille."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","i live"],
+    "fr":["oui","non","je vis"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Use 'I live with...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3013,
+  "nivel":"iniciante",
+  "categoria":"gostos",
+
+  "pergunta":{
+    "en":"What is your favorite color?",
+    "fr":"Quelle est ta couleur préférée ?"
+  },
+
+  "respostaModelo":{
+    "en":"My favorite color is blue.",
+    "fr":"Ma couleur préférée est le bleu."
+  },
+
+  "respostasAceitas":{
+    "en":["my favorite color","blue","red","green"],
+    "fr":["ma couleur préférée","bleu","rouge","vert"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua cor favorita."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3014,
+  "nivel":"iniciante",
+  "categoria":"gostos",
+
+  "pergunta":{
+    "en":"Do you like coffee?",
+    "fr":"Aimes-tu le café ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I like coffee.",
+    "fr":"Oui, j'aime le café."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","i like"],
+    "fr":["oui","non","j'aime"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3015,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Do you like traveling?",
+    "fr":"Aimes-tu voyager ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I love traveling.",
+    "fr":"Oui, j'adore voyager."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","travel","traveling"],
+    "fr":["oui","non","voyager"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Tente responder usando 'I like...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3016,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What do you do at night?",
+    "fr":"Que fais-tu le soir ?"
+  },
+
+  "respostaModelo":{
+    "en":"I study and relax at night.",
+    "fr":"J'étudie et je me détends le soir."
+  },
+
+  "respostasAceitas":{
+    "en":["i study","i watch","i relax"],
+    "fr":["j'étudie","je regarde","je me détends"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua rotina da noite."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3017,
+  "nivel":"iniciante",
+  "categoria":"rotina",
+
+  "pergunta":{
+    "en":"What time do you sleep?",
+    "fr":"À quelle heure dors-tu ?"
+  },
+
+  "respostaModelo":{
+    "en":"I sleep at 11 p.m.",
+    "fr":"Je dors à 23 heures."
+  },
+
+  "respostasAceitas":{
+    "en":["i sleep","at"],
+    "fr":["je dors","à"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Use 'I sleep at...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3018,
+  "nivel":"iniciante",
+  "categoria":"emocao",
+
+  "pergunta":{
+    "en":"Are you happy today?",
+    "fr":"Es-tu heureux aujourd'hui ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I am happy today.",
+    "fr":"Oui, je suis heureux aujourd'hui."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","i am","i'm"],
+    "fr":["oui","non","je suis"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'I am...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3019,
+  "nivel":"iniciante",
+  "categoria":"emocao",
+
+  "pergunta":{
+    "en":"Are you nervous when speaking English?",
+    "fr":"Es-tu nerveux quand tu parles anglais ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, sometimes I am nervous.",
+    "fr":"Oui, parfois je suis nerveux."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","nervous"],
+    "fr":["oui","non","nerveux"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3020,
+  "nivel":"iniciante",
+  "categoria":"aprendizado",
+
+  "pergunta":{
+    "en":"Why are you learning English?",
+    "fr":"Pourquoi apprends-tu l'anglais ?"
+  },
+
+  "respostaModelo":{
+    "en":"I am learning English for work and travel.",
+    "fr":"J'apprends l'anglais pour le travail et les voyages."
+  },
+
+  "respostasAceitas":{
+    "en":["i am learning","for work","for travel"],
+    "fr":["j'apprends","travail","voyages"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre o motivo de aprender inglês."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3021,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What is your favorite hobby?",
+    "fr":"Quel est ton passe-temps préféré ?"
+  },
+
+  "respostaModelo":{
+    "en":"My favorite hobby is listening to music.",
+    "fr":"Mon passe-temps préféré est écouter de la musique."
+  },
+
+  "respostasAceitas":{
+    "en":["my favorite hobby","music","games","sports"],
+    "fr":["mon passe-temps préféré","musique","sport"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre seu hobby favorito."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3022,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What do you like to do on weekends?",
+    "fr":"Qu'aimes-tu faire le week-end ?"
+  },
+
+  "respostaModelo":{
+    "en":"I like to relax and watch movies.",
+    "fr":"J'aime me détendre et regarder des films."
+  },
+
+  "respostasAceitas":{
+    "en":["i like","watch","relax","play"],
+    "fr":["j'aime","regarder","jouer","me détendre"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre o que gosta de fazer no final de semana."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3023,
+  "nivel":"iniciante",
+  "categoria":"comida",
+
+  "pergunta":{
+    "en":"What do you usually eat for breakfast?",
+    "fr":"Que manges-tu habituellement au petit-déjeuner ?"
+  },
+
+  "respostaModelo":{
+    "en":"I usually eat bread and drink coffee.",
+    "fr":"Je mange habituellement du pain et je bois du café."
+  },
+
+  "respostasAceitas":{
+    "en":["i eat","coffee","bread","milk"],
+    "fr":["je mange","café","pain","lait"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre o que você come no café da manhã."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3024,
+  "nivel":"iniciante",
+  "categoria":"rotina",
+
+  "pergunta":{
+    "en":"Do you exercise?",
+    "fr":"Fais-tu de l'exercice ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I exercise three times a week.",
+    "fr":"Oui, je fais de l'exercice trois fois par semaine."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","exercise"],
+    "fr":["oui","non","exercice"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3025,
+  "nivel":"iniciante",
+  "categoria":"emocao",
+
+  "pergunta":{
+    "en":"What makes you happy?",
+    "fr":"Qu'est-ce qui te rend heureux ?"
+  },
+
+  "respostaModelo":{
+    "en":"My family makes me happy.",
+    "fr":"Ma famille me rend heureux."
+  },
+
+  "respostasAceitas":{
+    "en":["family","music","friends","happy"],
+    "fr":["famille","amis","heureux","musique"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre algo que te deixa feliz."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3026,
+  "nivel":"iniciante",
+  "categoria":"aprendizado",
+
+  "pergunta":{
+    "en":"Is English difficult for you?",
+    "fr":"L'anglais est-il difficile pour toi ?"
+  },
+
+  "respostaModelo":{
+    "en":"Sometimes English is difficult for me.",
+    "fr":"Parfois l'anglais est difficile pour moi."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","difficult","easy"],
+    "fr":["oui","non","difficile","facile"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda dizendo se é fácil ou difícil."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3027,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What is your favorite movie?",
+    "fr":"Quel est ton film préféré ?"
+  },
+
+  "respostaModelo":{
+    "en":"My favorite movie is Avatar.",
+    "fr":"Mon film préféré est Avatar."
+  },
+
+  "respostasAceitas":{
+    "en":["my favorite movie","movie","avatar"],
+    "fr":["mon film préféré","film"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa 👏"},
+  "feedbackErro":{"pt":"Fale sobre seu filme favorito."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3028,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Would you like to travel to another country?",
+    "fr":"Aimerais-tu voyager dans un autre pays ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I would like to visit Canada.",
+    "fr":"Oui, j'aimerais visiter le Canada."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","visit","travel"],
+    "fr":["oui","non","visiter","voyager"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre viajar para outro país."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3029,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you prefer mornings or nights?",
+    "fr":"Préfères-tu le matin ou la nuit ?"
+  },
+
+  "respostaModelo":{
+    "en":"I prefer mornings because I feel energized.",
+    "fr":"Je préfère le matin parce que je me sens énergique."
+  },
+
+  "respostasAceitas":{
+    "en":["morning","night","prefer"],
+    "fr":["matin","nuit","préfère"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Diga se prefere manhã ou noite."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3030,
+  "nivel":"iniciante",
+  "categoria":"aprendizado",
+
+  "pergunta":{
+    "en":"How often do you practice English?",
+    "fr":"À quelle fréquence pratiques-tu l'anglais ?"
+  },
+
+  "respostaModelo":{
+    "en":"I practice English every day.",
+    "fr":"Je pratique l'anglais tous les jours."
+  },
+
+  "respostasAceitas":{
+    "en":["every day","practice","english"],
+    "fr":["tous les jours","pratique","anglais"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre a frequência que você pratica inglês."}
+},
+
+
+{
+  "tipo":"conversa",
+  "id":3031,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What is your favorite season?",
+    "fr":"Quelle est ta saison préférée ?"
+  },
+
+  "respostaModelo":{
+    "en":"My favorite season is summer.",
+    "fr":"Ma saison préférée est l'été."
+  },
+
+  "respostasAceitas":{
+    "en":["summer","winter","spring","fall"],
+    "fr":["été","hiver","printemps","automne"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua estação favorita."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3032,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you like rainy days?",
+    "fr":"Aimes-tu les jours de pluie ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I like rainy days.",
+    "fr":"Oui, j'aime les jours de pluie."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","rainy"],
+    "fr":["oui","non","pluie"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3033,
+  "nivel":"iniciante",
+  "categoria":"gostos",
+
+  "pergunta":{
+    "en":"What kind of music do you like?",
+    "fr":"Quel genre de musique aimes-tu ?"
+  },
+
+  "respostaModelo":{
+    "en":"I like pop music.",
+    "fr":"J'aime la musique pop."
+  },
+
+  "respostasAceitas":{
+    "en":["music","pop","rock","jazz"],
+    "fr":["musique","pop","rock","jazz"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre o tipo de música que gosta."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3034,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you have pets?",
+    "fr":"As-tu des animaux de compagnie ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have a dog.",
+    "fr":"Oui, j'ai un chien."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","dog","cat","pet"],
+    "fr":["oui","non","chien","chat"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale se você tem animais de estimação."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3035,
+  "nivel":"iniciante",
+  "categoria":"comida",
+
+  "pergunta":{
+    "en":"What is your favorite drink?",
+    "fr":"Quelle est ta boisson préférée ?"
+  },
+
+  "respostaModelo":{
+    "en":"My favorite drink is coffee.",
+    "fr":"Ma boisson préférée est le café."
+  },
+
+  "respostasAceitas":{
+    "en":["coffee","juice","water","tea"],
+    "fr":["café","jus","eau","thé"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua bebida favorita."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3036,
+  "nivel":"iniciante",
+  "categoria":"rotina",
+
+  "pergunta":{
+    "en":"What do you usually do after work?",
+    "fr":"Que fais-tu habituellement après le travail ?"
+  },
+
+  "respostaModelo":{
+    "en":"I usually relax and watch TV.",
+    "fr":"Je me détends habituellement et je regarde la télévision."
+  },
+
+  "respostasAceitas":{
+    "en":["relax","watch","tv","study"],
+    "fr":["détends","télévision","étudie"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua rotina após o trabalho."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3037,
+  "nivel":"iniciante",
+  "categoria":"aprendizado",
+
+  "pergunta":{
+    "en":"Do you practice English every day?",
+    "fr":"Pratiques-tu l'anglais tous les jours ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I practice every day.",
+    "fr":"Oui, je pratique tous les jours."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","practice","every day"],
+    "fr":["oui","non","pratique","tous les jours"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3038,
+  "nivel":"iniciante",
+  "categoria":"emocao",
+
+  "pergunta":{
+    "en":"Are you excited to learn English?",
+    "fr":"Es-tu enthousiaste à l'idée d'apprendre l'anglais ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I am very excited.",
+    "fr":"Oui, je suis très enthousiaste."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","excited"],
+    "fr":["oui","non","enthousiaste"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Diga se está animado para aprender inglês."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3039,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"What country would you like to visit?",
+    "fr":"Quel pays aimerais-tu visiter ?"
+  },
+
+  "respostaModelo":{
+    "en":"I would like to visit France.",
+    "fr":"J'aimerais visiter la France."
+  },
+
+  "respostasAceitas":{
+    "en":["visit","france","canada","usa"],
+    "fr":["visiter","france","canada"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre um país que gostaria de visitar."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3040,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"What do you do in your free time?",
+    "fr":"Que fais-tu pendant ton temps libre ?"
+  },
+
+  "respostaModelo":{
+    "en":"I play games and listen to music.",
+    "fr":"Je joue à des jeux et j'écoute de la musique."
+  },
+
+  "respostasAceitas":{
+    "en":["play","music","games","watch"],
+    "fr":["joue","musique","jeux","regarde"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre o que faz no tempo livre."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3041,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"Good morning! How are you?",
+    "fr":"Bonjour ! Comment vas-tu ?"
+  },
+
+  "respostaModelo":{
+    "en":"I am great this morning.",
+    "fr":"Je vais très bien ce matin."
+  },
+
+  "respostasAceitas":{
+    "en":["i am","i'm","great","good","fine"],
+    "fr":["je vais","bien"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda como você está hoje."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3042,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"Nice to meet you.",
+    "fr":"Enchanté de te rencontrer."
+  },
+
+  "respostaModelo":{
+    "en":"Nice to meet you too.",
+    "fr":"Enchanté aussi."
+  },
+
+  "respostasAceitas":{
+    "en":["nice","too","meet"],
+    "fr":["enchanté","aussi"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Tente responder de forma educada."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3043,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Where is the airport?",
+    "fr":"Où est l'aéroport ?"
+  },
+
+  "respostaModelo":{
+    "en":"The airport is near here.",
+    "fr":"L'aéroport est près d'ici."
+  },
+
+  "respostasAceitas":{
+    "en":["airport","near","here"],
+    "fr":["aéroport","près"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre a localização do aeroporto."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3044,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"Do you have a reservation?",
+    "fr":"Avez-vous une réservation ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have a reservation.",
+    "fr":"Oui, j'ai une réservation."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","reservation","i have"],
+    "fr":["oui","réservation","j'ai"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3045,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"What room number are you in?",
+    "fr":"Dans quelle chambre êtes-vous ?"
+  },
+
+  "respostaModelo":{
+    "en":"I am in room 12.",
+    "fr":"Je suis dans la chambre 12."
+  },
+
+  "respostasAceitas":{
+    "en":["room","i am","12"],
+    "fr":["chambre","je suis"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale o número do quarto."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3046,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Would you like some water?",
+    "fr":"Voulez-vous de l'eau ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, please.",
+    "fr":"Oui, s'il vous plaît."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","please","no"],
+    "fr":["oui","non"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Responda educadamente."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3047,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"What would you like to eat?",
+    "fr":"Que voulez-vous manger ?"
+  },
+
+  "respostaModelo":{
+    "en":"I would like a hamburger.",
+    "fr":"Je voudrais un hamburger."
+  },
+
+  "respostasAceitas":{
+    "en":["i would like","pizza","hamburger","salad"],
+    "fr":["je voudrais","pizza","hamburger"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre o que gostaria de comer."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3048,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"How much is this shirt?",
+    "fr":"Combien coûte cette chemise ?"
+  },
+
+  "respostaModelo":{
+    "en":"It is twenty dollars.",
+    "fr":"Elle coûte vingt dollars."
+  },
+
+  "respostasAceitas":{
+    "en":["dollars","it is","twenty"],
+    "fr":["coûte","vingt"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale o preço do produto."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3049,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"Do you accept credit cards?",
+    "fr":"Acceptez-vous les cartes de crédit ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, we accept credit cards.",
+    "fr":"Oui, nous acceptons les cartes de crédit."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","credit","cards"],
+    "fr":["oui","cartes"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3050,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"What do you do for work?",
+    "fr":"Que faites-vous comme travail ?"
+  },
+
+  "respostaModelo":{
+    "en":"I work in a store.",
+    "fr":"Je travaille dans un magasin."
+  },
+
+  "respostasAceitas":{
+    "en":["i work","store","office","teacher"],
+    "fr":["je travaille","magasin","bureau"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre seu trabalho."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3051,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"Do you like your job?",
+    "fr":"Aimez-vous votre travail ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I like my job.",
+    "fr":"Oui, j'aime mon travail."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","job","like"],
+    "fr":["oui","non","travail"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3052,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Are you feeling sick?",
+    "fr":"Te sens-tu malade ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have a headache.",
+    "fr":"Oui, j'ai mal à la tête."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","headache","sick"],
+    "fr":["oui","non","mal"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale como está se sentindo."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3053,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Do you need medicine?",
+    "fr":"As-tu besoin de médicaments ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I need medicine.",
+    "fr":"Oui, j'ai besoin de médicaments."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","medicine","need"],
+    "fr":["oui","besoin","médicaments"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3054,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Are you married?",
+    "fr":"Es-tu marié ?"
+  },
+
+  "respostaModelo":{
+    "en":"No, I am single.",
+    "fr":"Non, je suis célibataire."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","single","married"],
+    "fr":["oui","non","célibataire"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda sobre seu relacionamento."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3055,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Do you have children?",
+    "fr":"As-tu des enfants ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have two children.",
+    "fr":"Oui, j'ai deux enfants."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","children","i have"],
+    "fr":["oui","non","enfants","j'ai"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'I have...'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3056,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Do you need help?",
+    "fr":"As-tu besoin d'aide ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, please help me.",
+    "fr":"Oui, aide-moi s'il te plaît."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","help","please"],
+    "fr":["oui","aide"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3057,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Can you call the police?",
+    "fr":"Pouvez-vous appeler la police ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I can call the police.",
+    "fr":"Oui, je peux appeler la police."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","call","police"],
+    "fr":["oui","police","appeler"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda sobre chamar a polícia."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3058,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Do you need a taxi?",
+    "fr":"As-tu besoin d'un taxi ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I need a taxi.",
+    "fr":"Oui, j'ai besoin d'un taxi."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","taxi","need"],
+    "fr":["oui","taxi","besoin"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3059,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Is the food good?",
+    "fr":"La nourriture est-elle bonne ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, the food is delicious.",
+    "fr":"Oui, la nourriture est délicieuse."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","food","delicious"],
+    "fr":["oui","délicieuse"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre a comida."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3060,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"What color do you want?",
+    "fr":"Quelle couleur voulez-vous ?"
+  },
+
+  "respostaModelo":{
+    "en":"I want the blue one.",
+    "fr":"Je veux le bleu."
+  },
+
+  "respostasAceitas":{
+    "en":["blue","red","green","want"],
+    "fr":["bleu","rouge","vert","veux"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre a cor que deseja."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3061,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"How was your day?",
+    "fr":"Comment était ta journée ?"
+  },
+
+  "respostaModelo":{
+    "en":"My day was very good.",
+    "fr":"Ma journée était très bonne."
+  },
+
+  "respostasAceitas":{
+    "en":["good","great","bad","day"],
+    "fr":["bonne","mauvaise","journée"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre como foi seu dia."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3062,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"Are you busy right now?",
+    "fr":"Es-tu occupé maintenant ?"
+  },
+
+  "respostaModelo":{
+    "en":"No, I am free now.",
+    "fr":"Non, je suis libre maintenant."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","busy","free"],
+    "fr":["oui","non","libre","occupé"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3063,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Where are you traveling to?",
+    "fr":"Où voyages-tu ?"
+  },
+
+  "respostaModelo":{
+    "en":"I am traveling to Canada.",
+    "fr":"Je voyage au Canada."
+  },
+
+  "respostasAceitas":{
+    "en":["traveling","canada","usa","france"],
+    "fr":["voyage","canada","france"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre para onde está viajando."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3064,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Is this your first trip?",
+    "fr":"Est-ce ton premier voyage ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, this is my first trip.",
+    "fr":"Oui, c'est mon premier voyage."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","first","trip"],
+    "fr":["oui","non","premier","voyage"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3065,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"Is breakfast included?",
+    "fr":"Le petit-déjeuner est-il inclus ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, breakfast is included.",
+    "fr":"Oui, le petit-déjeuner est inclus."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","breakfast","included"],
+    "fr":["oui","non","petit-déjeuner"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre o café da manhã."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3066,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"Do you need another towel?",
+    "fr":"Avez-vous besoin d'une autre serviette ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I need another towel.",
+    "fr":"Oui, j'ai besoin d'une autre serviette."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","towel","need"],
+    "fr":["oui","non","serviette"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3067,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Would you like dessert?",
+    "fr":"Voulez-vous un dessert ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I would like cake.",
+    "fr":"Oui, je voudrais du gâteau."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","cake","dessert","ice cream"],
+    "fr":["oui","gâteau","dessert"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre a sobremesa."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3068,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Do you want coffee or tea?",
+    "fr":"Voulez-vous du café ou du thé ?"
+  },
+
+  "respostaModelo":{
+    "en":"I want coffee, please.",
+    "fr":"Je veux du café, s'il vous plaît."
+  },
+
+  "respostasAceitas":{
+    "en":["coffee","tea","want"],
+    "fr":["café","thé","veux"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Escolha café ou chá."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3069,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"Do you need a bag?",
+    "fr":"Avez-vous besoin d'un sac ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I need a bag.",
+    "fr":"Oui, j'ai besoin d'un sac."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","bag","need"],
+    "fr":["oui","non","sac"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3070,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"What size do you wear?",
+    "fr":"Quelle taille portes-tu ?"
+  },
+
+  "respostaModelo":{
+    "en":"I wear medium size.",
+    "fr":"Je porte du moyen."
+  },
+
+  "respostasAceitas":{
+    "en":["small","medium","large","wear"],
+    "fr":["petit","moyen","grand"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre o tamanho da roupa."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3071,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"What time do you start work?",
+    "fr":"À quelle heure commences-tu le travail ?"
+  },
+
+  "respostaModelo":{
+    "en":"I start work at 8 a.m.",
+    "fr":"Je commence le travail à 8 heures."
+  },
+
+  "respostasAceitas":{
+    "en":["start","work","8","at"],
+    "fr":["commence","travail","8"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale o horário do trabalho."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3072,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"Do you work on weekends?",
+    "fr":"Travailles-tu le week-end ?"
+  },
+
+  "respostaModelo":{
+    "en":"No, I rest on weekends.",
+    "fr":"Non, je me repose le week-end."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","work","rest"],
+    "fr":["oui","non","repose"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda sobre trabalhar no fim de semana."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3073,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Do you have a fever?",
+    "fr":"As-tu de la fièvre ?"
+  },
+
+  "respostaModelo":{
+    "en":"No, I do not have a fever.",
+    "fr":"Non, je n'ai pas de fièvre."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","fever"],
+    "fr":["oui","non","fièvre"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3074,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Are you feeling better now?",
+    "fr":"Te sens-tu mieux maintenant ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I feel much better.",
+    "fr":"Oui, je me sens beaucoup mieux."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","better","feel"],
+    "fr":["oui","mieux","sens"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale como você está se sentindo."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3075,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Do you have a boyfriend or girlfriend?",
+    "fr":"As-tu un petit ami ou une petite amie ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I have a girlfriend.",
+    "fr":"Oui, j'ai une petite amie."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","boyfriend","girlfriend"],
+    "fr":["oui","non","petite amie","petit ami"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre seu relacionamento."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3076,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Do you spend time with your family?",
+    "fr":"Passes-tu du temps avec ta famille ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I spend time with my family.",
+    "fr":"Oui, je passe du temps avec ma famille."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","family","time"],
+    "fr":["oui","famille","temps"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre sua família."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3077,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Can you help me, please?",
+    "fr":"Pouvez-vous m'aider, s'il vous plaît ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I can help you.",
+    "fr":"Oui, je peux vous aider."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","help","can"],
+    "fr":["oui","aider","peux"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda sobre ajudar alguém."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3078,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Where is the hospital?",
+    "fr":"Où est l'hôpital ?"
+  },
+
+  "respostaModelo":{
+    "en":"The hospital is nearby.",
+    "fr":"L'hôpital est proche."
+  },
+
+  "respostasAceitas":{
+    "en":["hospital","nearby","near"],
+    "fr":["hôpital","proche"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre o hospital."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3079,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you watch TV at night?",
+    "fr":"Regardes-tu la télévision le soir ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I watch TV every night.",
+    "fr":"Oui, je regarde la télévision tous les soirs."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","watch","tv","night"],
+    "fr":["oui","regarde","télévision"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre assistir televisão."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3080,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you cook at home?",
+    "fr":"Cuisines-tu à la maison ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I cook every day.",
+    "fr":"Oui, je cuisine tous les jours."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","cook","every day"],
+    "fr":["oui","cuisine","jours"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre cozinhar em casa."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3081,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"Did you sleep well?",
+    "fr":"As-tu bien dormi ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I slept very well.",
+    "fr":"Oui, j'ai très bien dormi."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","sleep","slept"],
+    "fr":["oui","non","dormi"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre como dormiu."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3082,
+  "nivel":"iniciante",
+  "categoria":"cumprimentos",
+
+  "pergunta":{
+    "en":"Are you ready?",
+    "fr":"Es-tu prêt ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I am ready.",
+    "fr":"Oui, je suis prêt."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","ready"],
+    "fr":["oui","non","prêt"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Responda usando 'Yes' ou 'No'."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3083,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Do you travel by plane?",
+    "fr":"Voyages-tu en avion ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I travel by plane.",
+    "fr":"Oui, je voyage en avion."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","plane","travel"],
+    "fr":["oui","avion","voyage"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre viajar de avião."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3084,
+  "nivel":"iniciante",
+  "categoria":"viagem",
+
+  "pergunta":{
+    "en":"Do you like road trips?",
+    "fr":"Aimes-tu les voyages en voiture ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I like road trips.",
+    "fr":"Oui, j'aime les voyages en voiture."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","road","trip","like"],
+    "fr":["oui","voyage","voiture"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre viagens de carro."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3085,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"Is the room clean?",
+    "fr":"La chambre est-elle propre ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, the room is clean.",
+    "fr":"Oui, la chambre est propre."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","room","clean"],
+    "fr":["oui","chambre","propre"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre o quarto."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3086,
+  "nivel":"iniciante",
+  "categoria":"hotel",
+
+  "pergunta":{
+    "en":"Do you need Wi-Fi?",
+    "fr":"Avez-vous besoin du Wi-Fi ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I need Wi-Fi.",
+    "fr":"Oui, j'ai besoin du Wi-Fi."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","wifi","need"],
+    "fr":["oui","wifi","besoin"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre o Wi-Fi."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3087,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Are you hungry?",
+    "fr":"As-tu faim ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I am very hungry.",
+    "fr":"Oui, j'ai très faim."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","hungry","very"],
+    "fr":["oui","faim"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale se está com fome."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3088,
+  "nivel":"iniciante",
+  "categoria":"restaurante",
+
+  "pergunta":{
+    "en":"Do you want more juice?",
+    "fr":"Voulez-vous plus de jus ?"
+  },
+
+  "respostaModelo":{
+    "en":"No, thank you.",
+    "fr":"Non, merci."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","thank"],
+    "fr":["oui","non","merci"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Responda educadamente."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3089,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"Do you like this jacket?",
+    "fr":"Aimes-tu cette veste ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I like this jacket.",
+    "fr":"Oui, j'aime cette veste."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","jacket","like"],
+    "fr":["oui","veste","aime"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre a jaqueta."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3090,
+  "nivel":"iniciante",
+  "categoria":"compras",
+
+  "pergunta":{
+    "en":"Is this expensive?",
+    "fr":"Est-ce cher ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, it is expensive.",
+    "fr":"Oui, c'est cher."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","no","expensive","cheap"],
+    "fr":["oui","non","cher"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre o preço."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3091,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"Do you work in an office?",
+    "fr":"Travailles-tu dans un bureau ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I work in an office.",
+    "fr":"Oui, je travaille dans un bureau."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","office","work"],
+    "fr":["oui","bureau","travaille"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre seu local de trabalho."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3092,
+  "nivel":"iniciante",
+  "categoria":"trabalho",
+
+  "pergunta":{
+    "en":"Are your coworkers friendly?",
+    "fr":"Tes collègues sont-ils gentils ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, they are very friendly.",
+    "fr":"Oui, ils sont très gentils."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","friendly","coworkers"],
+    "fr":["oui","gentils","collègues"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale sobre seus colegas."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3093,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Do you drink enough water?",
+    "fr":"Bois-tu assez d'eau ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I drink a lot of water.",
+    "fr":"Oui, je bois beaucoup d'eau."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","water","drink"],
+    "fr":["oui","eau","bois"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre beber água."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3094,
+  "nivel":"iniciante",
+  "categoria":"saude",
+
+  "pergunta":{
+    "en":"Do you feel tired today?",
+    "fr":"Te sens-tu fatigué aujourd'hui ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I feel tired today.",
+    "fr":"Oui, je me sens fatigué aujourd'hui."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","tired","feel"],
+    "fr":["oui","fatigué","sens"]
+  },
+
+  "feedbackCorreto":{"pt":"Boa resposta 👏"},
+  "feedbackErro":{"pt":"Fale sobre como está se sentindo."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3095,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Do you talk to your friends every day?",
+    "fr":"Parles-tu à tes amis tous les jours ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I talk to my friends every day.",
+    "fr":"Oui, je parle à mes amis tous les jours."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","friends","talk","every day"],
+    "fr":["oui","amis","parle"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre seus amigos."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3096,
+  "nivel":"iniciante",
+  "categoria":"relacionamento",
+
+  "pergunta":{
+    "en":"Do you enjoy spending time together?",
+    "fr":"Aimes-tu passer du temps ensemble ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, we enjoy spending time together.",
+    "fr":"Oui, nous aimons passer du temps ensemble."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","together","time","enjoy"],
+    "fr":["oui","ensemble","temps"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre passar tempo juntos."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3097,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Are you lost?",
+    "fr":"Es-tu perdu ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I am lost.",
+    "fr":"Oui, je suis perdu."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","lost","am"],
+    "fr":["oui","perdu","suis"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bom 👏"},
+  "feedbackErro":{"pt":"Fale se está perdido."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3098,
+  "nivel":"iniciante",
+  "categoria":"emergencia",
+
+  "pergunta":{
+    "en":"Do you need an ambulance?",
+    "fr":"As-tu besoin d'une ambulance ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, please call an ambulance.",
+    "fr":"Oui, appelez une ambulance."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","ambulance","call"],
+    "fr":["oui","ambulance","appelez"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre a ambulância."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3099,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you listen to music every day?",
+    "fr":"Écoutes-tu de la musique tous les jours ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I listen to music every day.",
+    "fr":"Oui, j'écoute de la musique tous les jours."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","music","listen","every day"],
+    "fr":["oui","musique","écoute"]
+  },
+
+  "feedbackCorreto":{"pt":"Muito bem 👏"},
+  "feedbackErro":{"pt":"Fale sobre ouvir música."}
+},
+
+{
+  "tipo":"conversa",
+  "id":3100,
+  "nivel":"iniciante",
+  "categoria":"cotidiano",
+
+  "pergunta":{
+    "en":"Do you use your phone a lot?",
+    "fr":"Utilises-tu beaucoup ton téléphone ?"
+  },
+
+  "respostaModelo":{
+    "en":"Yes, I use my phone a lot.",
+    "fr":"Oui, j'utilise beaucoup mon téléphone."
+  },
+
+  "respostasAceitas":{
+    "en":["yes","phone","use","lot"],
+    "fr":["oui","téléphone","utilise"]
+  },
+
+  "feedbackCorreto":{"pt":"Excelente 👏"},
+  "feedbackErro":{"pt":"Fale sobre usar o celular."}
 }
+
 ]
