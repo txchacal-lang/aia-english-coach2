@@ -87,13 +87,13 @@ body{
 
 .idioma-botoes{
   position:absolute;
-  top:45%;
+  top:53%;
   right:10%;
   width:79%;
   display:flex;
-  gap:3%;
-  opacity:0;
+  gap:18%;
   z-index:20;
+  opacity:0;
 }
 
 .btn-idioma{
@@ -127,7 +127,7 @@ body{
   position:absolute;
   left:20%;
   width:58%;
-  height:18%;
+  height:28%;
   opacity:0;
   border:none;
   background:red; 
@@ -135,10 +135,10 @@ body{
   z-index:20;
 }
 
-.tela-modos #modoTradutor{ top:12%; }
-.tela-modos #modoFrases{ top:32%; }
-.tela-modos #modoAprendiz{ top:52%; }
-.tela-modos #modoConversar{ top:72%; }
+.tela-modos #modoTradutor{ top:1%; }
+.tela-modos #modoFrases{ top:28%; }
+.tela-modos #modoAprendiz{ top:48%; }
+.tela-modos #modoConversar{ top:74%; }
 
 /* ======================
    BOTÃO VOLTAR
