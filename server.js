@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
 
@@ -17,7 +19,7 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 
 app.post("/traduzir", async (req, res) => {
 
-  const { texto, idioma } = req.body;
+  const { texto, idioma, modo } = req.body;
 
   try {
 
@@ -41,7 +43,17 @@ app.post("/traduzir", async (req, res) => {
       }
     });
 
-    const idiomaDestino = idioma === "fr" ? "fr" : "en";
+    let idiomaDestino;
+
+if(modo === "tradutor"){
+
+  idiomaDestino = idioma;
+
+}else{
+
+  idiomaDestino = idioma === "fr" ? "fr" : "en";
+
+}
 
     let source, target, idiomaDetectado;
 
