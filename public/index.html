@@ -39,7 +39,7 @@
 <div id="telaModos" class="tela tela-modos" style="display:none;">
 
   <button id="btnVoltarModos" class="btn-voltar">⬅</button>
-
+  
   <h2 class="titulo-modos">O que vamos fazer agora?</h2>
 <div class="modos-grid">
 
@@ -73,6 +73,9 @@
 <div id="telaApp" class="app" style="display:none;">
 
   <button id="btnVoltarApp" class="btn-voltar">⬅</button>
+
+  <button id="btnAjuda" class="btn-ajuda">?</button>
+
   <div id="tituloModo" class="titulo-modo-app"></div>
 
 <header class="top">
@@ -146,7 +149,17 @@
   <span class="btn-text bottom">Resposta</span>
 </div>
 
-      <div class="btn-wrapper" id="wrapperSalvar">
+<div class="btn-wrapper" id="wrapperIda">
+  <button id="btnIda" class="btn-mini talk">⬆️</button>
+  <span class="btn-text bottom" id="txtIda">PT → EN</span>
+</div>
+
+<div class="btn-wrapper" id="wrapperVolta">
+  <button id="btnVolta" class="btn-mini talk">⬇️</button>
+  <span class="btn-text bottom" id="txtVolta">EN → PT</span>
+</div>
+
+          <div class="btn-wrapper" id="wrapperSalvar">
         <button id="btnSalvar" class="btn-mini play">💾</button>
         <span class="btn-text bottom">Salvar</span>
       </div>
@@ -242,6 +255,14 @@
 
   </div>
 
+</div>
+
+<div id="modalAjuda" class="modal-ajuda" style="display:none;">
+  <div class="modal-ajuda-box">
+    <button id="fecharAjuda" class="fechar-ajuda">×</button>
+    <h3 id="tituloAjuda">Ajuda</h3>
+    <div id="textoAjuda"></div>
+  </div>
 </div>
 
 <script src="script.js"></script>
