@@ -85,6 +85,10 @@ const btnModoPerguntar = document.getElementById("btnModoPerguntar");
 
 const tituloPerguntaResposta = document.getElementById("tituloPerguntaResposta");
 
+const contadorEstudo = document.getElementById("contadorEstudo");
+
+const contadorAprendidos =
+  document.getElementById("contadorAprendidos");
 
 // === LÓGICA JS (CONTROLE DE TELA) ===
 
@@ -101,6 +105,7 @@ const modalAjuda = document.getElementById("modalAjuda");
 const fecharAjuda = document.getElementById("fecharAjuda");
 const tituloAjuda = document.getElementById("tituloAjuda");
 const textoAjuda = document.getElementById("textoAjuda");
+const btnJaSei = document.getElementById("btnJaSei");
 
 // === BOTÃO VOLTAR ===
 
@@ -201,10 +206,28 @@ let frasesFiltradas=[];
 let indice=0;
 let autoplay=false;
 let aleatorio=false;
+let frasesAleatoriasUsadas = [];
+let verbosAleatoriosUsados = [];
 
 let assistenteAtivo = false;
 
 let reconhecimentoAssistente = null;
+
+let palavras = [];
+let expressoes = [];
+let indicePalavra = 0;
+
+let palavrasJaSei =
+  JSON.parse(localStorage.getItem("palavrasJaSei")) || [];
+
+let palavrasAleatoriasUsadas = [];
+
+let verbos = [];
+let indiceVerbo = 0;
+let verbosJaSei =
+  JSON.parse(localStorage.getItem("verbosJaSei")) || [];
+let frasesJaSei =
+  JSON.parse(localStorage.getItem("frasesJaSei")) || [];
 
 /* ========= SPEECH ========= */
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -364,6 +387,11 @@ seletorConversa.onchange = ()=>{
 
   iniciarConversa();
 };
+
+const seletorEstudo = document.getElementById("seletorEstudo");
+
+let tipoEstudo = "frases";
+
 // 👇 NOVO
 btnEN.onclick = ()=>{
   idiomaAtual = "en";
@@ -394,8 +422,10 @@ function iniciarTraducaoDireta(direcao){
   faladoEl.textContent = "";
   traducaoEl.textContent = "";
 
-  const langEscuta = direcao === "ida" ? "pt-BR" : getLangCode();
-  const idiomaDestino = direcao === "ida" ? idiomaAtual : "pt";
+  const langEscuta = direcao === "ida" ? "pt" : getLangCode();
+  const idiomaDestino = direcao === "ida"
+  ? idiomaAtual
+  : "pt";
 
   falarAia(direcao === "ida" ? "Fale em português." : "O nativo pode falar.");
 
@@ -416,7 +446,11 @@ function iniciarTraducaoDireta(direcao){
     textoFinal = textoFinal.trim();
     if(!textoFinal) return;
 
-    faladoEl.textContent = textoFinal;
+    if(direcao === "ida"){
+  faladoEl.textContent = textoFinal;
+}else{
+  traducaoEl.textContent = textoFinal;
+}
 
     const res = await fetch("/traduzir",{
       method:"POST",
@@ -431,11 +465,15 @@ body:JSON.stringify({
     const d = await res.json();
 
     ultimaTraducao = d.traducao;
-    traducaoEl.textContent = d.traducao;
+    if(direcao === "ida"){
+  traducaoEl.textContent = d.traducao;
+}else{
+  faladoEl.textContent = d.traducao;
+}
 
     falar(
       d.traducao,
-      direcao === "ida" ? getLangCode() : "pt-BR",
+      direcao === "ida" ? getLangCode() : "pt",
       0.68
     );
   };
@@ -483,7 +521,10 @@ btnVolta.addEventListener("mousedown", ()=>{
 });
 
 btnVolta.addEventListener("mouseup", ()=>{
-  pararGravacao();
+
+  setTimeout(()=>{
+    pararGravacao();
+  }, 700);
   btnVolta.style.background = "";
 });
 
@@ -494,7 +535,11 @@ btnVolta.addEventListener("touchstart", ()=>{
 });
 
 btnVolta.addEventListener("touchend", ()=>{
-  pararGravacao();
+
+  setTimeout(()=>{
+    pararGravacao();
+  }, 700);
+
   btnVolta.style.background = "";
 });
 
@@ -826,6 +871,8 @@ if(acertou){
   return;
 }
 }
+
+
     // ===== APRENDIZ =====
     if(modoAtual === "aprendiz"){
 
@@ -881,9 +928,12 @@ if(acertou){
       const res = await fetch("/traduzir",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body: JSON.stringify({
+body: JSON.stringify({
   texto: textoFinal,
-  idioma: idiomaAtual
+  idioma:
+    direcaoTraducao === "ida"
+      ? idiomaAtual
+      : "pt"
 })
       });
 
@@ -1023,34 +1073,233 @@ btnSalvar.onclick = async ()=>{
   atualizarContadorFrases();
 };
 // === FIM NOVO ===
-
 btnPlay.onclick=()=>{
+
   if(modoAtual!=="frases") return;
-  autoplay=!autoplay;
-  btnPlay.textContent=autoplay?"⏸":"▶️";
-  if(autoplay) tocar();
+
+  autoplay = !autoplay;
+  btnPlay.textContent = autoplay ? "⏸" : "▶️";
+
+  if(!autoplay){
+    speechSynthesis.cancel();
+    return;
+  }
+
+  if(tipoEstudo === "verbos"){
+    tocarVerbo();
+    return;
+  }
+
+  if(tipoEstudo === "palavras"){
+    tocarPalavraAuto();
+    return;
+  }
+
+  if(tipoEstudo === "expressoes"){
+    tocarExpressao();
+    return;
+  }
+
+  tocar();
 }
+
+btnAnterior.onclick=()=>{
+
+  if(modoAtual!=="frases") return;
+
+  if(tipoEstudo === "verbos"){
+    indiceVerbo = (indiceVerbo - 1 + verbos.length) % verbos.length;
+    tocarVerbo();
+    return;
+  }
+
+  if(tipoEstudo === "palavras" || tipoEstudo === "expressoes"){
+
+    const lista = tipoEstudo === "expressoes" ? expressoes : palavras;
+    if(!lista.length) return;
+
+    indicePalavra = (indicePalavra - 1 + lista.length) % lista.length;
+
+    tipoEstudo === "expressoes" ? tocarExpressao() : tocarPalavraAuto();
+    return;
+  }
+
+  indice = (indice - 1 + frasesFiltradas.length) % frasesFiltradas.length;
+  tocar();
+}
+
+btnProximaFrase.onclick=()=>{
+
+  if(modoAtual!=="frases") return;
+
+  if(tipoEstudo === "verbos"){
+    indiceVerbo = (indiceVerbo + 1) % verbos.length;
+    tocarVerbo();
+    return;
+  }
+
+if(tipoEstudo === "palavras" || tipoEstudo === "expressoes"){
+
+  const lista =
+    tipoEstudo === "expressoes" ? expressoes : palavras;
+
+  if(!lista.length) return;
+
+  if(aleatorio){
+
+    let disponiveis = lista.filter(p =>
+      !palavrasJaSei.includes(p.id)
+    );
+
+    if(!disponiveis.length){
+      falarAia("Tudo foi aprendido.");
+      return;
+    }
+
+    let escolhido =
+      disponiveis[
+        Math.floor(Math.random() * disponiveis.length)
+      ];
+
+    indicePalavra =
+      lista.findIndex(p => p.id === escolhido.id);
+
+  }else{
+
+    indicePalavra =
+      (indicePalavra + 1) % lista.length;
+  }
+
+  if(tipoEstudo === "expressoes"){
+    tocarExpressao();
+  }else{
+    tocarPalavraAuto();
+  }
+
+  return;
+}
+  proxima();
+};
+
+btnJaSei.onclick = ()=>{
+
+  // ===== PALAVRAS / EXPRESSÕES =====
+  if(tipoEstudo === "palavras" || tipoEstudo === "expressoes"){
+
+    const lista =
+      tipoEstudo === "expressoes"
+        ? expressoes
+        : palavras;
+
+    const atual = lista[indicePalavra];
+
+    if(!atual) return;
+
+    const jaExiste =
+      palavrasJaSei.includes(atual.id);
+
+    if(jaExiste){
+
+      palavrasJaSei =
+        palavrasJaSei.filter(id => id !== atual.id);
+
+      falarAia("Removido dos aprendidos.");
+
+    }else{
+
+      palavrasJaSei.push(atual.id);
+
+      falarAia("Marcado como aprendido.");
+    }
+
+    localStorage.setItem(
+      "palavrasJaSei",
+      JSON.stringify(palavrasJaSei)
+    );
+
+    if(tipoEstudo === "expressoes"){
+      tocarExpressao();
+    }else{
+      tocarPalavra();
+    }
+
+    return;
+  }
+
+  // ===== FRASES =====
+  if(tipoEstudo === "frases"){
+
+    const atual = frasesFiltradas[indice];
+
+    if(!atual) return;
+
+    const idFrase = atual.id || atual.pt;
+
+    const jaExiste =
+      frasesJaSei.includes(idFrase);
+
+    if(jaExiste){
+
+      frasesJaSei =
+        frasesJaSei.filter(id => id !== idFrase);
+
+    }else{
+
+      frasesJaSei.push(idFrase);
+    }
+
+    localStorage.setItem(
+      "frasesJaSei",
+      JSON.stringify(frasesJaSei)
+    );
+
+    tocar();
+    return;
+  }
+
+  // ===== VERBOS =====
+  if(tipoEstudo === "verbos"){
+
+    const atual = verbos[indiceVerbo];
+
+    if(!atual) return;
+
+    const jaExiste =
+      verbosJaSei.includes(atual.id);
+
+    if(jaExiste){
+
+      verbosJaSei =
+        verbosJaSei.filter(id => id !== atual.id);
+
+    }else{
+
+      verbosJaSei.push(atual.id);
+    }
+
+    localStorage.setItem(
+      "verbosJaSei",
+      JSON.stringify(verbosJaSei)
+    );
+
+    tocarVerbo();
+  }
+};
 
 btnRandom.onclick=()=>{
 
-  if(modoAtual!=="frases") return;
+  if(modoAtual !== "frases") return;
 
   aleatorio = !aleatorio;
 
   btnRandom.classList.toggle("active", aleatorio);
 
-}
-
-btnAnterior.onclick=()=>{
-  if(modoAtual!=="frases" || !frases.length) return;
-  indice=(indice-1+frases.length)%frases.length;
-  tocar();
-}
-
-btnProximaFrase.onclick=()=>{
-  if(modoAtual!=="frases" || !frases.length) return;
-  proxima();
-}
+  falarAia(
+    aleatorio
+      ? "Aleatório ativado."
+      : "Aleatório desativado."
+  );
+};
 
 btnProxima.onclick=()=>{
   if(modoAtual==="aprendiz"){
@@ -1062,6 +1311,81 @@ btnProxima.onclick=()=>{
     iniciarConversa();
   }
 }
+
+seletorEstudo.onchange = ()=>{
+
+  tipoEstudo = seletorEstudo.value;
+
+ if(tipoEstudo === "frases"){
+
+  falarAia("Modo Frases ativado.");
+
+  wrapperRandom.style.display = "flex";
+  document.querySelector(".filtros-frases").style.display = "flex";
+
+  carregarFrases();
+  return;
+}
+
+if(tipoEstudo === "verbos"){
+
+  falarAia("Modo Verbos ativado.");
+
+  document.querySelector(".filtros-frases").style.display = "none";
+
+  feedbackEl.innerHTML = `
+    📘 Uso dos Verbos<br><br>
+    Presente, passado,
+    futuro, negativo e pergunta.
+  `;
+
+  carregarVerbos();
+
+  return;
+}
+
+if(tipoEstudo === "palavras"){
+
+  falarAia("Modo Palavras ativado.");
+
+  document.querySelector(".filtros-frases").style.display = "none";
+
+  wrapperRandom.style.display = "flex";
+
+  carregarPalavras();
+
+  return;
+}
+
+if(tipoEstudo === "expressoes"){
+
+  falarAia("Modo Expressões ativado.");
+
+  document.querySelector(".filtros-frases").style.display = "none";
+
+  wrapperRandom.style.display = "flex";
+
+  carregarExpressoes();
+
+  return;
+}
+
+  if(tipoEstudo === "expressoes"){
+
+    faladoEl.textContent = "";
+    traducaoEl.textContent = "";
+
+    falarAia("Expressões importantes em desenvolvimento.");
+
+    feedbackEl.innerHTML = `
+      🚧 Em breve:<br><br>
+      Expressões muito usadas
+      por nativos.
+    `;
+  }
+
+};
+
 
 // === ASSISTENTE CONTÍNUO ===
 
@@ -1320,10 +1644,15 @@ function similaridade(a, b){
   return iguais / Math.max(a.length, b.length);
 }
 
+
 /* ========= TRADUTOR ========= */
 function fluxoTradutor(){
 
-  const r = criarRec("pt-BR");
+  const r = criarRec(
+  direcaoTraducao === "ida"
+    ? "pt-BR"
+    : getLangCode()
+);
 
   r.onresult = async e => {
 
@@ -1335,45 +1664,33 @@ function fluxoTradutor(){
       method:"POST",
       headers:{"Content-Type":"application/json"},
       body: JSON.stringify({
-      texto: textoFinal,
-      idioma: idiomaAtual
-    })
+        texto: texto,
+        idioma: idiomaAtual
+      })
     });
 
     const d = await res.json();
 
     ultimaTraducao = d.traducao;
+
     mostrarPalavrasIngles(d.traducao);
 
+    // MOSTRA A TRADUÇÃO
+    traducaoEl.textContent = d.traducao;
+
     // fala no idioma correto
-if(modoConversaTradutor){
+    if(d.idioma === "pt"){
 
-  if(d.idioma === "pt"){
+      falar(d.traducao, getLangCode());
 
-    ultimoIdiomaFalado = "pt";
+    }else{
 
-    falar(d.traducao, getLangCode());
+      falar(d.traducao,"pt-BR");
+    }
 
-  }else{
-
-    ultimoIdiomaFalado = "estrangeiro";
-
-    falar(d.traducao,"pt-BR");
-  }
-
-}else{
-
-  if(d.idioma === "pt"){
-    falar(d.traducao, getLangCode());
-  }else{
-    falar(d.traducao,"pt-BR");
-  }
-
-}
   };
 
   r.start();
-
 }
 
 /* ========= FRASES ========= */
@@ -1405,6 +1722,308 @@ indice = 0;
 tocar();
 }
 
+async function carregarVerbos(){
+
+  if(verbos.length){
+    tocarVerbo();
+    return;
+  }
+
+  try{
+
+    const r = await fetch("/verbos.json");
+    verbos = await r.json();
+
+  }catch(e){
+
+    falarAia("Erro ao carregar verbos.");
+    return;
+  }
+
+  indiceVerbo = 0;
+
+  tocarVerbo();
+}
+
+async function carregarPalavras(){
+
+  try{
+
+    const res =
+      await fetch("palavras.json");
+
+    const todas = await res.json();
+
+    palavras = todas.filter(p => p.tipo !== "expressao");
+
+    indicePalavra = 0;
+
+    tocarPalavra();
+
+  }catch(e){
+
+    falarAia("Erro ao carregar palavras.");
+  }
+}
+
+async function carregarExpressoes(){
+
+  try{
+
+    const res =
+      await fetch("palavras.json");
+
+    const todas = await res.json();
+
+    expressoes =
+      todas.filter(p => p.tipo === "expressao");
+
+    indicePalavra = 0;
+
+    tocarExpressao();
+
+  }catch(e){
+
+    falarAia("Erro ao carregar expressões.");
+  }
+}
+
+function tocarPalavra(){
+
+  const p =
+  tipoEstudo === "expressoes"
+    ? expressoes[indicePalavra]
+    : palavras[indicePalavra];
+
+  if(!p) return;
+
+  faladoEl.innerHTML = `
+    ${p.pt}<br>
+    <small style="opacity:.7">
+      ${p.tipo}
+    </small>
+  `;
+
+  traducaoEl.textContent =
+    p[idiomaAtual];
+
+  contadorEstudo.textContent =
+    `Palavra ${indicePalavra + 1} de ${palavras.length}`;
+
+  contadorAprendidos.textContent =
+    `Aprendidas: ${palavrasJaSei.length}`;
+
+  const jaSei =
+    palavrasJaSei.includes(p.id);
+
+  btnJaSei.textContent =
+    jaSei ? "✓ Aprendida" : "✓ Já Sei";
+
+  btnJaSei.style.background =
+    jaSei
+      ? "linear-gradient(145deg,#22c55e,#16a34a)"
+      : "linear-gradient(145deg,#ffffff,#e2e8f0)";
+btnJaSei.style.color =
+  jaSei ? "#fff" : "#111827";
+
+}
+
+function tocarPalavraAuto(){
+
+  const p = palavras[indicePalavra];
+
+  if(!p) return;
+
+  faladoEl.innerHTML = `
+    ${p.pt}<br>
+    <small style="opacity:.7">
+      ${p.tipo}
+    </small>
+  `;
+
+  traducaoEl.textContent = p[idiomaAtual];
+
+  speechSynthesis.cancel();
+
+  const uPt = new SpeechSynthesisUtterance(p.pt);
+  uPt.lang = "pt-BR";
+  uPt.rate = 0.78;
+
+  uPt.onend = ()=>{
+
+    setTimeout(()=>{
+
+      const uLang = new SpeechSynthesisUtterance(p[idiomaAtual]);
+      uLang.lang = getLangCode();
+      uLang.rate = 0.60;
+
+      uLang.onend = ()=>{
+
+        if(autoplay){
+          setTimeout(()=>{
+            btnProximaFrase.click();
+          }, 1400);
+        }
+
+      };
+
+      speechSynthesis.speak(uLang);
+
+    }, 900);
+
+  };
+
+  speechSynthesis.speak(uPt);
+
+  contadorEstudo.textContent =
+    `Palavra ${indicePalavra + 1} de ${palavras.length}`;
+
+  contadorAprendidos.textContent =
+    `Aprendidas: ${palavrasJaSei.length}`;
+}
+
+function tocarExpressao(){
+
+  const p = expressoes[indicePalavra];
+
+  if(!p) return;
+
+  faladoEl.innerHTML = `
+    ${p.pt}<br>
+    <small style="opacity:.7">
+      Expressão
+    </small>
+  `;
+
+  traducaoEl.textContent = p[idiomaAtual];
+
+  speechSynthesis.cancel();
+
+  const uPt = new SpeechSynthesisUtterance(p.pt);
+  uPt.lang = "pt-BR";
+  uPt.rate = 0.78;
+
+  uPt.onend = ()=>{
+
+    setTimeout(()=>{
+
+      const uLang = new SpeechSynthesisUtterance(p[idiomaAtual]);
+      uLang.lang = getLangCode();
+      uLang.rate = 0.60;
+
+      uLang.onend = ()=>{
+
+        if(autoplay){
+          setTimeout(()=>{
+            btnProximaFrase.click();
+          }, 1400);
+        }
+
+      };
+
+      speechSynthesis.speak(uLang);
+
+    }, 900);
+
+  };
+
+  speechSynthesis.speak(uPt);
+
+  contadorEstudo.textContent =
+    `Expressão ${indicePalavra + 1} de ${expressoes.length}`;
+
+contadorAprendidos.textContent =
+  `Aprendidas: ${palavrasJaSei.length}`;
+
+const jaSei =
+  palavrasJaSei.includes(p.id);
+
+btnJaSei.textContent =
+  jaSei ? "✓ Aprendida" : "✓ Já Sei";
+
+btnJaSei.style.background =
+  jaSei
+    ? "linear-gradient(145deg,#22c55e,#16a34a)"
+    : "linear-gradient(145deg,#ffffff,#e2e8f0)";
+
+btnJaSei.style.color =
+  jaSei ? "#fff" : "#111827";
+}
+
+
+function tocarVerbo(){
+
+  if(!verbos.length) return;
+
+  const v = verbos[indiceVerbo];
+
+contadorEstudo.textContent =
+  `Verbo ${indiceVerbo + 1} de ${verbos.length}`;
+
+contadorAprendidos.textContent =
+  `Aprendidos: ${verbosJaSei.length}`;
+
+  const jaSei = verbosJaSei.includes(v.id);
+
+btnJaSei.textContent =
+  jaSei ? "✓ Aprendido" : "✓ Já Sei";
+
+btnJaSei.style.background =
+  jaSei
+    ? "linear-gradient(145deg,#22c55e,#16a34a)"
+    : "linear-gradient(145deg,#ffffff,#e2e8f0)";
+
+btnJaSei.style.color =
+  jaSei ? "#fff" : "#111827";
+
+  faladoEl.innerHTML = `
+    <div>${v.presente.pt}</div>
+    <div style="margin-top:8px;">
+      <strong>Verbo:</strong> ${v.pt}
+    </div>
+  `;
+
+traducaoEl.innerHTML = `
+
+<span class="verbo-presente">
+🟢 Presente:
+</span>
+${v.presente[idiomaAtual]}<br>
+
+<span class="verbo-passado">
+🔵 Passado:
+</span>
+${v.passado[idiomaAtual]}<br>
+
+<span class="verbo-futuro">
+🟣 Futuro:
+</span>
+${v.futuro[idiomaAtual]}<br>
+
+<span class="verbo-negativo">
+🔴 Negativo:
+</span>
+${v.negativo[idiomaAtual]}<br>
+
+<span class="verbo-pergunta">
+🟠 Pergunta:
+</span>
+${v.pergunta[idiomaAtual]}
+`;
+falar(
+  v.presente[idiomaAtual],
+  getLangCode(),
+  0.65
+);
+
+if(autoplay){
+  setTimeout(()=>{
+    btnProximaFrase.click();
+  }, 4500);
+}
+
+}
+
 function tocar(){
 
   if(!frases.length){
@@ -1413,6 +2032,28 @@ function tocar(){
   }
 
  const f = frasesFiltradas[indice];
+
+contadorEstudo.textContent =
+  `Frase ${indice + 1} de ${frasesFiltradas.length}`;
+
+contadorAprendidos.textContent =
+  `Aprendidas: ${frasesJaSei.length}`;
+
+const idFrase = f.id || f.pt;
+
+const jaSei =
+  frasesJaSei.includes(idFrase);
+
+btnJaSei.textContent =
+  jaSei ? "✓ Aprendida" : "✓ Já Sei";
+
+btnJaSei.style.background =
+  jaSei
+    ? "linear-gradient(145deg,#22c55e,#16a34a)"
+    : "linear-gradient(145deg,#ffffff,#e2e8f0)";
+
+btnJaSei.style.color =
+  jaSei ? "#fff" : "#111827";
 
   if(!f){
     falarAia("Erro ao carregar frase.");
@@ -1503,9 +2144,36 @@ function proxima(){
     return;
   }
 
-  if(aleatorio){
-    indice = Math.floor(Math.random() * frasesFiltradas.length);
-  }else{
+if(aleatorio){
+
+  const frasesDisponiveis =
+    frasesFiltradas.filter(f => {
+
+      const idFrase = f.id || f.pt;
+
+      return !frasesJaSei.includes(idFrase);
+    });
+
+  if(frasesDisponiveis.length === 0){
+
+    falarAia("Todas as frases foram aprendidas.");
+    return;
+  }
+
+  const fraseEscolhida =
+    frasesDisponiveis[
+      Math.floor(Math.random() * frasesDisponiveis.length)
+    ];
+
+  indice =
+    frasesFiltradas.findIndex(f => {
+
+      const idFrase = f.id || f.pt;
+
+      return idFrase === (fraseEscolhida.id || fraseEscolhida.pt);
+    });
+
+}else{
     indice = (indice + 1) % frasesFiltradas.length;
   }
 
@@ -1537,6 +2205,7 @@ atualizarContadorFrases();
   tocar();
 };
 // === FIM NOVO ===
+
 
 // === NOVO ===
 function atualizarContadorFrases(){
@@ -1705,6 +2374,7 @@ function mostrarBalao(span,traducao){
   },2000);
 
 }
+
 /* ========= CONVERSA ========= */
 async function iniciarConversa(){
 
