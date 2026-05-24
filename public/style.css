@@ -1,3 +1,4 @@
+
 /* ======================
    VARIÁVEIS
 ====================== */
@@ -47,6 +48,8 @@ body{
   overflow:hidden;
   box-shadow:0 40px 90px rgba(0,0,0,.45);
 }
+
+/* =========1========= */
 
 /* ======================
    TELA IDIOMA
@@ -103,6 +106,10 @@ body{
   cursor:pointer;
   opacity:0;
 }
+
+
+/* =========2========= */
+
 
 /* ======================
    TELA MODOS
@@ -266,6 +273,8 @@ flex-wrap:wrap;
   display:none;
 }
 
+/* =========3========= */
+
 /* ======================
    BOTÕES BASE DOS MODOS
 ====================== */
@@ -414,6 +423,8 @@ flex-wrap:wrap;
   color:#0f172a;
   box-shadow:0 8px 18px rgba(0,0,0,.15);
 }
+
+/* =========4========= */
 
 /* ======================
    STATUS / PROGRESSO
@@ -581,6 +592,8 @@ body.modo-tradutor .btn-excluir-frase{
 body.modo-tradutor .btn-excluir-frase:hover{
   transform:scale(1.08);
 }
+
+/* =========5========= */
 
 /* ======================
    ESTUDAR
@@ -757,6 +770,8 @@ body.modo-aprendiz .btn-next{
     0 18px 35px rgba(0,0,0,.25),
     inset 0 1px 0 rgba(255,255,255,.6);
 }
+
+/* =========6========= */
 
 /* ======================
    CONVERSAR
@@ -942,6 +957,8 @@ body.modo-conversar #controlesConversa button:active{
     padding:20px;
   }
 }
+
+/* =========7========= */
 
 /* ======================
    NOME DO MODO
@@ -1161,6 +1178,8 @@ body.modo-aprendiz #btnPronuncia::after{
   text-indent:0 !important;
 }
 
+/* =========8========= */
+
 /* ========= AJUDA ========= */
 
 .btn-ajuda{
@@ -1272,4 +1291,185 @@ body.modo-tradutor #wrapperVolta .btn-text{
   font-weight:900;
   color:#0f172a;
   pointer-events:none;
+}
+
+/* ========= NOVO ESTUDAR ========= */
+
+body.modo-frases .box-seletor-estudo{
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+
+  margin-top:10px;
+  margin-bottom:18px;
+}
+
+body.modo-frases .titulo-estudo{
+
+  font-size:14px;
+  font-weight:700;
+
+  color:#ffffffcc;
+
+  letter-spacing:.5px;
+}
+
+body.modo-frases .seletor-estudo{
+
+  width:240px;
+
+  padding:12px 16px;
+
+  border:none;
+  border-radius:16px;
+
+  background:rgba(255,255,255,.12);
+
+  color:#fff;
+
+  font-size:15px;
+  font-weight:700;
+
+  backdrop-filter:blur(10px);
+
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.18);
+
+  outline:none;
+
+  cursor:pointer;
+
+  transition:.2s;
+}
+
+body.modo-frases .seletor-estudo:hover{
+  transform:scale(1.02);
+}
+
+body.modo-frases .seletor-estudo option{
+  color:#111827;
+}
+
+/* =========9========= */
+
+/* ========= ALEATÓRIO ATIVO ========= */
+
+body.modo-frases #btnRandom.active{
+
+  background:linear-gradient(
+    145deg,
+    #ffffff,
+    #e2e8f0
+  ) !important;
+
+  color:#111827 !important;
+
+  transform:scale(.96);
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,.18),
+    inset 0 2px 6px rgba(0,0,0,.08);
+}
+
+/* ========= JÁ SEI ========= */
+
+.box-ja-sei{
+  display:none;
+}
+
+body.modo-frases .box-ja-sei{
+  display:flex;
+  justify-content:center;
+  margin-top:14px;
+}
+
+.btn-ja-sei{
+  width:180px;
+  height:44px;
+
+  border:none;
+  border-radius:16px;
+
+  background:linear-gradient(145deg,#ffffff,#e2e8f0);
+  color:#111827;
+
+  font-size:15px;
+  font-weight:900;
+
+  cursor:pointer;
+
+  box-shadow:
+    0 12px 24px rgba(0,0,0,.22),
+    inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+.btn-ja-sei:active{
+  transform:scale(.96);
+}
+
+/* ========= SELETOR ESTUDAR ========= */
+
+#boxSeletorEstudo{
+  display:none;
+}
+
+body.modo-frases #boxSeletorEstudo{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-top:18px;
+}
+
+.contador-estudo{
+  display:none;
+}
+
+body.modo-frases .contador-estudo{
+  display:block;
+  margin-top:10px;
+  text-align:center;
+  color:#fff;
+  font-size:13px;
+  font-weight:800;
+  opacity:.9;
+}
+
+.contador-aprendidos{
+  display:none;
+}
+
+body.modo-frases .contador-aprendidos{
+  display:block;
+  margin-top:6px;
+  text-align:center;
+  color:#22c55e;
+  font-size:13px;
+  font-weight:900;
+}
+
+.verbo-presente{
+  color:#22c55e;
+  font-weight:900;
+}
+
+.verbo-passado{
+  color:#3b82f6;
+  font-weight:900;
+}
+
+.verbo-futuro{
+  color:#a855f7;
+  font-weight:900;
+}
+
+.verbo-negativo{
+  color:#ef4444;
+  font-weight:900;
+}
+
+.verbo-pergunta{
+  color:#f97316;
+  font-weight:900;
 }
