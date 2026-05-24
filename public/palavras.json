@@ -1,0 +1,11782 @@
+[
+{
+  "id": 1,
+  "tipo": "substantivo",
+  "pt": "casa",
+  "en": "house",
+  "fr": "maison"
+},
+{
+  "id": 2,
+  "tipo": "substantivo",
+  "pt": "água",
+  "en": "water",
+  "fr": "eau"
+},
+{
+  "id": 3,
+  "tipo": "substantivo",
+  "pt": "comida",
+  "en": "food",
+  "fr": "nourriture"
+},
+{
+  "id": 4,
+  "tipo": "adjetivo",
+  "pt": "bom",
+  "en": "good",
+  "fr": "bon"
+},
+{
+  "id": 5,
+  "tipo": "adjetivo",
+  "pt": "ruim",
+  "en": "bad",
+  "fr": "mauvais"
+},
+{
+  "id": 6,
+  "tipo": "advérbio",
+  "pt": "agora",
+  "en": "now",
+  "fr": "maintenant"
+},
+{
+  "id": 7,
+  "tipo": "conector",
+  "pt": "porque",
+  "en": "because",
+  "fr": "parce que"
+},
+{
+  "id": 8,
+  "tipo": "substantivo",
+  "pt": "amigo",
+  "en": "friend",
+  "fr": "ami"
+},
+{
+  "id": 9,
+  "tipo": "substantivo",
+  "pt": "tempo",
+  "en": "time",
+  "fr": "temps"
+},
+{
+  "id": 10,
+  "tipo": "substantivo",
+  "pt": "dinheiro",
+  "en": "money",
+  "fr": "argent"
+},
+{
+  "id": 11,
+  "tipo": "pronome",
+  "pt": "eu",
+  "en": "I",
+  "fr": "je"
+},
+{
+  "id": 12,
+  "tipo": "pronome",
+  "pt": "você",
+  "en": "you",
+  "fr": "tu"
+},
+{
+  "id": 13,
+  "tipo": "pronome",
+  "pt": "ele",
+  "en": "he",
+  "fr": "il"
+},
+{
+  "id": 14,
+  "tipo": "pronome",
+  "pt": "ela",
+  "en": "she",
+  "fr": "elle"
+},
+{
+  "id": 15,
+  "tipo": "pronome",
+  "pt": "nós",
+  "en": "we",
+  "fr": "nous"
+},
+{
+  "id": 16,
+  "tipo": "pronome",
+  "pt": "eles",
+  "en": "they",
+  "fr": "ils"
+},
+{
+  "id": 17,
+  "tipo": "pronome",
+  "pt": "isso",
+  "en": "that",
+  "fr": "ça"
+},
+{
+  "id": 18,
+  "tipo": "pronome",
+  "pt": "aquilo",
+  "en": "that",
+  "fr": "cela"
+},
+{
+  "id": 19,
+  "tipo": "conector",
+  "pt": "e",
+  "en": "and",
+  "fr": "et"
+},
+{
+  "id": 20,
+  "tipo": "conector",
+  "pt": "mas",
+  "en": "but",
+  "fr": "mais"
+},
+{
+  "id": 21,
+  "tipo": "conector",
+  "pt": "ou",
+  "en": "or",
+  "fr": "ou"
+},
+{
+  "id": 22,
+  "tipo": "conector",
+  "pt": "então",
+  "en": "so",
+  "fr": "donc"
+},
+{
+  "id": 23,
+  "tipo": "conector",
+  "pt": "também",
+  "en": "also",
+  "fr": "aussi"
+},
+{
+  "id": 24,
+  "tipo": "advérbio",
+  "pt": "sempre",
+  "en": "always",
+  "fr": "toujours"
+},
+{
+  "id": 25,
+  "tipo": "advérbio",
+  "pt": "nunca",
+  "en": "never",
+  "fr": "jamais"
+},
+{
+  "id": 26,
+  "tipo": "advérbio",
+  "pt": "aqui",
+  "en": "here",
+  "fr": "ici"
+},
+{
+  "id": 27,
+  "tipo": "advérbio",
+  "pt": "lá",
+  "en": "there",
+  "fr": "là"
+},
+{
+  "id": 28,
+  "tipo": "advérbio",
+  "pt": "hoje",
+  "en": "today",
+  "fr": "aujourd'hui"
+},
+{
+  "id": 29,
+  "tipo": "advérbio",
+  "pt": "ontem",
+  "en": "yesterday",
+  "fr": "hier"
+},
+{
+  "id": 30,
+  "tipo": "advérbio",
+  "pt": "amanhã",
+  "en": "tomorrow",
+  "fr": "demain"
+},
+{
+  "id": 31,
+  "tipo": "substantivo",
+  "pt": "dia",
+  "en": "day",
+  "fr": "jour"
+},
+{
+  "id": 32,
+  "tipo": "substantivo",
+  "pt": "noite",
+  "en": "night",
+  "fr": "nuit"
+},
+{
+  "id": 33,
+  "tipo": "substantivo",
+  "pt": "manhã",
+  "en": "morning",
+  "fr": "matin"
+},
+{
+  "id": 34,
+  "tipo": "substantivo",
+  "pt": "tarde",
+  "en": "afternoon",
+  "fr": "après-midi"
+},
+{
+  "id": 35,
+  "tipo": "substantivo",
+  "pt": "semana",
+  "en": "week",
+  "fr": "semaine"
+},
+{
+  "id": 36,
+  "tipo": "substantivo",
+  "pt": "mês",
+  "en": "month",
+  "fr": "mois"
+},
+{
+  "id": 37,
+  "tipo": "substantivo",
+  "pt": "ano",
+  "en": "year",
+  "fr": "année"
+},
+{
+  "id": 38,
+  "tipo": "substantivo",
+  "pt": "pessoa",
+  "en": "person",
+  "fr": "personne"
+},
+{
+  "id": 39,
+  "tipo": "substantivo",
+  "pt": "homem",
+  "en": "man",
+  "fr": "homme"
+},
+{
+  "id": 40,
+  "tipo": "substantivo",
+  "pt": "mulher",
+  "en": "woman",
+  "fr": "femme"
+},
+{
+  "id": 41,
+  "tipo": "substantivo",
+  "pt": "criança",
+  "en": "child",
+  "fr": "enfant"
+},
+{
+  "id": 42,
+  "tipo": "substantivo",
+  "pt": "família",
+  "en": "family",
+  "fr": "famille"
+},
+{
+  "id": 43,
+  "tipo": "substantivo",
+  "pt": "pai",
+  "en": "father",
+  "fr": "père"
+},
+{
+  "id": 44,
+  "tipo": "substantivo",
+  "pt": "mãe",
+  "en": "mother",
+  "fr": "mère"
+},
+{
+  "id": 45,
+  "tipo": "substantivo",
+  "pt": "irmão",
+  "en": "brother",
+  "fr": "frère"
+},
+{
+  "id": 46,
+  "tipo": "substantivo",
+  "pt": "irmã",
+  "en": "sister",
+  "fr": "sœur"
+},
+{
+  "id": 47,
+  "tipo": "substantivo",
+  "pt": "filho",
+  "en": "son",
+  "fr": "fils"
+},
+{
+  "id": 48,
+  "tipo": "substantivo",
+  "pt": "filha",
+  "en": "daughter",
+  "fr": "fille"
+},
+{
+  "id": 49,
+  "tipo": "substantivo",
+  "pt": "trabalho",
+  "en": "work",
+  "fr": "travail"
+},
+{
+  "id": 50,
+  "tipo": "substantivo",
+  "pt": "escola",
+  "en": "school",
+  "fr": "école"
+},
+{
+  "id": 51,
+  "tipo": "substantivo",
+  "pt": "universidade",
+  "en": "university",
+  "fr": "université"
+},
+{
+  "id": 52,
+  "tipo": "substantivo",
+  "pt": "professor",
+  "en": "teacher",
+  "fr": "professeur"
+},
+{
+  "id": 53,
+  "tipo": "substantivo",
+  "pt": "aluno",
+  "en": "student",
+  "fr": "étudiant"
+},
+{
+  "id": 54,
+  "tipo": "substantivo",
+  "pt": "livro",
+  "en": "book",
+  "fr": "livre"
+},
+{
+  "id": 55,
+  "tipo": "substantivo",
+  "pt": "caderno",
+  "en": "notebook",
+  "fr": "cahier"
+},
+{
+  "id": 56,
+  "tipo": "substantivo",
+  "pt": "caneta",
+  "en": "pen",
+  "fr": "stylo"
+},
+{
+  "id": 57,
+  "tipo": "substantivo",
+  "pt": "mesa",
+  "en": "table",
+  "fr": "table"
+},
+{
+  "id": 58,
+  "tipo": "substantivo",
+  "pt": "cadeira",
+  "en": "chair",
+  "fr": "chaise"
+},
+{
+  "id": 59,
+  "tipo": "substantivo",
+  "pt": "porta",
+  "en": "door",
+  "fr": "porte"
+},
+{
+  "id": 60,
+  "tipo": "substantivo",
+  "pt": "janela",
+  "en": "window",
+  "fr": "fenêtre"
+},
+{
+  "id": 61,
+  "tipo": "substantivo",
+  "pt": "quarto",
+  "en": "room",
+  "fr": "chambre"
+},
+{
+  "id": 62,
+  "tipo": "substantivo",
+  "pt": "banheiro",
+  "en": "bathroom",
+  "fr": "salle de bain"
+},
+{
+  "id": 63,
+  "tipo": "substantivo",
+  "pt": "cozinha",
+  "en": "kitchen",
+  "fr": "cuisine"
+},
+{
+  "id": 64,
+  "tipo": "substantivo",
+  "pt": "carro",
+  "en": "car",
+  "fr": "voiture"
+},
+{
+  "id": 65,
+  "tipo": "substantivo",
+  "pt": "ônibus",
+  "en": "bus",
+  "fr": "autobus"
+},
+{
+  "id": 66,
+  "tipo": "substantivo",
+  "pt": "avião",
+  "en": "airplane",
+  "fr": "avion"
+},
+{
+  "id": 67,
+  "tipo": "substantivo",
+  "pt": "hotel",
+  "en": "hotel",
+  "fr": "hôtel"
+},
+{
+  "id": 68,
+  "tipo": "substantivo",
+  "pt": "restaurante",
+  "en": "restaurant",
+  "fr": "restaurant"
+},
+{
+  "id": 69,
+  "tipo": "substantivo",
+  "pt": "mercado",
+  "en": "market",
+  "fr": "marché"
+},
+{
+  "id": 70,
+  "tipo": "substantivo",
+  "pt": "loja",
+  "en": "store",
+  "fr": "magasin"
+},
+{
+  "id": 71,
+  "tipo": "substantivo",
+  "pt": "rua",
+  "en": "street",
+  "fr": "rue"
+},
+{
+  "id": 72,
+  "tipo": "substantivo",
+  "pt": "cidade",
+  "en": "city",
+  "fr": "ville"
+},
+{
+  "id": 73,
+  "tipo": "substantivo",
+  "pt": "país",
+  "en": "country",
+  "fr": "pays"
+},
+{
+  "id": 74,
+  "tipo": "substantivo",
+  "pt": "praia",
+  "en": "beach",
+  "fr": "plage"
+},
+{
+  "id": 75,
+  "tipo": "substantivo",
+  "pt": "aeroporto",
+  "en": "airport",
+  "fr": "aéroport"
+},
+{
+  "id": 76,
+  "tipo": "substantivo",
+  "pt": "telefone",
+  "en": "phone",
+  "fr": "téléphone"
+},
+{
+  "id": 77,
+  "tipo": "substantivo",
+  "pt": "celular",
+  "en": "smartphone",
+  "fr": "téléphone portable"
+},
+{
+  "id": 78,
+  "tipo": "substantivo",
+  "pt": "computador",
+  "en": "computer",
+  "fr": "ordinateur"
+},
+{
+  "id": 79,
+  "tipo": "substantivo",
+  "pt": "internet",
+  "en": "internet",
+  "fr": "internet"
+},
+{
+  "id": 80,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "password",
+  "fr": "mot de passe"
+},
+{
+  "id": 81,
+  "tipo": "substantivo",
+  "pt": "email",
+  "en": "email",
+  "fr": "email"
+},
+{
+  "id": 82,
+  "tipo": "substantivo",
+  "pt": "mensagem",
+  "en": "message",
+  "fr": "message"
+},
+{
+  "id": 83,
+  "tipo": "substantivo",
+  "pt": "foto",
+  "en": "photo",
+  "fr": "photo"
+},
+{
+  "id": 84,
+  "tipo": "substantivo",
+  "pt": "vídeo",
+  "en": "video",
+  "fr": "vidéo"
+},
+{
+  "id": 85,
+  "tipo": "substantivo",
+  "pt": "música",
+  "en": "music",
+  "fr": "musique"
+},
+{
+  "id": 86,
+  "tipo": "substantivo",
+  "pt": "filme",
+  "en": "movie",
+  "fr": "film"
+},
+{
+  "id": 87,
+  "tipo": "substantivo",
+  "pt": "jogo",
+  "en": "game",
+  "fr": "jeu"
+},
+{
+  "id": 88,
+  "tipo": "substantivo",
+  "pt": "dinheiro",
+  "en": "money",
+  "fr": "argent"
+},
+{
+  "id": 89,
+  "tipo": "substantivo",
+  "pt": "cartão",
+  "en": "card",
+  "fr": "carte"
+},
+{
+  "id": 90,
+  "tipo": "substantivo",
+  "pt": "preço",
+  "en": "price",
+  "fr": "prix"
+},
+{
+  "id": 91,
+  "tipo": "substantivo",
+  "pt": "conta",
+  "en": "bill",
+  "fr": "addition"
+},
+{
+  "id": 92,
+  "tipo": "substantivo",
+  "pt": "problema",
+  "en": "problem",
+  "fr": "problème"
+},
+{
+  "id": 93,
+  "tipo": "substantivo",
+  "pt": "ajuda",
+  "en": "help",
+  "fr": "aide"
+},
+{
+  "id": 94,
+  "tipo": "substantivo",
+  "pt": "polícia",
+  "en": "police",
+  "fr": "police"
+},
+{
+  "id": 95,
+  "tipo": "substantivo",
+  "pt": "hospital",
+  "en": "hospital",
+  "fr": "hôpital"
+},
+{
+  "id": 96,
+  "tipo": "substantivo",
+  "pt": "farmácia",
+  "en": "pharmacy",
+  "fr": "pharmacie"
+},
+{
+  "id": 97,
+  "tipo": "substantivo",
+  "pt": "dor",
+  "en": "pain",
+  "fr": "douleur"
+},
+{
+  "id": 98,
+  "tipo": "adjetivo",
+  "pt": "grande",
+  "en": "big",
+  "fr": "grand"
+},
+{
+  "id": 99,
+  "tipo": "adjetivo",
+  "pt": "pequeno",
+  "en": "small",
+  "fr": "petit"
+},
+{
+  "id": 100,
+  "tipo": "adjetivo",
+  "pt": "novo",
+  "en": "new",
+  "fr": "nouveau"
+},
+{
+  "id": 101,
+  "tipo": "adjetivo",
+  "pt": "velho",
+  "en": "old",
+  "fr": "vieux"
+},
+{
+  "id": 102,
+  "tipo": "adjetivo",
+  "pt": "rápido",
+  "en": "fast",
+  "fr": "rapide"
+},
+{
+  "id": 103,
+  "tipo": "adjetivo",
+  "pt": "lento",
+  "en": "slow",
+  "fr": "lent"
+},
+{
+  "id": 104,
+  "tipo": "adjetivo",
+  "pt": "fácil",
+  "en": "easy",
+  "fr": "facile"
+},
+{
+  "id": 105,
+  "tipo": "adjetivo",
+  "pt": "difícil",
+  "en": "difficult",
+  "fr": "difficile"
+},
+{
+  "id": 106,
+  "tipo": "adjetivo",
+  "pt": "feliz",
+  "en": "happy",
+  "fr": "heureux"
+},
+{
+  "id": 107,
+  "tipo": "adjetivo",
+  "pt": "triste",
+  "en": "sad",
+  "fr": "triste"
+},
+{
+  "id": 108,
+  "tipo": "adjetivo",
+  "pt": "quente",
+  "en": "hot",
+  "fr": "chaud"
+},
+{
+  "id": 109,
+  "tipo": "adjetivo",
+  "pt": "frio",
+  "en": "cold",
+  "fr": "froid"
+},
+{
+  "id": 110,
+  "tipo": "adjetivo",
+  "pt": "cheio",
+  "en": "full",
+  "fr": "plein"
+},
+{
+  "id": 111,
+  "tipo": "adjetivo",
+  "pt": "vazio",
+  "en": "empty",
+  "fr": "vide"
+},
+{
+  "id": 112,
+  "tipo": "adjetivo",
+  "pt": "bonito",
+  "en": "beautiful",
+  "fr": "beau"
+},
+{
+  "id": 113,
+  "tipo": "adjetivo",
+  "pt": "feio",
+  "en": "ugly",
+  "fr": "laid"
+},
+{
+  "id": 114,
+  "tipo": "adjetivo",
+  "pt": "caro",
+  "en": "expensive",
+  "fr": "cher"
+},
+{
+  "id": 115,
+  "tipo": "adjetivo",
+  "pt": "barato",
+  "en": "cheap",
+  "fr": "bon marché"
+},
+{
+  "id": 116,
+  "tipo": "adjetivo",
+  "pt": "importante",
+  "en": "important",
+  "fr": "important"
+},
+{
+  "id": 117,
+  "tipo": "adjetivo",
+  "pt": "pronto",
+  "en": "ready",
+  "fr": "prêt"
+},
+{
+  "id": 118,
+  "tipo": "adjetivo",
+  "pt": "cansado",
+  "en": "tired",
+  "fr": "fatigué"
+},
+{
+  "id": 119,
+  "tipo": "adjetivo",
+  "pt": "ocupado",
+  "en": "busy",
+  "fr": "occupé"
+},
+{
+  "id": 120,
+  "tipo": "adjetivo",
+  "pt": "livre",
+  "en": "free",
+  "fr": "libre"
+},
+{
+  "id": 121,
+  "tipo": "advérbio",
+  "pt": "muito",
+  "en": "very",
+  "fr": "très"
+},
+{
+  "id": 122,
+  "tipo": "advérbio",
+  "pt": "pouco",
+  "en": "little",
+  "fr": "peu"
+},
+{
+  "id": 123,
+  "tipo": "advérbio",
+  "pt": "mais",
+  "en": "more",
+  "fr": "plus"
+},
+{
+  "id": 124,
+  "tipo": "advérbio",
+  "pt": "menos",
+  "en": "less",
+  "fr": "moins"
+},
+{
+  "id": 125,
+  "tipo": "advérbio",
+  "pt": "já",
+  "en": "already",
+  "fr": "déjà"
+},
+{
+  "id": 126,
+  "tipo": "advérbio",
+  "pt": "ainda",
+  "en": "still",
+  "fr": "encore"
+},
+{
+  "id": 127,
+  "tipo": "advérbio",
+  "pt": "talvez",
+  "en": "maybe",
+  "fr": "peut-être"
+},
+{
+  "id": 128,
+  "tipo": "advérbio",
+  "pt": "apenas",
+  "en": "only",
+  "fr": "seulement"
+},
+{
+  "id": 129,
+  "tipo": "advérbio",
+  "pt": "quase",
+  "en": "almost",
+  "fr": "presque"
+},
+{
+  "id": 130,
+  "tipo": "advérbio",
+  "pt": "longe",
+  "en": "far",
+  "fr": "loin"
+},
+{
+  "id": 131,
+  "tipo": "advérbio",
+  "pt": "perto",
+  "en": "near",
+  "fr": "près"
+},
+{
+  "id": 132,
+  "tipo": "advérbio",
+  "pt": "depois",
+  "en": "later",
+  "fr": "plus tard"
+},
+{
+  "id": 133,
+  "tipo": "advérbio",
+  "pt": "antes",
+  "en": "before",
+  "fr": "avant"
+},
+{
+  "id": 134,
+  "tipo": "preposição",
+  "pt": "em",
+  "en": "in",
+  "fr": "dans"
+},
+{
+  "id": 135,
+  "tipo": "preposição",
+  "pt": "sobre",
+  "en": "on",
+  "fr": "sur"
+},
+{
+  "id": 136,
+  "tipo": "preposição",
+  "pt": "de",
+  "en": "from",
+  "fr": "de"
+},
+{
+  "id": 137,
+  "tipo": "preposição",
+  "pt": "para",
+  "en": "to",
+  "fr": "à"
+},
+{
+  "id": 138,
+  "tipo": "preposição",
+  "pt": "com",
+  "en": "with",
+  "fr": "avec"
+},
+{
+  "id": 139,
+  "tipo": "preposição",
+  "pt": "sem",
+  "en": "without",
+  "fr": "sans"
+},
+{
+  "id": 140,
+  "tipo": "preposição",
+  "pt": "entre",
+  "en": "between",
+  "fr": "entre"
+},
+{
+  "id": 141,
+  "tipo": "preposição",
+  "pt": "contra",
+  "en": "against",
+  "fr": "contre"
+},
+{
+  "id": 142,
+  "tipo": "número",
+  "pt": "zero",
+  "en": "zero",
+  "fr": "zéro"
+},
+{
+  "id": 143,
+  "tipo": "número",
+  "pt": "um",
+  "en": "one",
+  "fr": "un"
+},
+{
+  "id": 144,
+  "tipo": "número",
+  "pt": "dois",
+  "en": "two",
+  "fr": "deux"
+},
+{
+  "id": 145,
+  "tipo": "número",
+  "pt": "três",
+  "en": "three",
+  "fr": "trois"
+},
+{
+  "id": 146,
+  "tipo": "número",
+  "pt": "quatro",
+  "en": "four",
+  "fr": "quatre"
+},
+{
+  "id": 147,
+  "tipo": "número",
+  "pt": "cinco",
+  "en": "five",
+  "fr": "cinq"
+},
+{
+  "id": 148,
+  "tipo": "número",
+  "pt": "seis",
+  "en": "six",
+  "fr": "six"
+},
+{
+  "id": 149,
+  "tipo": "número",
+  "pt": "sete",
+  "en": "seven",
+  "fr": "sept"
+},
+{
+  "id": 150,
+  "tipo": "número",
+  "pt": "oito",
+  "en": "eight",
+  "fr": "huit"
+},
+{
+  "id": 151,
+  "tipo": "número",
+  "pt": "nove",
+  "en": "nine",
+  "fr": "neuf"
+},
+{
+  "id": 152,
+  "tipo": "número",
+  "pt": "dez",
+  "en": "ten",
+  "fr": "dix"
+},
+{
+  "id": 153,
+  "tipo": "substantivo",
+  "pt": "nome",
+  "en": "name",
+  "fr": "nom"
+},
+{
+  "id": 154,
+  "tipo": "substantivo",
+  "pt": "idade",
+  "en": "age",
+  "fr": "âge"
+},
+{
+  "id": 155,
+  "tipo": "substantivo",
+  "pt": "endereço",
+  "en": "address",
+  "fr": "adresse"
+},
+{
+  "id": 156,
+  "tipo": "substantivo",
+  "pt": "número",
+  "en": "number",
+  "fr": "numéro"
+},
+{
+  "id": 157,
+  "tipo": "substantivo",
+  "pt": "documento",
+  "en": "document",
+  "fr": "document"
+},
+{
+  "id": 158,
+  "tipo": "substantivo",
+  "pt": "passaporte",
+  "en": "passport",
+  "fr": "passeport"
+},
+{
+  "id": 159,
+  "tipo": "substantivo",
+  "pt": "passagem",
+  "en": "ticket",
+  "fr": "billet"
+},
+{
+  "id": 160,
+  "tipo": "substantivo",
+  "pt": "bagagem",
+  "en": "luggage",
+  "fr": "bagage"
+},
+{
+  "id": 161,
+  "tipo": "substantivo",
+  "pt": "mapa",
+  "en": "map",
+  "fr": "carte"
+},
+{
+  "id": 162,
+  "tipo": "substantivo",
+  "pt": "estrada",
+  "en": "road",
+  "fr": "route"
+},
+{
+  "id": 163,
+  "tipo": "substantivo",
+  "pt": "trânsito",
+  "en": "traffic",
+  "fr": "circulation"
+},
+{
+  "id": 164,
+  "tipo": "substantivo",
+  "pt": "combustível",
+  "en": "fuel",
+  "fr": "carburant"
+},
+{
+  "id": 165,
+  "tipo": "substantivo",
+  "pt": "chave",
+  "en": "key",
+  "fr": "clé"
+},
+{
+  "id": 166,
+  "tipo": "substantivo",
+  "pt": "bolsa",
+  "en": "bag",
+  "fr": "sac"
+},
+{
+  "id": 167,
+  "tipo": "substantivo",
+  "pt": "roupa",
+  "en": "clothes",
+  "fr": "vêtements"
+},
+{
+  "id": 168,
+  "tipo": "substantivo",
+  "pt": "sapato",
+  "en": "shoe",
+  "fr": "chaussure"
+},
+{
+  "id": 169,
+  "tipo": "substantivo",
+  "pt": "camisa",
+  "en": "shirt",
+  "fr": "chemise"
+},
+{
+  "id": 170,
+  "tipo": "substantivo",
+  "pt": "calça",
+  "en": "pants",
+  "fr": "pantalon"
+},
+{
+  "id": 171,
+  "tipo": "substantivo",
+  "pt": "comida",
+  "en": "meal",
+  "fr": "repas"
+},
+{
+  "id": 172,
+  "tipo": "substantivo",
+  "pt": "café",
+  "en": "coffee",
+  "fr": "café"
+},
+{
+  "id": 173,
+  "tipo": "substantivo",
+  "pt": "chá",
+  "en": "tea",
+  "fr": "thé"
+},
+{
+  "id": 174,
+  "tipo": "substantivo",
+  "pt": "suco",
+  "en": "juice",
+  "fr": "jus"
+},
+{
+  "id": 175,
+  "tipo": "substantivo",
+  "pt": "pão",
+  "en": "bread",
+  "fr": "pain"
+},
+{
+  "id": 176,
+  "tipo": "substantivo",
+  "pt": "arroz",
+  "en": "rice",
+  "fr": "riz"
+},
+{
+  "id": 177,
+  "tipo": "substantivo",
+  "pt": "carne",
+  "en": "meat",
+  "fr": "viande"
+},
+{
+  "id": 178,
+  "tipo": "substantivo",
+  "pt": "fruta",
+  "en": "fruit",
+  "fr": "fruit"
+},
+{
+  "id": 179,
+  "tipo": "substantivo",
+  "pt": "verdura",
+  "en": "vegetable",
+  "fr": "légume"
+},
+{
+  "id": 180,
+  "tipo": "substantivo",
+  "pt": "sal",
+  "en": "salt",
+  "fr": "sel"
+},
+{
+  "id": 181,
+  "tipo": "substantivo",
+  "pt": "açúcar",
+  "en": "sugar",
+  "fr": "sucre"
+},
+{
+  "id": 183,
+  "tipo": "substantivo",
+  "pt": "sofá",
+  "en": "sofa",
+  "fr": "canapé"
+},
+{
+  "id": 184,
+  "tipo": "substantivo",
+  "pt": "cama",
+  "en": "bed",
+  "fr": "lit"
+},
+{
+  "id": 185,
+  "tipo": "substantivo",
+  "pt": "televisão",
+  "en": "television",
+  "fr": "télévision"
+},
+{
+  "id": 186,
+  "tipo": "substantivo",
+  "pt": "luz",
+  "en": "light",
+  "fr": "lumière"
+},
+{
+  "id": 187,
+  "tipo": "substantivo",
+  "pt": "energia",
+  "en": "energy",
+  "fr": "énergie"
+},
+{
+  "id": 189,
+  "tipo": "substantivo",
+  "pt": "site",
+  "en": "website",
+  "fr": "site"
+},
+{
+  "id": 190,
+  "tipo": "substantivo",
+  "pt": "aplicativo",
+  "en": "app",
+  "fr": "application"
+},
+{
+  "id": 191,
+  "tipo": "substantivo",
+  "pt": "perfil",
+  "en": "profile",
+  "fr": "profil"
+},
+{
+  "id": 192,
+  "tipo": "substantivo",
+  "pt": "conta",
+  "en": "account",
+  "fr": "compte"
+},
+{
+  "id": 193,
+  "tipo": "substantivo",
+  "pt": "rede",
+  "en": "network",
+  "fr": "réseau"
+},
+{
+  "id": 194,
+  "tipo": "substantivo",
+  "pt": "comentário",
+  "en": "comment",
+  "fr": "commentaire"
+},
+{
+  "id": 195,
+  "tipo": "substantivo",
+  "pt": "notícia",
+  "en": "news",
+  "fr": "actualité"
+},
+{
+  "id": 196,
+  "tipo": "substantivo",
+  "pt": "ideia",
+  "en": "idea",
+  "fr": "idée"
+},
+{
+  "id": 197,
+  "tipo": "substantivo",
+  "pt": "pergunta",
+  "en": "question",
+  "fr": "question"
+},
+{
+  "id": 198,
+  "tipo": "substantivo",
+  "pt": "resposta",
+  "en": "answer",
+  "fr": "réponse"
+},
+{
+  "id": 199,
+  "tipo": "substantivo",
+  "pt": "verdade",
+  "en": "truth",
+  "fr": "vérité"
+},
+{
+  "id": 200,
+  "tipo": "substantivo",
+  "pt": "mentira",
+  "en": "lie",
+  "fr": "mensonge"
+},
+{
+  "id": 201,
+  "tipo": "substantivo",
+  "pt": "amor",
+  "en": "love",
+  "fr": "amour"
+},
+{
+  "id": 202,
+  "tipo": "substantivo",
+  "pt": "relacionamento",
+  "en": "relationship",
+  "fr": "relation"
+},
+{
+  "id": 203,
+  "tipo": "substantivo",
+  "pt": "namorado",
+  "en": "boyfriend",
+  "fr": "petit ami"
+},
+{
+  "id": 204,
+  "tipo": "substantivo",
+  "pt": "namorada",
+  "en": "girlfriend",
+  "fr": "petite amie"
+},
+{
+  "id": 205,
+  "tipo": "substantivo",
+  "pt": "casamento",
+  "en": "marriage",
+  "fr": "mariage"
+},
+{
+  "id": 206,
+  "tipo": "substantivo",
+  "pt": "festa",
+  "en": "party",
+  "fr": "fête"
+},
+{
+  "id": 207,
+  "tipo": "substantivo",
+  "pt": "presente",
+  "en": "gift",
+  "fr": "cadeau"
+},
+{
+  "id": 208,
+  "tipo": "substantivo",
+  "pt": "viagem",
+  "en": "trip",
+  "fr": "voyage"
+},
+{
+  "id": 209,
+  "tipo": "substantivo",
+  "pt": "férias",
+  "en": "vacation",
+  "fr": "vacances"
+},
+{
+  "id": 210,
+  "tipo": "substantivo",
+  "pt": "reserva",
+  "en": "reservation",
+  "fr": "réservation"
+},
+{
+  "id": 211,
+  "tipo": "substantivo",
+  "pt": "entrada",
+  "en": "entrance",
+  "fr": "entrée"
+},
+{
+  "id": 212,
+  "tipo": "substantivo",
+  "pt": "saída",
+  "en": "exit",
+  "fr": "sortie"
+},
+{
+  "id": 213,
+  "tipo": "substantivo",
+  "pt": "fila",
+  "en": "line",
+  "fr": "file"
+},
+{
+  "id": 214,
+  "tipo": "substantivo",
+  "pt": "cliente",
+  "en": "customer",
+  "fr": "client"
+},
+{
+  "id": 215,
+  "tipo": "substantivo",
+  "pt": "vendedor",
+  "en": "seller",
+  "fr": "vendeur"
+},
+{
+  "id": 216,
+  "tipo": "substantivo",
+  "pt": "chefe",
+  "en": "boss",
+  "fr": "patron"
+},
+{
+  "id": 217,
+  "tipo": "substantivo",
+  "pt": "colega",
+  "en": "coworker",
+  "fr": "collègue"
+},
+{
+  "id": 218,
+  "tipo": "substantivo",
+  "pt": "reunião",
+  "en": "meeting",
+  "fr": "réunion"
+},
+{
+  "id": 219,
+  "tipo": "substantivo",
+  "pt": "empresa",
+  "en": "company",
+  "fr": "entreprise"
+},
+{
+  "id": 220,
+  "tipo": "substantivo",
+  "pt": "dinheiro",
+  "en": "cash",
+  "fr": "argent liquide"
+},
+{
+  "id": 221,
+  "tipo": "substantivo",
+  "pt": "troco",
+  "en": "change",
+  "fr": "monnaie"
+},
+{
+  "id": 222,
+  "tipo": "substantivo",
+  "pt": "desconto",
+  "en": "discount",
+  "fr": "réduction"
+},
+{
+  "id": 223,
+  "tipo": "substantivo",
+  "pt": "pedido",
+  "en": "order",
+  "fr": "commande"
+},
+{
+  "id": 224,
+  "tipo": "substantivo",
+  "pt": "menu",
+  "en": "menu",
+  "fr": "menu"
+},
+{
+  "id": 225,
+  "tipo": "substantivo",
+  "pt": "garçom",
+  "en": "waiter",
+  "fr": "serveur"
+},
+{
+  "id": 226,
+  "tipo": "substantivo",
+  "pt": "garrafa",
+  "en": "bottle",
+  "fr": "bouteille"
+},
+{
+  "id": 227,
+  "tipo": "substantivo",
+  "pt": "copo",
+  "en": "glass",
+  "fr": "verre"
+},
+{
+  "id": 228,
+  "tipo": "substantivo",
+  "pt": "prato",
+  "en": "plate",
+  "fr": "assiette"
+},
+{
+  "id": 229,
+  "tipo": "substantivo",
+  "pt": "faca",
+  "en": "knife",
+  "fr": "couteau"
+},
+{
+  "id": 230,
+  "tipo": "substantivo",
+  "pt": "garfo",
+  "en": "fork",
+  "fr": "fourchette"
+},
+{
+  "id": 231,
+  "tipo": "substantivo",
+  "pt": "colher",
+  "en": "spoon",
+  "fr": "cuillère"
+},
+{
+  "id": 232,
+  "tipo": "substantivo",
+  "pt": "tela",
+  "en": "screen",
+  "fr": "écran"
+},
+{
+  "id": 233,
+  "tipo": "substantivo",
+  "pt": "teclado",
+  "en": "keyboard",
+  "fr": "clavier"
+},
+{
+  "id": 234,
+  "tipo": "substantivo",
+  "pt": "mouse",
+  "en": "mouse",
+  "fr": "souris"
+},
+{
+  "id": 235,
+  "tipo": "substantivo",
+  "pt": "arquivo",
+  "en": "file",
+  "fr": "fichier"
+},
+{
+  "id": 236,
+  "tipo": "substantivo",
+  "pt": "imagem",
+  "en": "image",
+  "fr": "image"
+},
+{
+  "id": 237,
+  "tipo": "substantivo",
+  "pt": "som",
+  "en": "sound",
+  "fr": "son"
+},
+{
+  "id": 238,
+  "tipo": "substantivo",
+  "pt": "voz",
+  "en": "voice",
+  "fr": "voix"
+},
+{
+  "id": 239,
+  "tipo": "substantivo",
+  "pt": "idioma",
+  "en": "language",
+  "fr": "langue"
+},
+{
+  "id": 240,
+  "tipo": "substantivo",
+  "pt": "palavra",
+  "en": "word",
+  "fr": "mot"
+},
+{
+  "id": 241,
+  "tipo": "substantivo",
+  "pt": "frase",
+  "en": "sentence",
+  "fr": "phrase"
+},
+{
+  "id": 242,
+  "tipo": "substantivo",
+  "pt": "texto",
+  "en": "text",
+  "fr": "texte"
+},
+{
+  "id": 243,
+  "tipo": "substantivo",
+  "pt": "história",
+  "en": "story",
+  "fr": "histoire"
+},
+{
+  "id": 244,
+  "tipo": "substantivo",
+  "pt": "sonho",
+  "en": "dream",
+  "fr": "rêve"
+},
+{
+  "id": 245,
+  "tipo": "substantivo",
+  "pt": "medo",
+  "en": "fear",
+  "fr": "peur"
+},
+{
+  "id": 246,
+  "tipo": "substantivo",
+  "pt": "sorte",
+  "en": "luck",
+  "fr": "chance"
+},
+{
+  "id": 247,
+  "tipo": "substantivo",
+  "pt": "erro",
+  "en": "mistake",
+  "fr": "erreur"
+},
+{
+  "id": 248,
+  "tipo": "substantivo",
+  "pt": "sucesso",
+  "en": "success",
+  "fr": "succès"
+},
+{
+  "id": 249,
+  "tipo": "substantivo",
+  "pt": "objetivo",
+  "en": "goal",
+  "fr": "objectif"
+},
+{
+  "id": 250,
+  "tipo": "substantivo",
+  "pt": "resultado",
+  "en": "result",
+  "fr": "résultat"
+},
+{
+  "id": 251,
+  "tipo": "substantivo",
+  "pt": "experiência",
+  "en": "experience",
+  "fr": "expérience"
+},
+{
+  "id": 252,
+  "tipo": "substantivo",
+  "pt": "oportunidade",
+  "en": "opportunity",
+  "fr": "opportunité"
+},
+{
+  "id": 253,
+  "tipo": "substantivo",
+  "pt": "mudança",
+  "en": "change",
+  "fr": "changement"
+},
+{
+  "id": 254,
+  "tipo": "substantivo",
+  "pt": "plano",
+  "en": "plan",
+  "fr": "plan"
+},
+{
+  "id": 255,
+  "tipo": "substantivo",
+  "pt": "projeto",
+  "en": "project",
+  "fr": "projet"
+},
+{
+  "id": 256,
+  "tipo": "substantivo",
+  "pt": "serviço",
+  "en": "service",
+  "fr": "service"
+},
+{
+  "id": 257,
+  "tipo": "substantivo",
+  "pt": "produto",
+  "en": "product",
+  "fr": "produit"
+},
+{
+  "id": 258,
+  "tipo": "substantivo",
+  "pt": "marca",
+  "en": "brand",
+  "fr": "marque"
+},
+{
+  "id": 259,
+  "tipo": "substantivo",
+  "pt": "modelo",
+  "en": "model",
+  "fr": "modèle"
+},
+{
+  "id": 260,
+  "tipo": "substantivo",
+  "pt": "qualidade",
+  "en": "quality",
+  "fr": "qualité"
+},
+{
+  "id": 261,
+  "tipo": "substantivo",
+  "pt": "quantidade",
+  "en": "quantity",
+  "fr": "quantité"
+},
+{
+  "id": 262,
+  "tipo": "substantivo",
+  "pt": "valor",
+  "en": "value",
+  "fr": "valeur"
+},
+{
+  "id": 263,
+  "tipo": "substantivo",
+  "pt": "promoção",
+  "en": "promotion",
+  "fr": "promotion"
+},
+{
+  "id": 264,
+  "tipo": "substantivo",
+  "pt": "entrega",
+  "en": "delivery",
+  "fr": "livraison"
+},
+{
+  "id": 265,
+  "tipo": "substantivo",
+  "pt": "atraso",
+  "en": "delay",
+  "fr": "retard"
+},
+{
+  "id": 266,
+  "tipo": "substantivo",
+  "pt": "acidente",
+  "en": "accident",
+  "fr": "accident"
+},
+{
+  "id": 267,
+  "tipo": "substantivo",
+  "pt": "perigo",
+  "en": "danger",
+  "fr": "danger"
+},
+{
+  "id": 268,
+  "tipo": "substantivo",
+  "pt": "segurança",
+  "en": "security",
+  "fr": "sécurité"
+},
+{
+  "id": 269,
+  "tipo": "substantivo",
+  "pt": "incêndio",
+  "en": "fire",
+  "fr": "incendie"
+},
+{
+  "id": 270,
+  "tipo": "substantivo",
+  "pt": "chuva",
+  "en": "rain",
+  "fr": "pluie"
+},
+{
+  "id": 271,
+  "tipo": "substantivo",
+  "pt": "vento",
+  "en": "wind",
+  "fr": "vent"
+},
+{
+  "id": 272,
+  "tipo": "substantivo",
+  "pt": "sol",
+  "en": "sun",
+  "fr": "soleil"
+},
+{
+  "id": 273,
+  "tipo": "substantivo",
+  "pt": "calor",
+  "en": "heat",
+  "fr": "chaleur"
+},
+{
+  "id": 274,
+  "tipo": "substantivo",
+  "pt": "frio",
+  "en": "cold",
+  "fr": "froid"
+},
+{
+  "id": 275,
+  "tipo": "substantivo",
+  "pt": "céu",
+  "en": "sky",
+  "fr": "ciel"
+},
+{
+  "id": 276,
+  "tipo": "substantivo",
+  "pt": "mar",
+  "en": "sea",
+  "fr": "mer"
+},
+{
+  "id": 277,
+  "tipo": "substantivo",
+  "pt": "rio",
+  "en": "river",
+  "fr": "rivière"
+},
+{
+  "id": 278,
+  "tipo": "substantivo",
+  "pt": "montanha",
+  "en": "mountain",
+  "fr": "montagne"
+},
+{
+  "id": 279,
+  "tipo": "substantivo",
+  "pt": "animal",
+  "en": "animal",
+  "fr": "animal"
+},
+{
+  "id": 280,
+  "tipo": "substantivo",
+  "pt": "cachorro",
+  "en": "dog",
+  "fr": "chien"
+},
+{
+  "id": 281,
+  "tipo": "substantivo",
+  "pt": "gato",
+  "en": "cat",
+  "fr": "chat"
+},
+{
+  "id": 282,
+  "tipo": "substantivo",
+  "pt": "peixe",
+  "en": "fish",
+  "fr": "poisson"
+},
+{
+  "id": 283,
+  "tipo": "substantivo",
+  "pt": "pássaro",
+  "en": "bird",
+  "fr": "oiseau"
+},
+{
+  "id": 284,
+  "tipo": "substantivo",
+  "pt": "árvore",
+  "en": "tree",
+  "fr": "arbre"
+},
+{
+  "id": 285,
+  "tipo": "substantivo",
+  "pt": "flor",
+  "en": "flower",
+  "fr": "fleur"
+},
+{
+  "id": 286,
+  "tipo": "substantivo",
+  "pt": "terra",
+  "en": "earth",
+  "fr": "terre"
+},
+{
+  "id": 287,
+  "tipo": "substantivo",
+  "pt": "mundo",
+  "en": "world",
+  "fr": "monde"
+},
+{
+  "id": 288,
+  "tipo": "substantivo",
+  "pt": "vida",
+  "en": "life",
+  "fr": "vie"
+},
+{
+  "id": 289,
+  "tipo": "substantivo",
+  "pt": "morte",
+  "en": "death",
+  "fr": "mort"
+},
+{
+  "id": 290,
+  "tipo": "substantivo",
+  "pt": "saúde",
+  "en": "health",
+  "fr": "santé"
+},
+{
+  "id": 291,
+  "tipo": "substantivo",
+  "pt": "doença",
+  "en": "disease",
+  "fr": "maladie"
+},
+{
+  "id": 292,
+  "tipo": "substantivo",
+  "pt": "remédio",
+  "en": "medicine",
+  "fr": "médicament"
+},
+{
+  "id": 293,
+  "tipo": "substantivo",
+  "pt": "médico",
+  "en": "doctor",
+  "fr": "médecin"
+},
+{
+  "id": 294,
+  "tipo": "substantivo",
+  "pt": "enfermeiro",
+  "en": "nurse",
+  "fr": "infirmier"
+},
+{
+  "id": 295,
+  "tipo": "substantivo",
+  "pt": "consulta",
+  "en": "appointment",
+  "fr": "rendez-vous"
+},
+{
+  "id": 296,
+  "tipo": "substantivo",
+  "pt": "exame",
+  "en": "exam",
+  "fr": "examen"
+},
+{
+  "id": 297,
+  "tipo": "substantivo",
+  "pt": "sangue",
+  "en": "blood",
+  "fr": "sang"
+},
+{
+  "id": 298,
+  "tipo": "substantivo",
+  "pt": "corpo",
+  "en": "body",
+  "fr": "corps"
+},
+{
+  "id": 299,
+  "tipo": "substantivo",
+  "pt": "cabeça",
+  "en": "head",
+  "fr": "tête"
+},
+{
+  "id": 300,
+  "tipo": "substantivo",
+  "pt": "mão",
+  "en": "hand",
+  "fr": "main"
+},{
+  "id": 301,
+  "tipo": "substantivo",
+  "pt": "pé",
+  "en": "foot",
+  "fr": "pied"
+},
+{
+  "id": 302,
+  "tipo": "substantivo",
+  "pt": "olho",
+  "en": "eye",
+  "fr": "œil"
+},
+{
+  "id": 303,
+  "tipo": "substantivo",
+  "pt": "boca",
+  "en": "mouth",
+  "fr": "bouche"
+},
+{
+  "id": 304,
+  "tipo": "substantivo",
+  "pt": "nariz",
+  "en": "nose",
+  "fr": "nez"
+},
+{
+  "id": 305,
+  "tipo": "substantivo",
+  "pt": "cabelo",
+  "en": "hair",
+  "fr": "cheveux"
+},
+{
+  "id": 306,
+  "tipo": "substantivo",
+  "pt": "rosto",
+  "en": "face",
+  "fr": "visage"
+},
+{
+  "id": 307,
+  "tipo": "substantivo",
+  "pt": "braço",
+  "en": "arm",
+  "fr": "bras"
+},
+{
+  "id": 308,
+  "tipo": "substantivo",
+  "pt": "perna",
+  "en": "leg",
+  "fr": "jambe"
+},
+{
+  "id": 309,
+  "tipo": "substantivo",
+  "pt": "coração",
+  "en": "heart",
+  "fr": "cœur"
+},
+{
+  "id": 310,
+  "tipo": "substantivo",
+  "pt": "mente",
+  "en": "mind",
+  "fr": "esprit"
+},
+{
+  "id": 311,
+  "tipo": "substantivo",
+  "pt": "emoção",
+  "en": "emotion",
+  "fr": "émotion"
+},
+{
+  "id": 312,
+  "tipo": "substantivo",
+  "pt": "felicidade",
+  "en": "happiness",
+  "fr": "bonheur"
+},
+{
+  "id": 313,
+  "tipo": "substantivo",
+  "pt": "trabalho",
+  "en": "job",
+  "fr": "emploi"
+},
+{
+  "id": 314,
+  "tipo": "substantivo",
+  "pt": "salário",
+  "en": "salary",
+  "fr": "salaire"
+},
+{
+  "id": 315,
+  "tipo": "substantivo",
+  "pt": "pagamento",
+  "en": "payment",
+  "fr": "paiement"
+},
+{
+  "id": 316,
+  "tipo": "substantivo",
+  "pt": "meta",
+  "en": "target",
+  "fr": "objectif"
+},
+{
+  "id": 317,
+  "tipo": "substantivo",
+  "pt": "carreira",
+  "en": "career",
+  "fr": "carrière"
+},
+{
+  "id": 318,
+  "tipo": "substantivo",
+  "pt": "currículo",
+  "en": "resume",
+  "fr": "CV"
+},
+{
+  "id": 319,
+  "tipo": "substantivo",
+  "pt": "entrevista",
+  "en": "interview",
+  "fr": "entretien"
+},
+{
+  "id": 320,
+  "tipo": "substantivo",
+  "pt": "contrato",
+  "en": "contract",
+  "fr": "contrat"
+},
+{
+  "id": 321,
+  "tipo": "substantivo",
+  "pt": "cliente",
+  "en": "client",
+  "fr": "client"
+},
+{
+  "id": 322,
+  "tipo": "substantivo",
+  "pt": "suporte",
+  "en": "support",
+  "fr": "support"
+},
+{
+  "id": 323,
+  "tipo": "substantivo",
+  "pt": "código",
+  "en": "code",
+  "fr": "code"
+},
+{
+  "id": 324,
+  "tipo": "substantivo",
+  "pt": "dados",
+  "en": "data",
+  "fr": "données"
+},
+{
+  "id": 325,
+  "tipo": "substantivo",
+  "pt": "informação",
+  "en": "information",
+  "fr": "information"
+},
+{
+  "id": 326,
+  "tipo": "substantivo",
+  "pt": "notificação",
+  "en": "notification",
+  "fr": "notification"
+},
+{
+  "id": 328,
+  "tipo": "substantivo",
+  "pt": "ligação",
+  "en": "call",
+  "fr": "appel"
+},
+{
+  "id": 329,
+  "tipo": "substantivo",
+  "pt": "clipe",
+  "en": "clip",
+  "fr": "clip"
+},
+{
+  "id": 330,
+  "tipo": "substantivo",
+  "pt": "canal",
+  "en": "channel",
+  "fr": "chaîne"
+},
+{
+  "id": 331,
+  "tipo": "substantivo",
+  "pt": "grupo",
+  "en": "group",
+  "fr": "groupe"
+},
+{
+  "id": 332,
+  "tipo": "substantivo",
+  "pt": "equipe",
+  "en": "team",
+  "fr": "équipe"
+},
+{
+  "id": 333,
+  "tipo": "substantivo",
+  "pt": "vizinho",
+  "en": "neighbor",
+  "fr": "voisin"
+},
+{
+  "id": 334,
+  "tipo": "substantivo",
+  "pt": "visitante",
+  "en": "visitor",
+  "fr": "visiteur"
+},
+{
+  "id": 335,
+  "tipo": "substantivo",
+  "pt": "motorista",
+  "en": "driver",
+  "fr": "conducteur"
+},
+{
+  "id": 336,
+  "tipo": "substantivo",
+  "pt": "passageiro",
+  "en": "passenger",
+  "fr": "passager"
+},
+{
+  "id": 337,
+  "tipo": "substantivo",
+  "pt": "bicicleta",
+  "en": "bicycle",
+  "fr": "vélo"
+},
+{
+  "id": 338,
+  "tipo": "substantivo",
+  "pt": "moto",
+  "en": "motorcycle",
+  "fr": "moto"
+},
+{
+  "id": 339,
+  "tipo": "substantivo",
+  "pt": "parque",
+  "en": "park",
+  "fr": "parc"
+},
+{
+  "id": 340,
+  "tipo": "substantivo",
+  "pt": "praça",
+  "en": "square",
+  "fr": "place"
+},
+{
+  "id": 341,
+  "tipo": "substantivo",
+  "pt": "igreja",
+  "en": "church",
+  "fr": "église"
+},
+{
+  "id": 342,
+  "tipo": "substantivo",
+  "pt": "banco",
+  "en": "bank",
+  "fr": "banque"
+},
+{
+  "id": 343,
+  "tipo": "substantivo",
+  "pt": "moeda",
+  "en": "coin",
+  "fr": "pièce"
+},
+{
+  "id": 344,
+  "tipo": "substantivo",
+  "pt": "papel",
+  "en": "paper",
+  "fr": "papier"
+},
+{
+  "id": 345,
+  "tipo": "substantivo",
+  "pt": "caixa",
+  "en": "box",
+  "fr": "boîte"
+},
+{
+  "id": 346,
+  "tipo": "substantivo",
+  "pt": "presente",
+  "en": "present",
+  "fr": "cadeau"
+},
+{
+  "id": 347,
+  "tipo": "substantivo",
+  "pt": "brinquedo",
+  "en": "toy",
+  "fr": "jouet"
+},
+{
+  "id": 348,
+  "tipo": "substantivo",
+  "pt": "arte",
+  "en": "art",
+  "fr": "art"
+},
+{
+  "id": 349,
+  "tipo": "substantivo",
+  "pt": "foto",
+  "en": "picture",
+  "fr": "image"
+},
+{
+  "id": 350,
+  "tipo": "substantivo",
+  "pt": "cor",
+  "en": "color",
+  "fr": "couleur"
+},
+{
+  "id": 351,
+  "tipo": "adjetivo",
+  "pt": "claro",
+  "en": "clear",
+  "fr": "clair"
+},
+{
+  "id": 352,
+  "tipo": "adjetivo",
+  "pt": "escuro",
+  "en": "dark",
+  "fr": "sombre"
+},
+{
+  "id": 353,
+  "tipo": "adjetivo",
+  "pt": "forte",
+  "en": "strong",
+  "fr": "fort"
+},
+{
+  "id": 354,
+  "tipo": "adjetivo",
+  "pt": "fraco",
+  "en": "weak",
+  "fr": "faible"
+},
+{
+  "id": 355,
+  "tipo": "adjetivo",
+  "pt": "limpo",
+  "en": "clean",
+  "fr": "propre"
+},
+{
+  "id": 356,
+  "tipo": "adjetivo",
+  "pt": "sujo",
+  "en": "dirty",
+  "fr": "sale"
+},
+{
+  "id": 357,
+  "tipo": "adjetivo",
+  "pt": "aberto",
+  "en": "open",
+  "fr": "ouvert"
+},
+{
+  "id": 358,
+  "tipo": "adjetivo",
+  "pt": "fechado",
+  "en": "closed",
+  "fr": "fermé"
+},
+{
+  "id": 359,
+  "tipo": "adjetivo",
+  "pt": "alto",
+  "en": "high",
+  "fr": "haut"
+},
+{
+  "id": 360,
+  "tipo": "adjetivo",
+  "pt": "baixo",
+  "en": "low",
+  "fr": "bas"
+},
+{
+  "id": 361,
+  "tipo": "adjetivo",
+  "pt": "pesado",
+  "en": "heavy",
+  "fr": "lourd"
+},
+{
+  "id": 362,
+  "tipo": "adjetivo",
+  "pt": "leve",
+  "en": "light",
+  "fr": "léger"
+},
+{
+  "id": 363,
+  "tipo": "adjetivo",
+  "pt": "doce",
+  "en": "sweet",
+  "fr": "sucré"
+},
+{
+  "id": 364,
+  "tipo": "adjetivo",
+  "pt": "salgado",
+  "en": "salty",
+  "fr": "salé"
+},
+{
+  "id": 365,
+  "tipo": "adjetivo",
+  "pt": "amargo",
+  "en": "bitter",
+  "fr": "amer"
+},
+{
+  "id": 366,
+  "tipo": "adjetivo",
+  "pt": "azedo",
+  "en": "sour",
+  "fr": "acide"
+},
+{
+  "id": 367,
+  "tipo": "adjetivo",
+  "pt": "macio",
+  "en": "soft",
+  "fr": "doux"
+},
+{
+  "id": 368,
+  "tipo": "adjetivo",
+  "pt": "duro",
+  "en": "hard",
+  "fr": "dur"
+},
+{
+  "id": 369,
+  "tipo": "adjetivo",
+  "pt": "rico",
+  "en": "rich",
+  "fr": "riche"
+},
+{
+  "id": 370,
+  "tipo": "adjetivo",
+  "pt": "pobre",
+  "en": "poor",
+  "fr": "pauvre"
+},
+{
+  "id": 371,
+  "tipo": "adjetivo",
+  "pt": "correto",
+  "en": "correct",
+  "fr": "correct"
+},
+{
+  "id": 372,
+  "tipo": "adjetivo",
+  "pt": "errado",
+  "en": "wrong",
+  "fr": "faux"
+},
+{
+  "id": 373,
+  "tipo": "adjetivo",
+  "pt": "possível",
+  "en": "possible",
+  "fr": "possible"
+},
+{
+  "id": 374,
+  "tipo": "adjetivo",
+  "pt": "impossível",
+  "en": "impossible",
+  "fr": "impossible"
+},
+{
+  "id": 375,
+  "tipo": "adjetivo",
+  "pt": "normal",
+  "en": "normal",
+  "fr": "normal"
+},
+{
+  "id": 376,
+  "tipo": "adjetivo",
+  "pt": "especial",
+  "en": "special",
+  "fr": "spécial"
+},
+{
+  "id": 377,
+  "tipo": "adjetivo",
+  "pt": "rápido",
+  "en": "quick",
+  "fr": "rapide"
+},
+{
+  "id": 378,
+  "tipo": "adjetivo",
+  "pt": "lindo",
+  "en": "pretty",
+  "fr": "joli"
+},
+{
+  "id": 379,
+  "tipo": "adjetivo",
+  "pt": "simples",
+  "en": "simple",
+  "fr": "simple"
+},
+{
+  "id": 380,
+  "tipo": "adjetivo",
+  "pt": "difícil",
+  "en": "hard",
+  "fr": "difficile"
+},
+{
+  "id": 381,
+  "tipo": "advérbio",
+  "pt": "rapidamente",
+  "en": "quickly",
+  "fr": "rapidement"
+},
+{
+  "id": 382,
+  "tipo": "advérbio",
+  "pt": "lentamente",
+  "en": "slowly",
+  "fr": "lentement"
+},
+{
+  "id": 383,
+  "tipo": "advérbio",
+  "pt": "bem",
+  "en": "well",
+  "fr": "bien"
+},
+{
+  "id": 384,
+  "tipo": "advérbio",
+  "pt": "mal",
+  "en": "badly",
+  "fr": "mal"
+},
+{
+  "id": 385,
+  "tipo": "advérbio",
+  "pt": "junto",
+  "en": "together",
+  "fr": "ensemble"
+},
+{
+  "id": 386,
+  "tipo": "advérbio",
+  "pt": "sozinho",
+  "en": "alone",
+  "fr": "seul"
+},
+{
+  "id": 387,
+  "tipo": "advérbio",
+  "pt": "talvez",
+  "en": "perhaps",
+  "fr": "peut-être"
+},
+{
+  "id": 388,
+  "tipo": "advérbio",
+  "pt": "realmente",
+  "en": "really",
+  "fr": "vraiment"
+},
+{
+  "id": 389,
+  "tipo": "advérbio",
+  "pt": "normalmente",
+  "en": "normally",
+  "fr": "normalement"
+},
+{
+  "id": 390,
+  "tipo": "advérbio",
+  "pt": "especialmente",
+  "en": "especially",
+  "fr": "spécialement"
+},
+{
+  "id": 391,
+  "tipo": "pronome",
+  "pt": "meu",
+  "en": "my",
+  "fr": "mon"
+},
+{
+  "id": 392,
+  "tipo": "pronome",
+  "pt": "seu",
+  "en": "your",
+  "fr": "ton"
+},
+{
+  "id": 393,
+  "tipo": "pronome",
+  "pt": "nosso",
+  "en": "our",
+  "fr": "notre"
+},
+{
+  "id": 394,
+  "tipo": "pronome",
+  "pt": "deles",
+  "en": "their",
+  "fr": "leur"
+},
+{
+  "id": 395,
+  "tipo": "pronome",
+  "pt": "ninguém",
+  "en": "nobody",
+  "fr": "personne"
+},
+{
+  "id": 396,
+  "tipo": "pronome",
+  "pt": "alguém",
+  "en": "someone",
+  "fr": "quelqu'un"
+},
+{
+  "id": 397,
+  "tipo": "pronome",
+  "pt": "tudo",
+  "en": "everything",
+  "fr": "tout"
+},
+{
+  "id": 398,
+  "tipo": "pronome",
+  "pt": "nada",
+  "en": "nothing",
+  "fr": "rien"
+},
+{
+  "id": 399,
+  "tipo": "pronome",
+  "pt": "cada",
+  "en": "each",
+  "fr": "chaque"
+},
+{
+  "id": 400,
+  "tipo": "pronome",
+  "pt": "outro",
+  "en": "other",
+  "fr": "autre"
+},
+{
+  "id": 401,
+  "tipo": "conector",
+  "pt": "se",
+  "en": "if",
+  "fr": "si"
+},
+{
+  "id": 402,
+  "tipo": "conector",
+  "pt": "quando",
+  "en": "when",
+  "fr": "quand"
+},
+{
+  "id": 403,
+  "tipo": "conector",
+  "pt": "enquanto",
+  "en": "while",
+  "fr": "pendant que"
+},
+{
+  "id": 405,
+  "tipo": "conector",
+  "pt": "embora",
+  "en": "although",
+  "fr": "bien que"
+},
+{
+  "id": 406,
+  "tipo": "conector",
+  "pt": "porém",
+  "en": "however",
+  "fr": "cependant"
+},
+{
+  "id": 407,
+  "tipo": "conector",
+  "pt": "portanto",
+  "en": "therefore",
+  "fr": "donc"
+},
+{
+  "id": 408,
+  "tipo": "conector",
+  "pt": "além disso",
+  "en": "besides",
+  "fr": "en plus"
+},
+{
+  "id": 409,
+  "tipo": "conector",
+  "pt": "talvez",
+  "en": "whether",
+  "fr": "si"
+},
+{
+  "id": 410,
+  "tipo": "conector",
+  "pt": "até",
+  "en": "until",
+  "fr": "jusqu'à"
+},
+{
+  "id": 411,
+  "tipo": "preposição",
+  "pt": "dentro",
+  "en": "inside",
+  "fr": "à l'intérieur"
+},
+{
+  "id": 412,
+  "tipo": "preposição",
+  "pt": "fora",
+  "en": "outside",
+  "fr": "à l'extérieur"
+},
+{
+  "id": 413,
+  "tipo": "preposição",
+  "pt": "perto de",
+  "en": "near",
+  "fr": "près de"
+},
+{
+  "id": 414,
+  "tipo": "preposição",
+  "pt": "longe de",
+  "en": "far from",
+  "fr": "loin de"
+},
+{
+  "id": 415,
+  "tipo": "preposição",
+  "pt": "acima",
+  "en": "above",
+  "fr": "au-dessus"
+},
+{
+  "id": 416,
+  "tipo": "preposição",
+  "pt": "abaixo",
+  "en": "below",
+  "fr": "en dessous"
+},
+{
+  "id": 417,
+  "tipo": "preposição",
+  "pt": "atrás",
+  "en": "behind",
+  "fr": "derrière"
+},
+{
+  "id": 418,
+  "tipo": "preposição",
+  "pt": "na frente",
+  "en": "in front",
+  "fr": "devant"
+},
+{
+  "id": 419,
+  "tipo": "preposição",
+  "pt": "durante",
+  "en": "during",
+  "fr": "pendant"
+},
+{
+  "id": 420,
+  "tipo": "preposição",
+  "pt": "através",
+  "en": "through",
+  "fr": "à travers"
+},
+{
+  "id": 421,
+  "tipo": "substantivo",
+  "pt": "entrada",
+  "en": "ticket",
+  "fr": "ticket"
+},
+{
+  "id": 422,
+  "tipo": "substantivo",
+  "pt": "assento",
+  "en": "seat",
+  "fr": "siège"
+},
+{
+  "id": 423,
+  "tipo": "substantivo",
+  "pt": "janela",
+  "en": "glass",
+  "fr": "vitre"
+},
+{
+  "id": 424,
+  "tipo": "substantivo",
+  "pt": "escada",
+  "en": "stairs",
+  "fr": "escaliers"
+},
+{
+  "id": 425,
+  "tipo": "substantivo",
+  "pt": "elevador",
+  "en": "elevator",
+  "fr": "ascenseur"
+},
+{
+  "id": 426,
+  "tipo": "substantivo",
+  "pt": "andar",
+  "en": "floor",
+  "fr": "étage"
+},
+{
+  "id": 427,
+  "tipo": "substantivo",
+  "pt": "parede",
+  "en": "wall",
+  "fr": "mur"
+},
+{
+  "id": 428,
+  "tipo": "substantivo",
+  "pt": "teto",
+  "en": "ceiling",
+  "fr": "plafond"
+},
+{
+  "id": 429,
+  "tipo": "substantivo",
+  "pt": "chão",
+  "en": "floor",
+  "fr": "sol"
+},
+{
+  "id": 430,
+  "tipo": "substantivo",
+  "pt": "espelho",
+  "en": "mirror",
+  "fr": "miroir"
+},
+{
+  "id": 431,
+  "tipo": "substantivo",
+  "pt": "toalha",
+  "en": "towel",
+  "fr": "serviette"
+},
+{
+  "id": 432,
+  "tipo": "substantivo",
+  "pt": "sabão",
+  "en": "soap",
+  "fr": "savon"
+},
+{
+  "id": 433,
+  "tipo": "substantivo",
+  "pt": "escova",
+  "en": "brush",
+  "fr": "brosse"
+},
+{
+  "id": 434,
+  "tipo": "substantivo",
+  "pt": "dente",
+  "en": "tooth",
+  "fr": "dent"
+},
+{
+  "id": 435,
+  "tipo": "substantivo",
+  "pt": "banho",
+  "en": "shower",
+  "fr": "douche"
+},
+{
+  "id": 436,
+  "tipo": "substantivo",
+  "pt": "geladeira",
+  "en": "refrigerator",
+  "fr": "réfrigérateur"
+},
+{
+  "id": 437,
+  "tipo": "substantivo",
+  "pt": "fogão",
+  "en": "stove",
+  "fr": "cuisinière"
+},
+{
+  "id": 438,
+  "tipo": "substantivo",
+  "pt": "forno",
+  "en": "oven",
+  "fr": "four"
+},
+{
+  "id": 439,
+  "tipo": "substantivo",
+  "pt": "panela",
+  "en": "pan",
+  "fr": "casserole"
+},
+{
+  "id": 440,
+  "tipo": "substantivo",
+  "pt": "xícara",
+  "en": "cup",
+  "fr": "tasse"
+},
+{
+  "id": 441,
+  "tipo": "substantivo",
+  "pt": "refrigerante",
+  "en": "soda",
+  "fr": "soda"
+},
+{
+  "id": 442,
+  "tipo": "substantivo",
+  "pt": "cerveja",
+  "en": "beer",
+  "fr": "bière"
+},
+{
+  "id": 443,
+  "tipo": "substantivo",
+  "pt": "vinho",
+  "en": "wine",
+  "fr": "vin"
+},
+{
+  "id": 444,
+  "tipo": "substantivo",
+  "pt": "sobremesa",
+  "en": "dessert",
+  "fr": "dessert"
+},
+{
+  "id": 445,
+  "tipo": "substantivo",
+  "pt": "bolo",
+  "en": "cake",
+  "fr": "gâteau"
+},
+{
+  "id": 446,
+  "tipo": "substantivo",
+  "pt": "chocolate",
+  "en": "chocolate",
+  "fr": "chocolat"
+},
+{
+  "id": 447,
+  "tipo": "substantivo",
+  "pt": "sorvete",
+  "en": "ice cream",
+  "fr": "glace"
+},
+{
+  "id": 448,
+  "tipo": "substantivo",
+  "pt": "banana",
+  "en": "banana",
+  "fr": "banane"
+},
+{
+  "id": 449,
+  "tipo": "substantivo",
+  "pt": "maçã",
+  "en": "apple",
+  "fr": "pomme"
+},
+{
+  "id": 450,
+  "tipo": "substantivo",
+  "pt": "laranja",
+  "en": "orange",
+  "fr": "orange"
+},
+{
+  "id": 451,
+  "tipo": "substantivo",
+  "pt": "uva",
+  "en": "grape",
+  "fr": "raisin"
+},
+{
+  "id": 452,
+  "tipo": "substantivo",
+  "pt": "morango",
+  "en": "strawberry",
+  "fr": "fraise"
+},
+{
+  "id": 453,
+  "tipo": "substantivo",
+  "pt": "batata",
+  "en": "potato",
+  "fr": "pomme de terre"
+},
+{
+  "id": 454,
+  "tipo": "substantivo",
+  "pt": "tomate",
+  "en": "tomato",
+  "fr": "tomate"
+},
+{
+  "id": 455,
+  "tipo": "substantivo",
+  "pt": "cebola",
+  "en": "onion",
+  "fr": "oignon"
+},
+{
+  "id": 456,
+  "tipo": "substantivo",
+  "pt": "alho",
+  "en": "garlic",
+  "fr": "ail"
+},
+{
+  "id": 457,
+  "tipo": "substantivo",
+  "pt": "ovo",
+  "en": "egg",
+  "fr": "œuf"
+},
+{
+  "id": 458,
+  "tipo": "substantivo",
+  "pt": "queijo",
+  "en": "cheese",
+  "fr": "fromage"
+},
+{
+  "id": 459,
+  "tipo": "substantivo",
+  "pt": "leite",
+  "en": "milk",
+  "fr": "lait"
+},
+{
+  "id": 460,
+  "tipo": "substantivo",
+  "pt": "manteiga",
+  "en": "butter",
+  "fr": "beurre"
+},
+{
+  "id": 461,
+  "tipo": "substantivo",
+  "pt": "frango",
+  "en": "chicken",
+  "fr": "poulet"
+},
+{
+  "id": 462,
+  "tipo": "substantivo",
+  "pt": "peixe",
+  "en": "seafood",
+  "fr": "fruits de mer"
+},
+{
+  "id": 463,
+  "tipo": "substantivo",
+  "pt": "salada",
+  "en": "salad",
+  "fr": "salade"
+},
+{
+  "id": 464,
+  "tipo": "substantivo",
+  "pt": "almoço",
+  "en": "lunch",
+  "fr": "déjeuner"
+},
+{
+  "id": 465,
+  "tipo": "substantivo",
+  "pt": "jantar",
+  "en": "dinner",
+  "fr": "dîner"
+},
+{
+  "id": 466,
+  "tipo": "substantivo",
+  "pt": "café da manhã",
+  "en": "breakfast",
+  "fr": "petit déjeuner"
+},
+{
+  "id": 467,
+  "tipo": "substantivo",
+  "pt": "lanche",
+  "en": "snack",
+  "fr": "collation"
+},
+{
+  "id": 468,
+  "tipo": "substantivo",
+  "pt": "fome",
+  "en": "hunger",
+  "fr": "faim"
+},
+{
+  "id": 469,
+  "tipo": "substantivo",
+  "pt": "sede",
+  "en": "thirst",
+  "fr": "soif"
+},
+{
+  "id": 470,
+  "tipo": "substantivo",
+  "pt": "sono",
+  "en": "sleep",
+  "fr": "sommeil"
+},
+{
+  "id": 471,
+  "tipo": "substantivo",
+  "pt": "descanso",
+  "en": "rest",
+  "fr": "repos"
+},
+{
+  "id": 472,
+  "tipo": "substantivo",
+  "pt": "futebol",
+  "en": "soccer",
+  "fr": "football"
+},
+{
+  "id": 473,
+  "tipo": "substantivo",
+  "pt": "música",
+  "en": "song",
+  "fr": "chanson"
+},
+{
+  "id": 474,
+  "tipo": "substantivo",
+  "pt": "dança",
+  "en": "dance",
+  "fr": "danse"
+},
+{
+  "id": 475,
+  "tipo": "substantivo",
+  "pt": "violin",
+  "en": "violin",
+  "fr": "violon"
+},
+{
+  "id": 476,
+  "tipo": "substantivo",
+  "pt": "guitarra",
+  "en": "guitar",
+  "fr": "guitare"
+},
+{
+  "id": 477,
+  "tipo": "substantivo",
+  "pt": "piano",
+  "en": "piano",
+  "fr": "piano"
+},
+{
+  "id": 478,
+  "tipo": "substantivo",
+  "pt": "esporte",
+  "en": "sport",
+  "fr": "sport"
+},
+{
+  "id": 479,
+  "tipo": "substantivo",
+  "pt": "corrida",
+  "en": "race",
+  "fr": "course"
+},
+{
+  "id": 480,
+  "tipo": "substantivo",
+  "pt": "academia",
+  "en": "gym",
+  "fr": "salle de sport"
+},
+{
+  "id": 481,
+  "tipo": "substantivo",
+  "pt": "prazer",
+  "en": "pleasure",
+  "fr": "plaisir"
+},
+{
+  "id": 482,
+  "tipo": "substantivo",
+  "pt": "surpresa",
+  "en": "surprise",
+  "fr": "surprise"
+},
+{
+  "id": 483,
+  "tipo": "substantivo",
+  "pt": "risada",
+  "en": "laugh",
+  "fr": "rire"
+},
+{
+  "id": 484,
+  "tipo": "substantivo",
+  "pt": "lágrima",
+  "en": "tear",
+  "fr": "larme"
+},
+{
+  "id": 485,
+  "tipo": "substantivo",
+  "pt": "silêncio",
+  "en": "silence",
+  "fr": "silence"
+},
+{
+  "id": 486,
+  "tipo": "substantivo",
+  "pt": "barulho",
+  "en": "noise",
+  "fr": "bruit"
+},
+{
+  "id": 487,
+  "tipo": "substantivo",
+  "pt": "conversa",
+  "en": "conversation",
+  "fr": "conversation"
+},
+{
+  "id": 488,
+  "tipo": "substantivo",
+  "pt": "discussão",
+  "en": "discussion",
+  "fr": "discussion"
+},
+{
+  "id": 489,
+  "tipo": "substantivo",
+  "pt": "amizade",
+  "en": "friendship",
+  "fr": "amitié"
+},
+{
+  "id": 490,
+  "tipo": "substantivo",
+  "pt": "respeito",
+  "en": "respect",
+  "fr": "respect"
+},
+{
+  "id": 491,
+  "tipo": "substantivo",
+  "pt": "educação",
+  "en": "education",
+  "fr": "éducation"
+},
+{
+  "id": 492,
+  "tipo": "substantivo",
+  "pt": "conhecimento",
+  "en": "knowledge",
+  "fr": "connaissance"
+},
+{
+  "id": 493,
+  "tipo": "substantivo",
+  "pt": "memória",
+  "en": "memory",
+  "fr": "mémoire"
+},
+{
+  "id": 494,
+  "tipo": "substantivo",
+  "pt": "atenção",
+  "en": "attention",
+  "fr": "attention"
+},
+{
+  "id": 495,
+  "tipo": "substantivo",
+  "pt": "energia",
+  "en": "power",
+  "fr": "puissance"
+},
+{
+  "id": 496,
+  "tipo": "substantivo",
+  "pt": "força",
+  "en": "strength",
+  "fr": "force"
+},
+{
+  "id": 497,
+  "tipo": "substantivo",
+  "pt": "paz",
+  "en": "peace",
+  "fr": "paix"
+},
+{
+  "id": 498,
+  "tipo": "substantivo",
+  "pt": "guerra",
+  "en": "war",
+  "fr": "guerre"
+},
+{
+  "id": 499,
+  "tipo": "substantivo",
+  "pt": "liberdade",
+  "en": "freedom",
+  "fr": "liberté"
+},
+{
+  "id": 500,
+  "tipo": "substantivo",
+  "pt": "esperança",
+  "en": "hope",
+  "fr": "espoir"
+},
+{
+  "id": 501,
+  "tipo": "substantivo",
+  "pt": "futuro",
+  "en": "future",
+  "fr": "avenir"
+},
+{
+  "id": 502,
+  "tipo": "substantivo",
+  "pt": "passado",
+  "en": "past",
+  "fr": "passé"
+},
+{
+  "id": 503,
+  "tipo": "substantivo",
+  "pt": "presente",
+  "en": "present",
+  "fr": "présent"
+},
+{
+  "id": 504,
+  "tipo": "substantivo",
+  "pt": "momento",
+  "en": "moment",
+  "fr": "moment"
+},
+{
+  "id": 505,
+  "tipo": "substantivo",
+  "pt": "segundo",
+  "en": "second",
+  "fr": "seconde"
+},
+{
+  "id": 506,
+  "tipo": "substantivo",
+  "pt": "minuto",
+  "en": "minute",
+  "fr": "minute"
+},
+{
+  "id": 507,
+  "tipo": "substantivo",
+  "pt": "hora",
+  "en": "hour",
+  "fr": "heure"
+},
+{
+  "id": 508,
+  "tipo": "substantivo",
+  "pt": "relógio",
+  "en": "clock",
+  "fr": "horloge"
+},
+{
+  "id": 509,
+  "tipo": "substantivo",
+  "pt": "calendário",
+  "en": "calendar",
+  "fr": "calendrier"
+},
+{
+  "id": 510,
+  "tipo": "substantivo",
+  "pt": "segunda-feira",
+  "en": "monday",
+  "fr": "lundi"
+},
+{
+  "id": 511,
+  "tipo": "substantivo",
+  "pt": "terça-feira",
+  "en": "tuesday",
+  "fr": "mardi"
+},
+{
+  "id": 512,
+  "tipo": "substantivo",
+  "pt": "quarta-feira",
+  "en": "wednesday",
+  "fr": "mercredi"
+},
+{
+  "id": 513,
+  "tipo": "substantivo",
+  "pt": "quinta-feira",
+  "en": "thursday",
+  "fr": "jeudi"
+},
+{
+  "id": 514,
+  "tipo": "substantivo",
+  "pt": "sexta-feira",
+  "en": "friday",
+  "fr": "vendredi"
+},
+{
+  "id": 515,
+  "tipo": "substantivo",
+  "pt": "sábado",
+  "en": "saturday",
+  "fr": "samedi"
+},
+{
+  "id": 516,
+  "tipo": "substantivo",
+  "pt": "domingo",
+  "en": "sunday",
+  "fr": "dimanche"
+},
+{
+  "id": 517,
+  "tipo": "substantivo",
+  "pt": "janeiro",
+  "en": "january",
+  "fr": "janvier"
+},
+{
+  "id": 518,
+  "tipo": "substantivo",
+  "pt": "fevereiro",
+  "en": "february",
+  "fr": "février"
+},
+{
+  "id": 519,
+  "tipo": "substantivo",
+  "pt": "março",
+  "en": "march",
+  "fr": "mars"
+},
+{
+  "id": 520,
+  "tipo": "substantivo",
+  "pt": "abril",
+  "en": "april",
+  "fr": "avril"
+},
+{
+  "id": 521,
+  "tipo": "substantivo",
+  "pt": "maio",
+  "en": "may",
+  "fr": "mai"
+},
+{
+  "id": 522,
+  "tipo": "substantivo",
+  "pt": "junho",
+  "en": "june",
+  "fr": "juin"
+},
+{
+  "id": 523,
+  "tipo": "substantivo",
+  "pt": "julho",
+  "en": "july",
+  "fr": "juillet"
+},
+{
+  "id": 524,
+  "tipo": "substantivo",
+  "pt": "agosto",
+  "en": "august",
+  "fr": "août"
+},
+{
+  "id": 525,
+  "tipo": "substantivo",
+  "pt": "setembro",
+  "en": "september",
+  "fr": "septembre"
+},
+{
+  "id": 526,
+  "tipo": "substantivo",
+  "pt": "outubro",
+  "en": "october",
+  "fr": "octobre"
+},
+{
+  "id": 527,
+  "tipo": "substantivo",
+  "pt": "novembro",
+  "en": "november",
+  "fr": "novembre"
+},
+{
+  "id": 528,
+  "tipo": "substantivo",
+  "pt": "dezembro",
+  "en": "december",
+  "fr": "décembre"
+},
+{
+  "id": 529,
+  "tipo": "substantivo",
+  "pt": "primavera",
+  "en": "spring",
+  "fr": "printemps"
+},
+{
+  "id": 530,
+  "tipo": "substantivo",
+  "pt": "verão",
+  "en": "summer",
+  "fr": "été"
+},
+{
+  "id": 531,
+  "tipo": "substantivo",
+  "pt": "outono",
+  "en": "autumn",
+  "fr": "automne"
+},
+{
+  "id": 532,
+  "tipo": "substantivo",
+  "pt": "inverno",
+  "en": "winter",
+  "fr": "hiver"
+},
+{
+  "id": 533,
+  "tipo": "substantivo",
+  "pt": "temperatura",
+  "en": "temperature",
+  "fr": "température"
+},
+{
+  "id": 534,
+  "tipo": "substantivo",
+  "pt": "clima",
+  "en": "weather",
+  "fr": "temps"
+},
+{
+  "id": 535,
+  "tipo": "substantivo",
+  "pt": "nuvem",
+  "en": "cloud",
+  "fr": "nuage"
+},
+{
+  "id": 536,
+  "tipo": "substantivo",
+  "pt": "tempestade",
+  "en": "storm",
+  "fr": "tempête"
+},
+{
+  "id": 537,
+  "tipo": "substantivo",
+  "pt": "neve",
+  "en": "snow",
+  "fr": "neige"
+},
+{
+  "id": 538,
+  "tipo": "substantivo",
+  "pt": "gelo",
+  "en": "ice",
+  "fr": "glace"
+},
+{
+  "id": 539,
+  "tipo": "substantivo",
+  "pt": "sombra",
+  "en": "shadow",
+  "fr": "ombre"
+},
+{
+  "id": 540,
+  "tipo": "substantivo",
+  "pt": "lugar",
+  "en": "place",
+  "fr": "endroit"
+},
+{
+  "id": 541,
+  "tipo": "substantivo",
+  "pt": "região",
+  "en": "region",
+  "fr": "région"
+},
+{
+  "id": 542,
+  "tipo": "substantivo",
+  "pt": "capital",
+  "en": "capital",
+  "fr": "capitale"
+},
+{
+  "id": 543,
+  "tipo": "substantivo",
+  "pt": "fronteira",
+  "en": "border",
+  "fr": "frontière"
+},
+{
+  "id": 544,
+  "tipo": "substantivo",
+  "pt": "idioma",
+  "en": "speech",
+  "fr": "parole"
+},
+{
+  "id": 545,
+  "tipo": "substantivo",
+  "pt": "dialeto",
+  "en": "dialect",
+  "fr": "dialecte"
+},
+{
+  "id": 546,
+  "tipo": "substantivo",
+  "pt": "tradução",
+  "en": "translation",
+  "fr": "traduction"
+},
+{
+  "id": 547,
+  "tipo": "substantivo",
+  "pt": "pronúncia",
+  "en": "pronunciation",
+  "fr": "prononciation"
+},
+{
+  "id": 548,
+  "tipo": "substantivo",
+  "pt": "vocabulário",
+  "en": "vocabulary",
+  "fr": "vocabulaire"
+},
+{
+  "id": 549,
+  "tipo": "substantivo",
+  "pt": "gramática",
+  "en": "grammar",
+  "fr": "grammaire"
+},
+{
+  "id": 550,
+  "tipo": "substantivo",
+  "pt": "exercício",
+  "en": "exercise",
+  "fr": "exercice"
+},
+{
+  "id": 551,
+  "tipo": "substantivo",
+  "pt": "teste",
+  "en": "test",
+  "fr": "test"
+},
+{
+  "id": 552,
+  "tipo": "substantivo",
+  "pt": "nota",
+  "en": "grade",
+  "fr": "note"
+},
+{
+  "id": 553,
+  "tipo": "substantivo",
+  "pt": "nível",
+  "en": "level",
+  "fr": "niveau"
+},
+{
+  "id": 554,
+  "tipo": "substantivo",
+  "pt": "curso",
+  "en": "course",
+  "fr": "cours"
+},
+{
+  "id": 555,
+  "tipo": "substantivo",
+  "pt": "lição",
+  "en": "lesson",
+  "fr": "leçon"
+},
+{
+  "id": 556,
+  "tipo": "substantivo",
+  "pt": "classe",
+  "en": "class",
+  "fr": "classe"
+},
+{
+  "id": 557,
+  "tipo": "substantivo",
+  "pt": "quadro",
+  "en": "board",
+  "fr": "tableau"
+},
+{
+  "id": 558,
+  "tipo": "substantivo",
+  "pt": "canção",
+  "en": "song",
+  "fr": "chanson"
+},
+{
+  "id": 559,
+  "tipo": "substantivo",
+  "pt": "poema",
+  "en": "poem",
+  "fr": "poème"
+},
+{
+  "id": 560,
+  "tipo": "substantivo",
+  "pt": "revista",
+  "en": "magazine",
+  "fr": "magazine"
+},
+{
+  "id": 561,
+  "tipo": "substantivo",
+  "pt": "jornal",
+  "en": "newspaper",
+  "fr": "journal"
+},
+{
+  "id": 562,
+  "tipo": "substantivo",
+  "pt": "biblioteca",
+  "en": "library",
+  "fr": "bibliothèque"
+},
+{
+  "id": 563,
+  "tipo": "substantivo",
+  "pt": "papel",
+  "en": "sheet",
+  "fr": "feuille"
+},
+{
+  "id": 564,
+  "tipo": "substantivo",
+  "pt": "lapis",
+  "en": "pencil",
+  "fr": "crayon"
+},
+{
+  "id": 565,
+  "tipo": "substantivo",
+  "pt": "borracha",
+  "en": "eraser",
+  "fr": "gomme"
+},
+{
+  "id": 566,
+  "tipo": "substantivo",
+  "pt": "moeda",
+  "en": "currency",
+  "fr": "monnaie"
+},
+{
+  "id": 567,
+  "tipo": "substantivo",
+  "pt": "nota",
+  "en": "banknote",
+  "fr": "billet"
+},
+{
+  "id": 568,
+  "tipo": "substantivo",
+  "pt": "imposto",
+  "en": "tax",
+  "fr": "taxe"
+},
+{
+  "id": 569,
+  "tipo": "substantivo",
+  "pt": "compra",
+  "en": "purchase",
+  "fr": "achat"
+},
+{
+  "id": 570,
+  "tipo": "substantivo",
+  "pt": "venda",
+  "en": "sale",
+  "fr": "vente"
+},
+{
+  "id": 571,
+  "tipo": "substantivo",
+  "pt": "mercadoria",
+  "en": "goods",
+  "fr": "marchandise"
+},
+{
+  "id": 572,
+  "tipo": "substantivo",
+  "pt": "pacote",
+  "en": "package",
+  "fr": "colis"
+},
+{
+  "id": 573,
+  "tipo": "substantivo",
+  "pt": "correio",
+  "en": "mail",
+  "fr": "courrier"
+},
+{
+  "id": 574,
+  "tipo": "substantivo",
+  "pt": "mensagem",
+  "en": "email",
+  "fr": "courriel"
+},
+{
+  "id": 575,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "password",
+  "fr": "mot de passe"
+},
+{
+  "id": 576,
+  "tipo": "substantivo",
+  "pt": "usuário",
+  "en": "user",
+  "fr": "utilisateur"
+},
+{
+  "id": 577,
+  "tipo": "substantivo",
+  "pt": "programa",
+  "en": "program",
+  "fr": "programme"
+},
+{
+  "id": 578,
+  "tipo": "substantivo",
+  "pt": "sistema",
+  "en": "system",
+  "fr": "système"
+},
+{
+  "id": 579,
+  "tipo": "substantivo",
+  "pt": "tecnologia",
+  "en": "technology",
+  "fr": "technologie"
+},
+{
+  "id": 580,
+  "tipo": "substantivo",
+  "pt": "robô",
+  "en": "robot",
+  "fr": "robot"
+},
+{
+  "id": 581,
+  "tipo": "substantivo",
+  "pt": "máquina",
+  "en": "machine",
+  "fr": "machine"
+},
+{
+  "id": 582,
+  "tipo": "substantivo",
+  "pt": "ferramenta",
+  "en": "tool",
+  "fr": "outil"
+},
+{
+  "id": 583,
+  "tipo": "substantivo",
+  "pt": "botão",
+  "en": "button",
+  "fr": "bouton"
+},
+{
+  "id": 584,
+  "tipo": "substantivo",
+  "pt": "link",
+  "en": "link",
+  "fr": "lien"
+},
+{
+  "id": 585,
+  "tipo": "substantivo",
+  "pt": "site",
+  "en": "page",
+  "fr": "page"
+},
+{
+  "id": 586,
+  "tipo": "substantivo",
+  "pt": "rede social",
+  "en": "social network",
+  "fr": "réseau social"
+},
+{
+  "id": 587,
+  "tipo": "substantivo",
+  "pt": "comentário",
+  "en": "reply",
+  "fr": "réponse"
+},
+{
+  "id": 588,
+  "tipo": "substantivo",
+  "pt": "seguidor",
+  "en": "follower",
+  "fr": "abonné"
+},
+{
+  "id": 589,
+  "tipo": "substantivo",
+  "pt": "curtida",
+  "en": "like",
+  "fr": "like"
+},
+{
+  "id": 590,
+  "tipo": "substantivo",
+  "pt": "vírus",
+  "en": "virus",
+  "fr": "virus"
+},
+{
+  "id": 591,
+  "tipo": "substantivo",
+  "pt": "proteção",
+  "en": "protection",
+  "fr": "protection"
+},
+{
+  "id": 592,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "pin",
+  "fr": "code PIN"
+},
+{
+  "id": 593,
+  "tipo": "substantivo",
+  "pt": "telefone",
+  "en": "smartphone",
+  "fr": "smartphone"
+},
+{
+  "id": 594,
+  "tipo": "substantivo",
+  "pt": "carregador",
+  "en": "charger",
+  "fr": "chargeur"
+},
+{
+  "id": 595,
+  "tipo": "substantivo",
+  "pt": "bateria",
+  "en": "battery",
+  "fr": "batterie"
+},
+{
+  "id": 596,
+  "tipo": "substantivo",
+  "pt": "tomada",
+  "en": "socket",
+  "fr": "prise"
+},
+{
+  "id": 597,
+  "tipo": "substantivo",
+  "pt": "internet",
+  "en": "connection",
+  "fr": "connexion"
+},
+{
+  "id": 598,
+  "tipo": "substantivo",
+  "pt": "sinal",
+  "en": "signal",
+  "fr": "signal"
+},
+{
+  "id": 599,
+  "tipo": "substantivo",
+  "pt": "volume",
+  "en": "volume",
+  "fr": "volume"
+},
+{
+  "id": 600,
+  "tipo": "substantivo",
+  "pt": "tela",
+  "en": "screen",
+  "fr": "écran"
+},
+{
+  "id": 601,
+  "tipo": "substantivo",
+  "pt": "brilho",
+  "en": "brightness",
+  "fr": "luminosité"
+},
+{
+  "id": 602,
+  "tipo": "substantivo",
+  "pt": "toque",
+  "en": "touch",
+  "fr": "toucher"
+},
+{
+  "id": 603,
+  "tipo": "substantivo",
+  "pt": "toque",
+  "en": "tap",
+  "fr": "appui"
+},
+{
+  "id": 604,
+  "tipo": "substantivo",
+  "pt": "perfil",
+  "en": "account",
+  "fr": "profil"
+},
+{
+  "id": 605,
+  "tipo": "substantivo",
+  "pt": "configuração",
+  "en": "setting",
+  "fr": "paramètre"
+},
+{
+  "id": 606,
+  "tipo": "substantivo",
+  "pt": "privacidade",
+  "en": "privacy",
+  "fr": "confidentialité"
+},
+{
+  "id": 607,
+  "tipo": "substantivo",
+  "pt": "permissão",
+  "en": "permission",
+  "fr": "permission"
+},
+{
+  "id": 608,
+  "tipo": "substantivo",
+  "pt": "download",
+  "en": "download",
+  "fr": "téléchargement"
+},
+{
+  "id": 609,
+  "tipo": "substantivo",
+  "pt": "upload",
+  "en": "upload",
+  "fr": "téléversement"
+},
+{
+  "id": 610,
+  "tipo": "substantivo",
+  "pt": "memória",
+  "en": "storage",
+  "fr": "stockage"
+},
+{
+  "id": 611,
+  "tipo": "substantivo",
+  "pt": "espaço",
+  "en": "space",
+  "fr": "espace"
+},
+{
+  "id": 612,
+  "tipo": "substantivo",
+  "pt": "arquivo",
+  "en": "document",
+  "fr": "document"
+},
+{
+  "id": 613,
+  "tipo": "substantivo",
+  "pt": "pasta",
+  "en": "folder",
+  "fr": "dossier"
+},
+{
+  "id": 614,
+  "tipo": "substantivo",
+  "pt": "navegador",
+  "en": "browser",
+  "fr": "navigateur"
+},
+{
+  "id": 615,
+  "tipo": "substantivo",
+  "pt": "pesquisa",
+  "en": "search",
+  "fr": "recherche"
+},
+{
+  "id": 616,
+  "tipo": "substantivo",
+  "pt": "resultado",
+  "en": "search result",
+  "fr": "résultat"
+},
+{
+  "id": 617,
+  "tipo": "substantivo",
+  "pt": "anúncio",
+  "en": "advertisement",
+  "fr": "publicité"
+},
+{
+  "id": 618,
+  "tipo": "substantivo",
+  "pt": "promoção",
+  "en": "offer",
+  "fr": "offre"
+},
+{
+  "id": 619,
+  "tipo": "substantivo",
+  "pt": "cupom",
+  "en": "coupon",
+  "fr": "coupon"
+},
+{
+  "id": 620,
+  "tipo": "substantivo",
+  "pt": "assinatura",
+  "en": "subscription",
+  "fr": "abonnement"
+},
+{
+  "id": 621,
+  "tipo": "substantivo",
+  "pt": "plano",
+  "en": "subscription plan",
+  "fr": "forfait"
+},
+{
+  "id": 622,
+  "tipo": "substantivo",
+  "pt": "pagamento",
+  "en": "payment",
+  "fr": "paiement"
+},
+{
+  "id": 623,
+  "tipo": "substantivo",
+  "pt": "recibo",
+  "en": "receipt",
+  "fr": "reçu"
+},
+{
+  "id": 624,
+  "tipo": "substantivo",
+  "pt": "garantia",
+  "en": "warranty",
+  "fr": "garantie"
+},
+{
+  "id": 625,
+  "tipo": "substantivo",
+  "pt": "troca",
+  "en": "exchange",
+  "fr": "échange"
+},
+{
+  "id": 626,
+  "tipo": "substantivo",
+  "pt": "devolução",
+  "en": "return",
+  "fr": "retour"
+},
+{
+  "id": 627,
+  "tipo": "substantivo",
+  "pt": "estoque",
+  "en": "stock",
+  "fr": "stock"
+},
+{
+  "id": 628,
+  "tipo": "substantivo",
+  "pt": "fila",
+  "en": "queue",
+  "fr": "file d'attente"
+},
+{
+  "id": 629,
+  "tipo": "substantivo",
+  "pt": "resposta",
+  "en": "response",
+  "fr": "réponse"
+},
+{
+  "id": 630,
+  "tipo": "substantivo",
+  "pt": "solução",
+  "en": "solution",
+  "fr": "solution"
+},
+{
+  "id": 631,
+  "tipo": "substantivo",
+  "pt": "conselho",
+  "en": "advice",
+  "fr": "conseil"
+},
+{
+  "id": 632,
+  "tipo": "substantivo",
+  "pt": "favor",
+  "en": "favor",
+  "fr": "faveur"
+},
+{
+  "id": 633,
+  "tipo": "substantivo",
+  "pt": "desculpa",
+  "en": "apology",
+  "fr": "excuse"
+},
+{
+  "id": 634,
+  "tipo": "substantivo",
+  "pt": "obrigação",
+  "en": "obligation",
+  "fr": "obligation"
+},
+{
+  "id": 635,
+  "tipo": "substantivo",
+  "pt": "direito",
+  "en": "right",
+  "fr": "droit"
+},
+{
+  "id": 636,
+  "tipo": "substantivo",
+  "pt": "lei",
+  "en": "law",
+  "fr": "loi"
+},
+{
+  "id": 637,
+  "tipo": "substantivo",
+  "pt": "governo",
+  "en": "government",
+  "fr": "gouvernement"
+},
+{
+  "id": 638,
+  "tipo": "substantivo",
+  "pt": "eleição",
+  "en": "election",
+  "fr": "élection"
+},
+{
+  "id": 639,
+  "tipo": "substantivo",
+  "pt": "notícia",
+  "en": "report",
+  "fr": "reportage"
+},
+{
+  "id": 640,
+  "tipo": "substantivo",
+  "pt": "jornalista",
+  "en": "journalist",
+  "fr": "journaliste"
+},
+{
+  "id": 641,
+  "tipo": "substantivo",
+  "pt": "camera",
+  "en": "camera",
+  "fr": "caméra"
+},
+{
+  "id": 642,
+  "tipo": "substantivo",
+  "pt": "microfone",
+  "en": "microphone",
+  "fr": "microphone"
+},
+{
+  "id": 643,
+  "tipo": "substantivo",
+  "pt": "fone",
+  "en": "headphones",
+  "fr": "écouteurs"
+},
+{
+  "id": 644,
+  "tipo": "substantivo",
+  "pt": "alto-falante",
+  "en": "speaker",
+  "fr": "haut-parleur"
+},
+{
+  "id": 645,
+  "tipo": "substantivo",
+  "pt": "controle",
+  "en": "remote control",
+  "fr": "télécommande"
+},
+{
+  "id": 646,
+  "tipo": "substantivo",
+  "pt": "jogador",
+  "en": "player",
+  "fr": "joueur"
+},
+{
+  "id": 647,
+  "tipo": "substantivo",
+  "pt": "partida",
+  "en": "match",
+  "fr": "match"
+},
+{
+  "id": 648,
+  "tipo": "substantivo",
+  "pt": "vitória",
+  "en": "victory",
+  "fr": "victoire"
+},
+{
+  "id": 649,
+  "tipo": "substantivo",
+  "pt": "derrota",
+  "en": "defeat",
+  "fr": "défaite"
+},
+{
+  "id": 650,
+  "tipo": "substantivo",
+  "pt": "empate",
+  "en": "draw",
+  "fr": "match nul"
+},
+{
+  "id": 651,
+  "tipo": "substantivo",
+  "pt": "torcida",
+  "en": "fans",
+  "fr": "supporters"
+},
+{
+  "id": 652,
+  "tipo": "substantivo",
+  "pt": "campeonato",
+  "en": "championship",
+  "fr": "championnat"
+},
+{
+  "id": 653,
+  "tipo": "substantivo",
+  "pt": "medalha",
+  "en": "medal",
+  "fr": "médaille"
+},
+{
+  "id": 654,
+  "tipo": "substantivo",
+  "pt": "prêmio",
+  "en": "award",
+  "fr": "prix"
+},
+{
+  "id": 655,
+  "tipo": "substantivo",
+  "pt": "fama",
+  "en": "fame",
+  "fr": "célébrité"
+},
+{
+  "id": 656,
+  "tipo": "substantivo",
+  "pt": "celebridade",
+  "en": "celebrity",
+  "fr": "célébrité"
+},
+{
+  "id": 657,
+  "tipo": "substantivo",
+  "pt": "ator",
+  "en": "actor",
+  "fr": "acteur"
+},
+{
+  "id": 658,
+  "tipo": "substantivo",
+  "pt": "atriz",
+  "en": "actress",
+  "fr": "actrice"
+},
+{
+  "id": 659,
+  "tipo": "substantivo",
+  "pt": "cantor",
+  "en": "singer",
+  "fr": "chanteur"
+},
+{
+  "id": 660,
+  "tipo": "substantivo",
+  "pt": "banda",
+  "en": "band",
+  "fr": "groupe"
+},
+{
+  "id": 661,
+  "tipo": "substantivo",
+  "pt": "show",
+  "en": "concert",
+  "fr": "concert"
+},
+{
+  "id": 662,
+  "tipo": "substantivo",
+  "pt": "evento",
+  "en": "event",
+  "fr": "événement"
+},
+{
+  "id": 663,
+  "tipo": "substantivo",
+  "pt": "ingresso",
+  "en": "ticket",
+  "fr": "billet"
+},
+{
+  "id": 664,
+  "tipo": "substantivo",
+  "pt": "plateia",
+  "en": "audience",
+  "fr": "public"
+},
+{
+  "id": 665,
+  "tipo": "substantivo",
+  "pt": "palco",
+  "en": "stage",
+  "fr": "scène"
+},
+{
+  "id": 666,
+  "tipo": "substantivo",
+  "pt": "lâmpada",
+  "en": "lamp",
+  "fr": "lampe"
+},
+{
+  "id": 667,
+  "tipo": "substantivo",
+  "pt": "ventilador",
+  "en": "fan",
+  "fr": "ventilateur"
+},
+{
+  "id": 668,
+  "tipo": "substantivo",
+  "pt": "ar-condicionado",
+  "en": "air conditioner",
+  "fr": "climatiseur"
+},
+{
+  "id": 669,
+  "tipo": "substantivo",
+  "pt": "controle",
+  "en": "control",
+  "fr": "contrôle"
+},
+{
+  "id": 670,
+  "tipo": "substantivo",
+  "pt": "alarme",
+  "en": "alarm",
+  "fr": "alarme"
+},
+{
+  "id": 671,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "access code",
+  "fr": "code d'accès"
+},
+{
+  "id": 672,
+  "tipo": "substantivo",
+  "pt": "entrada",
+  "en": "access",
+  "fr": "accès"
+},
+{
+  "id": 673,
+  "tipo": "substantivo",
+  "pt": "saída",
+  "en": "departure",
+  "fr": "départ"
+},
+{
+  "id": 674,
+  "tipo": "substantivo",
+  "pt": "chegada",
+  "en": "arrival",
+  "fr": "arrivée"
+},
+{
+  "id": 675,
+  "tipo": "substantivo",
+  "pt": "destino",
+  "en": "destination",
+  "fr": "destination"
+},
+{
+  "id": 676,
+  "tipo": "substantivo",
+  "pt": "origem",
+  "en": "origin",
+  "fr": "origine"
+},
+{
+  "id": 677,
+  "tipo": "substantivo",
+  "pt": "passaporte",
+  "en": "ID",
+  "fr": "pièce d'identité"
+},
+{
+  "id": 678,
+  "tipo": "substantivo",
+  "pt": "reserva",
+  "en": "booking",
+  "fr": "réservation"
+},
+{
+  "id": 679,
+  "tipo": "substantivo",
+  "pt": "hóspede",
+  "en": "guest",
+  "fr": "invité"
+},
+{
+  "id": 680,
+  "tipo": "substantivo",
+  "pt": "recepção",
+  "en": "reception",
+  "fr": "réception"
+},
+{
+  "id": 681,
+  "tipo": "substantivo",
+  "pt": "chave",
+  "en": "room key",
+  "fr": "clé de chambre"
+},
+{
+  "id": 682,
+  "tipo": "substantivo",
+  "pt": "garagem",
+  "en": "garage",
+  "fr": "garage"
+},
+{
+  "id": 683,
+  "tipo": "substantivo",
+  "pt": "posto",
+  "en": "gas station",
+  "fr": "station-service"
+},
+{
+  "id": 684,
+  "tipo": "substantivo",
+  "pt": "gasolina",
+  "en": "gasoline",
+  "fr": "essence"
+},
+{
+  "id": 685,
+  "tipo": "substantivo",
+  "pt": "diesel",
+  "en": "diesel",
+  "fr": "diesel"
+},
+{
+  "id": 686,
+  "tipo": "substantivo",
+  "pt": "óleo",
+  "en": "oil",
+  "fr": "huile"
+},
+{
+  "id": 687,
+  "tipo": "substantivo",
+  "pt": "pneu",
+  "en": "tire",
+  "fr": "pneu"
+},
+{
+  "id": 688,
+  "tipo": "substantivo",
+  "pt": "freio",
+  "en": "brake",
+  "fr": "frein"
+},
+{
+  "id": 689,
+  "tipo": "substantivo",
+  "pt": "motor",
+  "en": "engine",
+  "fr": "moteur"
+},
+{
+  "id": 690,
+  "tipo": "substantivo",
+  "pt": "volante",
+  "en": "steering wheel",
+  "fr": "volant"
+},
+{
+  "id": 691,
+  "tipo": "substantivo",
+  "pt": "janela",
+  "en": "car window",
+  "fr": "vitre"
+},
+{
+  "id": 692,
+  "tipo": "substantivo",
+  "pt": "trânsito",
+  "en": "jam",
+  "fr": "embouteillage"
+},
+{
+  "id": 693,
+  "tipo": "substantivo",
+  "pt": "sinal",
+  "en": "traffic light",
+  "fr": "feu"
+},
+{
+  "id": 694,
+  "tipo": "substantivo",
+  "pt": "faixa",
+  "en": "lane",
+  "fr": "voie"
+},
+{
+  "id": 695,
+  "tipo": "substantivo",
+  "pt": "ponte",
+  "en": "bridge",
+  "fr": "pont"
+},
+{
+  "id": 696,
+  "tipo": "substantivo",
+  "pt": "túnel",
+  "en": "tunnel",
+  "fr": "tunnel"
+},
+{
+  "id": 697,
+  "tipo": "substantivo",
+  "pt": "bairro",
+  "en": "neighborhood",
+  "fr": "quartier"
+},
+{
+  "id": 698,
+  "tipo": "substantivo",
+  "pt": "avenida",
+  "en": "avenue",
+  "fr": "avenue"
+},
+{
+  "id": 699,
+  "tipo": "substantivo",
+  "pt": "esquina",
+  "en": "corner",
+  "fr": "coin"
+},
+{
+  "id": 700,
+  "tipo": "substantivo",
+  "pt": "endereço",
+  "en": "location",
+  "fr": "emplacement"
+},
+{
+  "id": 701,
+  "tipo": "substantivo",
+  "pt": "mapa",
+  "en": "location map",
+  "fr": "plan"
+},
+{
+  "id": 702,
+  "tipo": "substantivo",
+  "pt": "coordenada",
+  "en": "coordinate",
+  "fr": "coordonnée"
+},
+{
+  "id": 703,
+  "tipo": "substantivo",
+  "pt": "distância",
+  "en": "distance",
+  "fr": "distance"
+},
+{
+  "id": 704,
+  "tipo": "substantivo",
+  "pt": "quilômetro",
+  "en": "kilometer",
+  "fr": "kilomètre"
+},
+{
+  "id": 705,
+  "tipo": "substantivo",
+  "pt": "metro",
+  "en": "meter",
+  "fr": "mètre"
+},
+{
+  "id": 706,
+  "tipo": "substantivo",
+  "pt": "centro",
+  "en": "downtown",
+  "fr": "centre-ville"
+},
+{
+  "id": 707,
+  "tipo": "substantivo",
+  "pt": "turista",
+  "en": "tourist",
+  "fr": "touriste"
+},
+{
+  "id": 708,
+  "tipo": "substantivo",
+  "pt": "guia",
+  "en": "guide",
+  "fr": "guide"
+},
+{
+  "id": 709,
+  "tipo": "substantivo",
+  "pt": "museu",
+  "en": "museum",
+  "fr": "musée"
+},
+{
+  "id": 710,
+  "tipo": "substantivo",
+  "pt": "praça",
+  "en": "plaza",
+  "fr": "place"
+},
+{
+  "id": 711,
+  "tipo": "substantivo",
+  "pt": "castelo",
+  "en": "castle",
+  "fr": "château"
+},
+{
+  "id": 712,
+  "tipo": "substantivo",
+  "pt": "torre",
+  "en": "tower",
+  "fr": "tour"
+},
+{
+  "id": 713,
+  "tipo": "substantivo",
+  "pt": "templo",
+  "en": "temple",
+  "fr": "temple"
+},
+{
+  "id": 714,
+  "tipo": "substantivo",
+  "pt": "floresta",
+  "en": "forest",
+  "fr": "forêt"
+},
+{
+  "id": 715,
+  "tipo": "substantivo",
+  "pt": "ilha",
+  "en": "island",
+  "fr": "île"
+},
+{
+  "id": 716,
+  "tipo": "substantivo",
+  "pt": "deserto",
+  "en": "desert",
+  "fr": "désert"
+},
+{
+  "id": 717,
+  "tipo": "substantivo",
+  "pt": "campo",
+  "en": "field",
+  "fr": "champ"
+},
+{
+  "id": 718,
+  "tipo": "substantivo",
+  "pt": "fazenda",
+  "en": "farm",
+  "fr": "ferme"
+},
+{
+  "id": 719,
+  "tipo": "substantivo",
+  "pt": "planta",
+  "en": "plant",
+  "fr": "plante"
+},
+{
+  "id": 720,
+  "tipo": "substantivo",
+  "pt": "semente",
+  "en": "seed",
+  "fr": "graine"
+},
+{
+  "id": 721,
+  "tipo": "substantivo",
+  "pt": "fumaça",
+  "en": "smoke",
+  "fr": "fumée"
+},
+{
+  "id": 722,
+  "tipo": "substantivo",
+  "pt": "fogo",
+  "en": "flame",
+  "fr": "flamme"
+},
+{
+  "id": 723,
+  "tipo": "substantivo",
+  "pt": "cinza",
+  "en": "ash",
+  "fr": "cendre"
+},
+{
+  "id": 724,
+  "tipo": "substantivo",
+  "pt": "metal",
+  "en": "metal",
+  "fr": "métal"
+},
+{
+  "id": 725,
+  "tipo": "substantivo",
+  "pt": "madeira",
+  "en": "wood",
+  "fr": "bois"
+},
+{
+  "id": 726,
+  "tipo": "substantivo",
+  "pt": "vidro",
+  "en": "glass material",
+  "fr": "verre"
+},
+{
+  "id": 727,
+  "tipo": "substantivo",
+  "pt": "plástico",
+  "en": "plastic",
+  "fr": "plastique"
+},
+{
+  "id": 728,
+  "tipo": "substantivo",
+  "pt": "pedra",
+  "en": "stone",
+  "fr": "pierre"
+},
+{
+  "id": 729,
+  "tipo": "substantivo",
+  "pt": "ouro",
+  "en": "gold",
+  "fr": "or"
+},
+{
+  "id": 730,
+  "tipo": "substantivo",
+  "pt": "prata",
+  "en": "silver",
+  "fr": "argent"
+},
+{
+  "id": 731,
+  "tipo": "substantivo",
+  "pt": "dinheiro",
+  "en": "wealth",
+  "fr": "richesse"
+},
+{
+  "id": 732,
+  "tipo": "substantivo",
+  "pt": "diamante",
+  "en": "diamond",
+  "fr": "diamant"
+},
+{
+  "id": 733,
+  "tipo": "substantivo",
+  "pt": "anel",
+  "en": "ring",
+  "fr": "bague"
+},
+{
+  "id": 734,
+  "tipo": "substantivo",
+  "pt": "colar",
+  "en": "necklace",
+  "fr": "collier"
+},
+{
+  "id": 735,
+  "tipo": "substantivo",
+  "pt": "pulseira",
+  "en": "bracelet",
+  "fr": "bracelet"
+},
+{
+  "id": 736,
+  "tipo": "substantivo",
+  "pt": "relógio",
+  "en": "watch",
+  "fr": "montre"
+},
+{
+  "id": 737,
+  "tipo": "substantivo",
+  "pt": "mochila",
+  "en": "backpack",
+  "fr": "sac à dos"
+},
+{
+  "id": 738,
+  "tipo": "substantivo",
+  "pt": "mala",
+  "en": "suitcase",
+  "fr": "valise"
+},
+{
+  "id": 739,
+  "tipo": "substantivo",
+  "pt": "guarda-chuva",
+  "en": "umbrella",
+  "fr": "parapluie"
+},
+{
+  "id": 740,
+  "tipo": "substantivo",
+  "pt": "chapéu",
+  "en": "hat",
+  "fr": "chapeau"
+},
+{
+  "id": 741,
+  "tipo": "substantivo",
+  "pt": "óculos",
+  "en": "glasses",
+  "fr": "lunettes"
+},
+{
+  "id": 742,
+  "tipo": "substantivo",
+  "pt": "casaco",
+  "en": "coat",
+  "fr": "manteau"
+},
+{
+  "id": 743,
+  "tipo": "substantivo",
+  "pt": "jaqueta",
+  "en": "jacket",
+  "fr": "veste"
+},
+{
+  "id": 744,
+  "tipo": "substantivo",
+  "pt": "meia",
+  "en": "sock",
+  "fr": "chaussette"
+},
+{
+  "id": 745,
+  "tipo": "substantivo",
+  "pt": "cinto",
+  "en": "belt",
+  "fr": "ceinture"
+},
+{
+  "id": 746,
+  "tipo": "substantivo",
+  "pt": "luva",
+  "en": "glove",
+  "fr": "gant"
+},
+{
+  "id": 747,
+  "tipo": "substantivo",
+  "pt": "camiseta",
+  "en": "t-shirt",
+  "fr": "t-shirt"
+},
+{
+  "id": 748,
+  "tipo": "substantivo",
+  "pt": "terno",
+  "en": "suit",
+  "fr": "costume"
+},
+{
+  "id": 749,
+  "tipo": "substantivo",
+  "pt": "vestido",
+  "en": "dress",
+  "fr": "robe"
+},
+{
+  "id": 750,
+  "tipo": "substantivo",
+  "pt": "saia",
+  "en": "skirt",
+  "fr": "jupe"
+},
+{
+  "id": 751,
+  "tipo": "substantivo",
+  "pt": "prazo",
+  "en": "deadline",
+  "fr": "date limite"
+},
+{
+  "id": 752,
+  "tipo": "substantivo",
+  "pt": "agenda",
+  "en": "schedule",
+  "fr": "agenda"
+},
+{
+  "id": 753,
+  "tipo": "substantivo",
+  "pt": "compromisso",
+  "en": "appointment",
+  "fr": "engagement"
+},
+{
+  "id": 754,
+  "tipo": "substantivo",
+  "pt": "aniversário",
+  "en": "birthday",
+  "fr": "anniversaire"
+},
+{
+  "id": 755,
+  "tipo": "substantivo",
+  "pt": "casal",
+  "en": "couple",
+  "fr": "couple"
+},
+{
+  "id": 756,
+  "tipo": "substantivo",
+  "pt": "convite",
+  "en": "invitation",
+  "fr": "invitation"
+},
+{
+  "id": 757,
+  "tipo": "substantivo",
+  "pt": "cerimônia",
+  "en": "ceremony",
+  "fr": "cérémonie"
+},
+{
+  "id": 758,
+  "tipo": "substantivo",
+  "pt": "tradição",
+  "en": "tradition",
+  "fr": "tradition"
+},
+{
+  "id": 759,
+  "tipo": "substantivo",
+  "pt": "cultura",
+  "en": "culture",
+  "fr": "culture"
+},
+{
+  "id": 760,
+  "tipo": "substantivo",
+  "pt": "religião",
+  "en": "religion",
+  "fr": "religion"
+},
+{
+  "id": 761,
+  "tipo": "substantivo",
+  "pt": "costume",
+  "en": "custom",
+  "fr": "coutume"
+},
+{
+  "id": 762,
+  "tipo": "substantivo",
+  "pt": "feriado",
+  "en": "holiday",
+  "fr": "jour férié"
+},
+{
+  "id": 763,
+  "tipo": "substantivo",
+  "pt": "festival",
+  "en": "festival",
+  "fr": "festival"
+},
+{
+  "id": 764,
+  "tipo": "substantivo",
+  "pt": "mercado",
+  "en": "supermarket",
+  "fr": "supermarché"
+},
+{
+  "id": 765,
+  "tipo": "substantivo",
+  "pt": "padaria",
+  "en": "bakery",
+  "fr": "boulangerie"
+},
+{
+  "id": 766,
+  "tipo": "substantivo",
+  "pt": "açougue",
+  "en": "butcher shop",
+  "fr": "boucherie"
+},
+{
+  "id": 767,
+  "tipo": "substantivo",
+  "pt": "farmácia",
+  "en": "drugstore",
+  "fr": "pharmacie"
+},
+{
+  "id": 768,
+  "tipo": "substantivo",
+  "pt": "shopping",
+  "en": "mall",
+  "fr": "centre commercial"
+},
+{
+  "id": 769,
+  "tipo": "substantivo",
+  "pt": "cinema",
+  "en": "cinema",
+  "fr": "cinéma"
+},
+{
+  "id": 770,
+  "tipo": "substantivo",
+  "pt": "teatro",
+  "en": "theater",
+  "fr": "théâtre"
+},
+{
+  "id": 771,
+  "tipo": "substantivo",
+  "pt": "universo",
+  "en": "universe",
+  "fr": "univers"
+},
+{
+  "id": 772,
+  "tipo": "substantivo",
+  "pt": "planeta",
+  "en": "planet",
+  "fr": "planète"
+},
+{
+  "id": 773,
+  "tipo": "substantivo",
+  "pt": "estrela",
+  "en": "star",
+  "fr": "étoile"
+},
+{
+  "id": 774,
+  "tipo": "substantivo",
+  "pt": "lua",
+  "en": "moon",
+  "fr": "lune"
+},
+{
+  "id": 775,
+  "tipo": "substantivo",
+  "pt": "espaço",
+  "en": "outer space",
+  "fr": "espace"
+},
+{
+  "id": 776,
+  "tipo": "substantivo",
+  "pt": "ciência",
+  "en": "science",
+  "fr": "science"
+},
+{
+  "id": 777,
+  "tipo": "substantivo",
+  "pt": "pesquisa",
+  "en": "research",
+  "fr": "recherche"
+},
+{
+  "id": 778,
+  "tipo": "substantivo",
+  "pt": "descoberta",
+  "en": "discovery",
+  "fr": "découverte"
+},
+{
+  "id": 779,
+  "tipo": "substantivo",
+  "pt": "invenção",
+  "en": "invention",
+  "fr": "invention"
+},
+{
+  "id": 780,
+  "tipo": "substantivo",
+  "pt": "experimento",
+  "en": "experiment",
+  "fr": "expérience"
+},
+{
+  "id": 781,
+  "tipo": "substantivo",
+  "pt": "energia",
+  "en": "electricity",
+  "fr": "électricité"
+},
+{
+  "id": 782,
+  "tipo": "substantivo",
+  "pt": "internet",
+  "en": "web",
+  "fr": "web"
+},
+{
+  "id": 783,
+  "tipo": "substantivo",
+  "pt": "inteligência artificial",
+  "en": "artificial intelligence",
+  "fr": "intelligence artificielle"
+},
+{
+  "id": 784,
+  "tipo": "substantivo",
+  "pt": "aplicativo",
+  "en": "software",
+  "fr": "logiciel"
+},
+{
+  "id": 785,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "security code",
+  "fr": "code de sécurité"
+},
+{
+  "id": 786,
+  "tipo": "substantivo",
+  "pt": "perfil",
+  "en": "user profile",
+  "fr": "profil utilisateur"
+},
+{
+  "id": 787,
+  "tipo": "substantivo",
+  "pt": "ícone",
+  "en": "icon",
+  "fr": "icône"
+},
+{
+  "id": 788,
+  "tipo": "substantivo",
+  "pt": "menu",
+  "en": "options menu",
+  "fr": "menu d'options"
+},
+{
+  "id": 789,
+  "tipo": "substantivo",
+  "pt": "janela",
+  "en": "popup",
+  "fr": "fenêtre"
+},
+{
+  "id": 790,
+  "tipo": "substantivo",
+  "pt": "anexo",
+  "en": "attachment",
+  "fr": "pièce jointe"
+},
+{
+  "id": 791,
+  "tipo": "substantivo",
+  "pt": "backup",
+  "en": "backup",
+  "fr": "sauvegarde"
+},
+{
+  "id": 792,
+  "tipo": "substantivo",
+  "pt": "erro",
+  "en": "bug",
+  "fr": "bug"
+},
+{
+  "id": 793,
+  "tipo": "substantivo",
+  "pt": "atualização",
+  "en": "update",
+  "fr": "mise à jour"
+},
+{
+  "id": 794,
+  "tipo": "substantivo",
+  "pt": "download",
+  "en": "file download",
+  "fr": "téléchargement de fichier"
+},
+{
+  "id": 795,
+  "tipo": "substantivo",
+  "pt": "mensagem",
+  "en": "chat message",
+  "fr": "message de chat"
+},
+{
+  "id": 796,
+  "tipo": "substantivo",
+  "pt": "chat",
+  "en": "chat",
+  "fr": "chat"
+},
+{
+  "id": 797,
+  "tipo": "substantivo",
+  "pt": "assistente",
+  "en": "assistant",
+  "fr": "assistant"
+},
+{
+  "id": 798,
+  "tipo": "substantivo",
+  "pt": "comando",
+  "en": "command",
+  "fr": "commande"
+},
+{
+  "id": 799,
+  "tipo": "substantivo",
+  "pt": "voz",
+  "en": "speech",
+  "fr": "parole"
+},
+{
+  "id": 800,
+  "tipo": "substantivo",
+  "pt": "microfone",
+  "en": "voice input",
+  "fr": "entrée vocale"
+},
+{
+  "id": 801,
+  "tipo": "adjetivo",
+  "pt": "inteligente",
+  "en": "smart",
+  "fr": "intelligent"
+},
+{
+  "id": 802,
+  "tipo": "adjetivo",
+  "pt": "engraçado",
+  "en": "funny",
+  "fr": "drôle"
+},
+{
+  "id": 803,
+  "tipo": "adjetivo",
+  "pt": "sério",
+  "en": "serious",
+  "fr": "sérieux"
+},
+{
+  "id": 804,
+  "tipo": "adjetivo",
+  "pt": "calmo",
+  "en": "calm",
+  "fr": "calme"
+},
+{
+  "id": 805,
+  "tipo": "adjetivo",
+  "pt": "nervoso",
+  "en": "nervous",
+  "fr": "nerveux"
+},
+{
+  "id": 806,
+  "tipo": "adjetivo",
+  "pt": "gentil",
+  "en": "kind",
+  "fr": "gentil"
+},
+{
+  "id": 807,
+  "tipo": "adjetivo",
+  "pt": "educado",
+  "en": "polite",
+  "fr": "poli"
+},
+{
+  "id": 808,
+  "tipo": "adjetivo",
+  "pt": "grosso",
+  "en": "rude",
+  "fr": "impoli"
+},
+{
+  "id": 809,
+  "tipo": "adjetivo",
+  "pt": "fácil",
+  "en": "simple",
+  "fr": "facile"
+},
+{
+  "id": 810,
+  "tipo": "adjetivo",
+  "pt": "complicado",
+  "en": "complicated",
+  "fr": "compliqué"
+},
+{
+  "id": 811,
+  "tipo": "adjetivo",
+  "pt": "famoso",
+  "en": "famous",
+  "fr": "célèbre"
+},
+{
+  "id": 812,
+  "tipo": "adjetivo",
+  "pt": "popular",
+  "en": "popular",
+  "fr": "populaire"
+},
+{
+  "id": 813,
+  "tipo": "adjetivo",
+  "pt": "vazio",
+  "en": "blank",
+  "fr": "vide"
+},
+{
+  "id": 814,
+  "tipo": "adjetivo",
+  "pt": "lotado",
+  "en": "crowded",
+  "fr": "bondé"
+},
+{
+  "id": 815,
+  "tipo": "adjetivo",
+  "pt": "seguro",
+  "en": "safe",
+  "fr": "sûr"
+},
+{
+  "id": 816,
+  "tipo": "adjetivo",
+  "pt": "perigoso",
+  "en": "dangerous",
+  "fr": "dangereux"
+},
+{
+  "id": 817,
+  "tipo": "adjetivo",
+  "pt": "saudável",
+  "en": "healthy",
+  "fr": "sain"
+},
+{
+  "id": 818,
+  "tipo": "adjetivo",
+  "pt": "doente",
+  "en": "sick",
+  "fr": "malade"
+},
+{
+  "id": 819,
+  "tipo": "adjetivo",
+  "pt": "vivo",
+  "en": "alive",
+  "fr": "vivant"
+},
+{
+  "id": 820,
+  "tipo": "adjetivo",
+  "pt": "morto",
+  "en": "dead",
+  "fr": "mort"
+},
+{
+  "id": 821,
+  "tipo": "adjetivo",
+  "pt": "casado",
+  "en": "married",
+  "fr": "marié"
+},
+{
+  "id": 822,
+  "tipo": "adjetivo",
+  "pt": "solteiro",
+  "en": "single",
+  "fr": "célibataire"
+},
+{
+  "id": 823,
+  "tipo": "adjetivo",
+  "pt": "ocupado",
+  "en": "taken",
+  "fr": "pris"
+},
+{
+  "id": 824,
+  "tipo": "adjetivo",
+  "pt": "disponível",
+  "en": "available",
+  "fr": "disponible"
+},
+{
+  "id": 825,
+  "tipo": "adjetivo",
+  "pt": "próximo",
+  "en": "next",
+  "fr": "prochain"
+},
+{
+  "id": 826,
+  "tipo": "adjetivo",
+  "pt": "anterior",
+  "en": "previous",
+  "fr": "précédent"
+},
+{
+  "id": 827,
+  "tipo": "adjetivo",
+  "pt": "igual",
+  "en": "same",
+  "fr": "même"
+},
+{
+  "id": 828,
+  "tipo": "adjetivo",
+  "pt": "diferente",
+  "en": "different",
+  "fr": "différent"
+},
+{
+  "id": 829,
+  "tipo": "adjetivo",
+  "pt": "local",
+  "en": "local",
+  "fr": "local"
+},
+{
+  "id": 830,
+  "tipo": "adjetivo",
+  "pt": "internacional",
+  "en": "international",
+  "fr": "international"
+},
+{
+  "id": 831,
+  "tipo": "advérbio",
+  "pt": "cedo",
+  "en": "early",
+  "fr": "tôt"
+},
+{
+  "id": 832,
+  "tipo": "advérbio",
+  "pt": "tarde",
+  "en": "late",
+  "fr": "tard"
+},
+{
+  "id": 833,
+  "tipo": "advérbio",
+  "pt": "agora mesmo",
+  "en": "right now",
+  "fr": "tout de suite"
+},
+{
+  "id": 834,
+  "tipo": "advérbio",
+  "pt": "logo",
+  "en": "soon",
+  "fr": "bientôt"
+},
+{
+  "id": 835,
+  "tipo": "advérbio",
+  "pt": "talvez",
+  "en": "possibly",
+  "fr": "possiblement"
+},
+{
+  "id": 836,
+  "tipo": "advérbio",
+  "pt": "certamente",
+  "en": "certainly",
+  "fr": "certainement"
+},
+{
+  "id": 837,
+  "tipo": "advérbio",
+  "pt": "provavelmente",
+  "en": "probably",
+  "fr": "probablement"
+},
+{
+  "id": 838,
+  "tipo": "advérbio",
+  "pt": "felizmente",
+  "en": "fortunately",
+  "fr": "heureusement"
+},
+{
+  "id": 839,
+  "tipo": "advérbio",
+  "pt": "infelizmente",
+  "en": "unfortunately",
+  "fr": "malheureusement"
+},
+{
+  "id": 840,
+  "tipo": "advérbio",
+  "pt": "claramente",
+  "en": "clearly",
+  "fr": "clairement"
+},
+{
+  "id": 841,
+  "tipo": "pronome",
+  "pt": "quem",
+  "en": "who",
+  "fr": "qui"
+},
+{
+  "id": 842,
+  "tipo": "pronome",
+  "pt": "o quê",
+  "en": "what",
+  "fr": "quoi"
+},
+{
+  "id": 843,
+  "tipo": "pronome",
+  "pt": "qual",
+  "en": "which",
+  "fr": "lequel"
+},
+{
+  "id": 844,
+  "tipo": "pronome",
+  "pt": "quanto",
+  "en": "how much",
+  "fr": "combien"
+},
+{
+  "id": 845,
+  "tipo": "pronome",
+  "pt": "quantos",
+  "en": "how many",
+  "fr": "combien de"
+},
+{
+  "id": 846,
+  "tipo": "pronome",
+  "pt": "onde",
+  "en": "where",
+  "fr": "où"
+},
+{
+  "id": 847,
+  "tipo": "pronome",
+  "pt": "quando",
+  "en": "when",
+  "fr": "quand"
+},
+{
+  "id": 848,
+  "tipo": "pronome",
+  "pt": "por quê",
+  "en": "why",
+  "fr": "pourquoi"
+},
+{
+  "id": 849,
+  "tipo": "pronome",
+  "pt": "como",
+  "en": "how",
+  "fr": "comment"
+},
+{
+  "id": 850,
+  "tipo": "pronome",
+  "pt": "qualquer",
+  "en": "any",
+  "fr": "n'importe quel"
+},
+{
+  "id": 851,
+  "tipo": "conector",
+  "pt": "também",
+  "en": "too",
+  "fr": "aussi"
+},
+{
+  "id": 852,
+  "tipo": "conector",
+  "pt": "nem",
+  "en": "nor",
+  "fr": "ni"
+},
+{
+  "id": 853,
+  "tipo": "conector",
+  "pt": "por isso",
+  "en": "that's why",
+  "fr": "c'est pourquoi"
+},
+{
+  "id": 854,
+  "tipo": "conector",
+  "pt": "mesmo assim",
+  "en": "even so",
+  "fr": "quand même"
+},
+{
+  "id": 855,
+  "tipo": "conector",
+  "pt": "além",
+  "en": "besides that",
+  "fr": "en outre"
+},
+{
+  "id": 856,
+  "tipo": "conector",
+  "pt": "depois disso",
+  "en": "after that",
+  "fr": "après cela"
+},
+{
+  "id": 857,
+  "tipo": "conector",
+  "pt": "antes disso",
+  "en": "before that",
+  "fr": "avant cela"
+},
+{
+  "id": 858,
+  "tipo": "conector",
+  "pt": "por exemplo",
+  "en": "for example",
+  "fr": "par exemple"
+},
+{
+  "id": 859,
+  "tipo": "conector",
+  "pt": "ou seja",
+  "en": "in other words",
+  "fr": "c'est-à-dire"
+},
+{
+  "id": 860,
+  "tipo": "conector",
+  "pt": "ao contrário",
+  "en": "instead",
+  "fr": "au contraire"
+},
+{
+  "id": 861,
+  "tipo": "preposição",
+  "pt": "semelhante a",
+  "en": "similar to",
+  "fr": "semblable à"
+},
+{
+  "id": 862,
+  "tipo": "preposição",
+  "pt": "diferente de",
+  "en": "different from",
+  "fr": "différent de"
+},
+{
+  "id": 863,
+  "tipo": "preposição",
+  "pt": "ao lado de",
+  "en": "next to",
+  "fr": "à côté de"
+},
+{
+  "id": 864,
+  "tipo": "preposição",
+  "pt": "em cima de",
+  "en": "on top of",
+  "fr": "au-dessus de"
+},
+{
+  "id": 865,
+  "tipo": "preposição",
+  "pt": "embaixo de",
+  "en": "under",
+  "fr": "sous"
+},
+{
+  "id": 866,
+  "tipo": "preposição",
+  "pt": "ao redor de",
+  "en": "around",
+  "fr": "autour de"
+},
+{
+  "id": 867,
+  "tipo": "preposição",
+  "pt": "apesar de",
+  "en": "despite",
+  "fr": "malgré"
+},
+{
+  "id": 868,
+  "tipo": "preposição",
+  "pt": "junto com",
+  "en": "along with",
+  "fr": "avec"
+},
+{
+  "id": 869,
+  "tipo": "preposição",
+  "pt": "em vez de",
+  "en": "instead of",
+  "fr": "au lieu de"
+},
+{
+  "id": 870,
+  "tipo": "preposição",
+  "pt": "por causa de",
+  "en": "because of",
+  "fr": "à cause de"
+},
+{
+  "id": 871,
+  "tipo": "número",
+  "pt": "onze",
+  "en": "eleven",
+  "fr": "onze"
+},
+{
+  "id": 872,
+  "tipo": "número",
+  "pt": "doze",
+  "en": "twelve",
+  "fr": "douze"
+},
+{
+  "id": 873,
+  "tipo": "número",
+  "pt": "treze",
+  "en": "thirteen",
+  "fr": "treize"
+},
+{
+  "id": 874,
+  "tipo": "número",
+  "pt": "quatorze",
+  "en": "fourteen",
+  "fr": "quatorze"
+},
+{
+  "id": 875,
+  "tipo": "número",
+  "pt": "quinze",
+  "en": "fifteen",
+  "fr": "quinze"
+},
+{
+  "id": 876,
+  "tipo": "número",
+  "pt": "dezesseis",
+  "en": "sixteen",
+  "fr": "seize"
+},
+{
+  "id": 877,
+  "tipo": "número",
+  "pt": "dezessete",
+  "en": "seventeen",
+  "fr": "dix-sept"
+},
+{
+  "id": 878,
+  "tipo": "número",
+  "pt": "dezoito",
+  "en": "eighteen",
+  "fr": "dix-huit"
+},
+{
+  "id": 879,
+  "tipo": "número",
+  "pt": "dezenove",
+  "en": "nineteen",
+  "fr": "dix-neuf"
+},
+{
+  "id": 880,
+  "tipo": "número",
+  "pt": "vinte",
+  "en": "twenty",
+  "fr": "vingt"
+},
+{
+  "id": 881,
+  "tipo": "número",
+  "pt": "trinta",
+  "en": "thirty",
+  "fr": "trente"
+},
+{
+  "id": 882,
+  "tipo": "número",
+  "pt": "quarenta",
+  "en": "forty",
+  "fr": "quarante"
+},
+{
+  "id": 883,
+  "tipo": "número",
+  "pt": "cinquenta",
+  "en": "fifty",
+  "fr": "cinquante"
+},
+{
+  "id": 884,
+  "tipo": "número",
+  "pt": "sessenta",
+  "en": "sixty",
+  "fr": "soixante"
+},
+{
+  "id": 885,
+  "tipo": "número",
+  "pt": "setenta",
+  "en": "seventy",
+  "fr": "soixante-dix"
+},
+{
+  "id": 886,
+  "tipo": "número",
+  "pt": "oitenta",
+  "en": "eighty",
+  "fr": "quatre-vingts"
+},
+{
+  "id": 887,
+  "tipo": "número",
+  "pt": "noventa",
+  "en": "ninety",
+  "fr": "quatre-vingt-dix"
+},
+{
+  "id": 888,
+  "tipo": "número",
+  "pt": "cem",
+  "en": "one hundred",
+  "fr": "cent"
+},
+{
+  "id": 889,
+  "tipo": "número",
+  "pt": "mil",
+  "en": "one thousand",
+  "fr": "mille"
+},
+{
+  "id": 890,
+  "tipo": "número",
+  "pt": "milhão",
+  "en": "million",
+  "fr": "million"
+},
+{
+  "id": 891,
+  "tipo": "substantivo",
+  "pt": "cor",
+  "en": "shade",
+  "fr": "teinte"
+},
+{
+  "id": 892,
+  "tipo": "substantivo",
+  "pt": "vermelho",
+  "en": "red",
+  "fr": "rouge"
+},
+{
+  "id": 893,
+  "tipo": "substantivo",
+  "pt": "azul",
+  "en": "blue",
+  "fr": "bleu"
+},
+{
+  "id": 894,
+  "tipo": "substantivo",
+  "pt": "verde",
+  "en": "green",
+  "fr": "vert"
+},
+{
+  "id": 895,
+  "tipo": "substantivo",
+  "pt": "amarelo",
+  "en": "yellow",
+  "fr": "jaune"
+},
+{
+  "id": 896,
+  "tipo": "substantivo",
+  "pt": "preto",
+  "en": "black",
+  "fr": "noir"
+},
+{
+  "id": 897,
+  "tipo": "substantivo",
+  "pt": "branco",
+  "en": "white",
+  "fr": "blanc"
+},
+{
+  "id": 898,
+  "tipo": "substantivo",
+  "pt": "cinza",
+  "en": "gray",
+  "fr": "gris"
+},
+{
+  "id": 899,
+  "tipo": "substantivo",
+  "pt": "rosa",
+  "en": "pink",
+  "fr": "rose"
+},
+{
+  "id": 900,
+  "tipo": "substantivo",
+  "pt": "marrom",
+  "en": "brown",
+  "fr": "marron"
+},
+{
+  "id": 901,
+  "tipo": "substantivo",
+  "pt": "laranja",
+  "en": "orange color",
+  "fr": "orange"
+},
+{
+  "id": 902,
+  "tipo": "substantivo",
+  "pt": "roxo",
+  "en": "purple",
+  "fr": "violet"
+},
+{
+  "id": 903,
+  "tipo": "substantivo",
+  "pt": "dourado",
+  "en": "golden color",
+  "fr": "doré"
+},
+{
+  "id": 904,
+  "tipo": "substantivo",
+  "pt": "prateado",
+  "en": "silver color",
+  "fr": "argenté"
+},
+{
+  "id": 905,
+  "tipo": "substantivo",
+  "pt": "forma",
+  "en": "shape",
+  "fr": "forme"
+},
+{
+  "id": 906,
+  "tipo": "substantivo",
+  "pt": "linha",
+  "en": "line",
+  "fr": "ligne"
+},
+{
+  "id": 907,
+  "tipo": "substantivo",
+  "pt": "círculo",
+  "en": "circle",
+  "fr": "cercle"
+},
+{
+  "id": 908,
+  "tipo": "substantivo",
+  "pt": "quadrado",
+  "en": "square shape",
+  "fr": "carré"
+},
+{
+  "id": 909,
+  "tipo": "substantivo",
+  "pt": "ponto",
+  "en": "point",
+  "fr": "point"
+},
+{
+  "id": 910,
+  "tipo": "substantivo",
+  "pt": "imagem",
+  "en": "graphic",
+  "fr": "graphique"
+},
+{
+  "id": 911,
+  "tipo": "substantivo",
+  "pt": "símbolo",
+  "en": "symbol",
+  "fr": "symbole"
+},
+{
+  "id": 912,
+  "tipo": "substantivo",
+  "pt": "sinal",
+  "en": "sign",
+  "fr": "signe"
+},
+{
+  "id": 913,
+  "tipo": "substantivo",
+  "pt": "seta",
+  "en": "arrow",
+  "fr": "flèche"
+},
+{
+  "id": 914,
+  "tipo": "substantivo",
+  "pt": "marca",
+  "en": "mark",
+  "fr": "marque"
+},
+{
+  "id": 915,
+  "tipo": "substantivo",
+  "pt": "etiqueta",
+  "en": "label",
+  "fr": "étiquette"
+},
+{
+  "id": 916,
+  "tipo": "substantivo",
+  "pt": "caixa",
+  "en": "case",
+  "fr": "boîtier"
+},
+{
+  "id": 917,
+  "tipo": "substantivo",
+  "pt": "pacote",
+  "en": "box package",
+  "fr": "boîte"
+},
+{
+  "id": 918,
+  "tipo": "substantivo",
+  "pt": "sacola",
+  "en": "shopping bag",
+  "fr": "sac"
+},
+{
+  "id": 919,
+  "tipo": "substantivo",
+  "pt": "dinheiro",
+  "en": "income",
+  "fr": "revenu"
+},
+{
+  "id": 920,
+  "tipo": "substantivo",
+  "pt": "lucro",
+  "en": "profit",
+  "fr": "profit"
+},
+{
+  "id": 921,
+  "tipo": "substantivo",
+  "pt": "prejuízo",
+  "en": "loss",
+  "fr": "perte"
+},
+{
+  "id": 922,
+  "tipo": "substantivo",
+  "pt": "economia",
+  "en": "economy",
+  "fr": "économie"
+},
+{
+  "id": 923,
+  "tipo": "substantivo",
+  "pt": "investimento",
+  "en": "investment",
+  "fr": "investissement"
+},
+{
+  "id": 924,
+  "tipo": "substantivo",
+  "pt": "negócio",
+  "en": "business",
+  "fr": "entreprise"
+},
+{
+  "id": 925,
+  "tipo": "substantivo",
+  "pt": "empreendedor",
+  "en": "entrepreneur",
+  "fr": "entrepreneur"
+},
+{
+  "id": 926,
+  "tipo": "substantivo",
+  "pt": "mercado",
+  "en": "business market",
+  "fr": "marché"
+},
+{
+  "id": 927,
+  "tipo": "substantivo",
+  "pt": "cliente",
+  "en": "buyer",
+  "fr": "acheteur"
+},
+{
+  "id": 928,
+  "tipo": "substantivo",
+  "pt": "consumidor",
+  "en": "consumer",
+  "fr": "consommateur"
+},
+{
+  "id": 929,
+  "tipo": "substantivo",
+  "pt": "parceria",
+  "en": "partnership",
+  "fr": "partenariat"
+},
+{
+  "id": 930,
+  "tipo": "substantivo",
+  "pt": "concorrência",
+  "en": "competition",
+  "fr": "concurrence"
+},
+{
+  "id": 931,
+  "tipo": "substantivo",
+  "pt": "internet",
+  "en": "online network",
+  "fr": "réseau en ligne"
+},
+{
+  "id": 932,
+  "tipo": "substantivo",
+  "pt": "comércio",
+  "en": "commerce",
+  "fr": "commerce"
+},
+{
+  "id": 933,
+  "tipo": "substantivo",
+  "pt": "vitrine",
+  "en": "showcase",
+  "fr": "vitrine"
+},
+{
+  "id": 934,
+  "tipo": "substantivo",
+  "pt": "anúncio",
+  "en": "ad",
+  "fr": "annonce"
+},
+{
+  "id": 935,
+  "tipo": "substantivo",
+  "pt": "campanha",
+  "en": "campaign",
+  "fr": "campagne"
+},
+{
+  "id": 936,
+  "tipo": "substantivo",
+  "pt": "propaganda",
+  "en": "advertising",
+  "fr": "publicité"
+},
+{
+  "id": 937,
+  "tipo": "substantivo",
+  "pt": "marca",
+  "en": "logo",
+  "fr": "logo"
+},
+{
+  "id": 938,
+  "tipo": "substantivo",
+  "pt": "design",
+  "en": "design",
+  "fr": "design"
+},
+{
+  "id": 939,
+  "tipo": "substantivo",
+  "pt": "layout",
+  "en": "layout",
+  "fr": "mise en page"
+},
+{
+  "id": 940,
+  "tipo": "substantivo",
+  "pt": "tema",
+  "en": "theme",
+  "fr": "thème"
+},
+{
+  "id": 941,
+  "tipo": "substantivo",
+  "pt": "fundo",
+  "en": "background",
+  "fr": "arrière-plan"
+},
+{
+  "id": 942,
+  "tipo": "substantivo",
+  "pt": "fonte",
+  "en": "font",
+  "fr": "police"
+},
+{
+  "id": 943,
+  "tipo": "substantivo",
+  "pt": "texto",
+  "en": "caption",
+  "fr": "légende"
+},
+{
+  "id": 944,
+  "tipo": "substantivo",
+  "pt": "edição",
+  "en": "editing",
+  "fr": "édition"
+},
+{
+  "id": 945,
+  "tipo": "substantivo",
+  "pt": "filtro",
+  "en": "filter",
+  "fr": "filtre"
+},
+{
+  "id": 946,
+  "tipo": "substantivo",
+  "pt": "efeito",
+  "en": "effect",
+  "fr": "effet"
+},
+{
+  "id": 947,
+  "tipo": "substantivo",
+  "pt": "animação",
+  "en": "animation",
+  "fr": "animation"
+},
+{
+  "id": 948,
+  "tipo": "substantivo",
+  "pt": "movimento",
+  "en": "movement",
+  "fr": "mouvement"
+},
+{
+  "id": 949,
+  "tipo": "substantivo",
+  "pt": "velocidade",
+  "en": "speed",
+  "fr": "vitesse"
+},
+{
+  "id": 950,
+  "tipo": "substantivo",
+  "pt": "direção",
+  "en": "direction",
+  "fr": "direction"
+},
+{
+  "id": 951,
+  "tipo": "substantivo",
+  "pt": "lado",
+  "en": "side",
+  "fr": "côté"
+},
+{
+  "id": 952,
+  "tipo": "substantivo",
+  "pt": "frente",
+  "en": "front",
+  "fr": "avant"
+},
+{
+  "id": 953,
+  "tipo": "substantivo",
+  "pt": "fundo",
+  "en": "bottom",
+  "fr": "fond"
+},
+{
+  "id": 954,
+  "tipo": "substantivo",
+  "pt": "topo",
+  "en": "top",
+  "fr": "haut"
+},
+{
+  "id": 955,
+  "tipo": "substantivo",
+  "pt": "meio",
+  "en": "middle",
+  "fr": "milieu"
+},
+{
+  "id": 956,
+  "tipo": "substantivo",
+  "pt": "início",
+  "en": "beginning",
+  "fr": "début"
+},
+{
+  "id": 957,
+  "tipo": "substantivo",
+  "pt": "fim",
+  "en": "end",
+  "fr": "fin"
+},
+{
+  "id": 958,
+  "tipo": "substantivo",
+  "pt": "passo",
+  "en": "step",
+  "fr": "étape"
+},
+{
+  "id": 959,
+  "tipo": "substantivo",
+  "pt": "processo",
+  "en": "process",
+  "fr": "processus"
+},
+{
+  "id": 960,
+  "tipo": "substantivo",
+  "pt": "fase",
+  "en": "phase",
+  "fr": "phase"
+},
+{
+  "id": 961,
+  "tipo": "substantivo",
+  "pt": "objetivo",
+  "en": "purpose",
+  "fr": "but"
+},
+{
+  "id": 962,
+  "tipo": "substantivo",
+  "pt": "missão",
+  "en": "mission",
+  "fr": "mission"
+},
+{
+  "id": 963,
+  "tipo": "substantivo",
+  "pt": "sonho",
+  "en": "goal dream",
+  "fr": "rêve"
+},
+{
+  "id": 964,
+  "tipo": "substantivo",
+  "pt": "motivação",
+  "en": "motivation",
+  "fr": "motivation"
+},
+{
+  "id": 965,
+  "tipo": "substantivo",
+  "pt": "disciplina",
+  "en": "discipline",
+  "fr": "discipline"
+},
+{
+  "id": 966,
+  "tipo": "substantivo",
+  "pt": "foco",
+  "en": "focus",
+  "fr": "concentration"
+},
+{
+  "id": 967,
+  "tipo": "substantivo",
+  "pt": "hábito",
+  "en": "habit",
+  "fr": "habitude"
+},
+{
+  "id": 968,
+  "tipo": "substantivo",
+  "pt": "rotina",
+  "en": "routine",
+  "fr": "routine"
+},
+{
+  "id": 969,
+  "tipo": "substantivo",
+  "pt": "esforço",
+  "en": "effort",
+  "fr": "effort"
+},
+{
+  "id": 970,
+  "tipo": "substantivo",
+  "pt": "resultado",
+  "en": "achievement",
+  "fr": "réussite"
+},
+{
+  "id": 971,
+  "tipo": "substantivo",
+  "pt": "vitória",
+  "en": "win",
+  "fr": "victoire"
+},
+{
+  "id": 972,
+  "tipo": "substantivo",
+  "pt": "fracasso",
+  "en": "failure",
+  "fr": "échec"
+},
+{
+  "id": 973,
+  "tipo": "substantivo",
+  "pt": "erro",
+  "en": "fault",
+  "fr": "faute"
+},
+{
+  "id": 974,
+  "tipo": "substantivo",
+  "pt": "tentativa",
+  "en": "attempt",
+  "fr": "tentative"
+},
+{
+  "id": 975,
+  "tipo": "substantivo",
+  "pt": "chance",
+  "en": "opportunity chance",
+  "fr": "chance"
+},
+{
+  "id": 976,
+  "tipo": "substantivo",
+  "pt": "decisão",
+  "en": "decision",
+  "fr": "décision"
+},
+{
+  "id": 977,
+  "tipo": "substantivo",
+  "pt": "escolha",
+  "en": "choice",
+  "fr": "choix"
+},
+{
+  "id": 978,
+  "tipo": "substantivo",
+  "pt": "resposta",
+  "en": "reply",
+  "fr": "réponse"
+},
+{
+  "id": 979,
+  "tipo": "substantivo",
+  "pt": "pergunta",
+  "en": "question request",
+  "fr": "question"
+},
+{
+  "id": 980,
+  "tipo": "substantivo",
+  "pt": "explicação",
+  "en": "explanation",
+  "fr": "explication"
+},
+{
+  "id": 981,
+  "tipo": "substantivo",
+  "pt": "opinião",
+  "en": "opinion",
+  "fr": "opinion"
+},
+{
+  "id": 982,
+  "tipo": "substantivo",
+  "pt": "concordância",
+  "en": "agreement",
+  "fr": "accord"
+},
+{
+  "id": 983,
+  "tipo": "substantivo",
+  "pt": "diferença",
+  "en": "difference",
+  "fr": "différence"
+},
+{
+  "id": 984,
+  "tipo": "substantivo",
+  "pt": "semelhança",
+  "en": "similarity",
+  "fr": "similarité"
+},
+{
+  "id": 985,
+  "tipo": "substantivo",
+  "pt": "detalhe",
+  "en": "detail",
+  "fr": "détail"
+},
+{
+  "id": 986,
+  "tipo": "substantivo",
+  "pt": "exemplo",
+  "en": "example",
+  "fr": "exemple"
+},
+{
+  "id": 987,
+  "tipo": "substantivo",
+  "pt": "situação",
+  "en": "situation",
+  "fr": "situation"
+},
+{
+  "id": 988,
+  "tipo": "substantivo",
+  "pt": "problema",
+  "en": "issue",
+  "fr": "problème"
+},
+{
+  "id": 989,
+  "tipo": "substantivo",
+  "pt": "solução",
+  "en": "answer solution",
+  "fr": "solution"
+},
+{
+  "id": 990,
+  "tipo": "substantivo",
+  "pt": "ajuda",
+  "en": "assistance",
+  "fr": "assistance"
+},
+{
+  "id": 991,
+  "tipo": "substantivo",
+  "pt": "apoio",
+  "en": "support help",
+  "fr": "soutien"
+},
+{
+  "id": 992,
+  "tipo": "substantivo",
+  "pt": "grupo",
+  "en": "community",
+  "fr": "communauté"
+},
+{
+  "id": 993,
+  "tipo": "substantivo",
+  "pt": "sociedade",
+  "en": "society",
+  "fr": "société"
+},
+{
+  "id": 994,
+  "tipo": "substantivo",
+  "pt": "povo",
+  "en": "people",
+  "fr": "peuple"
+},
+{
+  "id": 995,
+  "tipo": "substantivo",
+  "pt": "nação",
+  "en": "nation",
+  "fr": "nation"
+},
+{
+  "id": 996,
+  "tipo": "substantivo",
+  "pt": "comunicação",
+  "en": "communication",
+  "fr": "communication"
+},
+{
+  "id": 997,
+  "tipo": "substantivo",
+  "pt": "conexão",
+  "en": "connection",
+  "fr": "connexion"
+},
+{
+  "id": 998,
+  "tipo": "substantivo",
+  "pt": "mensagem",
+  "en": "communication message",
+  "fr": "message"
+},
+{
+  "id": 999,
+  "tipo": "substantivo",
+  "pt": "aprendizado",
+  "en": "learning",
+  "fr": "apprentissage"
+},
+{
+  "id": 1000,
+  "tipo": "substantivo",
+  "pt": "evolução",
+  "en": "progress",
+  "fr": "évolution"
+},
+{
+  "id": 1051,
+  "tipo": "substantivo",
+  "pt": "entrada",
+  "en": "input",
+  "fr": "entrée"
+},
+{
+  "id": 1052,
+  "tipo": "substantivo",
+  "pt": "saída",
+  "en": "output",
+  "fr": "sortie"
+},
+{
+  "id": 1053,
+  "tipo": "substantivo",
+  "pt": "resumo",
+  "en": "summary",
+  "fr": "résumé"
+},
+{
+  "id": 1054,
+  "tipo": "substantivo",
+  "pt": "tema",
+  "en": "subject",
+  "fr": "sujet"
+},
+{
+  "id": 1055,
+  "tipo": "substantivo",
+  "pt": "assunto",
+  "en": "topic",
+  "fr": "sujet"
+},
+{
+  "id": 1056,
+  "tipo": "substantivo",
+  "pt": "conteúdo",
+  "en": "content",
+  "fr": "contenu"
+},
+{
+  "id": 1057,
+  "tipo": "substantivo",
+  "pt": "informação",
+  "en": "piece of information",
+  "fr": "information"
+},
+{
+  "id": 1058,
+  "tipo": "substantivo",
+  "pt": "dados",
+  "en": "information data",
+  "fr": "données"
+},
+{
+  "id": 1059,
+  "tipo": "substantivo",
+  "pt": "exemplo",
+  "en": "sample",
+  "fr": "exemple"
+},
+{
+  "id": 1060,
+  "tipo": "substantivo",
+  "pt": "modelo",
+  "en": "template",
+  "fr": "modèle"
+},
+{
+  "id": 1061,
+  "tipo": "substantivo",
+  "pt": "padrão",
+  "en": "pattern",
+  "fr": "modèle"
+},
+{
+  "id": 1062,
+  "tipo": "substantivo",
+  "pt": "estrutura",
+  "en": "structure",
+  "fr": "structure"
+},
+{
+  "id": 1063,
+  "tipo": "substantivo",
+  "pt": "bloco",
+  "en": "block",
+  "fr": "bloc"
+},
+{
+  "id": 1064,
+  "tipo": "substantivo",
+  "pt": "campo",
+  "en": "field",
+  "fr": "champ"
+},
+{
+  "id": 1065,
+  "tipo": "substantivo",
+  "pt": "valor",
+  "en": "field value",
+  "fr": "valeur"
+},
+{
+  "id": 1066,
+  "tipo": "substantivo",
+  "pt": "arquivo",
+  "en": "data file",
+  "fr": "fichier"
+},
+{
+  "id": 1067,
+  "tipo": "substantivo",
+  "pt": "código",
+  "en": "code",
+  "fr": "code"
+},
+{
+  "id": 1068,
+  "tipo": "substantivo",
+  "pt": "script",
+  "en": "script",
+  "fr": "script"
+},
+{
+  "id": 1069,
+  "tipo": "substantivo",
+  "pt": "função",
+  "en": "function",
+  "fr": "fonction"
+},
+{
+  "id": 1070,
+  "tipo": "substantivo",
+  "pt": "linha",
+  "en": "code line",
+  "fr": "ligne"
+},
+{
+  "id": 1071,
+  "tipo": "substantivo",
+  "pt": "erro",
+  "en": "system error",
+  "fr": "erreur"
+},
+{
+  "id": 1072,
+  "tipo": "substantivo",
+  "pt": "falha",
+  "en": "failure",
+  "fr": "échec"
+},
+{
+  "id": 1073,
+  "tipo": "substantivo",
+  "pt": "solução",
+  "en": "fix",
+  "fr": "correction"
+},
+{
+  "id": 1074,
+  "tipo": "substantivo",
+  "pt": "teste",
+  "en": "trial",
+  "fr": "essai"
+},
+{
+  "id": 1075,
+  "tipo": "substantivo",
+  "pt": "versão",
+  "en": "version",
+  "fr": "version"
+},
+{
+  "id": 1076,
+  "tipo": "substantivo",
+  "pt": "base",
+  "en": "base",
+  "fr": "base"
+},
+{
+  "id": 1077,
+  "tipo": "substantivo",
+  "pt": "progresso",
+  "en": "progress improvement",
+  "fr": "progrès"
+},
+{
+  "id": 1078,
+  "tipo": "substantivo",
+  "pt": "mudança",
+  "en": "modification",
+  "fr": "modification"
+},
+{
+  "id": 1079,
+  "tipo": "substantivo",
+  "pt": "melhoria",
+  "en": "improvement",
+  "fr": "amélioration"
+},
+{
+  "id": 1080,
+  "tipo": "substantivo",
+  "pt": "atualização",
+  "en": "upgrade",
+  "fr": "mise à niveau"
+},
+{
+  "id": 1081,
+  "tipo": "substantivo",
+  "pt": "correção",
+  "en": "correction",
+  "fr": "correction"
+},
+{
+  "id": 1082,
+  "tipo": "substantivo",
+  "pt": "revisão",
+  "en": "review",
+  "fr": "révision"
+},
+{
+  "id": 1083,
+  "tipo": "substantivo",
+  "pt": "detecção",
+  "en": "detection",
+  "fr": "détection"
+},
+{
+  "id": 1084,
+  "tipo": "substantivo",
+  "pt": "reconhecimento",
+  "en": "recognition",
+  "fr": "reconnaissance"
+},
+{
+  "id": 1085,
+  "tipo": "substantivo",
+  "pt": "voz",
+  "en": "voice sound",
+  "fr": "voix"
+},
+{
+  "id": 1086,
+  "tipo": "substantivo",
+  "pt": "fala",
+  "en": "speech voice",
+  "fr": "parole"
+},
+{
+  "id": 1087,
+  "tipo": "substantivo",
+  "pt": "tradução",
+  "en": "language translation",
+  "fr": "traduction"
+},
+{
+  "id": 1088,
+  "tipo": "substantivo",
+  "pt": "pronúncia",
+  "en": "speech pronunciation",
+  "fr": "prononciation"
+},
+{
+  "id": 1089,
+  "tipo": "substantivo",
+  "pt": "correção",
+  "en": "feedback correction",
+  "fr": "correction"
+},
+{
+  "id": 1090,
+  "tipo": "substantivo",
+  "pt": "nota",
+  "en": "score",
+  "fr": "score"
+},
+{
+  "id": 1091,
+  "tipo": "substantivo",
+  "pt": "média",
+  "en": "average",
+  "fr": "moyenne"
+},
+{
+  "id": 1092,
+  "tipo": "substantivo",
+  "pt": "barra",
+  "en": "bar",
+  "fr": "barre"
+},
+{
+  "id": 1093,
+  "tipo": "substantivo",
+  "pt": "contador",
+  "en": "counter",
+  "fr": "compteur"
+},
+{
+  "id": 1094,
+  "tipo": "substantivo",
+  "pt": "sessão",
+  "en": "session",
+  "fr": "session"
+},
+{
+  "id": 1095,
+  "tipo": "substantivo",
+  "pt": "modo",
+  "en": "mode",
+  "fr": "mode"
+},
+{
+  "id": 1096,
+  "tipo": "substantivo",
+  "pt": "aprendiz",
+  "en": "learner",
+  "fr": "apprenant"
+},
+{
+  "id": 1097,
+  "tipo": "substantivo",
+  "pt": "tradutor",
+  "en": "translator",
+  "fr": "traducteur"
+},
+{
+  "id": 1098,
+  "tipo": "substantivo",
+  "pt": "conversa",
+  "en": "chat conversation",
+  "fr": "conversation"
+},
+{
+  "id": 1099,
+  "tipo": "substantivo",
+  "pt": "frase",
+  "en": "expression",
+  "fr": "expression"
+},
+{
+  "id": 1100,
+  "tipo": "substantivo",
+  "pt": "vocabulário",
+  "en": "word collection",
+  "fr": "vocabulaire"
+},
+{
+  "id": 1101,
+  "tipo": "substantivo",
+  "pt": "palavra",
+  "en": "word",
+  "fr": "mot"
+},
+{
+  "id": 1102,
+  "tipo": "substantivo",
+  "pt": "letra",
+  "en": "letter",
+  "fr": "lettre"
+},
+{
+  "id": 1103,
+  "tipo": "substantivo",
+  "pt": "som",
+  "en": "sound",
+  "fr": "son"
+},
+{
+  "id": 1104,
+  "tipo": "substantivo",
+  "pt": "idioma",
+  "en": "language",
+  "fr": "langue"
+},
+{
+  "id": 1105,
+  "tipo": "substantivo",
+  "pt": "expressão",
+  "en": "expression",
+  "fr": "expression"
+},
+{
+  "id": 1106,
+  "tipo": "substantivo",
+  "pt": "diálogo",
+  "en": "dialogue",
+  "fr": "dialogue"
+},
+{
+  "id": 1107,
+  "tipo": "substantivo",
+  "pt": "resposta",
+  "en": "answer",
+  "fr": "réponse"
+},
+{
+  "id": 1108,
+  "tipo": "substantivo",
+  "pt": "dúvida",
+  "en": "doubt",
+  "fr": "doute"
+},
+{
+  "id": 1109,
+  "tipo": "substantivo",
+  "pt": "curiosidade",
+  "en": "curiosity",
+  "fr": "curiosité"
+},
+{
+  "id": 1110,
+  "tipo": "substantivo",
+  "pt": "conhecimento",
+  "en": "understanding",
+  "fr": "compréhension"
+},
+{
+  "id": 1111,
+  "tipo": "substantivo",
+  "pt": "sabedoria",
+  "en": "wisdom",
+  "fr": "sagesse"
+},
+{
+  "id": 1112,
+  "tipo": "substantivo",
+  "pt": "experiência",
+  "en": "experience",
+  "fr": "expérience"
+},
+{
+  "id": 1113,
+  "tipo": "substantivo",
+  "pt": "memória",
+  "en": "memory skill",
+  "fr": "mémoire"
+},
+{
+  "id": 1114,
+  "tipo": "substantivo",
+  "pt": "imaginação",
+  "en": "imagination",
+  "fr": "imagination"
+},
+{
+  "id": 1115,
+  "tipo": "substantivo",
+  "pt": "criatividade",
+  "en": "creativity",
+  "fr": "créativité"
+},
+{
+  "id": 1116,
+  "tipo": "substantivo",
+  "pt": "inspiração",
+  "en": "inspiration",
+  "fr": "inspiration"
+},
+{
+  "id": 1117,
+  "tipo": "substantivo",
+  "pt": "emoção",
+  "en": "emotion",
+  "fr": "émotion"
+},
+{
+  "id": 1118,
+  "tipo": "substantivo",
+  "pt": "sentimento",
+  "en": "feeling",
+  "fr": "sentiment"
+},
+{
+  "id": 1119,
+  "tipo": "substantivo",
+  "pt": "humor",
+  "en": "mood",
+  "fr": "humeur"
+},
+{
+  "id": 1120,
+  "tipo": "substantivo",
+  "pt": "personalidade",
+  "en": "personality",
+  "fr": "personnalité"
+},
+{
+  "id": 1121,
+  "tipo": "substantivo",
+  "pt": "caráter",
+  "en": "character",
+  "fr": "caractère"
+},
+{
+  "id": 1122,
+  "tipo": "substantivo",
+  "pt": "comportamento",
+  "en": "behavior",
+  "fr": "comportement"
+},
+{
+  "id": 1123,
+  "tipo": "substantivo",
+  "pt": "atitude",
+  "en": "attitude",
+  "fr": "attitude"
+},
+{
+  "id": 1124,
+  "tipo": "substantivo",
+  "pt": "reação",
+  "en": "reaction",
+  "fr": "réaction"
+},
+{
+  "id": 1125,
+  "tipo": "substantivo",
+  "pt": "respeito",
+  "en": "consideration",
+  "fr": "considération"
+},
+{
+  "id": 1126,
+  "tipo": "substantivo",
+  "pt": "gentileza",
+  "en": "kindness",
+  "fr": "gentillesse"
+},
+{
+  "id": 1127,
+  "tipo": "substantivo",
+  "pt": "paciência",
+  "en": "patience",
+  "fr": "patience"
+},
+{
+  "id": 1128,
+  "tipo": "substantivo",
+  "pt": "coragem",
+  "en": "courage",
+  "fr": "courage"
+},
+{
+  "id": 1129,
+  "tipo": "substantivo",
+  "pt": "medo",
+  "en": "fear",
+  "fr": "peur"
+},
+{
+  "id": 1130,
+  "tipo": "substantivo",
+  "pt": "raiva",
+  "en": "anger",
+  "fr": "colère"
+},
+{
+  "id": 1131,
+  "tipo": "substantivo",
+  "pt": "alegria",
+  "en": "joy",
+  "fr": "joie"
+},
+{
+  "id": 1132,
+  "tipo": "substantivo",
+  "pt": "tristeza",
+  "en": "sadness",
+  "fr": "tristesse"
+},
+{
+  "id": 1133,
+  "tipo": "substantivo",
+  "pt": "ansiedade",
+  "en": "anxiety",
+  "fr": "anxiété"
+},
+{
+  "id": 1134,
+  "tipo": "substantivo",
+  "pt": "calma",
+  "en": "calmness",
+  "fr": "calme"
+},
+{
+  "id": 1135,
+  "tipo": "substantivo",
+  "pt": "esperança",
+  "en": "expectation",
+  "fr": "espoir"
+},
+{
+  "id": 1136,
+  "tipo": "substantivo",
+  "pt": "fé",
+  "en": "faith",
+  "fr": "foi"
+},
+{
+  "id": 1137,
+  "tipo": "substantivo",
+  "pt": "verdade",
+  "en": "truth",
+  "fr": "vérité"
+},
+{
+  "id": 1138,
+  "tipo": "substantivo",
+  "pt": "mentira",
+  "en": "lie",
+  "fr": "mensonge"
+},
+{
+  "id": 1139,
+  "tipo": "substantivo",
+  "pt": "promessa",
+  "en": "promise",
+  "fr": "promesse"
+},
+{
+  "id": 1140,
+  "tipo": "substantivo",
+  "pt": "segurança",
+  "en": "security",
+  "fr": "sécurité"
+},
+{
+  "id": 1141,
+  "tipo": "substantivo",
+  "pt": "proteção",
+  "en": "defense",
+  "fr": "protection"
+},
+{
+  "id": 1142,
+  "tipo": "substantivo",
+  "pt": "risco",
+  "en": "risk",
+  "fr": "risque"
+},
+{
+  "id": 1143,
+  "tipo": "substantivo",
+  "pt": "perigo",
+  "en": "danger",
+  "fr": "danger"
+},
+{
+  "id": 1144,
+  "tipo": "substantivo",
+  "pt": "emergência",
+  "en": "emergency",
+  "fr": "urgence"
+},
+{
+  "id": 1145,
+  "tipo": "substantivo",
+  "pt": "acidente",
+  "en": "accident",
+  "fr": "accident"
+},
+{
+  "id": 1146,
+  "tipo": "substantivo",
+  "pt": "socorro",
+  "en": "help rescue",
+  "fr": "secours"
+},
+{
+  "id": 1147,
+  "tipo": "substantivo",
+  "pt": "hospital",
+  "en": "medical center",
+  "fr": "centre médical"
+},
+{
+  "id": 1148,
+  "tipo": "substantivo",
+  "pt": "remédio",
+  "en": "medicine",
+  "fr": "médicament"
+},
+{
+  "id": 1149,
+  "tipo": "substantivo",
+  "pt": "tratamento",
+  "en": "treatment",
+  "fr": "traitement"
+},
+{
+  "id": 1150,
+  "tipo": "substantivo",
+  "pt": "recuperação",
+  "en": "recovery",
+  "fr": "rétablissement"
+},
+{
+  "id": 1151,
+  "tipo": "substantivo",
+  "pt": "saúde",
+  "en": "health condition",
+  "fr": "état de santé"
+},
+{
+  "id": 1152,
+  "tipo": "substantivo",
+  "pt": "dor",
+  "en": "pain",
+  "fr": "douleur"
+},
+{
+  "id": 1153,
+  "tipo": "substantivo",
+  "pt": "febre",
+  "en": "fever",
+  "fr": "fièvre"
+},
+{
+  "id": 1154,
+  "tipo": "substantivo",
+  "pt": "tosse",
+  "en": "cough",
+  "fr": "toux"
+},
+{
+  "id": 1155,
+  "tipo": "substantivo",
+  "pt": "resfriado",
+  "en": "cold illness",
+  "fr": "rhume"
+},
+{
+  "id": 1156,
+  "tipo": "substantivo",
+  "pt": "vírus",
+  "en": "infection virus",
+  "fr": "virus"
+},
+{
+  "id": 1157,
+  "tipo": "substantivo",
+  "pt": "vacina",
+  "en": "vaccine",
+  "fr": "vaccin"
+},
+{
+  "id": 1158,
+  "tipo": "substantivo",
+  "pt": "consulta",
+  "en": "medical appointment",
+  "fr": "consultation"
+},
+{
+  "id": 1159,
+  "tipo": "substantivo",
+  "pt": "receita",
+  "en": "prescription",
+  "fr": "ordonnance"
+},
+{
+  "id": 1160,
+  "tipo": "substantivo",
+  "pt": "enfermeiro",
+  "en": "nurse",
+  "fr": "infirmier"
+},
+{
+  "id": 1161,
+  "tipo": "substantivo",
+  "pt": "dentista",
+  "en": "dentist",
+  "fr": "dentiste"
+},
+{
+  "id": 1162,
+  "tipo": "substantivo",
+  "pt": "cirurgia",
+  "en": "surgery",
+  "fr": "chirurgie"
+},
+{
+  "id": 1163,
+  "tipo": "substantivo",
+  "pt": "exame",
+  "en": "medical test",
+  "fr": "examen"
+},
+{
+  "id": 1164,
+  "tipo": "substantivo",
+  "pt": "sintoma",
+  "en": "symptom",
+  "fr": "symptôme"
+},
+{
+  "id": 1165,
+  "tipo": "substantivo",
+  "pt": "cura",
+  "en": "cure",
+  "fr": "guérison"
+},
+{
+  "id": 1166,
+  "tipo": "substantivo",
+  "pt": "dieta",
+  "en": "diet",
+  "fr": "régime"
+},
+{
+  "id": 1167,
+  "tipo": "substantivo",
+  "pt": "nutrição",
+  "en": "nutrition",
+  "fr": "nutrition"
+},
+{
+  "id": 1168,
+  "tipo": "substantivo",
+  "pt": "proteína",
+  "en": "protein",
+  "fr": "protéine"
+},
+{
+  "id": 1169,
+  "tipo": "substantivo",
+  "pt": "vitamina",
+  "en": "vitamin",
+  "fr": "vitamine"
+},
+{
+  "id": 1170,
+  "tipo": "substantivo",
+  "pt": "caloria",
+  "en": "calorie",
+  "fr": "calorie"
+},
+{
+  "id": 1171,
+  "tipo": "substantivo",
+  "pt": "peso",
+  "en": "body weight",
+  "fr": "poids"
+},
+{
+  "id": 1172,
+  "tipo": "substantivo",
+  "pt": "altura",
+  "en": "height",
+  "fr": "taille"
+},
+{
+  "id": 1173,
+  "tipo": "substantivo",
+  "pt": "corpo",
+  "en": "human body",
+  "fr": "corps"
+},
+{
+  "id": 1174,
+  "tipo": "substantivo",
+  "pt": "mente",
+  "en": "mind",
+  "fr": "esprit"
+},
+{
+  "id": 1175,
+  "tipo": "substantivo",
+  "pt": "cérebro",
+  "en": "brain",
+  "fr": "cerveau"
+},
+{
+  "id": 1176,
+  "tipo": "substantivo",
+  "pt": "coração",
+  "en": "heart",
+  "fr": "cœur"
+},
+{
+  "id": 1177,
+  "tipo": "substantivo",
+  "pt": "sangue",
+  "en": "blood",
+  "fr": "sang"
+},
+{
+  "id": 1178,
+  "tipo": "substantivo",
+  "pt": "pele",
+  "en": "skin",
+  "fr": "peau"
+},
+{
+  "id": 1179,
+  "tipo": "substantivo",
+  "pt": "cabelo",
+  "en": "hair",
+  "fr": "cheveux"
+},
+{
+  "id": 1180,
+  "tipo": "substantivo",
+  "pt": "rosto",
+  "en": "face",
+  "fr": "visage"
+},
+{
+  "id": 1181,
+  "tipo": "substantivo",
+  "pt": "olho",
+  "en": "eye",
+  "fr": "œil"
+},
+{
+  "id": 1182,
+  "tipo": "substantivo",
+  "pt": "nariz",
+  "en": "nose",
+  "fr": "nez"
+},
+{
+  "id": 1183,
+  "tipo": "substantivo",
+  "pt": "boca",
+  "en": "mouth",
+  "fr": "bouche"
+},
+{
+  "id": 1184,
+  "tipo": "substantivo",
+  "pt": "orelha",
+  "en": "ear",
+  "fr": "oreille"
+},
+{
+  "id": 1185,
+  "tipo": "substantivo",
+  "pt": "braço",
+  "en": "arm",
+  "fr": "bras"
+},
+{
+  "id": 1186,
+  "tipo": "substantivo",
+  "pt": "mão",
+  "en": "hand",
+  "fr": "main"
+},
+{
+  "id": 1187,
+  "tipo": "substantivo",
+  "pt": "dedo",
+  "en": "finger",
+  "fr": "doigt"
+},
+{
+  "id": 1188,
+  "tipo": "substantivo",
+  "pt": "perna",
+  "en": "leg",
+  "fr": "jambe"
+},
+{
+  "id": 1189,
+  "tipo": "substantivo",
+  "pt": "pé",
+  "en": "foot",
+  "fr": "pied"
+},
+{
+  "id": 1190,
+  "tipo": "substantivo",
+  "pt": "costas",
+  "en": "back body",
+  "fr": "dos"
+},
+{
+  "id": 1191,
+  "tipo": "substantivo",
+  "pt": "pescoço",
+  "en": "neck",
+  "fr": "cou"
+},
+{
+  "id": 1192,
+  "tipo": "substantivo",
+  "pt": "ombro",
+  "en": "shoulder",
+  "fr": "épaule"
+},
+{
+  "id": 1193,
+  "tipo": "substantivo",
+  "pt": "joelho",
+  "en": "knee",
+  "fr": "genou"
+},
+{
+  "id": 1194,
+  "tipo": "substantivo",
+  "pt": "cotovelo",
+  "en": "elbow",
+  "fr": "coude"
+},
+{
+  "id": 1195,
+  "tipo": "substantivo",
+  "pt": "barriga",
+  "en": "belly",
+  "fr": "ventre"
+},
+{
+  "id": 1196,
+  "tipo": "substantivo",
+  "pt": "respiração",
+  "en": "breathing",
+  "fr": "respiration"
+},
+{
+  "id": 1197,
+  "tipo": "substantivo",
+  "pt": "sono",
+  "en": "sleep rest",
+  "fr": "sommeil"
+},
+{
+  "id": 1198,
+  "tipo": "substantivo",
+  "pt": "descanso",
+  "en": "relaxation",
+  "fr": "repos"
+},
+{
+  "id": 1199,
+  "tipo": "substantivo",
+  "pt": "energia",
+  "en": "physical energy",
+  "fr": "énergie"
+},
+{
+  "id": 1200,
+  "tipo": "substantivo",
+  "pt": "bem-estar",
+  "en": "well-being",
+  "fr": "bien-être"
+},
+{
+  "id": 1201,
+  "tipo": "adjetivo",
+  "pt": "forte",
+  "en": "strong",
+  "fr": "fort"
+},
+{
+  "id": 1202,
+  "tipo": "adjetivo",
+  "pt": "fraco",
+  "en": "weak",
+  "fr": "faible"
+},
+{
+  "id": 1203,
+  "tipo": "adjetivo",
+  "pt": "rápido",
+  "en": "fast",
+  "fr": "rapide"
+},
+{
+  "id": 1204,
+  "tipo": "adjetivo",
+  "pt": "lento",
+  "en": "slow",
+  "fr": "lent"
+},
+{
+  "id": 1205,
+  "tipo": "adjetivo",
+  "pt": "leve",
+  "en": "lightweight",
+  "fr": "léger"
+},
+{
+  "id": 1206,
+  "tipo": "adjetivo",
+  "pt": "pesado",
+  "en": "heavy",
+  "fr": "lourd"
+},
+{
+  "id": 1207,
+  "tipo": "adjetivo",
+  "pt": "claro",
+  "en": "clear",
+  "fr": "clair"
+},
+{
+  "id": 1208,
+  "tipo": "adjetivo",
+  "pt": "escuro",
+  "en": "dark",
+  "fr": "sombre"
+},
+{
+  "id": 1209,
+  "tipo": "adjetivo",
+  "pt": "limpo",
+  "en": "clean",
+  "fr": "propre"
+},
+{
+  "id": 1210,
+  "tipo": "adjetivo",
+  "pt": "sujo",
+  "en": "dirty",
+  "fr": "sale"
+},
+{
+  "id": 1211,
+  "tipo": "adjetivo",
+  "pt": "macio",
+  "en": "soft",
+  "fr": "doux"
+},
+{
+  "id": 1212,
+  "tipo": "adjetivo",
+  "pt": "duro",
+  "en": "hard",
+  "fr": "dur"
+},
+{
+  "id": 1213,
+  "tipo": "adjetivo",
+  "pt": "quente",
+  "en": "hot",
+  "fr": "chaud"
+},
+{
+  "id": 1214,
+  "tipo": "adjetivo",
+  "pt": "frio",
+  "en": "cold",
+  "fr": "froid"
+},
+{
+  "id": 1215,
+  "tipo": "adjetivo",
+  "pt": "gelado",
+  "en": "icy",
+  "fr": "glacé"
+},
+{
+  "id": 1216,
+  "tipo": "adjetivo",
+  "pt": "doce",
+  "en": "sweet",
+  "fr": "sucré"
+},
+{
+  "id": 1217,
+  "tipo": "adjetivo",
+  "pt": "salgado",
+  "en": "salty",
+  "fr": "salé"
+},
+{
+  "id": 1218,
+  "tipo": "adjetivo",
+  "pt": "amargo",
+  "en": "bitter",
+  "fr": "amer"
+},
+{
+  "id": 1219,
+  "tipo": "adjetivo",
+  "pt": "azedo",
+  "en": "sour",
+  "fr": "acide"
+},
+{
+  "id": 1220,
+  "tipo": "adjetivo",
+  "pt": "delicioso",
+  "en": "delicious",
+  "fr": "délicieux"
+},
+{
+  "id": 1221,
+  "tipo": "adjetivo",
+  "pt": "horrível",
+  "en": "awful",
+  "fr": "horrible"
+},
+{
+  "id": 1222,
+  "tipo": "adjetivo",
+  "pt": "bonito",
+  "en": "beautiful",
+  "fr": "beau"
+},
+{
+  "id": 1223,
+  "tipo": "adjetivo",
+  "pt": "feio",
+  "en": "ugly",
+  "fr": "laid"
+},
+{
+  "id": 1224,
+  "tipo": "adjetivo",
+  "pt": "alto",
+  "en": "tall",
+  "fr": "grand"
+},
+{
+  "id": 1225,
+  "tipo": "adjetivo",
+  "pt": "baixo",
+  "en": "short",
+  "fr": "petit"
+},
+{
+  "id": 1226,
+  "tipo": "adjetivo",
+  "pt": "gordo",
+  "en": "fat",
+  "fr": "gros"
+},
+{
+  "id": 1227,
+  "tipo": "adjetivo",
+  "pt": "magro",
+  "en": "thin",
+  "fr": "mince"
+},
+{
+  "id": 1228,
+  "tipo": "adjetivo",
+  "pt": "jovem",
+  "en": "young",
+  "fr": "jeune"
+},
+{
+  "id": 1229,
+  "tipo": "adjetivo",
+  "pt": "velho",
+  "en": "old",
+  "fr": "vieux"
+},
+{
+  "id": 1230,
+  "tipo": "adjetivo",
+  "pt": "novo",
+  "en": "new",
+  "fr": "nouveau"
+},
+{
+  "id": 1231,
+  "tipo": "adjetivo",
+  "pt": "moderno",
+  "en": "modern",
+  "fr": "moderne"
+},
+{
+  "id": 1232,
+  "tipo": "adjetivo",
+  "pt": "antigo",
+  "en": "ancient",
+  "fr": "ancien"
+},
+{
+  "id": 1233,
+  "tipo": "adjetivo",
+  "pt": "caro",
+  "en": "expensive",
+  "fr": "cher"
+},
+{
+  "id": 1234,
+  "tipo": "adjetivo",
+  "pt": "barato",
+  "en": "cheap",
+  "fr": "bon marché"
+},
+{
+  "id": 1235,
+  "tipo": "adjetivo",
+  "pt": "rico",
+  "en": "rich",
+  "fr": "riche"
+},
+{
+  "id": 1236,
+  "tipo": "adjetivo",
+  "pt": "pobre",
+  "en": "poor",
+  "fr": "pauvre"
+},
+{
+  "id": 1237,
+  "tipo": "adjetivo",
+  "pt": "cheio",
+  "en": "full",
+  "fr": "plein"
+},
+{
+  "id": 1238,
+  "tipo": "adjetivo",
+  "pt": "vazio",
+  "en": "empty",
+  "fr": "vide"
+},
+{
+  "id": 1239,
+  "tipo": "adjetivo",
+  "pt": "aberto",
+  "en": "open",
+  "fr": "ouvert"
+},
+{
+  "id": 1240,
+  "tipo": "adjetivo",
+  "pt": "fechado",
+  "en": "closed",
+  "fr": "fermé"
+},
+{
+  "id": 1241,
+  "tipo": "adjetivo",
+  "pt": "feliz",
+  "en": "happy",
+  "fr": "heureux"
+},
+{
+  "id": 1242,
+  "tipo": "adjetivo",
+  "pt": "triste",
+  "en": "sad",
+  "fr": "triste"
+},
+{
+  "id": 1243,
+  "tipo": "adjetivo",
+  "pt": "cansado",
+  "en": "tired",
+  "fr": "fatigué"
+},
+{
+  "id": 1244,
+  "tipo": "adjetivo",
+  "pt": "animado",
+  "en": "excited",
+  "fr": "enthousiaste"
+},
+{
+  "id": 1245,
+  "tipo": "adjetivo",
+  "pt": "ocupado",
+  "en": "busy",
+  "fr": "occupé"
+},
+{
+  "id": 1246,
+  "tipo": "adjetivo",
+  "pt": "livre",
+  "en": "free",
+  "fr": "libre"
+},
+{
+  "id": 1247,
+  "tipo": "adjetivo",
+  "pt": "importante",
+  "en": "important",
+  "fr": "important"
+},
+{
+  "id": 1248,
+  "tipo": "adjetivo",
+  "pt": "necessário",
+  "en": "necessary",
+  "fr": "nécessaire"
+},
+{
+  "id": 1249,
+  "tipo": "adjetivo",
+  "pt": "possível",
+  "en": "possible",
+  "fr": "possible"
+},
+{
+  "id": 1250,
+  "tipo": "adjetivo",
+  "pt": "impossível",
+  "en": "impossible",
+  "fr": "impossible"
+},
+{
+  "id": 1251,
+  "tipo": "advérbio",
+  "pt": "sempre",
+  "en": "always",
+  "fr": "toujours"
+},
+{
+  "id": 1252,
+  "tipo": "advérbio",
+  "pt": "nunca",
+  "en": "never",
+  "fr": "jamais"
+},
+{
+  "id": 1253,
+  "tipo": "advérbio",
+  "pt": "às vezes",
+  "en": "sometimes",
+  "fr": "parfois"
+},
+{
+  "id": 1254,
+  "tipo": "advérbio",
+  "pt": "frequentemente",
+  "en": "frequently",
+  "fr": "fréquemment"
+},
+{
+  "id": 1255,
+  "tipo": "advérbio",
+  "pt": "raramente",
+  "en": "rarely",
+  "fr": "rarement"
+},
+{
+  "id": 1256,
+  "tipo": "advérbio",
+  "pt": "normalmente",
+  "en": "normally",
+  "fr": "normalement"
+},
+{
+  "id": 1257,
+  "tipo": "advérbio",
+  "pt": "geralmente",
+  "en": "usually",
+  "fr": "habituellement"
+},
+{
+  "id": 1258,
+  "tipo": "advérbio",
+  "pt": "rapidamente",
+  "en": "quickly",
+  "fr": "rapidement"
+},
+{
+  "id": 1259,
+  "tipo": "advérbio",
+  "pt": "lentamente",
+  "en": "slowly",
+  "fr": "lentement"
+},
+{
+  "id": 1260,
+  "tipo": "advérbio",
+  "pt": "cuidadosamente",
+  "en": "carefully",
+  "fr": "soigneusement"
+},
+{
+  "id": 1261,
+  "tipo": "advérbio",
+  "pt": "facilmente",
+  "en": "easily",
+  "fr": "facilement"
+},
+{
+  "id": 1262,
+  "tipo": "advérbio",
+  "pt": "dificilmente",
+  "en": "hardly",
+  "fr": "difficilement"
+},
+{
+  "id": 1263,
+  "tipo": "advérbio",
+  "pt": "silenciosamente",
+  "en": "quietly",
+  "fr": "silencieusement"
+},
+{
+  "id": 1264,
+  "tipo": "advérbio",
+  "pt": "alto",
+  "en": "loudly",
+  "fr": "fort"
+},
+{
+  "id": 1265,
+  "tipo": "advérbio",
+  "pt": "bem",
+  "en": "well",
+  "fr": "bien"
+},
+{
+  "id": 1266,
+  "tipo": "advérbio",
+  "pt": "mal",
+  "en": "badly",
+  "fr": "mal"
+},
+{
+  "id": 1267,
+  "tipo": "advérbio",
+  "pt": "quase",
+  "en": "almost",
+  "fr": "presque"
+},
+{
+  "id": 1268,
+  "tipo": "advérbio",
+  "pt": "completamente",
+  "en": "completely",
+  "fr": "complètement"
+},
+{
+  "id": 1269,
+  "tipo": "advérbio",
+  "pt": "totalmente",
+  "en": "totally",
+  "fr": "totalement"
+},
+{
+  "id": 1270,
+  "tipo": "advérbio",
+  "pt": "parcialmente",
+  "en": "partially",
+  "fr": "partiellement"
+},
+{
+  "id": 1271,
+  "tipo": "advérbio",
+  "pt": "talvez",
+  "en": "maybe",
+  "fr": "peut-être"
+},
+{
+  "id": 1272,
+  "tipo": "advérbio",
+  "pt": "realmente",
+  "en": "really",
+  "fr": "vraiment"
+},
+{
+  "id": 1273,
+  "tipo": "advérbio",
+  "pt": "exatamente",
+  "en": "exactly",
+  "fr": "exactement"
+},
+{
+  "id": 1274,
+  "tipo": "advérbio",
+  "pt": "especialmente",
+  "en": "especially",
+  "fr": "spécialement"
+},
+{
+  "id": 1275,
+  "tipo": "advérbio",
+  "pt": "principalmente",
+  "en": "mainly",
+  "fr": "principalement"
+},
+{
+  "id": 1276,
+  "tipo": "advérbio",
+  "pt": "provavelmente",
+  "en": "likely",
+  "fr": "probablement"
+},
+{
+  "id": 1277,
+  "tipo": "advérbio",
+  "pt": "definitivamente",
+  "en": "definitely",
+  "fr": "définitivement"
+},
+{
+  "id": 1278,
+  "tipo": "advérbio",
+  "pt": "literalmente",
+  "en": "literally",
+  "fr": "littéralement"
+},
+{
+  "id": 1279,
+  "tipo": "advérbio",
+  "pt": "simplesmente",
+  "en": "simply",
+  "fr": "simplement"
+},
+{
+  "id": 1280,
+  "tipo": "advérbio",
+  "pt": "naturalmente",
+  "en": "naturally",
+  "fr": "naturellement"
+},
+{
+  "id": 1281,
+  "tipo": "pronome",
+  "pt": "ninguém",
+  "en": "nobody",
+  "fr": "personne"
+},
+{
+  "id": 1282,
+  "tipo": "pronome",
+  "pt": "alguém",
+  "en": "somebody",
+  "fr": "quelqu'un"
+},
+{
+  "id": 1283,
+  "tipo": "pronome",
+  "pt": "todos",
+  "en": "everyone",
+  "fr": "tout le monde"
+},
+{
+  "id": 1284,
+  "tipo": "pronome",
+  "pt": "alguns",
+  "en": "some",
+  "fr": "quelques-uns"
+},
+{
+  "id": 1285,
+  "tipo": "pronome",
+  "pt": "nenhum",
+  "en": "none",
+  "fr": "aucun"
+},
+{
+  "id": 1286,
+  "tipo": "pronome",
+  "pt": "outro",
+  "en": "another",
+  "fr": "autre"
+},
+{
+  "id": 1287,
+  "tipo": "pronome",
+  "pt": "mesmo",
+  "en": "same one",
+  "fr": "même"
+},
+{
+  "id": 1288,
+  "tipo": "pronome",
+  "pt": "cada",
+  "en": "each",
+  "fr": "chaque"
+},
+{
+  "id": 1289,
+  "tipo": "pronome",
+  "pt": "qualquer um",
+  "en": "anyone",
+  "fr": "n'importe qui"
+},
+{
+  "id": 1290,
+  "tipo": "pronome",
+  "pt": "todo mundo",
+  "en": "everybody",
+  "fr": "tout le monde"
+},
+{
+  "id": 1291,
+  "tipo": "conector",
+  "pt": "então",
+  "en": "so",
+  "fr": "alors"
+},
+{
+  "id": 1292,
+  "tipo": "conector",
+  "pt": "ainda",
+  "en": "still",
+  "fr": "encore"
+},
+{
+  "id": 1293,
+  "tipo": "conector",
+  "pt": "já",
+  "en": "already",
+  "fr": "déjà"
+},
+{
+  "id": 1294,
+  "tipo": "conector",
+  "pt": "de novo",
+  "en": "again",
+  "fr": "encore"
+},
+{
+  "id": 1295,
+  "tipo": "conector",
+  "pt": "enfim",
+  "en": "finally",
+  "fr": "finalement"
+},
+{
+  "id": 1296,
+  "tipo": "conector",
+  "pt": "aliás",
+  "en": "by the way",
+  "fr": "d'ailleurs"
+},
+{
+  "id": 1297,
+  "tipo": "conector",
+  "pt": "inclusive",
+  "en": "including",
+  "fr": "y compris"
+},
+{
+  "id": 1298,
+  "tipo": "conector",
+  "pt": "de fato",
+  "en": "indeed",
+  "fr": "en effet"
+},
+{
+  "id": 1299,
+  "tipo": "conector",
+  "pt": "mesmo que",
+  "en": "even if",
+  "fr": "même si"
+},
+{
+  "id": 1300,
+  "tipo": "conector",
+  "pt": "desde que",
+  "en": "as long as",
+  "fr": "tant que"
+},
+{
+  "id": 1301,
+  "tipo": "preposição",
+  "pt": "contra",
+  "en": "against",
+  "fr": "contre"
+},
+{
+  "id": 1302,
+  "tipo": "preposição",
+  "pt": "entre",
+  "en": "between",
+  "fr": "entre"
+},
+{
+  "id": 1303,
+  "tipo": "preposição",
+  "pt": "sem",
+  "en": "without",
+  "fr": "sans"
+},
+{
+  "id": 1304,
+  "tipo": "preposição",
+  "pt": "com",
+  "en": "with",
+  "fr": "avec"
+},
+{
+  "id": 1305,
+  "tipo": "preposição",
+  "pt": "sobre",
+  "en": "about",
+  "fr": "à propos de"
+},
+{
+  "id": 1306,
+  "tipo": "preposição",
+  "pt": "sob",
+  "en": "beneath",
+  "fr": "sous"
+},
+{
+  "id": 1307,
+  "tipo": "preposição",
+  "pt": "perante",
+  "en": "before",
+  "fr": "devant"
+},
+{
+  "id": 1308,
+  "tipo": "preposição",
+  "pt": "conforme",
+  "en": "according to",
+  "fr": "selon"
+},
+{
+  "id": 1309,
+  "tipo": "preposição",
+  "pt": "exceto",
+  "en": "except",
+  "fr": "sauf"
+},
+{
+  "id": 1310,
+  "tipo": "preposição",
+  "pt": "inclusive",
+  "en": "including",
+  "fr": "y compris"
+},
+{
+  "id": 1311,
+  "tipo": "número",
+  "pt": "primeiro",
+  "en": "first",
+  "fr": "premier"
+},
+{
+  "id": 1312,
+  "tipo": "número",
+  "pt": "segundo",
+  "en": "second ordinal",
+  "fr": "deuxième"
+},
+{
+  "id": 1313,
+  "tipo": "número",
+  "pt": "terceiro",
+  "en": "third",
+  "fr": "troisième"
+},
+{
+  "id": 1314,
+  "tipo": "número",
+  "pt": "quarto",
+  "en": "fourth",
+  "fr": "quatrième"
+},
+{
+  "id": 1315,
+  "tipo": "número",
+  "pt": "quinto",
+  "en": "fifth",
+  "fr": "cinquième"
+},
+{
+  "id": 1316,
+  "tipo": "número",
+  "pt": "metade",
+  "en": "half",
+  "fr": "moitié"
+},
+{
+  "id": 1317,
+  "tipo": "número",
+  "pt": "dobro",
+  "en": "double",
+  "fr": "double"
+},
+{
+  "id": 1318,
+  "tipo": "número",
+  "pt": "triplo",
+  "en": "triple",
+  "fr": "triple"
+},
+{
+  "id": 1319,
+  "tipo": "número",
+  "pt": "par",
+  "en": "pair",
+  "fr": "paire"
+},
+{
+  "id": 1320,
+  "tipo": "número",
+  "pt": "único",
+  "en": "single unit",
+  "fr": "unique"
+},
+{
+  "id": 1321,
+  "tipo": "substantivo",
+  "pt": "animal",
+  "en": "animal",
+  "fr": "animal"
+},
+{
+  "id": 1322,
+  "tipo": "substantivo",
+  "pt": "cachorro",
+  "en": "dog",
+  "fr": "chien"
+},
+{
+  "id": 1323,
+  "tipo": "substantivo",
+  "pt": "gato",
+  "en": "cat",
+  "fr": "chat"
+},
+{
+  "id": 1324,
+  "tipo": "substantivo",
+  "pt": "pássaro",
+  "en": "bird",
+  "fr": "oiseau"
+},
+{
+  "id": 1325,
+  "tipo": "substantivo",
+  "pt": "peixe",
+  "en": "fish animal",
+  "fr": "poisson"
+},
+{
+  "id": 1326,
+  "tipo": "substantivo",
+  "pt": "cavalo",
+  "en": "horse",
+  "fr": "cheval"
+},
+{
+  "id": 1327,
+  "tipo": "substantivo",
+  "pt": "vaca",
+  "en": "cow",
+  "fr": "vache"
+},
+{
+  "id": 1328,
+  "tipo": "substantivo",
+  "pt": "galinha",
+  "en": "chicken animal",
+  "fr": "poule"
+},
+{
+  "id": 1329,
+  "tipo": "substantivo",
+  "pt": "inseto",
+  "en": "insect",
+  "fr": "insecte"
+},
+{
+  "id": 1330,
+  "tipo": "substantivo",
+  "pt": "árvore",
+  "en": "tree",
+  "fr": "arbre"
+},
+{
+  "id": 1331,
+  "tipo": "substantivo",
+  "pt": "flor",
+  "en": "flower",
+  "fr": "fleur"
+},
+{
+  "id": 1332,
+  "tipo": "substantivo",
+  "pt": "grama",
+  "en": "grass",
+  "fr": "herbe"
+},
+{
+  "id": 1333,
+  "tipo": "substantivo",
+  "pt": "praia",
+  "en": "beach",
+  "fr": "plage"
+},
+{
+  "id": 1334,
+  "tipo": "substantivo",
+  "pt": "onda",
+  "en": "wave",
+  "fr": "vague"
+},
+{
+  "id": 1335,
+  "tipo": "substantivo",
+  "pt": "areia",
+  "en": "sand",
+  "fr": "sable"
+},
+{
+  "id": 1336,
+  "tipo": "substantivo",
+  "pt": "montanha",
+  "en": "mountain",
+  "fr": "montagne"
+},
+{
+  "id": 1337,
+  "tipo": "substantivo",
+  "pt": "vale",
+  "en": "valley",
+  "fr": "vallée"
+},
+{
+  "id": 1338,
+  "tipo": "substantivo",
+  "pt": "cachoeira",
+  "en": "waterfall",
+  "fr": "cascade"
+},
+{
+  "id": 1339,
+  "tipo": "substantivo",
+  "pt": "estrada",
+  "en": "road",
+  "fr": "route"
+},
+{
+  "id": 1340,
+  "tipo": "substantivo",
+  "pt": "rodovia",
+  "en": "highway",
+  "fr": "autoroute"
+},
+{
+  "id": 1341,
+  "tipo": "substantivo",
+  "pt": "bicicleta",
+  "en": "bicycle",
+  "fr": "vélo"
+},
+{
+  "id": 1342,
+  "tipo": "substantivo",
+  "pt": "moto",
+  "en": "motorcycle",
+  "fr": "moto"
+},
+{
+  "id": 1343,
+  "tipo": "substantivo",
+  "pt": "ônibus",
+  "en": "bus",
+  "fr": "bus"
+},
+{
+  "id": 1344,
+  "tipo": "substantivo",
+  "pt": "metrô",
+  "en": "subway",
+  "fr": "métro"
+},
+{
+  "id": 1345,
+  "tipo": "substantivo",
+  "pt": "trem",
+  "en": "train",
+  "fr": "train"
+},
+{
+  "id": 1346,
+  "tipo": "substantivo",
+  "pt": "avião",
+  "en": "airplane",
+  "fr": "avion"
+},
+{
+  "id": 1347,
+  "tipo": "substantivo",
+  "pt": "navio",
+  "en": "ship",
+  "fr": "navire"
+},
+{
+  "id": 1348,
+  "tipo": "substantivo",
+  "pt": "porto",
+  "en": "port harbor",
+  "fr": "port"
+},
+{
+  "id": 1349,
+  "tipo": "substantivo",
+  "pt": "aeroporto",
+  "en": "airport",
+  "fr": "aéroport"
+},
+{
+  "id": 1350,
+  "tipo": "substantivo",
+  "pt": "estação",
+  "en": "station",
+  "fr": "gare"
+},
+{
+  "id": 1351,
+  "tipo": "substantivo",
+  "pt": "bilhete",
+  "en": "ticket pass",
+  "fr": "billet"
+},
+{
+  "id": 1352,
+  "tipo": "substantivo",
+  "pt": "assento",
+  "en": "seat place",
+  "fr": "siège"
+},
+{
+  "id": 1353,
+  "tipo": "substantivo",
+  "pt": "bagagem",
+  "en": "luggage",
+  "fr": "bagage"
+},
+{
+  "id": 1354,
+  "tipo": "substantivo",
+  "pt": "fronteira",
+  "en": "country border",
+  "fr": "frontière"
+},
+{
+  "id": 1355,
+  "tipo": "substantivo",
+  "pt": "alfândega",
+  "en": "customs",
+  "fr": "douane"
+},
+{
+  "id": 1356,
+  "tipo": "substantivo",
+  "pt": "turismo",
+  "en": "tourism",
+  "fr": "tourisme"
+},
+{
+  "id": 1357,
+  "tipo": "substantivo",
+  "pt": "aventura",
+  "en": "adventure",
+  "fr": "aventure"
+},
+{
+  "id": 1358,
+  "tipo": "substantivo",
+  "pt": "paisagem",
+  "en": "landscape",
+  "fr": "paysage"
+},
+{
+  "id": 1359,
+  "tipo": "substantivo",
+  "pt": "fotografia",
+  "en": "photography",
+  "fr": "photographie"
+},
+{
+  "id": 1360,
+  "tipo": "substantivo",
+  "pt": "memória",
+  "en": "souvenir memory",
+  "fr": "souvenir"
+},
+{
+  "id": 1361,
+  "tipo": "substantivo",
+  "pt": "lembrança",
+  "en": "souvenir gift",
+  "fr": "souvenir"
+},
+{
+  "id": 1362,
+  "tipo": "substantivo",
+  "pt": "presente",
+  "en": "gift",
+  "fr": "cadeau"
+},
+{
+  "id": 1363,
+  "tipo": "substantivo",
+  "pt": "festa",
+  "en": "party",
+  "fr": "fête"
+},
+{
+  "id": 1364,
+  "tipo": "substantivo",
+  "pt": "música",
+  "en": "music",
+  "fr": "musique"
+},
+{
+  "id": 1365,
+  "tipo": "substantivo",
+  "pt": "filme",
+  "en": "movie",
+  "fr": "film"
+},
+{
+  "id": 1366,
+  "tipo": "substantivo",
+  "pt": "série",
+  "en": "series show",
+  "fr": "série"
+},
+{
+  "id": 1367,
+  "tipo": "substantivo",
+  "pt": "episódio",
+  "en": "episode",
+  "fr": "épisode"
+},
+{
+  "id": 1368,
+  "tipo": "substantivo",
+  "pt": "personagem",
+  "en": "character role",
+  "fr": "personnage"
+},
+{
+  "id": 1369,
+  "tipo": "substantivo",
+  "pt": "história",
+  "en": "story",
+  "fr": "histoire"
+},
+{
+  "id": 1370,
+  "tipo": "substantivo",
+  "pt": "aventura",
+  "en": "journey",
+  "fr": "voyage"
+},
+{
+  "id": 1371,
+  "tipo": "substantivo",
+  "pt": "mistério",
+  "en": "mystery",
+  "fr": "mystère"
+},
+{
+  "id": 1372,
+  "tipo": "substantivo",
+  "pt": "comédia",
+  "en": "comedy",
+  "fr": "comédie"
+},
+{
+  "id": 1373,
+  "tipo": "substantivo",
+  "pt": "drama",
+  "en": "drama",
+  "fr": "drame"
+},
+{
+  "id": 1374,
+  "tipo": "substantivo",
+  "pt": "ação",
+  "en": "action genre",
+  "fr": "action"
+},
+{
+  "id": 1375,
+  "tipo": "substantivo",
+  "pt": "terror",
+  "en": "horror",
+  "fr": "horreur"
+},
+{
+  "id": 1376,
+  "tipo": "substantivo",
+  "pt": "romance",
+  "en": "romance",
+  "fr": "romance"
+},
+{
+  "id": 1377,
+  "tipo": "substantivo",
+  "pt": "amizade",
+  "en": "friend bond",
+  "fr": "amitié"
+},
+{
+  "id": 1378,
+  "tipo": "substantivo",
+  "pt": "amor",
+  "en": "love feeling",
+  "fr": "amour"
+},
+{
+  "id": 1379,
+  "tipo": "substantivo",
+  "pt": "família",
+  "en": "family group",
+  "fr": "famille"
+},
+{
+  "id": 1380,
+  "tipo": "substantivo",
+  "pt": "casamento",
+  "en": "marriage",
+  "fr": "mariage"
+},
+{
+  "id": 1381,
+  "tipo": "substantivo",
+  "pt": "namoro",
+  "en": "dating relationship",
+  "fr": "relation amoureuse"
+},
+{
+  "id": 1382,
+  "tipo": "substantivo",
+  "pt": "beijo",
+  "en": "kiss",
+  "fr": "baiser"
+},
+{
+  "id": 1383,
+  "tipo": "substantivo",
+  "pt": "abraço",
+  "en": "hug",
+  "fr": "câlin"
+},
+{
+  "id": 1384,
+  "tipo": "substantivo",
+  "pt": "saudade",
+  "en": "missing feeling",
+  "fr": "nostalgie"
+},
+{
+  "id": 1385,
+  "tipo": "substantivo",
+  "pt": "distância",
+  "en": "long distance",
+  "fr": "distance"
+},
+{
+  "id": 1386,
+  "tipo": "substantivo",
+  "pt": "reencontro",
+  "en": "reunion meeting",
+  "fr": "retrouvailles"
+},
+{
+  "id": 1387,
+  "tipo": "substantivo",
+  "pt": "surpresa",
+  "en": "unexpected surprise",
+  "fr": "surprise"
+},
+{
+  "id": 1388,
+  "tipo": "substantivo",
+  "pt": "segredo",
+  "en": "hidden secret",
+  "fr": "secret"
+},
+{
+  "id": 1389,
+  "tipo": "substantivo",
+  "pt": "confissão",
+  "en": "confession",
+  "fr": "confession"
+},
+{
+  "id": 1390,
+  "tipo": "substantivo",
+  "pt": "desculpa",
+  "en": "forgiveness apology",
+  "fr": "excuse"
+},
+{
+  "id": 1391,
+  "tipo": "substantivo",
+  "pt": "perdão",
+  "en": "forgiveness",
+  "fr": "pardon"
+},
+{
+  "id": 1392,
+  "tipo": "substantivo",
+  "pt": "respeito",
+  "en": "mutual respect",
+  "fr": "respect"
+},
+{
+  "id": 1393,
+  "tipo": "substantivo",
+  "pt": "união",
+  "en": "unity",
+  "fr": "union"
+},
+{
+  "id": 1394,
+  "tipo": "substantivo",
+  "pt": "comunidade",
+  "en": "community group",
+  "fr": "communauté"
+},
+{
+  "id": 1395,
+  "tipo": "substantivo",
+  "pt": "bairro",
+  "en": "district",
+  "fr": "quartier"
+},
+{
+  "id": 1396,
+  "tipo": "substantivo",
+  "pt": "cidade",
+  "en": "urban city",
+  "fr": "ville"
+},
+{
+  "id": 1397,
+  "tipo": "substantivo",
+  "pt": "estado",
+  "en": "state region",
+  "fr": "état"
+},
+{
+  "id": 1398,
+  "tipo": "substantivo",
+  "pt": "país",
+  "en": "nation country",
+  "fr": "pays"
+},
+{
+  "id": 1399,
+  "tipo": "substantivo",
+  "pt": "continente",
+  "en": "continent",
+  "fr": "continent"
+},
+{
+  "id": 1400,
+  "tipo": "substantivo",
+  "pt": "mundo",
+  "en": "world",
+  "fr": "monde"
+},
+{
+  "id": 1401,
+  "tipo": "substantivo",
+  "pt": "universidade",
+  "en": "university",
+  "fr": "université"
+},
+{
+  "id": 1402,
+  "tipo": "substantivo",
+  "pt": "faculdade",
+  "en": "college",
+  "fr": "faculté"
+},
+{
+  "id": 1403,
+  "tipo": "substantivo",
+  "pt": "curso",
+  "en": "course",
+  "fr": "cours"
+},
+{
+  "id": 1404,
+  "tipo": "substantivo",
+  "pt": "aula",
+  "en": "class lesson",
+  "fr": "cours"
+},
+{
+  "id": 1405,
+  "tipo": "substantivo",
+  "pt": "professor",
+  "en": "teacher",
+  "fr": "professeur"
+},
+{
+  "id": 1406,
+  "tipo": "substantivo",
+  "pt": "aluno",
+  "en": "student",
+  "fr": "étudiant"
+},
+{
+  "id": 1407,
+  "tipo": "substantivo",
+  "pt": "caderno",
+  "en": "notebook",
+  "fr": "cahier"
+},
+{
+  "id": 1408,
+  "tipo": "substantivo",
+  "pt": "caneta",
+  "en": "pen",
+  "fr": "stylo"
+},
+{
+  "id": 1409,
+  "tipo": "substantivo",
+  "pt": "lápis",
+  "en": "pencil",
+  "fr": "crayon"
+},
+{
+  "id": 1410,
+  "tipo": "substantivo",
+  "pt": "borracha",
+  "en": "eraser",
+  "fr": "gomme"
+},
+{
+  "id": 1411,
+  "tipo": "substantivo",
+  "pt": "moeda",
+  "en": "coin",
+  "fr": "pièce"
+},
+{
+  "id": 1412,
+  "tipo": "substantivo",
+  "pt": "nota",
+  "en": "banknote",
+  "fr": "billet"
+},
+{
+  "id": 1413,
+  "tipo": "substantivo",
+  "pt": "carteira",
+  "en": "wallet",
+  "fr": "portefeuille"
+},
+{
+  "id": 1414,
+  "tipo": "substantivo",
+  "pt": "cartão",
+  "en": "card",
+  "fr": "carte"
+},
+{
+  "id": 1415,
+  "tipo": "substantivo",
+  "pt": "crédito",
+  "en": "credit",
+  "fr": "crédit"
+},
+{
+  "id": 1416,
+  "tipo": "substantivo",
+  "pt": "débito",
+  "en": "debit",
+  "fr": "débit"
+},
+{
+  "id": 1417,
+  "tipo": "substantivo",
+  "pt": "banco",
+  "en": "bank institution",
+  "fr": "banque"
+},
+{
+  "id": 1418,
+  "tipo": "substantivo",
+  "pt": "conta",
+  "en": "bank account",
+  "fr": "compte"
+},
+{
+  "id": 1419,
+  "tipo": "substantivo",
+  "pt": "senha",
+  "en": "password",
+  "fr": "mot de passe"
+},
+{
+  "id": 1420,
+  "tipo": "substantivo",
+  "pt": "pagamento",
+  "en": "payment",
+  "fr": "paiement"
+},
+{
+  "id": 1421,
+  "tipo": "substantivo",
+  "pt": "troco",
+  "en": "change money",
+  "fr": "monnaie"
+},
+{
+  "id": 1422,
+  "tipo": "substantivo",
+  "pt": "desconto",
+  "en": "discount",
+  "fr": "réduction"
+},
+{
+  "id": 1423,
+  "tipo": "substantivo",
+  "pt": "promoção",
+  "en": "promotion sale",
+  "fr": "promotion"
+},
+{
+  "id": 1424,
+  "tipo": "substantivo",
+  "pt": "oferta",
+  "en": "special offer",
+  "fr": "offre"
+},
+{
+  "id": 1425,
+  "tipo": "substantivo",
+  "pt": "estoque",
+  "en": "inventory",
+  "fr": "stock"
+},
+{
+  "id": 1426,
+  "tipo": "substantivo",
+  "pt": "entrega",
+  "en": "delivery",
+  "fr": "livraison"
+},
+{
+  "id": 1427,
+  "tipo": "substantivo",
+  "pt": "pedido",
+  "en": "order purchase",
+  "fr": "commande"
+},
+{
+  "id": 1428,
+  "tipo": "substantivo",
+  "pt": "compra",
+  "en": "purchase",
+  "fr": "achat"
+},
+{
+  "id": 1429,
+  "tipo": "substantivo",
+  "pt": "venda",
+  "en": "sale transaction",
+  "fr": "vente"
+},
+{
+  "id": 1430,
+  "tipo": "substantivo",
+  "pt": "caixa",
+  "en": "cash register",
+  "fr": "caisse"
+},
+{
+  "id": 1431,
+  "tipo": "substantivo",
+  "pt": "recibo",
+  "en": "receipt",
+  "fr": "reçu"
+},
+{
+  "id": 1432,
+  "tipo": "substantivo",
+  "pt": "fatura",
+  "en": "invoice",
+  "fr": "facture"
+},
+{
+  "id": 1433,
+  "tipo": "substantivo",
+  "pt": "boleto",
+  "en": "payment slip",
+  "fr": "bordereau de paiement"
+},
+{
+  "id": 1434,
+  "tipo": "substantivo",
+  "pt": "imposto",
+  "en": "tax",
+  "fr": "impôt"
+},
+{
+  "id": 1435,
+  "tipo": "substantivo",
+  "pt": "salário",
+  "en": "salary",
+  "fr": "salaire"
+},
+{
+  "id": 1436,
+  "tipo": "substantivo",
+  "pt": "emprego",
+  "en": "job",
+  "fr": "emploi"
+},
+{
+  "id": 1437,
+  "tipo": "substantivo",
+  "pt": "carreira",
+  "en": "career",
+  "fr": "carrière"
+},
+{
+  "id": 1438,
+  "tipo": "substantivo",
+  "pt": "entrevista",
+  "en": "interview",
+  "fr": "entretien"
+},
+{
+  "id": 1439,
+  "tipo": "substantivo",
+  "pt": "currículo",
+  "en": "resume document",
+  "fr": "curriculum vitae"
+},
+{
+  "id": 1440,
+  "tipo": "substantivo",
+  "pt": "contrato",
+  "en": "contract",
+  "fr": "contrat"
+},
+{
+  "id": 1441,
+  "tipo": "substantivo",
+  "pt": "reunião",
+  "en": "meeting",
+  "fr": "réunion"
+},
+{
+  "id": 1442,
+  "tipo": "substantivo",
+  "pt": "escritório",
+  "en": "office workplace",
+  "fr": "bureau"
+},
+{
+  "id": 1443,
+  "tipo": "substantivo",
+  "pt": "projeto",
+  "en": "project",
+  "fr": "projet"
+},
+{
+  "id": 1444,
+  "tipo": "substantivo",
+  "pt": "meta",
+  "en": "goal target",
+  "fr": "objectif"
+},
+{
+  "id": 1445,
+  "tipo": "substantivo",
+  "pt": "prazo",
+  "en": "time limit",
+  "fr": "délai"
+},
+{
+  "id": 1446,
+  "tipo": "substantivo",
+  "pt": "resultado",
+  "en": "result outcome",
+  "fr": "résultat"
+},
+{
+  "id": 1447,
+  "tipo": "substantivo",
+  "pt": "cliente",
+  "en": "customer",
+  "fr": "client"
+},
+{
+  "id": 1448,
+  "tipo": "substantivo",
+  "pt": "fornecedor",
+  "en": "supplier",
+  "fr": "fournisseur"
+},
+{
+  "id": 1449,
+  "tipo": "substantivo",
+  "pt": "parceiro",
+  "en": "business partner",
+  "fr": "partenaire"
+},
+{
+  "id": 1450,
+  "tipo": "substantivo",
+  "pt": "negociação",
+  "en": "negotiation",
+  "fr": "négociation"
+},
+{
+  "id": 1451,
+  "tipo": "substantivo",
+  "pt": "acordo",
+  "en": "agreement",
+  "fr": "accord"
+},
+{
+  "id": 1452,
+  "tipo": "substantivo",
+  "pt": "conversa",
+  "en": "discussion",
+  "fr": "discussion"
+},
+{
+  "id": 1453,
+  "tipo": "substantivo",
+  "pt": "debate",
+  "en": "debate",
+  "fr": "débat"
+},
+{
+  "id": 1454,
+  "tipo": "substantivo",
+  "pt": "argumento",
+  "en": "argument",
+  "fr": "argument"
+},
+{
+  "id": 1455,
+  "tipo": "substantivo",
+  "pt": "ideia",
+  "en": "idea",
+  "fr": "idée"
+},
+{
+  "id": 1456,
+  "tipo": "substantivo",
+  "pt": "plano",
+  "en": "plan",
+  "fr": "plan"
+},
+{
+  "id": 1457,
+  "tipo": "substantivo",
+  "pt": "estratégia",
+  "en": "strategy",
+  "fr": "stratégie"
+},
+{
+  "id": 1458,
+  "tipo": "substantivo",
+  "pt": "oportunidade",
+  "en": "opportunity",
+  "fr": "opportunité"
+},
+{
+  "id": 1459,
+  "tipo": "substantivo",
+  "pt": "desafio",
+  "en": "challenge",
+  "fr": "défi"
+},
+{
+  "id": 1460,
+  "tipo": "substantivo",
+  "pt": "competição",
+  "en": "competition contest",
+  "fr": "compétition"
+},
+{
+  "id": 1461,
+  "tipo": "substantivo",
+  "pt": "campeonato",
+  "en": "championship",
+  "fr": "championnat"
+},
+{
+  "id": 1462,
+  "tipo": "substantivo",
+  "pt": "jogo",
+  "en": "game",
+  "fr": "jeu"
+},
+{
+  "id": 1463,
+  "tipo": "substantivo",
+  "pt": "partida",
+  "en": "match",
+  "fr": "match"
+},
+{
+  "id": 1464,
+  "tipo": "substantivo",
+  "pt": "vitória",
+  "en": "victory",
+  "fr": "victoire"
+},
+{
+  "id": 1465,
+  "tipo": "substantivo",
+  "pt": "derrota",
+  "en": "defeat",
+  "fr": "défaite"
+},
+{
+  "id": 1466,
+  "tipo": "substantivo",
+  "pt": "empate",
+  "en": "draw tie",
+  "fr": "match nul"
+},
+{
+  "id": 1467,
+  "tipo": "substantivo",
+  "pt": "time",
+  "en": "team",
+  "fr": "équipe"
+},
+{
+  "id": 1468,
+  "tipo": "substantivo",
+  "pt": "jogador",
+  "en": "player",
+  "fr": "joueur"
+},
+{
+  "id": 1469,
+  "tipo": "substantivo",
+  "pt": "torcedor",
+  "en": "fan supporter",
+  "fr": "supporter"
+},
+{
+  "id": 1470,
+  "tipo": "substantivo",
+  "pt": "treino",
+  "en": "training",
+  "fr": "entraînement"
+},
+{
+  "id": 1471,
+  "tipo": "substantivo",
+  "pt": "academia",
+  "en": "gym",
+  "fr": "salle de sport"
+},
+{
+  "id": 1472,
+  "tipo": "substantivo",
+  "pt": "corrida",
+  "en": "running",
+  "fr": "course"
+},
+{
+  "id": 1473,
+  "tipo": "substantivo",
+  "pt": "caminhada",
+  "en": "walk exercise",
+  "fr": "marche"
+},
+{
+  "id": 1474,
+  "tipo": "substantivo",
+  "pt": "exercício",
+  "en": "exercise",
+  "fr": "exercice"
+},
+{
+  "id": 1475,
+  "tipo": "substantivo",
+  "pt": "força",
+  "en": "strength",
+  "fr": "force"
+},
+{
+  "id": 1476,
+  "tipo": "substantivo",
+  "pt": "equilíbrio",
+  "en": "balance",
+  "fr": "équilibre"
+},
+{
+  "id": 1477,
+  "tipo": "substantivo",
+  "pt": "movimento",
+  "en": "body movement",
+  "fr": "mouvement"
+},
+{
+  "id": 1478,
+  "tipo": "substantivo",
+  "pt": "competência",
+  "en": "skill ability",
+  "fr": "compétence"
+},
+{
+  "id": 1479,
+  "tipo": "substantivo",
+  "pt": "talento",
+  "en": "talent",
+  "fr": "talent"
+},
+{
+  "id": 1480,
+  "tipo": "substantivo",
+  "pt": "potencial",
+  "en": "potential",
+  "fr": "potentiel"
+},
+{
+  "id": 1481,
+  "tipo": "substantivo",
+  "pt": "liderança",
+  "en": "leadership",
+  "fr": "leadership"
+},
+{
+  "id": 1482,
+  "tipo": "substantivo",
+  "pt": "responsabilidade",
+  "en": "responsibility",
+  "fr": "responsabilité"
+},
+{
+  "id": 1483,
+  "tipo": "substantivo",
+  "pt": "organização",
+  "en": "organization",
+  "fr": "organisation"
+},
+{
+  "id": 1484,
+  "tipo": "substantivo",
+  "pt": "pontualidade",
+  "en": "punctuality",
+  "fr": "ponctualité"
+},
+{
+  "id": 1485,
+  "tipo": "substantivo",
+  "pt": "comunicação",
+  "en": "interaction",
+  "fr": "interaction"
+},
+{
+  "id": 1486,
+  "tipo": "substantivo",
+  "pt": "cooperação",
+  "en": "cooperation",
+  "fr": "coopération"
+},
+{
+  "id": 1487,
+  "tipo": "substantivo",
+  "pt": "motivação",
+  "en": "drive motivation",
+  "fr": "motivation"
+},
+{
+  "id": 1488,
+  "tipo": "substantivo",
+  "pt": "dedicação",
+  "en": "dedication",
+  "fr": "dévouement"
+},
+{
+  "id": 1489,
+  "tipo": "substantivo",
+  "pt": "persistência",
+  "en": "persistence",
+  "fr": "persévérance"
+},
+{
+  "id": 1490,
+  "tipo": "substantivo",
+  "pt": "sucesso",
+  "en": "success",
+  "fr": "succès"
+},
+{
+  "id": 1491,
+  "tipo": "substantivo",
+  "pt": "fracasso",
+  "en": "unsuccessful result",
+  "fr": "échec"
+},
+{
+  "id": 1492,
+  "tipo": "substantivo",
+  "pt": "aprendizado",
+  "en": "education learning",
+  "fr": "apprentissage"
+},
+{
+  "id": 1493,
+  "tipo": "substantivo",
+  "pt": "evolução",
+  "en": "development progress",
+  "fr": "évolution"
+},
+{
+  "id": 1494,
+  "tipo": "substantivo",
+  "pt": "mudança",
+  "en": "change transformation",
+  "fr": "changement"
+},
+{
+  "id": 1495,
+  "tipo": "substantivo",
+  "pt": "adaptação",
+  "en": "adaptation",
+  "fr": "adaptation"
+},
+{
+  "id": 1496,
+  "tipo": "substantivo",
+  "pt": "equipe",
+  "en": "group team",
+  "fr": "équipe"
+},
+{
+  "id": 1497,
+  "tipo": "substantivo",
+  "pt": "aliança",
+  "en": "alliance",
+  "fr": "alliance"
+},
+{
+  "id": 1498,
+  "tipo": "substantivo",
+  "pt": "conquista",
+  "en": "achievement",
+  "fr": "réalisation"
+},
+{
+  "id": 1499,
+  "tipo": "substantivo",
+  "pt": "objetivo",
+  "en": "objective",
+  "fr": "objectif"
+},
+{
+  "id": 1500,
+  "tipo": "substantivo",
+  "pt": "futuro",
+  "en": "future",
+  "fr": "avenir"
+},
+
+
+
+
+
+
+
+{
+  "id": 3015,
+  "tipo": "expressao",
+  "pt": "Olá",
+  "en": "Hello",
+  "fr": "Bonjour"
+},
+{
+  "id": 3016,
+  "tipo": "expressao",
+  "pt": "Bom dia",
+  "en": "Good morning",
+  "fr": "Bonjour"
+},
+{
+  "id": 3017,
+  "tipo": "expressao",
+  "pt": "Boa tarde",
+  "en": "Good afternoon",
+  "fr": "Bon après-midi"
+},
+{
+  "id": 3018,
+  "tipo": "expressao",
+  "pt": "Boa noite",
+  "en": "Good evening",
+  "fr": "Bonsoir"
+},
+{
+  "id": 3019,
+  "tipo": "expressao",
+  "pt": "Boa noite",
+  "en": "Good night",
+  "fr": "Bonne nuit"
+},
+{
+  "id": 3020,
+  "tipo": "expressao",
+  "pt": "Até mais",
+  "en": "See you later",
+  "fr": "À plus tard"
+},
+{
+  "id": 3021,
+  "tipo": "expressao",
+  "pt": "Até amanhã",
+  "en": "See you tomorrow",
+  "fr": "À demain"
+},
+{
+  "id": 3022,
+  "tipo": "expressao",
+  "pt": "Até logo",
+  "en": "See you soon",
+  "fr": "À bientôt"
+},
+{
+  "id": 3023,
+  "tipo": "expressao",
+  "pt": "Se cuide",
+  "en": "Take care",
+  "fr": "Prends soin de toi"
+},
+{
+  "id": 3024,
+  "tipo": "expressao",
+  "pt": "Tenha um bom dia",
+  "en": "Have a nice day",
+  "fr": "Bonne journée"
+},
+{
+  "id": 3025,
+  "tipo": "expressao",
+  "pt": "Obrigado",
+  "en": "Thank you",
+  "fr": "Merci"
+},
+{
+  "id": 3026,
+  "tipo": "expressao",
+  "pt": "Muito obrigado",
+  "en": "Thanks a lot",
+  "fr": "Merci beaucoup"
+},
+{
+  "id": 3027,
+  "tipo": "expressao",
+  "pt": "De nada",
+  "en": "You're welcome",
+  "fr": "De rien"
+},
+{
+  "id": 3028,
+  "tipo": "expressao",
+  "pt": "Sem problemas",
+  "en": "No problem",
+  "fr": "Pas de problème"
+},
+{
+  "id": 3029,
+  "tipo": "expressao",
+  "pt": "Com licença",
+  "en": "Excuse me",
+  "fr": "Excusez-moi"
+},
+{
+  "id": 3030,
+  "tipo": "expressao",
+  "pt": "Desculpe",
+  "en": "Sorry",
+  "fr": "Désolé"
+},
+{
+  "id": 3031,
+  "tipo": "expressao",
+  "pt": "Eu entendo",
+  "en": "I understand",
+  "fr": "Je comprends"
+},
+{
+  "id": 3032,
+  "tipo": "expressao",
+  "pt": "Eu não entendo",
+  "en": "I don't understand",
+  "fr": "Je ne comprends pas"
+},
+{
+  "id": 3033,
+  "tipo": "expressao",
+  "pt": "Eu sei",
+  "en": "I know",
+  "fr": "Je sais"
+},
+{
+  "id": 3034,
+  "tipo": "expressao",
+  "pt": "Eu não sei",
+  "en": "I don't know",
+  "fr": "Je ne sais pas"
+},
+{
+  "id": 3035,
+  "tipo": "expressao",
+  "pt": "Eu acho que sim",
+  "en": "I think so",
+  "fr": "Je pense que oui"
+},
+{
+  "id": 3036,
+  "tipo": "expressao",
+  "pt": "Eu acho que não",
+  "en": "I don't think so",
+  "fr": "Je ne pense pas"
+},
+{
+  "id": 3037,
+  "tipo": "expressao",
+  "pt": "Talvez",
+  "en": "Maybe",
+  "fr": "Peut-être"
+},
+{
+  "id": 3038,
+  "tipo": "expressao",
+  "pt": "Claro",
+  "en": "Of course",
+  "fr": "Bien sûr"
+},
+{
+  "id": 3039,
+  "tipo": "expressao",
+  "pt": "Sério?",
+  "en": "Really?",
+  "fr": "Vraiment ?"
+},
+{
+  "id": 3040,
+  "tipo": "expressao",
+  "pt": "Agora mesmo",
+  "en": "Right now",
+  "fr": "Tout de suite"
+},
+{
+  "id": 3041,
+  "tipo": "expressao",
+  "pt": "Ainda não",
+  "en": "Not yet",
+  "fr": "Pas encore"
+},
+{
+  "id": 3042,
+  "tipo": "expressao",
+  "pt": "Venha aqui",
+  "en": "Come here",
+  "fr": "Viens ici"
+},
+{
+  "id": 3043,
+  "tipo": "expressao",
+  "pt": "Espere um momento",
+  "en": "Wait a moment",
+  "fr": "Attends un moment"
+},
+{
+  "id": 3044,
+  "tipo": "expressao",
+  "pt": "Um minuto",
+  "en": "One minute",
+  "fr": "Une minute"
+},
+{
+  "id": 3045,
+  "tipo": "expressao",
+  "pt": "Por favor, repita",
+  "en": "Please repeat",
+  "fr": "Répétez s'il vous plaît"
+},
+{
+  "id": 3046,
+  "tipo": "expressao",
+  "pt": "Fale devagar",
+  "en": "Speak slowly",
+  "fr": "Parlez lentement"
+},
+{
+  "id": 3047,
+  "tipo": "expressao",
+  "pt": "Como você está?",
+  "en": "How are you?",
+  "fr": "Comment allez-vous ?"
+},
+{
+  "id": 3048,
+  "tipo": "expressao",
+  "pt": "Estou bem",
+  "en": "I'm fine",
+  "fr": "Je vais bien"
+},
+{
+  "id": 3049,
+  "tipo": "expressao",
+  "pt": "Estou cansado",
+  "en": "I'm tired",
+  "fr": "Je suis fatigué"
+},
+{
+  "id": 3050,
+  "tipo": "expressao",
+  "pt": "Estou com fome",
+  "en": "I'm hungry",
+  "fr": "J'ai faim"
+},
+{
+  "id": 3051,
+  "tipo": "expressao",
+  "pt": "Estou com sede",
+  "en": "I'm thirsty",
+  "fr": "J'ai soif"
+},
+{
+  "id": 3052,
+  "tipo": "expressao",
+  "pt": "Estou feliz",
+  "en": "I'm happy",
+  "fr": "Je suis heureux"
+},
+{
+  "id": 3053,
+  "tipo": "expressao",
+  "pt": "Estou triste",
+  "en": "I'm sad",
+  "fr": "Je suis triste"
+},
+{
+  "id": 3054,
+  "tipo": "expressao",
+  "pt": "Estou pronto",
+  "en": "I'm ready",
+  "fr": "Je suis prêt"
+},
+{
+  "id": 3055,
+  "tipo": "expressao",
+  "pt": "Estou ocupado",
+  "en": "I'm busy",
+  "fr": "Je suis occupé"
+},
+{
+  "id": 3056,
+  "tipo": "expressao",
+  "pt": "Estou perdido",
+  "en": "I'm lost",
+  "fr": "Je suis perdu"
+},
+{
+  "id": 3057,
+  "tipo": "expressao",
+  "pt": "Estou doente",
+  "en": "I'm sick",
+  "fr": "Je suis malade"
+},
+{
+  "id": 3058,
+  "tipo": "expressao",
+  "pt": "Eu preciso de ajuda",
+  "en": "I need help",
+  "fr": "J'ai besoin d'aide"
+},
+{
+  "id": 3059,
+  "tipo": "expressao",
+  "pt": "Me ajude",
+  "en": "Help me",
+  "fr": "Aidez-moi"
+},
+{
+  "id": 3060,
+  "tipo": "expressao",
+  "pt": "Chame a polícia",
+  "en": "Call the police",
+  "fr": "Appelez la police"
+},
+{
+  "id": 3061,
+  "tipo": "expressao",
+  "pt": "Chame um médico",
+  "en": "Call a doctor",
+  "fr": "Appelez un médecin"
+},
+{
+  "id": 3062,
+  "tipo": "expressao",
+  "pt": "O que aconteceu?",
+  "en": "What happened?",
+  "fr": "Que s'est-il passé ?"
+},
+{
+  "id": 3063,
+  "tipo": "expressao",
+  "pt": "Tenha cuidado",
+  "en": "Be careful",
+  "fr": "Faites attention"
+},
+{
+  "id": 3064,
+  "tipo": "expressao",
+  "pt": "Cuidado!",
+  "en": "Watch out",
+  "fr": "Attention"
+},
+{
+  "id": 3065,
+  "tipo": "expressao",
+  "pt": "Sem preocupações",
+  "en": "No worries",
+  "fr": "Pas de soucis"
+},
+{
+  "id": 3066,
+  "tipo": "expressao",
+  "pt": "Não se preocupe",
+  "en": "Don't worry",
+  "fr": "Ne t'inquiète pas"
+},
+{
+  "id": 3067,
+  "tipo": "expressao",
+  "pt": "Calma",
+  "en": "Calm down",
+  "fr": "Calme-toi"
+},
+{
+  "id": 3068,
+  "tipo": "expressao",
+  "pt": "Vamos",
+  "en": "Let's go",
+  "fr": "Allons-y"
+},
+{
+  "id": 3069,
+  "tipo": "expressao",
+  "pt": "Venha comigo",
+  "en": "Come with me",
+  "fr": "Viens avec moi"
+},
+{
+  "id": 3070,
+  "tipo": "expressao",
+  "pt": "Siga-me",
+  "en": "Follow me",
+  "fr": "Suivez-moi"
+},
+{
+  "id": 3071,
+  "tipo": "expressao",
+  "pt": "Pare aqui",
+  "en": "Stop here",
+  "fr": "Arrêtez ici"
+},
+{
+  "id": 3072,
+  "tipo": "expressao",
+  "pt": "Pode continuar",
+  "en": "Go ahead",
+  "fr": "Allez-y"
+},
+{
+  "id": 3073,
+  "tipo": "expressao",
+  "pt": "Depois de você",
+  "en": "After you",
+  "fr": "Après vous"
+},
+{
+  "id": 3074,
+  "tipo": "expressao",
+  "pt": "Sente-se",
+  "en": "Sit down",
+  "fr": "Asseyez-vous"
+},
+{
+  "id": 3075,
+  "tipo": "expressao",
+  "pt": "Levante-se",
+  "en": "Stand up",
+  "fr": "Levez-vous"
+},
+{
+  "id": 3076,
+  "tipo": "expressao",
+  "pt": "Abra a porta",
+  "en": "Open the door",
+  "fr": "Ouvrez la porte"
+},
+{
+  "id": 3077,
+  "tipo": "expressao",
+  "pt": "Feche a porta",
+  "en": "Close the door",
+  "fr": "Fermez la porte"
+},
+{
+  "id": 3078,
+  "tipo": "expressao",
+  "pt": "Acenda a luz",
+  "en": "Turn on the light",
+  "fr": "Allume la lumière"
+},
+{
+  "id": 3079,
+  "tipo": "expressao",
+  "pt": "Apague a luz",
+  "en": "Turn off the light",
+  "fr": "Éteins la lumière"
+},
+{
+  "id": 3080,
+  "tipo": "expressao",
+  "pt": "O que é isso?",
+  "en": "What is this?",
+  "fr": "Qu'est-ce que c'est ?"
+},
+{
+  "id": 3081,
+  "tipo": "expressao",
+  "pt": "O que isso significa?",
+  "en": "What does it mean?",
+  "fr": "Qu'est-ce que ça veut dire ?"
+},
+{
+  "id": 3082,
+  "tipo": "expressao",
+  "pt": "Quanto custa?",
+  "en": "How much is it?",
+  "fr": "Combien ça coûte ?"
+},
+{
+  "id": 3083,
+  "tipo": "expressao",
+  "pt": "Isso é caro",
+  "en": "That's expensive",
+  "fr": "C'est cher"
+},
+{
+  "id": 3084,
+  "tipo": "expressao",
+  "pt": "Isso é barato",
+  "en": "That's cheap",
+  "fr": "C'est bon marché"
+},
+{
+  "id": 3085,
+  "tipo": "expressao",
+  "pt": "Eu gosto disso",
+  "en": "I like it",
+  "fr": "J'aime ça"
+},
+{
+  "id": 3086,
+  "tipo": "expressao",
+  "pt": "Eu adoro isso",
+  "en": "I love it",
+  "fr": "J'adore ça"
+},
+{
+  "id": 3087,
+  "tipo": "expressao",
+  "pt": "Eu não gosto disso",
+  "en": "I don't like it",
+  "fr": "Je n'aime pas ça"
+},
+{
+  "id": 3088,
+  "tipo": "expressao",
+  "pt": "Isso é interessante",
+  "en": "That's interesting",
+  "fr": "C'est intéressant"
+},
+{
+  "id": 3089,
+  "tipo": "expressao",
+  "pt": "Isso é incrível",
+  "en": "That's amazing",
+  "fr": "C'est incroyable"
+},
+{
+  "id": 3090,
+  "tipo": "expressao",
+  "pt": "Isso é difícil",
+  "en": "That's difficult",
+  "fr": "C'est difficile"
+},
+{
+  "id": 3091,
+  "tipo": "expressao",
+  "pt": "Isso é fácil",
+  "en": "That's easy",
+  "fr": "C'est facile"
+},
+{
+  "id": 3092,
+  "tipo": "expressao",
+  "pt": "Eu concordo",
+  "en": "I agree",
+  "fr": "Je suis d'accord"
+},
+{
+  "id": 3093,
+  "tipo": "expressao",
+  "pt": "Eu discordo",
+  "en": "I disagree",
+  "fr": "Je ne suis pas d'accord"
+},
+{
+  "id": 3094,
+  "tipo": "expressao",
+  "pt": "Você está certo",
+  "en": "You're right",
+  "fr": "Tu as raison"
+},
+{
+  "id": 3095,
+  "tipo": "expressao",
+  "pt": "Isso é verdade",
+  "en": "That's true",
+  "fr": "C'est vrai"
+},
+{
+  "id": 3096,
+  "tipo": "expressao",
+  "pt": "Eu não me lembro",
+  "en": "I don't remember",
+  "fr": "Je ne me souviens pas"
+},
+{
+  "id": 3097,
+  "tipo": "expressao",
+  "pt": "Eu esqueci",
+  "en": "I forgot",
+  "fr": "J'ai oublié"
+},
+{
+  "id": 3098,
+  "tipo": "expressao",
+  "pt": "Eu preciso de tempo",
+  "en": "I need time",
+  "fr": "J'ai besoin de temps"
+},
+{
+  "id": 3099,
+  "tipo": "expressao",
+  "pt": "Eu preciso de dinheiro",
+  "en": "I need money",
+  "fr": "J'ai besoin d'argent"
+},
+{
+  "id": 3100,
+  "tipo": "expressao",
+  "pt": "Estou trabalhando",
+  "en": "I'm working",
+  "fr": "Je travaille"
+},
+{
+  "id": 3101,
+  "tipo": "expressao",
+  "pt": "Estou estudando",
+  "en": "I'm studying",
+  "fr": "J'étudie"
+},
+{
+  "id": 3102,
+  "tipo": "expressao",
+  "pt": "Estou aprendendo inglês",
+  "en": "I'm learning English",
+  "fr": "J'apprends l'anglais"
+},
+{
+  "id": 3103,
+  "tipo": "expressao",
+  "pt": "Estou aprendendo francês",
+  "en": "I'm learning French",
+  "fr": "J'apprends le français"
+},
+{
+  "id": 3104,
+  "tipo": "expressao",
+  "pt": "De onde você é?",
+  "en": "Where are you from?",
+  "fr": "D'où viens-tu ?"
+},
+{
+  "id": 3105,
+  "tipo": "expressao",
+  "pt": "Eu sou do Brasil",
+  "en": "I'm from Brazil",
+  "fr": "Je viens du Brésil"
+},
+{
+  "id": 3106,
+  "tipo": "expressao",
+  "pt": "Qual é o seu nome?",
+  "en": "What's your name?",
+  "fr": "Comment tu t'appelles ?"
+},
+{
+  "id": 3107,
+  "tipo": "expressao",
+  "pt": "Meu nome é",
+  "en": "My name is",
+  "fr": "Je m'appelle"
+},
+{
+  "id": 3108,
+  "tipo": "expressao",
+  "pt": "Prazer em conhecer você",
+  "en": "Nice to meet you",
+  "fr": "Enchanté de vous rencontrer"
+},
+{
+  "id": 3109,
+  "tipo": "expressao",
+  "pt": "Quantos anos você tem?",
+  "en": "How old are you?",
+  "fr": "Quel âge as-tu ?"
+},
+{
+  "id": 3110,
+  "tipo": "expressao",
+  "pt": "Até a próxima",
+  "en": "See you next time",
+  "fr": "À la prochaine"
+},
+{
+  "id": 3111,
+  "tipo": "expressao",
+  "pt": "Boa sorte",
+  "en": "Good luck",
+  "fr": "Bonne chance"
+},
+{
+  "id": 3112,
+  "tipo": "expressao",
+  "pt": "Parabéns",
+  "en": "Congratulations",
+  "fr": "Félicitations"
+},
+{
+  "id": 3113,
+  "tipo": "expressao",
+  "pt": "Feliz aniversário",
+  "en": "Happy birthday",
+  "fr": "Joyeux anniversaire"
+},
+{
+  "id": 3114,
+  "tipo": "expressao",
+  "pt": "Feliz Natal",
+  "en": "Merry Christmas",
+  "fr": "Joyeux Noël"
+},
+{
+  "id": 3115,
+  "tipo": "expressao",
+  "pt": "Feliz Ano Novo",
+  "en": "Happy new year",
+  "fr": "Bonne année"
+},
+{
+  "id": 3116,
+  "tipo": "expressao",
+  "pt": "Que horas são?",
+  "en": "What time is it?",
+  "fr": "Quelle heure est-il ?"
+},
+{
+  "id": 3117,
+  "tipo": "expressao",
+  "pt": "Estou atrasado",
+  "en": "I'm late",
+  "fr": "Je suis en retard"
+},
+{
+  "id": 3118,
+  "tipo": "expressao",
+  "pt": "Depressa",
+  "en": "Hurry up",
+  "fr": "Dépêche-toi"
+},
+{
+  "id": 3119,
+  "tipo": "expressao",
+  "pt": "Vá mais devagar",
+  "en": "Slow down",
+  "fr": "Ralentis"
+},
+{
+  "id": 3120,
+  "tipo": "expressao",
+  "pt": "Estou em casa",
+  "en": "I am home",
+  "fr": "Je suis à la maison"
+},
+{
+  "id": 3121,
+  "tipo": "expressao",
+  "pt": "Estou no trabalho",
+  "en": "I'm at work",
+  "fr": "Je suis au travail"
+},
+{
+  "id": 3122,
+  "tipo": "expressao",
+  "pt": "Estou de férias",
+  "en": "I'm on vacation",
+  "fr": "Je suis en vacances"
+},
+{
+  "id": 3123,
+  "tipo": "expressao",
+  "pt": "Eu preciso de férias",
+  "en": "I need a vacation",
+  "fr": "J'ai besoin de vacances"
+},
+{
+  "id": 3124,
+  "tipo": "expressao",
+  "pt": "Estou dirigindo",
+  "en": "I am driving",
+  "fr": "Je conduis"
+},
+{
+  "id": 3125,
+  "tipo": "expressao",
+  "pt": "Estou esperando",
+  "en": "I'm waiting",
+  "fr": "J'attends"
+},
+{
+  "id": 3126,
+  "tipo": "expressao",
+  "pt": "Estou chegando",
+  "en": "I'm coming",
+  "fr": "J'arrive"
+},
+{
+  "id": 3127,
+  "tipo": "expressao",
+  "pt": "Estou saindo",
+  "en": "I'm leaving",
+  "fr": "Je pars"
+},
+{
+  "id": 3128,
+  "tipo": "expressao",
+  "pt": "Estou cansado hoje",
+  "en": "I'm tired today",
+  "fr": "Je suis fatigué aujourd'hui"
+},
+{
+  "id": 3129,
+  "tipo": "expressao",
+  "pt": "Eu me sinto bem",
+  "en": "I feel good",
+  "fr": "Je me sens bien"
+},
+{
+  "id": 3130,
+  "tipo": "expressao",
+  "pt": "Eu me sinto mal",
+  "en": "I feel bad",
+  "fr": "Je me sens mal"
+},
+{
+  "id": 3131,
+  "tipo": "expressao",
+  "pt": "Eu não me sinto bem",
+  "en": "I don't feel well",
+  "fr": "Je ne me sens pas bien"
+},
+{
+  "id": 3132,
+  "tipo": "expressao",
+  "pt": "Está tudo bem",
+  "en": "Everything is okay",
+  "fr": "Tout va bien"
+},
+{
+  "id": 3133,
+  "tipo": "expressao",
+  "pt": "Está tudo certo",
+  "en": "Everything is fine",
+  "fr": "Tout est bon"
+},
+{
+  "id": 3134,
+  "tipo": "expressao",
+  "pt": "Isso é suficiente",
+  "en": "That's enough",
+  "fr": "C'est suffisant"
+},
+{
+  "id": 3135,
+  "tipo": "expressao",
+  "pt": "Só um pouco",
+  "en": "Just a little",
+  "fr": "Juste un peu"
+},
+{
+  "id": 3136,
+  "tipo": "expressao",
+  "pt": "Muitas pessoas",
+  "en": "A lot of people",
+  "fr": "Beaucoup de personnes"
+},
+{
+  "id": 3137,
+  "tipo": "expressao",
+  "pt": "Eu não me importo",
+  "en": "I don't care",
+  "fr": "Ça m'est égal"
+},
+{
+  "id": 3138,
+  "tipo": "expressao",
+  "pt": "Não importa",
+  "en": "It doesn't matter",
+  "fr": "Ce n'est pas important"
+},
+{
+  "id": 3139,
+  "tipo": "expressao",
+  "pt": "Isso é perfeito",
+  "en": "That's perfect",
+  "fr": "C'est parfait"
+},
+{
+  "id": 3140,
+  "tipo": "expressao",
+  "pt": "Isso é impossível",
+  "en": "That's impossible",
+  "fr": "C'est impossible"
+},
+{
+  "id": 3141,
+  "tipo": "expressao",
+  "pt": "Isso é possível",
+  "en": "That's possible",
+  "fr": "C'est possible"
+},
+{
+  "id": 3142,
+  "tipo": "expressao",
+  "pt": "Eu preciso praticar",
+  "en": "I need practice",
+  "fr": "J'ai besoin de pratiquer"
+},
+{
+  "id": 3143,
+  "tipo": "expressao",
+  "pt": "Tente novamente",
+  "en": "Try again",
+  "fr": "Essaie encore"
+},
+{
+  "id": 3144,
+  "tipo": "expressao",
+  "pt": "Mais uma vez",
+  "en": "One more time",
+  "fr": "Encore une fois"
+},
+{
+  "id": 3145,
+  "tipo": "expressao",
+  "pt": "Eu cometi um erro",
+  "en": "I made a mistake",
+  "fr": "J'ai fait une erreur"
+},
+{
+  "id": 3146,
+  "tipo": "expressao",
+  "pt": "A culpa é minha",
+  "en": "It's my fault",
+  "fr": "C'est ma faute"
+},
+{
+  "id": 3147,
+  "tipo": "expressao",
+  "pt": "Sem chance",
+  "en": "No chance",
+  "fr": "Aucune chance"
+},
+{
+  "id": 3148,
+  "tipo": "expressao",
+  "pt": "Por que não?",
+  "en": "Why not?",
+  "fr": "Pourquoi pas ?"
+},
+{
+  "id": 3149,
+  "tipo": "expressao",
+  "pt": "Espero que sim",
+  "en": "I hope so",
+  "fr": "J'espère que oui"
+},
+{
+  "id": 3150,
+  "tipo": "expressao",
+  "pt": "Sinto sua falta",
+  "en": "I miss you",
+  "fr": "Tu me manques"
+},
+{
+  "id": 3151,
+  "tipo": "expressao",
+  "pt": "Sinto falta da minha família",
+  "en": "I miss my family",
+  "fr": "Ma famille me manque"
+},
+{
+  "id": 3152,
+  "tipo": "expressao",
+  "pt": "O que você quer dizer?",
+  "en": "What do you mean?",
+  "fr": "Qu'est-ce que tu veux dire ?"
+},
+{
+  "id": 3153,
+  "tipo": "expressao",
+  "pt": "Quero dizer isso",
+  "en": "I mean this",
+  "fr": "Je veux dire ça"
+},
+{
+  "id": 3154,
+  "tipo": "expressao",
+  "pt": "Você pode me ajudar?",
+  "en": "Can you help me?",
+  "fr": "Pouvez-vous m'aider ?"
+},
+{
+  "id": 3155,
+  "tipo": "expressao",
+  "pt": "Você pode explicar?",
+  "en": "Can you explain?",
+  "fr": "Pouvez-vous expliquer ?"
+},
+{
+  "id": 3156,
+  "tipo": "expressao",
+  "pt": "Você pode me mostrar?",
+  "en": "Can you show me?",
+  "fr": "Pouvez-vous me montrer ?"
+},
+{
+  "id": 3157,
+  "tipo": "expressao",
+  "pt": "Posso perguntar algo?",
+  "en": "Can I ask something?",
+  "fr": "Puis-je demander quelque chose ?"
+},
+{
+  "id": 3158,
+  "tipo": "expressao",
+  "pt": "Posso entrar?",
+  "en": "Can I come in?",
+  "fr": "Puis-je entrer ?"
+},
+{
+  "id": 3159,
+  "tipo": "expressao",
+  "pt": "Posso sentar aqui?",
+  "en": "Can I sit here?",
+  "fr": "Puis-je m'asseoir ici ?"
+},
+{
+  "id": 3160,
+  "tipo": "expressao",
+  "pt": "Posso pagar com cartão?",
+  "en": "Can I pay by card?",
+  "fr": "Puis-je payer par carte ?"
+},
+{
+  "id": 3161,
+  "tipo": "expressao",
+  "pt": "Onde fica o banheiro?",
+  "en": "Where is the bathroom?",
+  "fr": "Où sont les toilettes ?"
+},
+{
+  "id": 3162,
+  "tipo": "expressao",
+  "pt": "Onde fica o hotel?",
+  "en": "Where is the hotel?",
+  "fr": "Où est l'hôtel ?"
+},
+{
+  "id": 3163,
+  "tipo": "expressao",
+  "pt": "Onde fica o aeroporto?",
+  "en": "Where is the airport?",
+  "fr": "Où est l'aéroport ?"
+},
+{
+  "id": 3164,
+  "tipo": "expressao",
+  "pt": "Onde fica o restaurante?",
+  "en": "Where is the restaurant?",
+  "fr": "Où est le restaurant ?"
+},
+{
+  "id": 3165,
+  "tipo": "expressao",
+  "pt": "Onde fica o ponto de ônibus?",
+  "en": "Where is the bus stop?",
+  "fr": "Où est l'arrêt de bus ?"
+},
+{
+  "id": 3166,
+  "tipo": "expressao",
+  "pt": "Onde estão minhas chaves?",
+  "en": "Where are my keys?",
+  "fr": "Où sont mes clés ?"
+},
+{
+  "id": 3167,
+  "tipo": "expressao",
+  "pt": "Onde está meu celular?",
+  "en": "Where is my phone?",
+  "fr": "Où est mon téléphone ?"
+},
+{
+  "id": 3168,
+  "tipo": "expressao",
+  "pt": "Não consigo encontrar",
+  "en": "I can't find it",
+  "fr": "Je ne le trouve pas"
+},
+{
+  "id": 3169,
+  "tipo": "expressao",
+  "pt": "Estou procurando isso",
+  "en": "I'm looking for this",
+  "fr": "Je cherche ça"
+},
+{
+  "id": 3170,
+  "tipo": "expressao",
+  "pt": "Eu preciso de internet",
+  "en": "I need internet",
+  "fr": "J'ai besoin d'internet"
+},
+{
+  "id": 3171,
+  "tipo": "expressao",
+  "pt": "Qual é a senha?",
+  "en": "What's the password?",
+  "fr": "Quel est le mot de passe ?"
+},
+{
+  "id": 3172,
+  "tipo": "expressao",
+  "pt": "A internet está lenta",
+  "en": "The internet is slow",
+  "fr": "La connexion est lente"
+},
+{
+  "id": 3173,
+  "tipo": "expressao",
+  "pt": "Meu celular descarregou",
+  "en": "My phone is dead",
+ "fr": "Mon téléphone n'a plus de batterie"
+},
+{
+  "id": 3174,
+  "tipo": "expressao",
+  "pt": "Carregue o celular",
+  "en": "Charge the phone",
+  "fr": "Charge le téléphone"
+},
+{
+  "id": 3175,
+  "tipo": "expressao",
+  "pt": "Me envie uma mensagem",
+  "en": "Send me a message",
+  "fr": "Envoie-moi un message"
+},
+{
+  "id": 3176,
+  "tipo": "expressao",
+  "pt": "Me ligue mais tarde",
+  "en": "Call me later",
+  "fr": "Appelle-moi plus tard"
+},
+{
+  "id": 3177,
+  "tipo": "expressao",
+  "pt": "Me mande mensagem depois",
+  "en": "Text me later",
+  "fr": "Envoie-moi un message plus tard"
+},
+{
+  "id": 3178,
+  "tipo": "expressao",
+  "pt": "Estou online",
+  "en": "I'm online",
+  "fr": "Je suis en ligne"
+},
+{
+  "id": 3179,
+  "tipo": "expressao",
+  "pt": "Estou offline",
+  "en": "I'm offline",
+  "fr": "Je suis hors ligne"
+},
+{
+  "id": 3180,
+  "tipo": "expressao",
+  "pt": "Eu preciso de água",
+  "en": "I need water",
+  "fr": "J'ai besoin d'eau"
+},
+{
+  "id": 3181,
+  "tipo": "expressao",
+  "pt": "Eu quero café",
+  "en": "I want coffee",
+  "fr": "Je veux du café"
+},
+{
+  "id": 3182,
+  "tipo": "expressao",
+  "pt": "Eu quero comida",
+  "en": "I want food",
+  "fr": "Je veux de la nourriture"
+},
+{
+  "id": 3183,
+  "tipo": "expressao",
+  "pt": "Estou comendo agora",
+  "en": "I'm eating now",
+  "fr": "Je mange maintenant"
+},
+{
+  "id": 3184,
+  "tipo": "expressao",
+  "pt": "Estou cozinhando",
+  "en": "I'm cooking",
+  "fr": "Je cuisine"
+},
+{
+  "id": 3185,
+  "tipo": "expressao",
+  "pt": "A comida está boa",
+  "en": "The food is good",
+  "fr": "La nourriture est bonne"
+},
+{
+  "id": 3186,
+  "tipo": "expressao",
+  "pt": "A comida está fria",
+  "en": "The food is cold",
+  "fr": "La nourriture est froide"
+},
+{
+  "id": 3187,
+  "tipo": "expressao",
+  "pt": "O café está quente",
+  "en": "The coffee is hot",
+  "fr": "Le café est chaud"
+},
+{
+  "id": 3188,
+  "tipo": "expressao",
+  "pt": "Eu preciso de uma mesa",
+  "en": "I need a table",
+  "fr": "J'ai besoin d'une table"
+},
+{
+  "id": 3189,
+  "tipo": "expressao",
+  "pt": "A conta, por favor",
+  "en": "Check please",
+  "fr": "L'addition, s'il vous plaît"
+},
+{
+  "id": 3190,
+  "tipo": "expressao",
+  "pt": "Eu quero o cardápio",
+  "en": "I want the menu",
+  "fr": "Je veux le menu"
+},
+{
+  "id": 3191,
+  "tipo": "expressao",
+  "pt": "Eu preciso de uma reserva",
+  "en": "I need a reservation",
+  "fr": "J'ai besoin d'une réservation"
+},
+{
+  "id": 3192,
+  "tipo": "expressao",
+  "pt": "Eu tenho uma pergunta",
+  "en": "I have a question",
+  "fr": "J'ai une question"
+},
+{
+  "id": 3193,
+  "tipo": "expressao",
+  "pt": "O que você recomenda?",
+  "en": "What do you recommend?",
+  "fr": "Que recommandez-vous ?"
+},
+{
+  "id": 3194,
+  "tipo": "expressao",
+  "pt": "Isso está delicioso",
+  "en": "That's delicious",
+  "fr": "C'est délicieux"
+},
+{
+  "id": 3195,
+  "tipo": "expressao",
+  "pt": "Estou satisfeito",
+  "en": "I'm full",
+  "fr": "Je suis rassasié"
+},
+{
+  "id": 3196,
+  "tipo": "expressao",
+  "pt": "Só estou olhando",
+  "en": "Just looking",
+  "fr": "Je regarde seulement"
+},
+{
+  "id": 3197,
+  "tipo": "expressao",
+  "pt": "Eu quero comprar isso",
+  "en": "I want to buy this",
+  "fr": "Je veux acheter ça"
+},
+{
+  "id": 3198,
+  "tipo": "expressao",
+  "pt": "Pode dar um desconto?",
+  "en": "Can you give a discount?",
+  "fr": "Pouvez-vous faire une réduction ?"
+},
+{
+  "id": 3199,
+  "tipo": "expressao",
+  "pt": "Eu preciso de troco",
+  "en": "I need change",
+  "fr": "J'ai besoin de monnaie"
+},
+{
+  "id": 3200,
+  "tipo": "expressao",
+  "pt": "Fique com o troco",
+  "en": "Keep the change",
+  "fr": "Gardez la monnaie"
+},
+{
+  "id": 3201,
+  "tipo": "expressao",
+  "pt": "Eu preciso de um táxi",
+  "en": "I need a taxi",
+  "fr": "J'ai besoin d'un taxi"
+},
+{
+  "id": 3202,
+  "tipo": "expressao",
+  "pt": "Estou viajando",
+  "en": "I'm traveling",
+  "fr": "Je voyage"
+},
+{
+  "id": 3203,
+  "tipo": "expressao",
+  "pt": "Eu amo este lugar",
+  "en": "I love this place",
+  "fr": "J'adore cet endroit"
+},
+{
+  "id": 3204,
+  "tipo": "expressao",
+  "pt": "Isso é lindo",
+  "en": "This is beautiful",
+  "fr": "C'est magnifique"
+},
+{
+  "id": 3205,
+  "tipo": "expressao",
+  "pt": "Tire uma foto",
+  "en": "Take a picture",
+  "fr": "Prends une photo"
+},
+{
+  "id": 3206,
+  "tipo": "expressao",
+  "pt": "Vamos tirar uma foto",
+  "en": "Let's take a photo",
+  "fr": "Prenons une photo"
+},
+{
+  "id": 3207,
+  "tipo": "expressao",
+  "pt": "Estou pronto para ir",
+  "en": "I'm ready to go",
+  "fr": "Je suis prêt à partir"
+},
+{
+  "id": 3208,
+  "tipo": "expressao",
+  "pt": "Eu preciso dormir",
+  "en": "I need to sleep",
+  "fr": "J'ai besoin de dormir"
+},
+{
+  "id": 3209,
+  "tipo": "expressao",
+  "pt": "Bom trabalho",
+  "en": "Good job",
+  "fr": "Bon travail"
+},
+{
+  "id": 3210,
+  "tipo": "expressao",
+  "pt": "Muito bem",
+  "en": "Well done",
+  "fr": "Bien joué"
+},
+{
+  "id": 3211,
+  "tipo": "expressao",
+  "pt": "Estou falando sério",
+  "en": "I am serious",
+  "fr": "Je suis sérieux"
+},
+{
+  "id": 3212,
+  "tipo": "expressao",
+  "pt": "Você tem certeza?",
+  "en": "Are you sure?",
+  "fr": "Es-tu sûr ?"
+},
+{
+  "id": 3213,
+  "tipo": "expressao",
+  "pt": "Isso é estranho",
+  "en": "That's strange",
+  "fr": "C'est étrange"
+},
+{
+  "id": 3214,
+  "tipo": "expressao",
+  "pt": "Isso é normal",
+  "en": "That's normal",
+  "fr": "C'est normal"
+},
+{
+  "id": 3215,
+  "tipo": "expressao",
+  "pt": "Agora eu entendo",
+  "en": "I understand now",
+  "fr": "Je comprends maintenant"
+},
+{
+  "id": 3216,
+  "tipo": "expressao",
+  "pt": "Eu não falo inglês muito bem",
+  "en": "I don't speak English well",
+  "fr": "Je ne parle pas bien anglais"
+},
+{
+  "id": 3217,
+  "tipo": "expressao",
+  "pt": "Eu não falo francês muito bem",
+  "en": "I don't speak French well",
+  "fr": "Je ne parle pas bien français"
+},
+{
+  "id": 3218,
+  "tipo": "expressao",
+  "pt": "Estou praticando",
+  "en": "I'm practicing",
+  "fr": "Je pratique"
+},
+{
+  "id": 3219,
+  "tipo": "expressao",
+  "pt": "Estou melhorando",
+  "en": "I'm improving",
+  "fr": "Je m'améliore"
+},
+{
+  "id": 3220,
+  "tipo": "expressao",
+  "pt": "Pouco a pouco",
+  "en": "Little by little",
+  "fr": "Petit à petit"
+},
+{
+  "id": 3221,
+  "tipo": "expressao",
+  "pt": "Passo a passo",
+  "en": "Step by step",
+  "fr": "Étape par étape"
+},
+{
+  "id": 3222,
+  "tipo": "expressao",
+  "pt": "Nunca desista",
+  "en": "Never give up",
+  "fr": "N'abandonne jamais"
+},
+{
+  "id": 3223,
+  "tipo": "expressao",
+  "pt": "Continue",
+  "en": "Keep going",
+  "fr": "Continue"
+},
+{
+  "id": 3224,
+  "tipo": "expressao",
+  "pt": "Você consegue",
+  "en": "You can do it",
+  "fr": "Tu peux le faire"
+},
+{
+  "id": 3225,
+  "tipo": "expressao",
+  "pt": "Acredite em você",
+  "en": "Believe in yourself",
+  "fr": "Crois en toi"
+},
+{
+  "id": 3226,
+  "tipo": "expressao",
+  "pt": "Bom te ver",
+  "en": "Good to see you",
+  "fr": "Content de te voir"
+},
+{
+  "id": 3227,
+  "tipo": "expressao",
+  "pt": "Quanto tempo!",
+  "en": "Long time no see!",
+  "fr": "Ça fait longtemps !"
+},
+{
+  "id": 3228,
+  "tipo": "expressao",
+  "pt": "Tudo bem?",
+  "en": "Is everything okay?",
+  "fr": "Tout va bien ?"
+},
+{
+  "id": 3229,
+  "tipo": "expressao",
+  "pt": "Fico feliz em ouvir isso",
+  "en": "I'm happy to hear that",
+  "fr": "Je suis heureux d'entendre ça"
+},
+{
+  "id": 3230,
+  "tipo": "expressao",
+  "pt": "Que pena",
+  "en": "That's too bad",
+  "fr": "C'est dommage"
+},
+{
+  "id": 3231,
+  "tipo": "expressao",
+  "pt": "Sem pressa",
+  "en": "No rush",
+  "fr": "Pas de précipitation"
+},
+{
+  "id": 3232,
+  "tipo": "expressao",
+  "pt": "Faça o seu melhor",
+  "en": "Do your best",
+  "fr": "Fais de ton mieux"
+},
+{
+  "id": 3233,
+  "tipo": "expressao",
+  "pt": "Eu acredito em você",
+  "en": "I believe in you",
+  "fr": "Je crois en toi"
+},
+{
+  "id": 3234,
+  "tipo": "expressao",
+  "pt": "Tenha fé",
+  "en": "Have faith",
+  "fr": "Aie foi"
+},
+{
+  "id": 3235,
+  "tipo": "expressao",
+  "pt": "Boa viagem",
+  "en": "Have a good trip",
+  "fr": "Bon voyage"
+},
+{
+  "id": 3236,
+  "tipo": "expressao",
+  "pt": "Bem-vindo",
+  "en": "Welcome",
+  "fr": "Bienvenue"
+},
+{
+  "id": 3237,
+  "tipo": "expressao",
+  "pt": "Fique à vontade",
+  "en": "Make yourself comfortable",
+  "fr": "Fais comme chez toi"
+},
+{
+  "id": 3238,
+  "tipo": "expressao",
+  "pt": "Que surpresa!",
+  "en": "What a surprise!",
+  "fr": "Quelle surprise !"
+},
+{
+  "id": 3239,
+  "tipo": "expressao",
+  "pt": "Isso faz sentido",
+  "en": "That makes sense",
+  "fr": "Ça a du sens"
+},
+{
+  "id": 3240,
+  "tipo": "expressao",
+  "pt": "Não tenho certeza",
+  "en": "I'm not sure",
+  "fr": "Je ne suis pas sûr"
+},
+{
+  "id": 3241,
+  "tipo": "expressao",
+  "pt": "Com certeza",
+  "en": "Definitely",
+  "fr": "Certainement"
+},
+{
+  "id": 3242,
+  "tipo": "expressao",
+  "pt": "Depende",
+  "en": "It depends",
+  "fr": "Ça dépend"
+},
+{
+  "id": 3243,
+  "tipo": "expressao",
+  "pt": "Eu concordo totalmente",
+  "en": "I totally agree",
+  "fr": "Je suis totalement d'accord"
+},
+{
+  "id": 3244,
+  "tipo": "expressao",
+  "pt": "Não tenho ideia",
+  "en": "I have no idea",
+  "fr": "Je n'en ai aucune idée"
+},
+{
+  "id": 3245,
+  "tipo": "expressao",
+  "pt": "Pode ser",
+  "en": "Could be",
+  "fr": "Peut-être"
+},
+{
+  "id": 3246,
+  "tipo": "expressao",
+  "pt": "Isso acontece",
+  "en": "It happens",
+  "fr": "Ça arrive"
+},
+{
+  "id": 3247,
+  "tipo": "expressao",
+  "pt": "Eu vou pensar nisso",
+  "en": "I'll think about it",
+  "fr": "Je vais y penser"
+},
+{
+  "id": 3248,
+  "tipo": "expressao",
+  "pt": "Parece ótimo",
+  "en": "Sounds great",
+  "fr": "Ça a l'air génial"
+},
+{
+  "id": 3249,
+  "tipo": "expressao",
+  "pt": "Eu estou brincando",
+  "en": "I'm kidding",
+  "fr": "Je plaisante"
+},
+{
+  "id": 3250,
+  "tipo": "expressao",
+  "pt": "Sem dúvida",
+  "en": "No doubt",
+  "fr": "Sans aucun doute"
+}
+]
