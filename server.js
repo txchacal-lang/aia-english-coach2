@@ -19,92 +19,95 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 
 app.post("/traduzir", async (req, res) => {
 
-  const { texto, idioma, modo } = req.body;
+  const {
+    texto,
+    idioma,
+    origem,
+    destino,
+    modo
+  } = req.body;
 
   try {
 
-    const textoLower = texto.toLowerCase().trim();
+    let source;
+    let target;
 
-    const palavrasIngles = [
-      "the","and","is","are","to","of","in","that","it",
-      "you","i","we","they","do","does","did","have","has",
-      "will","can","would","should"
-    ];
+    // ====================================
+    // NOVO SISTEMA (TRADUTOR BIDIRECIONAL)
+    // ====================================
 
-    let contador = 0;
+    if(origem && destino){
 
-    palavrasIngles.forEach(p => {
-      if(
-        textoLower.includes(" " + p + " ") ||
-        textoLower.startsWith(p + " ") ||
-        textoLower.endsWith(" " + p)
-      ){
-        contador++;
-      }
-    });
+      source = origem;
+      target = destino;
 
-    let idiomaDestino;
-
-if(modo === "tradutor"){
-
-  idiomaDestino = idioma;
-
-}else{
-
-  idiomaDestino = idioma === "fr" ? "fr" : "en";
-
-}
-
-    let source, target, idiomaDetectado;
-
-    if(contador >= 1){
-      source = idiomaDestino;
-      target = "pt";
-      idiomaDetectado = idiomaDestino;
-    }else{
-      source = "pt";
-      target = idiomaDestino;
-      idiomaDetectado = "pt";
     }
 
-    const url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
+    // ====================================
+    // SISTEMA ANTIGO (COMPATIBILIDADE)
+    // ====================================
+
+    else{
+
+      const idiomaDestino =
+        idioma === "fr" ? "fr" : "en";
+
+      source = "pt";
+      target = idiomaDestino;
+    }
+
+    const url =
+      `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
 
     const resposta = await fetch(url, {
+
       method: "POST",
-      headers: {
-        "Content-Type": "application/json"
+
+      headers:{
+        "Content-Type":"application/json"
       },
+
       body: JSON.stringify({
         q: texto,
         source,
         target,
-        format: "text"
+        format:"text"
       })
+
     });
 
     const data = await resposta.json();
 
     if(data.error){
-      console.log("Erro Google:", data.error.message);
+
+      console.log(
+        "Erro Google:",
+        data.error.message
+      );
+
       return res.json({
-        idioma: idiomaDetectado,
-        traducao: "Tradução indisponível no momento."
+        traducao:
+          "Tradução indisponível no momento."
       });
+
     }
 
-    const traducao = data.data.translations[0].translatedText;
+    const traducao =
+      data.data.translations[0].translatedText;
 
     res.json({
-      idioma: idiomaDetectado,
       traducao
     });
 
   } catch (erro) {
 
-    console.error("Erro na tradução:", erro.message);
+    console.error(
+      "Erro na tradução:",
+      erro.message
+    );
 
     res.json({
-      traducao: "erro na tradução"
+      traducao:"erro na tradução"
     });
 
   }
