@@ -456,8 +456,18 @@ function iniciarTraducaoDireta(direcao){
       method:"POST",
       headers:{"Content-Type":"application/json"},
 body:JSON.stringify({
-  texto:textoFinal,
-  idioma:idiomaDestino,
+  texto: textoFinal,
+
+  origem:
+    direcao === "ida"
+      ? "pt"
+      : idiomaAtual,
+
+  destino:
+    direcao === "ida"
+      ? idiomaAtual
+      : "pt",
+
   modo:"tradutor"
 })
     });
