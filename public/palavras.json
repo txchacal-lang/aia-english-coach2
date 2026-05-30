@@ -65,7 +65,7 @@
 {
   "id": 10,
   "tipo": "substantivo",
-  "pt": "dinheiro",
+  "pt": "dinheiro, sentido geral",
   "en": "money",
   "fr": "argent"
 },
@@ -81,7 +81,7 @@
   "tipo": "pronome",
   "pt": "você",
   "en": "you",
-  "fr": "tu"
+  "fr": "vous"
 },
 {
   "id": 13,
@@ -115,7 +115,7 @@
   "id": 17,
   "tipo": "pronome",
   "pt": "isso",
-  "en": "that",
+  "en": "this",
   "fr": "ça"
 },
 {
@@ -338,7 +338,7 @@
 {
   "id": 49,
   "tipo": "substantivo",
-  "pt": "trabalho",
+  "pt": "trabalho, conceito geral",
   "en": "work",
   "fr": "travail"
 },
@@ -452,7 +452,7 @@
   "tipo": "substantivo",
   "pt": "ônibus",
   "en": "bus",
-  "fr": "autobus"
+  "fr": "bus"
 },
 {
   "id": 66,
@@ -564,7 +564,7 @@
   "tipo": "substantivo",
   "pt": "email",
   "en": "email",
-  "fr": "email"
+  "fr": "e-mail"
 },
 {
   "id": 82,
@@ -611,9 +611,9 @@
 {
   "id": 88,
   "tipo": "substantivo",
-  "pt": "dinheiro",
-  "en": "money",
-  "fr": "argent"
+  "pt": "mochila",
+  "en": "backpack",
+  "fr": "sac à dos"
 },
 {
   "id": 89,
@@ -632,9 +632,9 @@
 {
   "id": 91,
   "tipo": "substantivo",
-  "pt": "conta",
+  "pt": "fatura",
   "en": "bill",
-  "fr": "addition"
+  "fr": "facture"
 },
 {
   "id": 92,
@@ -913,7 +913,7 @@
   "id": 131,
   "tipo": "advérbio",
   "pt": "perto",
-  "en": "near",
+  "en": "close",
   "fr": "près"
 },
 {
@@ -925,7 +925,7 @@
 },
 {
   "id": 133,
-  "tipo": "advérbio",
+  "tipo": "conector",
   "pt": "antes",
   "en": "before",
   "fr": "avant"
@@ -948,7 +948,7 @@
   "id": 136,
   "tipo": "preposição",
   "pt": "de",
-  "en": "from",
+  "en": "of",
   "fr": "de"
 },
 {
@@ -1474,7 +1474,7 @@
   "tipo": "substantivo",
   "pt": "fila",
   "en": "line",
-  "fr": "file"
+  "fr": "queue"
 },
 {
   "id": 214,
@@ -1494,7 +1494,7 @@
   "id": 216,
   "tipo": "substantivo",
   "pt": "chefe",
-  "en": "boss",
+  "en": "manager",
   "fr": "patron"
 },
 {
@@ -1521,7 +1521,7 @@
 {
   "id": 220,
   "tipo": "substantivo",
-  "pt": "dinheiro",
+  "pt": "dinheiro em espécie",
   "en": "cash",
   "fr": "argent liquide"
 },
@@ -1858,7 +1858,7 @@
   "id": 268,
   "tipo": "substantivo",
   "pt": "segurança",
-  "en": "security",
+  "en": "safety",
   "fr": "sécurité"
 },
 {
@@ -2171,7 +2171,7 @@
 {
   "id": 313,
   "tipo": "substantivo",
-  "pt": "trabalho",
+  "pt": "emprego",
   "en": "job",
   "fr": "emploi"
 },
@@ -2277,7 +2277,7 @@
   "id": 329,
   "tipo": "substantivo",
   "pt": "clipe",
-  "en": "clip",
+  "en": " video clip",
   "fr": "clip"
 },
 {
@@ -2395,9 +2395,9 @@
 {
   "id": 346,
   "tipo": "substantivo",
-  "pt": "presente",
-  "en": "present",
-  "fr": "cadeau"
+  "pt": "anel",
+  "en": "ring",
+  "fr": "bague"
 },
 {
   "id": 347,
@@ -2416,9 +2416,9 @@
 {
   "id": 349,
   "tipo": "substantivo",
-  "pt": "foto",
-  "en": "picture",
-  "fr": "image"
+  "pt": "desenho",
+  "en": "drawing",
+  "fr": "dessin"
 },
 {
   "id": 350,
@@ -2612,9 +2612,9 @@
 {
   "id": 377,
   "tipo": "adjetivo",
-  "pt": "rápido",
-  "en": "quick",
-  "fr": "rapide"
+  "pt": "gentil",
+  "en": "kind",
+  "fr": "gentil"
 },
 {
   "id": 378,
@@ -2633,9 +2633,9 @@
 {
   "id": 380,
   "tipo": "adjetivo",
-  "pt": "difícil",
-  "en": "hard",
-  "fr": "difficile"
+  "pt": "inteligente",
+  "en": "smart",
+  "fr": "intelligent"
 },
 {
   "id": 381,
@@ -2682,9 +2682,9 @@
 {
   "id": 387,
   "tipo": "advérbio",
-  "pt": "talvez",
-  "en": "perhaps",
-  "fr": "peut-être"
+  "pt": "provavelmente",
+  "en": "probably",
+  "fr": "probablement"
 },
 {
   "id": 388,
