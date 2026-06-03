@@ -104,6 +104,18 @@ const contadorEstudo = document.getElementById("contadorEstudo");
 const contadorAprendidos =
   document.getElementById("contadorAprendidos");
 
+const btnRandomAprendiz =
+  document.getElementById("btnRandomAprendiz");
+
+const controlesPraticar =
+  document.getElementById("controlesPraticar");
+
+const txtNivel =
+  document.getElementById("txtNivel");
+
+const seletorNivel =
+  document.getElementById("seletorNivel");
+
 // === LÓGICA JS (CONTROLE DE TELA) ===
 
 const telaIdioma = document.getElementById("telaIdioma");
@@ -120,6 +132,8 @@ const fecharAjuda = document.getElementById("fecharAjuda");
 const tituloAjuda = document.getElementById("tituloAjuda");
 const textoAjuda = document.getElementById("textoAjuda");
 const btnJaSei = document.getElementById("btnJaSei");
+const btnJaSeiPraticar =
+  document.getElementById("btnJaSeiPraticar");
 
 // === BOTÃO VOLTAR ===
 
@@ -226,14 +240,24 @@ let direcaoTraducao = "ida";
 
 /* FRASES */
 let frases=[];
+let frasesPraticar = [];
 let frasesFiltradas=[];
 let indice=0;
+let indicePraticar = 0;
 let autoplay=false;
 let aleatorio=false;
 let frasesAleatoriasUsadas = [];
 let palavrasAleatoriasUsadas = [];
 let expressoesAleatoriasUsadas = [];
 let verbosAleatoriosUsados = [];
+
+let aleatorioAprendiz = false;
+let frasesPraticarUsadas = [];
+
+let frasesPraticadas =
+  JSON.parse(
+    localStorage.getItem("frasesPraticadas")
+  ) || [];
 
 let assistenteAtivo = false;
 
@@ -243,16 +267,213 @@ let palavras = [];
 let expressoes = [];
 let indicePalavra = 0;
 
-let palavrasJaSei =
-  JSON.parse(localStorage.getItem("palavrasJaSei")) || [];
+let xp = Number(localStorage.getItem("xp")) || 0;
+let nivel = Number(localStorage.getItem("nivel")) || 1;
 
+let nivelTreino =
+  Number(localStorage.getItem("nivelTreino")) || 1;
+
+atualizarNivel();
+
+function atualizarSeletorNivel(){
+
+  if(!seletorNivel) return;
+
+  seletorNivel.innerHTML = "";
+
+  for(let i = 1; i <= 6; i++){
+
+    const op = document.createElement("option");
+
+    op.value = i;
+
+    const nomes = {
+      1:"Iniciante",
+      2:"Intermediário",
+      3:"Avançado",
+      4:"Fluente",
+      5:"Professor",
+      6:"Nativo"
+    };
+
+    if(i < nivel){
+
+      op.textContent =
+        "🔓 " + i + " - " + nomes[i];
+
+    }
+    else if(i === nivel){
+
+      op.textContent =
+        "⭐ " + i + " - " + nomes[i] + " (Atual)";
+
+    }
+    else{
+
+      op.textContent =
+        "🔒 " + i + " - " + nomes[i];
+
+      op.disabled = true;
+
+    }
+
+    if(i === nivelTreino){
+      op.selected = true;
+    }
+
+    seletorNivel.appendChild(op);
+  }
+}
+
+function atualizarBarraXP(){
+
+  const barra =
+    document.getElementById("barraXPFill");
+
+  const info =
+    document.getElementById("xpInfo");
+
+  let porcentagem = 0;
+
+  let xpAtual = 0;
+  let xpNecessario = 0;
+
+  if(nivel === 1){
+
+    xpAtual = xp;
+    xpNecessario = 20000;
+
+  }
+
+  else if(nivel === 2){
+
+    xpAtual = xp - 20000;
+    xpNecessario = 30000;
+
+  }
+
+  else if(nivel === 3){
+
+    xpAtual = xp - 50000;
+    xpNecessario = 50000;
+
+  }
+
+  else if(nivel === 4){
+
+    xpAtual = xp - 100000;
+    xpNecessario = 150000;
+
+  }
+
+  else if(nivel === 5){
+
+    xpAtual = xp - 250000;
+    xpNecessario = 250000;
+
+  }
+
+  else{
+
+    xpAtual = xp;
+    xpNecessario = xp;
+
+  }
+
+  porcentagem =
+    (xpAtual / xpNecessario) * 100;
+
+  barra.style.width =
+    Math.min(porcentagem,100) + "%";
+
+const falta =
+  xpNecessario - xpAtual;
+
+info.textContent =
+  "XP "
+  + xpAtual.toLocaleString()
+  + " / "
+  + xpNecessario.toLocaleString()
+  + " • Faltam "
+  + falta.toLocaleString();
+
+}
+
+function atualizarNivel(){
+
+  const nivelAnterior = nivel;
+
+if(xp >= 500000) nivel = 6;
+else if(xp >= 250000) nivel = 5;
+else if(xp >= 100000) nivel = 4;
+else if(xp >= 50000) nivel = 3;
+else if(xp >= 20000) nivel = 2;
+else nivel = 1;
+
+  if(nivel > nivelAnterior){
+
+    falarAia(
+      "Parabéns! Você subiu para o nível "
+      + nivel + "!"
+    );
+
+  }
+
+  localStorage.setItem("xp", xp);
+  localStorage.setItem("nivel", nivel);
+
+atualizarSeletorNivel();
+
+  if(txtNivel){
+
+const nomes = {
+
+  1:"Iniciante",
+  2:"Intermediário",
+  3:"Avançado",
+  4:"Fluente",
+  5:"Professor",
+  6:"Nativo"
+
+};
+
+
+
+  }
+
+atualizarBarraXP();
+
+}
+
+seletorNivel.onchange = ()=>{
+
+  nivelTreino = Number(seletorNivel.value);
+
+  localStorage.setItem(
+    "nivelTreino",
+    nivelTreino
+  );
+
+  carregarFrasesPraticar();
+
+};
+
+
+let nivelDesbloqueado =
+  Number(localStorage.getItem("nivel")) || 1;
 
 let verbos = [];
 let indiceVerbo = 0;
 let verbosJaSei =
   JSON.parse(localStorage.getItem("verbosJaSei")) || [];
+
+let palavrasJaSei =
+  JSON.parse(localStorage.getItem("palavrasJaSei")) || [];
+
 let frasesJaSei =
   JSON.parse(localStorage.getItem("frasesJaSei")) || [];
+
+atualizarNivel();
 
 /* ========= SPEECH ========= */
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -739,17 +960,26 @@ wrapperVolta.style.display = "none";
   // === NOVO ===
   wrapperSalvar.style.display="none";
   wrapperExcluir.style.display="none";
+btnJaSeiPraticar.style.display = "none";
+
+controlesPraticar.style.display = "none";
   // === FIM NOVO ===
+if(m==="aprendiz"){
 
-  if(m==="aprendiz"){
-    btnAprendiz.classList.add("active");
-    btnProxima.style.display="block";
-    statusBox.style.display="flex";
-    progressWrap.style.display="block";
-    correctionArea.style.display="block";
-    falarAia("Aperte falar e diga uma frase em português");
-  }
+btnJaSeiPraticar.style.display = "flex";
 
+controlesPraticar.style.display = "flex";
+
+  btnAprendiz.classList.add("active");
+  btnProxima.style.display="block";
+  statusBox.style.display="flex";
+  progressWrap.style.display="block";
+  correctionArea.style.display="block";
+
+  carregarFrasesPraticar();
+
+  falarAia("Aperte (Pronunciar) para ouvir a frase. Segure o botão (Falar) e diga a frase que ouviu.");
+}
 if(m==="tradutor"){
   btnTradutor.classList.add("active");
   falarAia("Escolha a direção da tradução e segure para falar.");
@@ -1042,6 +1272,7 @@ Dica: tente falar um pouco mais devagar e enfatizar as palavras principais.
 
 
     // ===== APRENDIZ =====
+
     if(modoAtual === "aprendiz"){
 
       if(aprendiz.palavraEmCorrecao){
@@ -1614,7 +1845,60 @@ btnJaSei.onclick = ()=>{
 
     tocarVerbo();
   }
+
 };
+
+btnJaSeiPraticar.onclick = ()=>{
+
+  console.log("BOTÃO CLICADO");
+
+  const frase =
+    frasesPraticar[indicePraticar];
+
+  if(!frase) return;
+
+  const jaExiste =
+    frasesPraticadas.includes(frase.id);
+
+  if(jaExiste){
+
+    frasesPraticadas =
+      frasesPraticadas.filter(
+        id => id !== frase.id
+      );
+
+    falarAia(
+      "Frase removida dos aprendidos."
+    );
+
+  }else{
+
+    frasesPraticadas.push(frase.id);
+
+    falarAia(
+      "Frase marcada como aprendida."
+    );
+
+  }
+
+  localStorage.setItem(
+    "frasesPraticadas",
+    JSON.stringify(frasesPraticadas)
+  );
+  
+ atualizarContadorAprendidosPraticar();
+  atualizarContadorJaSeiPraticar();
+
+  mostrarFrasePraticar();
+
+};
+
+function atualizarContadorJaSeiPraticar(){
+
+  contadorAprendidos.textContent =
+    frasesPraticadas.length;
+
+}
 
 btnRandom.onclick=()=>{
 
@@ -1631,11 +1915,66 @@ btnRandom.onclick=()=>{
   );
 };
 
-btnProxima.onclick=()=>{
-  if(modoAtual==="aprendiz"){
-    resetAprendiz();
-    falarAia("Nova frase. Aperte Falar e diga uma frase em português.");
+btnRandomAprendiz.onclick = ()=>{
+
+  aleatorioAprendiz = !aleatorioAprendiz;
+
+  btnRandomAprendiz.classList.toggle(
+    "active",
+    aleatorioAprendiz
+  );
+
+  if(aleatorioAprendiz){
+
+    btnRandomAprendiz.style.background =
+      "linear-gradient(145deg,#ffffff,#e2e8f0)";
+
+    btnRandomAprendiz.style.color =
+      "#111827";
+
+  }else{
+
+    btnRandomAprendiz.style.background = "";
+    btnRandomAprendiz.style.color = "";
+
   }
+
+  falarAia(
+    aleatorioAprendiz
+      ? "Aleatório ativado."
+      : "Aleatório desativado."
+  );
+
+};
+
+btnProxima.onclick=()=>{
+if(modoAtual==="aprendiz"){
+
+  resetAprendiz();
+
+if(aleatorioAprendiz){
+
+  indicePraticar = obterIndiceAleatorio(
+    frasesPraticar,
+    frasesPraticarUsadas,
+    []
+  );
+
+}else{
+
+  indicePraticar++;
+
+  if(indicePraticar >= frasesPraticar.length){
+    indicePraticar = 0;
+  }
+
+}
+
+  mostrarFrasePraticar();
+
+
+  falarAia("Segure o botão (Falar) e repita a frase.");
+}
 
   if(modoAtual==="conversar"){
     iniciarConversa();
@@ -1861,8 +2200,129 @@ falar(traducao, getLangCode());
 
   reconhecimentoAssistente.start();
 }
-/* ========= APRENDIZ ========= */
 
+async function carregarFrasesPraticar(){
+
+  if(!frasesPraticar.length){
+
+    const r = await fetch("/frases.json");
+
+    frasesPraticar = await r.json();
+
+let nivelTexto = "iniciante";
+
+if(nivelTreino === 2)
+  nivelTexto = "intermediario";
+
+if(nivelTreino === 3)
+  nivelTexto = "avancado";
+
+if(nivelTreino >= 4)
+  nivelTexto = "fluente";
+
+console.log("JSON carregado:");
+console.log(frasesPraticar);
+
+
+console.log("Primeira frase:", frasesPraticar[0]);
+console.log("Tipo nivel:", typeof frasesPraticar[0].nivel);
+console.log("Valor nivelTreino:", nivelTreino);
+console.log("Tipo nivelTreino:", typeof nivelTreino);
+frasesPraticar = frasesPraticar.filter(f => {
+  return f.nivel === nivelTexto;
+});
+
+console.log("Nivel treino:", nivelTreino);
+console.log("Nivel texto:", nivelTexto);
+console.log("Frases encontradas:", frasesPraticar.length);
+
+console.log("Nivel treino:", nivelTreino);
+console.log("Frases após filtro:", frasesPraticar.length);
+
+indicePraticar = 0;
+
+atualizarContadorAprendidosPraticar();
+
+mostrarFrasePraticar();
+  }
+
+}
+
+function atualizarContadorAprendidosPraticar(){
+
+  contadorAprendidosPraticar.textContent =
+    "Aprendidas: " + frasesPraticadas.length;
+
+}
+
+function mostrarFrasePraticar(){
+
+  const f = frasesPraticar[indicePraticar];
+
+  if(!f) return;
+
+  contadorPraticar.textContent =
+    `Frase ${indicePraticar + 1} de ${frasesPraticar.length}`;
+
+const aprendida =
+  frasesPraticadas.includes(f.id);
+
+if(aprendida){
+
+  btnJaSeiPraticar.textContent =
+    "✓ APRENDIDA";
+
+  btnJaSeiPraticar.style.setProperty(
+    "background",
+    "#22c55e",
+    "important"
+  );
+
+  btnJaSeiPraticar.style.setProperty(
+    "color",
+    "#ffffff",
+    "important"
+  );
+
+}else{
+
+  btnJaSeiPraticar.textContent =
+    "✓ JÁ SEI";
+
+  btnJaSeiPraticar.style.setProperty(
+    "background",
+    "#ffffff",
+    "important"
+  );
+
+  btnJaSeiPraticar.style.setProperty(
+    "color",
+    "#111827",
+    "important"
+  );
+
+}
+  feedbackEl.innerHTML = aprendida
+    ? "✅ Esta frase já foi marcada como aprendida."
+    : "";
+
+  faladoEl.textContent = f.pt;
+
+  traducaoEl.textContent =
+    f[idiomaAtual] || f.en;
+
+  aprendiz.fraseAlvo =
+    f[idiomaAtual] || f.en;
+
+  aprendiz.etapa = idiomaAtual;
+
+  falar(
+    aprendiz.fraseAlvo,
+    getLangCode(),
+    0.65
+  );
+}
+/* ========= APRENDIZ ========= */
 
 function corrigir(){
   feedbackEl.innerHTML="";
@@ -1884,7 +2344,7 @@ const correto =
   faladaLimpa === alvoLimpo ||                     // igual
   faladaLimpa.includes(alvoLimpo) ||               // falou maior ("going" vs "go")
   alvoLimpo.includes(faladaLimpa) ||               // falou menor ("go" vs "going")
-  similaridade(faladaLimpa, alvoLimpo) > 0.7;     // parecido
+  similaridade(faladaLimpa, alvoLimpo) > 0.75;     // parecido
 
 if(correto){
       s.className="corrigido";
@@ -1904,10 +2364,14 @@ if(correto){
   const nota=Math.round((acertos/alvo.length)*100);
   aprendiz.totalNotas+=nota;
   aprendiz.totalFrases++;
+xp += Math.round(nota / 10);
+
+atualizarNivel();
   notaEl.textContent=nota;
   mediaEl.textContent=Math.round(aprendiz.totalNotas/aprendiz.totalFrases);
   progressBar.style.width=nota+"%";
 }
+
 
 function corrigirPalavraIsolada(){
   const alvo = aprendiz.palavraEmCorrecao.palavra;
@@ -1954,6 +2418,21 @@ function similaridade(a, b){
   }
 
   return iguais / Math.max(a.length, b.length);
+}
+
+function salvarXP(){
+
+  localStorage.setItem("xp", xp);
+
+}
+
+function salvarNivel(){
+
+  localStorage.setItem(
+    "nivelUsuario",
+    nivelUsuario
+  );
+
 }
 
 
@@ -2166,21 +2645,45 @@ function tocarPalavraAuto(){
 
     setTimeout(()=>{
 
-      const uLang = new SpeechSynthesisUtterance(p[idiomaAtual]);
-      uLang.lang = getLangCode();
-      uLang.rate = 0.60;
+      const textoTraduzido = p[idiomaAtual];
 
-      uLang.onend = ()=>{
+// 1ª fala
+const uLang1 =
+  new SpeechSynthesisUtterance(textoTraduzido);
 
-        if(autoplay){
-          setTimeout(()=>{
-            btnProximaFrase.click();
-          }, 1400);
-        }
+uLang1.lang = getLangCode();
+uLang1.rate = 0.60;
 
-      };
+uLang1.onend = ()=>{
 
-      speechSynthesis.speak(uLang);
+  setTimeout(()=>{
+
+    // 2ª fala mais lenta
+    const uLang2 =
+      new SpeechSynthesisUtterance(textoTraduzido);
+
+    uLang2.lang = getLangCode();
+    uLang2.rate = 0.35;
+
+    uLang2.onend = ()=>{
+
+      if(autoplay){
+
+        setTimeout(()=>{
+          btnProximaFrase.click();
+        }, 1800);
+
+      }
+
+    };
+
+    speechSynthesis.speak(uLang2);
+
+  }, 500);
+
+};
+
+speechSynthesis.speak(uLang1);
 
     }, 900);
 
@@ -2241,19 +2744,45 @@ function tocarExpressao(){
 
     setTimeout(()=>{
 
-      const uLang = new SpeechSynthesisUtterance(p[idiomaAtual]);
-      uLang.lang = getLangCode();
-      uLang.rate = 0.60;
+      const textoTraduzido = p[idiomaAtual];
 
-      uLang.onend = ()=>{
+// 1ª fala
+const uLang1 =
+  new SpeechSynthesisUtterance(textoTraduzido);
 
-        if(autoplay){
-          setTimeout(()=>{
-            btnProximaFrase.click();
-          }, 1400);
-        }
+uLang1.lang = getLangCode();
+uLang1.rate = 0.60;
 
-      };
+uLang1.onend = ()=>{
+
+  setTimeout(()=>{
+
+    // 2ª fala mais lenta
+    const uLang2 =
+      new SpeechSynthesisUtterance(textoTraduzido);
+
+    uLang2.lang = getLangCode();
+    uLang2.rate = 0.35;
+
+    uLang2.onend = ()=>{
+
+      if(autoplay){
+
+        setTimeout(()=>{
+          btnProximaFrase.click();
+        }, 1800);
+
+      }
+
+    };
+
+    speechSynthesis.speak(uLang2);
+
+  }, 500);
+
+};
+
+speechSynthesis.speak(uLang1);
 
       speechSynthesis.speak(uLang);
 
@@ -2871,5 +3400,5 @@ document.getElementById("filtroNivel").onchange = aplicarFiltros;
 document.getElementById("filtroCategoria").onchange = aplicarFiltros;
 // === FIM NOVO ===
 
-
 });
+
