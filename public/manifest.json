@@ -1,6 +1,7 @@
 {
   "name": "AiA Language Coach",
   "short_name": "AiA",
+  "id": "/",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#020617",
