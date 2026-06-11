@@ -5,6 +5,10 @@ const tituloModo = document.getElementById("tituloModo");
 const aiaRow = document.querySelector(".aia-row");
 const aiaActions = document.querySelector(".aia-actions");
 
+let estudoSegundoPlano = false;
+let telaEscuraAtiva =
+  localStorage.getItem("telaEscuraAtiva") === "true";
+
 let aiaActionsParent = null;
 let aiaActionsNext = null;
 
@@ -210,6 +214,34 @@ btnModoConversar.onclick = ()=>{
    limparCampos();
   ativar("conversar");
 };
+
+btnTelaEscura.onclick = ()=>{
+
+  telaEscuraAtiva = !telaEscuraAtiva;
+
+  localStorage.setItem(
+    "telaEscuraAtiva",
+    telaEscuraAtiva
+  );
+
+  btnTelaEscura.classList.toggle(
+    "active",
+    telaEscuraAtiva
+  );
+
+  falarAia(
+    telaEscuraAtiva
+      ? "Estudo em segundo plano ativado."
+      : "Estudo em segundo plano desativado."
+  );
+
+};
+if(telaEscuraAtiva){
+
+  btnTelaEscura.classList.add("active");
+}
+
+
 // === AÇÕES ===
 
 
@@ -221,7 +253,6 @@ let perguntasUsadas = [];
 let perguntaAtual = null;
 let modoAtual = "aprendiz";
 let idiomaAtual = "fr"; // teste com francês
-
 
 
 /* APRENDIZ */
@@ -2093,35 +2124,42 @@ btnAjuda.onclick = ()=>{
 
   if(modoAtual === "tradutor"){
     textoAjuda.innerHTML = `
-      <p><strong>PT → EN/FR:</strong> segure para falar em português.</p>
-      <p><strong>EN/FR → PT:</strong> segure para o nativo falar.</p>
-      <p><strong>Salvar:</strong> guarda a frase traduzida.</p>
-      <p><strong>Assistente:</strong> diga <strong>TRADUZ</strong> antes da frase.</p>
+      <p><strong>PT → EN/FR:</strong> segure para falar em português, AiA irá traduzir.</p>
+      <p><strong>EN/FR → PT:</strong> segure para o nativo falar e você escutará a tradução.</p>
+      <p><strong>Salvar:</strong> guarda a frase traduzida e você poderá escutar no MODO ESTUDAR ou praticar a pronúncia no MODO PRATICAR.</p>
+      <p><strong>Assistente:</strong> Com o assistente ativo, apenas diga <strong>TRADUZ</strong> antes da frase ou palavra e ele traduz para você.</p>
     `;
   }
 
   if(modoAtual === "frases"){
     textoAjuda.innerHTML = `
-      <p>Use <strong>Play</strong> para ouvir as frases.</p>
-      <p>Use <strong>Aleatório</strong> para estudar fora de ordem.</p>
-      <p>Use <strong>Anterior</strong> e <strong>Próxima</strong> para navegar.</p>
+      <p>Em VAMOS ESTUDAR você escolhe Frases, Palavras, Verbos ou Expressões.</p>
+      <p>Use o <strong>Play</strong> e ouça as frases em sequência como áudios.</p>
+      <p>Use o <strong>Aleatório</strong> para estudar as frases fora de ordem.</p>
+      <p>Use o <strong>Anterior</strong> e <strong>Próxima</strong> para navegar entre as frases.</p>
+      <p>Aperte (Já sei) e marque a frase com APRENDIDA. As frases marcadas não aparecem enquanto o botão aleatório estiver ativado.</p>
+      <p>Em TODOS OS NÍVEIS você escolhe a dificuldade. Em TODOS OS ASSUNTOS você escolhe o assunto que quer estudar.</p>
+      <p>Quanto mais treinar, mais XP irá conseguir para desbloquear outros NÍVEIS.</p>
     `;
   }
 
   if(modoAtual === "aprendiz"){
     textoAjuda.innerHTML = `
-      <p>Fale uma frase em português.</p>
-      <p>Ouça a pronúncia.</p>
-      <p>Repita no idioma escolhido.</p>
-      <p>A AiA corrige palavra por palavra.</p>
+      <p>Aqui você pratica as frases do MODO ESTUDAR.</p>
+      <p>Ouça a pronúncia apertando em PRONUNCIAR antes de falar.</p>
+      <p>Segure o botão FALAR e diga a frase, AiA irá te ajudar corrigindo a sua pronúncia.</p>
+      <p>A AiA corrige palavra por palavra. Se alguma palavra ficar vermelha você pode corrigir a pronúncia clicando na palavra.</p>
+      <p>Aperte JÁ SEI e marque a frase como APRENDIDA.</p>
+      <p>Ative o aleatório e as palavras marcadas como APRENDIDA pelo Já Sei serão puladas automáticamente.</p>
     `;
   }
 
   if(modoAtual === "conversar"){
     textoAjuda.innerHTML = `
-      <p><strong>Responder:</strong> ouça a pergunta e responda.</p>
-      <p><strong>Perguntar:</strong> faça a pergunta correta.</p>
-      <p>Use os botões Pergunta e Resposta para ouvir.</p>
+      <p>Aperte Pergunta ou Resposta e escute a pronúncia, depois segure falar e faça a pronúncia corretamente.</p>
+      <p><strong>Responder:</strong> ouça a pergunta, depois aperte falar e responda.</p>
+      <p><strong>Perguntar:</strong> faça a pergunta apertando em falar que AiA vai responder.</p>
+      <p>Em breve vamos ter uma conversa mais aberta com a nossa IA.</p>
     `;
   }
 
@@ -3362,7 +3400,7 @@ const modelo =
 
 if(modoConversaTipo === "perguntar"){
 
-  falarAia("Me faça a pergunta e ouça a resposta.");
+  falarAia("Me faça a pergunta MODELO e eu te respondo.");
 
   faladoEl.textContent = "";
   traducaoEl.textContent = modelo;
@@ -3402,3 +3440,13 @@ document.getElementById("filtroCategoria").onchange = aplicarFiltros;
 
 });
 
+if ("serviceWorker" in navigator) {
+
+  window.addEventListener("load", () => {
+
+    navigator.serviceWorker
+      .register("/service-worker.js");
+
+  });
+
+}
