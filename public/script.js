@@ -2637,6 +2637,8 @@ function tocarPalavra(){
   traducaoEl.textContent =
     p[idiomaAtual];
 
+
+
   contadorEstudo.textContent =
     `Palavra ${indicePalavra + 1} de ${palavras.length}`;
 
@@ -2672,6 +2674,15 @@ function tocarPalavraAuto(){
   `;
 
   traducaoEl.textContent = p[idiomaAtual];
+
+if(telaEscuraAtiva){
+
+  atualizarMediaSession(
+    p.pt,
+    "Palavras"
+  );
+
+}
 
   speechSynthesis.cancel();
 
@@ -2771,6 +2782,15 @@ function tocarExpressao(){
   `;
 
   traducaoEl.textContent = p[idiomaAtual];
+
+if(telaEscuraAtiva){
+
+  atualizarMediaSession(
+    p.pt,
+    "Expressões"
+  );
+
+}
 
   speechSynthesis.cancel();
 
@@ -2911,6 +2931,16 @@ ${v.negativo[idiomaAtual]}<br>
 </span>
 ${v.pergunta[idiomaAtual]}
 `;
+
+if(telaEscuraAtiva){
+
+  atualizarMediaSession(
+    v.pt,
+    "Verbos"
+  );
+
+}
+
 falar(
   v.presente[idiomaAtual],
   getLangCode(),
@@ -2979,6 +3009,135 @@ function obterIndiceAleatorio(lista, usadas, aprendidas){
   );
 }
 
+function atualizarMediaSession(
+  titulo,
+  subtitulo
+){
+
+  if(!("mediaSession" in navigator))
+    return;
+
+  navigator.mediaSession.metadata =
+    new MediaMetadata({
+
+      title: titulo,
+
+      artist: subtitulo,
+
+      album: "AiA English Coach"
+
+    });
+
+}
+
+  navigator.mediaSession.setActionHandler(
+    "play",
+    ()=> btnPlay.click()
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "pause",
+    ()=> btnPlay.click()
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "nexttrack",
+    ()=> btnProximaFrase.click()
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "previoustrack",
+    ()=> btnAnterior.click()
+  );
+
+}
+
+function configurarControlesMediaSession(){
+
+  if(!("mediaSession" in navigator))
+    return;
+
+  navigator.mediaSession.setActionHandler(
+    "play",
+    ()=>{
+
+      autoplay = true;
+
+      btnPlay.classList.add("active");
+
+      falarAia("Play ativado.");
+
+    }
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "pause",
+    ()=>{
+
+      autoplay = false;
+
+      btnPlay.classList.remove("active");
+
+      falarAia("Play pausado.");
+
+    }
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "nexttrack",
+    ()=>{
+
+      btnProximaFrase.click();
+
+    }
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "previoustrack",
+    ()=>{
+
+      btnAnterior.click();
+
+    }
+  );
+
+}
+
+function registrarControlesMediaSession(){
+
+  if(!("mediaSession" in navigator))
+    return;
+
+  navigator.mediaSession.setActionHandler(
+    "play",
+    ()=>{
+
+      autoplay = true;
+
+      btnPlay.classList.add("active");
+
+      falarAia("Play ativado.");
+
+    }
+  );
+
+  navigator.mediaSession.setActionHandler(
+    "pause",
+    ()=>{
+
+      autoplay = false;
+
+      btnPlay.classList.remove("active");
+
+      speechSynthesis.cancel();
+
+      falarAia("Play pausado.");
+
+    }
+  );
+
+}
+
 function tocar(){
 
   if(!frases.length){
@@ -3024,6 +3183,15 @@ btnJaSei.style.color =
   const traducao = f[idiomaAtual] || f.en;
 
 mostrarPalavras(traducao);
+
+if(telaEscuraAtiva){
+
+  atualizarMediaSession(
+    f.pt,
+    "Frases"
+  );
+
+}
 
   speechSynthesis.cancel();
 
@@ -3430,10 +3598,15 @@ if(modoConversaTipo === "perguntar"){
 }
 /* ========= INIT ========= */
 trocarTela("idioma");
+
+configurarControlesMediaSession();
 // === NOVO ===
 atualizarContadorFrases();
 atualizarLabelIdioma();
 atualizarBotoesIdioma();
+
+registrarControlesMediaSession();
+
 document.getElementById("filtroNivel").onchange = aplicarFiltros;
 document.getElementById("filtroCategoria").onchange = aplicarFiltros;
 // === FIM NOVO ===
