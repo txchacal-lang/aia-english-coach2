@@ -5,6 +5,7 @@ const tituloModo = document.getElementById("tituloModo");
 const aiaRow = document.querySelector(".aia-row");
 const aiaActions = document.querySelector(".aia-actions");
 
+let audioTeste;
 let estudoSegundoPlano = false;
 let telaEscuraAtiva =
   localStorage.getItem("telaEscuraAtiva") === "true";
@@ -218,6 +219,20 @@ btnModoConversar.onclick = ()=>{
 btnTelaEscura.onclick = ()=>{
 
   telaEscuraAtiva = !telaEscuraAtiva;
+
+if(telaEscuraAtiva){
+
+  testarSegundoPlano();
+
+}else{
+
+  if(audioTeste){
+
+    audioTeste.pause();
+
+  }
+
+}
 
   localStorage.setItem(
     "telaEscuraAtiva",
@@ -3100,6 +3115,22 @@ function configurarControlesMediaSession(){
 
     }
   );
+
+}
+
+function testarSegundoPlano(){
+
+  if(!audioTeste){
+
+    audioTeste = new Audio(
+      "/audio/teste.mp3"
+    );
+
+    audioTeste.loop = true;
+
+  }
+
+  audioTeste.play();
 
 }
 
