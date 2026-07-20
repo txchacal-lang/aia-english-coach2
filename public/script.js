@@ -5,11 +5,6 @@ const tituloModo = document.getElementById("tituloModo");
 const aiaRow = document.querySelector(".aia-row");
 const aiaActions = document.querySelector(".aia-actions");
 
-let audioTeste;
-let estudoSegundoPlano = false;
-let telaEscuraAtiva =
-  localStorage.getItem("telaEscuraAtiva") === "true";
-
 let aiaActionsParent = null;
 let aiaActionsNext = null;
 
@@ -215,48 +210,6 @@ btnModoConversar.onclick = ()=>{
    limparCampos();
   ativar("conversar");
 };
-
-btnTelaEscura.onclick = ()=>{
-
-  telaEscuraAtiva = !telaEscuraAtiva;
-
-if(telaEscuraAtiva){
-
-  testarSegundoPlano();
-
-}else{
-
-  if(audioTeste){
-
-    audioTeste.pause();
-
-  }
-
-}
-
-  localStorage.setItem(
-    "telaEscuraAtiva",
-    telaEscuraAtiva
-  );
-
-  btnTelaEscura.classList.toggle(
-    "active",
-    telaEscuraAtiva
-  );
-
-  falarAia(
-    telaEscuraAtiva
-      ? "Estudo em segundo plano ativado."
-      : "Estudo em segundo plano desativado."
-  );
-
-};
-if(telaEscuraAtiva){
-
-  btnTelaEscura.classList.add("active");
-}
-
-
 // === AÇÕES ===
 
 
@@ -268,6 +221,7 @@ let perguntasUsadas = [];
 let perguntaAtual = null;
 let modoAtual = "aprendiz";
 let idiomaAtual = "fr"; // teste com francês
+
 
 
 /* APRENDIZ */
@@ -2652,8 +2606,6 @@ function tocarPalavra(){
   traducaoEl.textContent =
     p[idiomaAtual];
 
-
-
   contadorEstudo.textContent =
     `Palavra ${indicePalavra + 1} de ${palavras.length}`;
 
@@ -2689,15 +2641,6 @@ function tocarPalavraAuto(){
   `;
 
   traducaoEl.textContent = p[idiomaAtual];
-
-if(telaEscuraAtiva){
-
-  atualizarMediaSession(
-    p.pt,
-    "Palavras"
-  );
-
-}
 
   speechSynthesis.cancel();
 
@@ -2797,15 +2740,6 @@ function tocarExpressao(){
   `;
 
   traducaoEl.textContent = p[idiomaAtual];
-
-if(telaEscuraAtiva){
-
-  atualizarMediaSession(
-    p.pt,
-    "Expressões"
-  );
-
-}
 
   speechSynthesis.cancel();
 
@@ -2946,16 +2880,6 @@ ${v.negativo[idiomaAtual]}<br>
 </span>
 ${v.pergunta[idiomaAtual]}
 `;
-
-if(telaEscuraAtiva){
-
-  atualizarMediaSession(
-    v.pt,
-    "Verbos"
-  );
-
-}
-
 falar(
   v.presente[idiomaAtual],
   getLangCode(),
@@ -3024,151 +2948,6 @@ function obterIndiceAleatorio(lista, usadas, aprendidas){
   );
 }
 
-function atualizarMediaSession(
-  titulo,
-  subtitulo
-){
-
-  if(!("mediaSession" in navigator))
-    return;
-
-  navigator.mediaSession.metadata =
-    new MediaMetadata({
-
-      title: titulo,
-
-      artist: subtitulo,
-
-      album: "AiA English Coach"
-
-    });
-
-}
-
-  navigator.mediaSession.setActionHandler(
-    "play",
-    ()=> btnPlay.click()
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "pause",
-    ()=> btnPlay.click()
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "nexttrack",
-    ()=> btnProximaFrase.click()
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "previoustrack",
-    ()=> btnAnterior.click()
-  );
-
-}
-
-function configurarControlesMediaSession(){
-
-  if(!("mediaSession" in navigator))
-    return;
-
-  navigator.mediaSession.setActionHandler(
-    "play",
-    ()=>{
-
-      autoplay = true;
-
-      btnPlay.classList.add("active");
-
-      falarAia("Play ativado.");
-
-    }
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "pause",
-    ()=>{
-
-      autoplay = false;
-
-      btnPlay.classList.remove("active");
-
-      falarAia("Play pausado.");
-
-    }
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "nexttrack",
-    ()=>{
-
-      btnProximaFrase.click();
-
-    }
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "previoustrack",
-    ()=>{
-
-      btnAnterior.click();
-
-    }
-  );
-
-}
-
-function testarSegundoPlano(){
-
-  if(!audioTeste){
-
-    audioTeste = new Audio(
-      "/audio/teste.mp3"
-    );
-
-    audioTeste.loop = true;
-
-  }
-
-  audioTeste.play();
-
-}
-
-function registrarControlesMediaSession(){
-
-  if(!("mediaSession" in navigator))
-    return;
-
-  navigator.mediaSession.setActionHandler(
-    "play",
-    ()=>{
-
-      autoplay = true;
-
-      btnPlay.classList.add("active");
-
-      falarAia("Play ativado.");
-
-    }
-  );
-
-  navigator.mediaSession.setActionHandler(
-    "pause",
-    ()=>{
-
-      autoplay = false;
-
-      btnPlay.classList.remove("active");
-
-      speechSynthesis.cancel();
-
-      falarAia("Play pausado.");
-
-    }
-  );
-
-}
-
 function tocar(){
 
   if(!frases.length){
@@ -3214,15 +2993,6 @@ btnJaSei.style.color =
   const traducao = f[idiomaAtual] || f.en;
 
 mostrarPalavras(traducao);
-
-if(telaEscuraAtiva){
-
-  atualizarMediaSession(
-    f.pt,
-    "Frases"
-  );
-
-}
 
   speechSynthesis.cancel();
 
@@ -3629,28 +3399,13 @@ if(modoConversaTipo === "perguntar"){
 }
 /* ========= INIT ========= */
 trocarTela("idioma");
-
-configurarControlesMediaSession();
 // === NOVO ===
 atualizarContadorFrases();
 atualizarLabelIdioma();
 atualizarBotoesIdioma();
-
-registrarControlesMediaSession();
-
 document.getElementById("filtroNivel").onchange = aplicarFiltros;
 document.getElementById("filtroCategoria").onchange = aplicarFiltros;
 // === FIM NOVO ===
 
 });
 
-if ("serviceWorker" in navigator) {
-
-  window.addEventListener("load", () => {
-
-    navigator.serviceWorker
-      .register("/service-worker.js");
-
-  });
-
-}
